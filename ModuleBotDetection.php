@@ -2,7 +2,7 @@
 
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2011 Leo Feyer
+ * Copyright (C) 2005-2012 Leo Feyer
  *
  * Formerly known as TYPOlight Open Source CMS.
  *
@@ -21,7 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012 
  * @author     BugBuster 
  * @package    BotDetection 
  * @license    LGPL 
@@ -32,7 +32,7 @@
 /**
  * Class ModuleBotDetection 
  *
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012 
  * @author     BugBuster 
  * @package    BotDetection
  */
@@ -41,7 +41,7 @@ class ModuleBotDetection extends Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '1.5.1';
+	const BD_VERSION           = '1.6.0';
 	
 	/**
 	 * Rough test - Definition
@@ -66,6 +66,7 @@ class ModuleBotDetection extends Frontend
 	 */
 	private $_BotsFine = array( 
 							'80legs', 
+	                        'acoon', //1.6.0
 					        'adressendeutschland',
 				            'agentname', 
 				            'altavista', 
@@ -162,6 +163,7 @@ class ModuleBotDetection extends Frontend
 				            'webmastercoffee',
 				            'website extractor',
 				            'webwhacker',
+				            'wevika', //1.6.0
 				            'wget',
 				            'wisewire', 
 				            'yandex',		// russisch
