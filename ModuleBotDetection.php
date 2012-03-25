@@ -41,7 +41,7 @@ class ModuleBotDetection extends Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '1.6.0';
+	const BD_VERSION           = '1.6.1';
 	
 	/**
 	 * Rough test - Definition
@@ -166,6 +166,7 @@ class ModuleBotDetection extends Frontend
 				            'wevika', //1.6.0
 				            'wget',
 				            'wisewire', 
+				            'wordpress', //1.6.1
 				            'yandex',		// russisch
 				            'zyborg'
 				            ); 
