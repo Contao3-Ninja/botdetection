@@ -41,7 +41,7 @@ class ModuleBotDetection extends Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '1.6.1';
+	const BD_VERSION           = '1.6.2';
 	
 	/**
 	 * Rough test - Definition
@@ -79,6 +79,7 @@ class ModuleBotDetection extends Frontend
 				            'ask jeeves', 
 				            'beholder', 
 				            'bingsearch', 
+	                        'bingpreview',  // 1.6.2
 				            'bumblebee',
 				            'bramptonmoose',
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
