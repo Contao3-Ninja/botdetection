@@ -152,6 +152,7 @@ class ModuleBotDetection extends Frontend
 				            'sly', 
 				            'suchen',
 				            'searchme',
+				            'snoopy',    // 1.6.2 
 				            'spy', 
 				            'swisssearch', 
 				            'sqworm', 
