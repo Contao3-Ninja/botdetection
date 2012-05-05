@@ -2,4 +2,5 @@
 contrib/
 phpdoc/
 tests/
-
+Depending_on_this.txt
+.gitignore
