@@ -171,6 +171,7 @@ class ModuleBotDetection extends Frontend
 				            'wisewire', 
 				            'wordpress', //1.6.1
 				            'yandex',		// russisch
+				            'Zend_Http_Client', // 1.6.2
 				            'zyborg'
 				            ); 
 
