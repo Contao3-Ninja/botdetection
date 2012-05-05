@@ -125,6 +125,7 @@ class ModuleBotDetection extends Frontend
 				            'larbin', 
 				            'libweb', 
 				            'libwww',
+				            'java', // 1.6.2
 				            'mata hari', 
 				            'medicalmatrix', 
 				            'mercator', 
@@ -171,7 +172,7 @@ class ModuleBotDetection extends Frontend
 				            'wisewire', 
 				            'wordpress', //1.6.1
 				            'yandex',		// russisch
-				            'Zend_Http_Client', // 1.6.2
+				            'zend_http_client', // 1.6.2
 				            'zyborg'
 				            ); 
 
