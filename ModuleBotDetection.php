@@ -86,6 +86,7 @@ class ModuleBotDetection extends Frontend
 				            'cherrypicker', 
 				            'crescent', 
 				            'cosmos', 
+	                        'curl', // 1.6.2
 				            'docomo',
 				            'emailsiphon', 
 				            'emailwolf', 
