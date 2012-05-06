@@ -41,7 +41,7 @@ class ModuleBotDetection extends Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '1.6.1';
+	const BD_VERSION           = '1.6.2';
 	
 	/**
 	 * Rough test - Definition
@@ -79,12 +79,14 @@ class ModuleBotDetection extends Frontend
 				            'ask jeeves', 
 				            'beholder', 
 				            'bingsearch', 
+	                        'bingpreview',  // 1.6.2
 				            'bumblebee',
 				            'bramptonmoose',
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
 				            'cherrypicker', 
 				            'crescent', 
 				            'cosmos', 
+	                        'curl', // 1.6.2
 				            'docomo',
 				            'emailsiphon', 
 				            'emailwolf', 
@@ -123,6 +125,7 @@ class ModuleBotDetection extends Frontend
 				            'larbin', 
 				            'libweb', 
 				            'libwww',
+				            'java', // 1.6.2
 				            'mata hari', 
 				            'medicalmatrix', 
 				            'mercator', 
@@ -150,6 +153,7 @@ class ModuleBotDetection extends Frontend
 				            'sly', 
 				            'suchen',
 				            'searchme',
+				            'snoopy',    // 1.6.2 
 				            'spy', 
 				            'swisssearch', 
 				            'sqworm', 
@@ -168,6 +172,7 @@ class ModuleBotDetection extends Frontend
 				            'wisewire', 
 				            'wordpress', //1.6.1
 				            'yandex',		// russisch
+				            'zend_http_client', // 1.6.2
 				            'zyborg'
 				            ); 
 
