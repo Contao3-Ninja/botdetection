@@ -6,7 +6,7 @@
  * Copyright (C) 2005-2012 Leo Feyer
  * 
  * @package Botdetection
- * @link    http://www.contao.org
+ * @link    http://contao.org
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
 
@@ -16,7 +16,7 @@
  */
 ClassLoader::addNamespaces(array
 (
-	'BugBuster\BotDetection',
+	'BugBuster',
 ));
 
 
@@ -25,10 +25,10 @@ ClassLoader::addNamespaces(array
  */
 ClassLoader::addClasses(array
 (
-	// Botdetection
-	'BugBuster\BotDetection\ModuleBotDetection'     => 'system/modules/botdetection/ModuleBotDetection.php',
-	'BugBuster\BotDetection\ModuleFrontendDemo1'    => 'system/modules/botdetection/ModuleFrontendDemo1.php',
-	'BugBuster\BotDetection\ModuleFrontendDemo2'    => 'system/modules/botdetection/ModuleFrontendDemo2.php',
+	// Modules
+	'BugBuster\BotDetection\ModuleFrontendDemo2'    => 'system/modules/botdetection/modules/ModuleFrontendDemo2.php',
+	'BugBuster\BotDetection\ModuleBotDetection'     => 'system/modules/botdetection/modules/ModuleBotDetection.php',
+	'BugBuster\BotDetection\ModuleFrontendDemo1'    => 'system/modules/botdetection/modules/ModuleFrontendDemo1.php',
 
 	// Test
 	'BugBuster\BotDetection\ModuleBotDetectionTest' => 'system/modules/botdetection/test/ModuleBotDetectionTest.php',

@@ -52,7 +52,6 @@ class ModuleFrontendDemo1 extends \Module
             $objTemplate->id = $this->id;
             $objTemplate->link = $this->name;
             
-            // Code für Versionen ab 2.9.0
             $objTemplate->href = 'contao/main.php?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
 
             return $objTemplate->parse();
@@ -67,8 +66,7 @@ class ModuleFrontendDemo1 extends \Module
 	protected function compile()
 	{
 	    // Import Helperclass ModuleBotDetection
-	    $this->import('ModuleBotDetection');
-	    
+	    $this->import('\BotDetection\ModuleBotDetection','ModuleBotDetection'); //Workaround for $this->ModuleBotDetection->...
 	    //Call BD_CheckBotAgent
 	    $test01 = $this->ModuleBotDetection->BD_CheckBotAgent(); // own Browser
 	    //Call BD_CheckBotIP

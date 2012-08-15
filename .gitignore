@@ -1,6 +1,4 @@
-.svn/
-contrib/
-phpdoc/
+.git/
 tests/
 Depending_on_this.txt
 .gitignore

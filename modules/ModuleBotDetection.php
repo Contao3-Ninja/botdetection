@@ -197,23 +197,29 @@ class ModuleBotDetection extends \Frontend
 	public function BD_CheckBotAgent($UserAgent = false)
 	{
 		// Check if user agent present
-   	    if ($UserAgent === false) {
-   	        if (\Environment::get('httpUserAgent')) { 
+   	    if ($UserAgent === false) 
+   	    {
+   	        if (\Environment::get('httpUserAgent')) 
+   	        { 
 	           $UserAgent = trim(\Environment::get('httpUserAgent')); 
-            } else { 
+            } 
+            else 
+            { 
 	           return false; // No user agent, no search.
             }
         }
 	    // log_message("ModuleBotDetection BD_CheckBot: ".$UserAgent,"useragents.log");
 	    // Rough search
 	    $CheckUserAgent = str_ireplace($this->_BotsRough, '#', $UserAgent);
-	    if ($UserAgent != $CheckUserAgent) { // found
+	    if ($UserAgent != $CheckUserAgent) 
+	    { // found
             return true;
 	    }
 	    
         // Fine search
         $CheckUserAgent = str_ireplace($this->_BotsFine, '#', $UserAgent);
-        if ($UserAgent != $CheckUserAgent) { // found
+        if ($UserAgent != $CheckUserAgent) 
+        { // found
             return true;
         }
         return false; 
@@ -231,20 +237,27 @@ class ModuleBotDetection extends \Frontend
 	public function BD_CheckBotIP($UserIP = false)
 	{
 		// Check if IP present
-	    if ($UserIP === false) {
-       	    if (\Environment::get('remoteAddr')) {
+	    if ($UserIP === false) 
+	    {
+       	    if (\Environment::get('remoteAddr')) 
+       	    {
        	    	if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP 
     			{
     				$UserIP =  trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
-    			} else {
+    			} 
+    			else 
+    			{
     				$UserIP = trim(\Environment::get('remoteAddr'));
     			}
-    	    } else { 
+    	    } 
+    	    else 
+    	    { 
     	        return false; // No IP, no search.
     	    }
 	    }
 	    // IPv4 or IPv6 ?
-	    switch ($this->IP_GetVersion($UserIP)) {
+	    switch ($this->IP_GetVersion($UserIP)) 
+	    {
 	    	case "IPv4":
 	    			if ($this->BD_CheckBotIPv4($UserIP) === true) { return true; }
 	    		break;
@@ -268,15 +281,21 @@ class ModuleBotDetection extends \Frontend
 	protected function BD_CheckBotIPv4($UserIP = false)
 	{
 		// Check if IP present
-	    if ($UserIP === false) {
-       	    if (\Environment::get('remoteAddr')) {
+	    if ($UserIP === false) 
+	    {
+       	    if (\Environment::get('remoteAddr')) 
+       	    {
        	    	if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP 
     			{
     				$UserIP =  trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
-    			} else {
+    			} 
+    			else 
+    			{
     				$UserIP = trim(\Environment::get('remoteAddr'));
     			}
-    	    } else { 
+    	    } 
+    	    else 
+    	    { 
     	        return false; // No IP, no search.
     	    }
 	    }
@@ -284,13 +303,16 @@ class ModuleBotDetection extends \Frontend
 	    if (file_exists(TL_ROOT . "/system/modules/botdetection/config/bot-ip-list.txt"))
         {
 		    $source = file(TL_ROOT. "/system/modules/botdetection/config/bot-ip-list.txt");
-			foreach ($source as $line) {
+			foreach ($source as $line) 
+			{
 				$lineleft = explode("#", $line); // Abtrennen Netzwerk/Mask von Bemerkung
 				$network = explode("/", trim($lineleft[0]));
-				if (!isset($network[1])) {
+				if (!isset($network[1])) 
+				{
 					$network[1] = 32;
 				}
-				if ($this->ip_in_network($UserIP,$network[0],$network[1])) {
+				if ($this->ip_in_network($UserIP,$network[0],$network[1])) 
+				{
 					return true; // IP found
 				}
 			}
@@ -303,10 +325,12 @@ class ModuleBotDetection extends \Frontend
 	    	{
 	    		//$GLOBALS['TL_DEBUG']['BOTDETECTION'][] = $lineleft; 
 	    		$network = explode("/", trim($lineleft));
-				if (!isset($network[1])) {
+				if (!isset($network[1])) 
+				{
 					$network[1] = 32;
 				}
-				if ($this->ip_in_network($UserIP,$network[0],$network[1])) {
+				if ($this->ip_in_network($UserIP,$network[0],$network[1])) 
+				{
 					return true; // IP found
 				}
 	    	}
@@ -318,10 +342,12 @@ class ModuleBotDetection extends \Frontend
 	    	{
 	    		//$GLOBALS['TL_DEBUG']['BOTDETECTION'][] = $lineleft; 
 	    		$network = explode("/", trim($lineleft));
-				if (!isset($network[1])) {
+				if (!isset($network[1])) 
+				{
 					$network[1] = 32;
 				}
-				if ($this->ip_in_network($UserIP,$network[0],$network[1])) {
+				if ($this->ip_in_network($UserIP,$network[0],$network[1])) 
+				{
 					return true; // IP found
 				}
 	    	}
@@ -339,15 +365,21 @@ class ModuleBotDetection extends \Frontend
 	protected function BD_CheckBotIPv6($UserIP = false)
 	{
 		// Check if IP present
-	    if ($UserIP === false) {
-       	    if (\Environment::get('remoteAddr')) {
+	    if ($UserIP === false) 
+	    {
+       	    if (\Environment::get('remoteAddr')) 
+       	    {
        	    	if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP 
     			{
     				$UserIP =  trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
-    			} else {
+    			} 
+    			else 
+    			{
     				$UserIP = trim(\Environment::get('remoteAddr'));
     			}
-    	    } else { 
+    	    } 
+    	    else 
+    	    { 
     	        return false; // No IP, no search.
     	    }
 	    }
@@ -356,18 +388,22 @@ class ModuleBotDetection extends \Frontend
 	    if (file_exists(TL_ROOT . "/system/modules/botdetection/config/bot-ip-list-ipv6.txt"))
         {
 		    $source = file(TL_ROOT. "/system/modules/botdetection/config/bot-ip-list-ipv6.txt");
-			foreach ($source as $line) {
+			foreach ($source as $line) 
+			{
 				$lineleft = explode("#", $line); // Abtrennen IP von Bemerkung
 				$network = explode("/", trim($lineleft[0]));
-				if (!isset($network[1])) {
+				if (!isset($network[1])) 
+				{
 					$network[1] = 128;
 				}
-				if ($this->IPv6_InNetwork($UserIP,$network[0],$network[1])) {
+				if ($this->IPv6_InNetwork($UserIP,$network[0],$network[1])) 
+				{
 					return true; // IP found
 				}
 				/*
 				// fullIP wandeln und vergleichen
-				if ($this->IPv6_ToLong(trim($lineleft[0])) == $UserIP ) {
+				if ($this->IPv6_ToLong(trim($lineleft[0])) == $UserIP ) 
+				{
 					return true;
 				}*/
 			}
@@ -378,10 +414,12 @@ class ModuleBotDetection extends \Frontend
 	    	foreach ($GLOBALS['BOTDETECTION']['BOT_IPV6'] as $lineleft) 
 	    	{
 	    		$network = explode("/", trim($lineleft));
-				if (!isset($network[1])) {
+				if (!isset($network[1])) 
+				{
 					$network[1] = 128;
 				}
-				if ($this->IPv6_InNetwork($UserIP,$network[0],$network[1])) {
+				if ($this->IPv6_InNetwork($UserIP,$network[0],$network[1])) 
+				{
 					return true; // IP found
 				}
 				/*
@@ -400,10 +438,16 @@ class ModuleBotDetection extends \Frontend
 	 * @return string		IP Address expanded
 	 * @access protected
 	 */
-	protected function IPv6_ExpandNotation($Ip) {
+	protected function IPv6_ExpandNotation($Ip) 
+	{
 	    if (strpos($Ip, '::') !== false)
+	    {
 	        $Ip = str_replace('::', str_repeat(':0', 8 - substr_count($Ip, ':')).':', $Ip);
-	    if (strpos($Ip, ':') === 0) $Ip = '0'.$Ip;
+	    }
+	    if (strpos($Ip, ':') === 0) 
+	    {
+	    	$Ip = '0'.$Ip;
+	    }
 	    return $Ip;
 	}
 	
@@ -418,16 +462,28 @@ class ModuleBotDetection extends \Frontend
 	 * @return mixed				string      / array
 	 * @access protected
 	 */
-	protected function IPv6_ToLong($Ip, $DatabaseParts= 1) {
+	protected function IPv6_ToLong($Ip, $DatabaseParts= 1) 
+	{
 	    $Ip = $this->IPv6_ExpandNotation($Ip);
 	    $Parts = explode(':', $Ip);
 	    $Ip = array('', '');
-	    for ($i = 0; $i < 4; $i++) $Ip[0] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
-	    for ($i = 4; $i < 8; $i++) $Ip[1] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    for ($i = 0; $i < 4; $i++) 
+	    {
+	    	$Ip[0] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    }
+	    for ($i = 4; $i < 8; $i++) 
+	    {
+	    	$Ip[1] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    }
 	
 	    if ($DatabaseParts == 2)
-	            return array(base_convert($Ip[0], 2, 10), base_convert($Ip[1], 2, 10));
-	    else    return base_convert($Ip[0], 2, 10) + base_convert($Ip[1], 2, 10);
+	    {
+	    	return array(base_convert($Ip[0], 2, 10), base_convert($Ip[1], 2, 10));
+	    }	            
+	    else
+	    {
+	    	return base_convert($Ip[0], 2, 10) + base_convert($Ip[1], 2, 10);
+	    }
 	}
 	
 	
@@ -448,13 +504,19 @@ class ModuleBotDetection extends \Frontend
 	    }
 	    // UserIP to bin
 	    $UserIP = $this->IPv6_ExpandNotation($UserIP);
-	    $Parts = explode(':', $UserIP);
+	    $Parts  = explode(':', $UserIP);
 	    $Ip = array('', '');
-	    for ($i = 0; $i < 8; $i++) $Ip[0] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    for ($i = 0; $i < 8; $i++) 
+	    {
+	    	$Ip[0] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    }
 	    // NetAddr to bin
 	    $net_addr = $this->IPv6_ExpandNotation($net_addr);
-	    $Parts = explode(':', $net_addr);
-	    for ($i = 0; $i < 8; $i++) $Ip[1] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    $Parts    = explode(':', $net_addr);
+	    for ($i = 0; $i < 8; $i++) 
+	    {
+	    	$Ip[1] .= str_pad(base_convert($Parts[$i], 16, 2), 16, 0, STR_PAD_LEFT);
+	    }
 	    // compare the IPs
 	    return (substr_compare($Ip[0],$Ip[1],0,$net_mask) === 0);	    
 	}
@@ -512,13 +574,20 @@ class ModuleBotDetection extends \Frontend
 		$num_groups = count($groups);
 		if (($num_groups > 8) || ($num_groups < 3)) return false; 
 		$empty_groups = 0;
-		foreach ($groups as $group) {
+		foreach ($groups as $group) 
+		{
 			$group = trim($group);
-			if (!empty($group) && !(is_numeric($group) && ($group == 0))) {
+			if (!empty($group) && !(is_numeric($group) && ($group == 0))) 
+			{
 				if (!preg_match('#([a-fA-F0-9]{0,4})#', $group)) return false;
-			} else ++$empty_groups;
+			} 
+			else 
+			{
+				++$empty_groups;
+			}
 		}
-		if ($empty_groups < $num_groups) {
+		if ($empty_groups < $num_groups) 
+		{
 			return "IPv6";
 		} 
 		return false; // no (valid) IP Address
@@ -534,17 +603,24 @@ class ModuleBotDetection extends \Frontend
 	 */
 	public function BD_CheckBotAgentAdvanced($UserAgent = false)
 	{
-   	    if ($UserAgent === false) {
-   	        if (\Environment::get('httpUserAgent')) { 
+   	    if ($UserAgent === false) 
+   	    {
+   	        if (\Environment::get('httpUserAgent')) 
+   	        { 
 	           $UserAgent = trim(\Environment::get('httpUserAgent')); 
-            } else { 
+            } 
+            else 
+            { 
 	           return false; // No return address, no search.
             }
         }
         // include bot-agent-list
-        if (file_exists(TL_ROOT . "/system/modules/botdetection/config/bot-agent-list.php")) {
+        if (file_exists(TL_ROOT . "/system/modules/botdetection/config/bot-agent-list.php")) 
+        {
         	include(TL_ROOT . "/system/modules/botdetection/config/bot-agent-list.php");
-        } else {
+        } 
+        else 
+        {
         	return false;	// no definition, no search
         }
         // search for user bot filter definitions in localconfig.php
@@ -568,9 +644,11 @@ class ModuleBotDetection extends \Frontend
         $num = count($botagents);
         $arrBots = array_keys($botagents);
         $found = false;
-        for ($c=0; $c < $num; $c++) {
+        for ($c=0; $c < $num; $c++) 
+        {
         	$CheckUserAgent = str_ireplace($arrBots[$c], '#', $UserAgent);
-            if ($UserAgent != $CheckUserAgent) { // found
+            if ($UserAgent != $CheckUserAgent) 
+            { // found
                 $found = $botagents[$arrBots[$c]];
                 //echo $found."<br>";
             }
