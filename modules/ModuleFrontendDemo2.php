@@ -1,4 +1,5 @@
 <?php 
+
 /**
  * Contao Open Source CMS
  * Copyright (C) 2005-2012 Leo Feyer
@@ -17,8 +18,6 @@
  * Run in a custom namespace, so the class can be replaced
  */
 namespace BugBuster\BotDetection;
-
-if (!defined('TL_ROOT')) die('You can not access this file directly!');
 
 /**
  * Class ModuleFrontendDemo2
@@ -162,5 +161,3 @@ class ModuleFrontendDemo2 extends \Module
 	}
 
 }
-
-?>

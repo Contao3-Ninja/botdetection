@@ -26,12 +26,13 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Modules
-	'BugBuster\BotDetection\ModuleFrontendDemo2'    => 'system/modules/botdetection/modules/ModuleFrontendDemo2.php',
 	'BugBuster\BotDetection\ModuleBotDetection'     => 'system/modules/botdetection/modules/ModuleBotDetection.php',
 	'BugBuster\BotDetection\ModuleFrontendDemo1'    => 'system/modules/botdetection/modules/ModuleFrontendDemo1.php',
+	'BugBuster\BotDetection\ModuleFrontendDemo2'    => 'system/modules/botdetection/modules/ModuleFrontendDemo2.php',
 
 	// Test
 	'BugBuster\BotDetection\ModuleBotDetectionTest' => 'system/modules/botdetection/test/ModuleBotDetectionTest.php',
+
 ));
 
 

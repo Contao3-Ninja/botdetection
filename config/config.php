@@ -1,4 +1,4 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php 
 
 /**
  * Contao Open Source CMS
@@ -8,7 +8,7 @@
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
  * PHP version 5
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012 
  * @author     BugBuster 
  * @package    BotDetection 
  * @license    LGPL 
@@ -42,6 +42,3 @@ array_insert($GLOBALS['FE_MOD'], 4, array
 	'botdetection2' => 'BotDetection\ModuleFrontendDemo2',
 	)
 ));
-
-
-?>

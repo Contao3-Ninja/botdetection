@@ -19,8 +19,6 @@
  */
 namespace BugBuster\BotDetection;
 
-if (!defined('TL_ROOT')) die('You can not access this file directly!');
-
 /**
  * Class ModuleBotDetection 
  *
@@ -657,4 +655,3 @@ class ModuleBotDetection extends \Frontend
 	}
 }
 
-?>
