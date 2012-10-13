@@ -41,7 +41,7 @@ class ModuleBotDetection extends Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '1.6.2';
+	const BD_VERSION           = '1.7.0';
 	
 	/**
 	 * Rough test - Definition
@@ -65,9 +65,9 @@ class ModuleBotDetection extends Frontend
 	 * @var array
 	 */
 	private $_BotsFine = array( 
-							'80legs', 
-	                        'acoon', //1.6.0
-					        'adressendeutschland',
+                    '80legs', 
+                    'acoon', //1.6.0
+                    'adressendeutschland',
 				            'agentname', 
 				            'altavista', 
 				            'al_viewer',
@@ -78,15 +78,16 @@ class ModuleBotDetection extends Frontend
 				            'asterias', 
 				            'ask jeeves', 
 				            'beholder', 
+                    'bildsauger',  // 1.7.0
 				            'bingsearch', 
-	                        'bingpreview',  // 1.6.2
+	                  'bingpreview',  // 1.6.2
 				            'bumblebee',
 				            'bramptonmoose',
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
 				            'cherrypicker', 
 				            'crescent', 
 				            'cosmos', 
-	                        'curl', // 1.6.2
+                    'curl', // 1.6.2
 				            'docomo',
 				            'emailsiphon', 
 				            'emailwolf', 
@@ -146,7 +147,7 @@ class ModuleBotDetection extends Frontend
 				            'quosa', 
 				            'rambler',		// russisch
 				            'rippers',
-							'rganalytics',
+                    'rganalytics',
 				            'scan', 
 				            'scooter', 
 				            'ScoutJet', 
