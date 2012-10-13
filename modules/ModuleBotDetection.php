@@ -68,6 +68,7 @@ class ModuleBotDetection extends \Frontend
 				            'asterias', 
 				            'ask jeeves', 
 				            'beholder', 
+                            'bildsauger',	// 1.7.0
 				            'bingsearch', 
 	                        'bingpreview',  // 1.6.2
 				            'bumblebee',
