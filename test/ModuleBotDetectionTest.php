@@ -1,36 +1,28 @@
-<?php
+<?php 
+
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2011 Leo Feyer
+ * Copyright (C) 2005-2012 Leo Feyer
  *
- * Formerly known as TYPOlight Open Source CMS.
- *
- * This program is free software: you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation, either
- * version 3 of the License, or (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- * 
- * You should have received a copy of the GNU Lesser General Public
- * License along with this program. If not, please visit the Free
- * Software Foundation website at <http://www.gnu.org/licenses/>.
+ * @link http://www.contao.org
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
  * PHP version 5
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012 
  * @author     BugBuster 
  * @package    BotDetectionTest 
  * @license    LGPL 
- * @filesource
  */
 
 /**
  * Aufruf direkt!
  * http://deine-domain.de/system/modules/botdetection/test/ModuleBotDetectionTest.php
  */
+
+/**
+ * Run in a custom namespace, so the class can be replaced
+ */
+namespace BugBuster\BotDetection;
 
 /**
  * Initialize the system
@@ -41,11 +33,11 @@ require(dirname(dirname(dirname(dirname(__FILE__)))).'/initialize.php');
 /**
  * Class ModuleBotDetectionTest 
  *
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012 
  * @author     BugBuster 
  * @package    BotDetectionTest
  */
-class ModuleBotDetectionTest extends ModuleBotDetection  
+class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection  
 {
 
 	public function run()
@@ -67,7 +59,7 @@ class ModuleBotDetectionTest extends ModuleBotDetection
 	    $arrTest[] = array(true, 'msnbot/2.0b (+http://search.msn.com/msnbot.htm)','MSNbot');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (Twiceler-0.9 http://www.cuil.com/twiceler/robot.html)','Twiceler');
 	    $arrTest[] = array(true, 'Googlebot-Image/1.0','Googlebot-Image');
-	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','Yeti');
+	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','NaverBot/Yeti');
 	    $arrTest[] = array(true, 'Baiduspider+(+http://www.baidu.com/search/spider.htm)','Baiduspider');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )','seoprofiler');
 	    $arrTest[] = array(true, 'ia_archiver-web.archive.org','ia_archiver-web.archive.org');

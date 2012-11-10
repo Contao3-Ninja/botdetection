@@ -1,42 +1,33 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php 
+
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2011 Leo Feyer
+ * Copyright (C) 2005-2012 Leo Feyer
  *
- * Formerly known as TYPOlight Open Source CMS.
- *
- * This program is free software: you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation, either
- * version 3 of the License, or (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- * 
- * You should have received a copy of the GNU Lesser General Public
- * License along with this program. If not, please visit the Free
- * Software Foundation website at <http://www.gnu.org/licenses/>.
+ * @link http://www.contao.org
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
  * PHP version 5
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012 
  * @author     BugBuster 
  * @package    BotDetectionDemo 
  * @license    LGPL 
- * @filesource
  */
 
+/**
+ * Run in a custom namespace, so the class can be replaced
+ */
+namespace BugBuster\BotDetection;
 
 /**
  * Class ModuleFrontendDemo2
  * Use ModuleBotDetection with import function
  *
- * @copyright  Glen Langer 2007..2011
+ * @copyright  Glen Langer 2007..2012
  * @author     Glen Langer 
  * @package    BotDetectionDemo
  */
-class ModuleFrontendDemo2 extends Module
+class ModuleFrontendDemo2 extends \Module
 {
 
 	/**
@@ -53,23 +44,15 @@ class ModuleFrontendDemo2 extends Module
 	{
 		if (TL_MODE == 'BE')
 		{
-			$objTemplate = new BackendTemplate('be_wildcard');
+			$objTemplate = new \BackendTemplate('be_wildcard');
 			$objTemplate->wildcard = '### Bot Detection Frontend Demo 2 ###';
 			
 			$objTemplate->title = $this->headline;
             $objTemplate->id = $this->id;
             $objTemplate->link = $this->name;
-            if (version_compare(VERSION . '.' . BUILD, '2.8.9', '>'))
-			{
-			   // Code für Versionen ab 2.9.0
-			   $objTemplate->href = 'contao/main.php?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
-			}
-			else
-			{
-			   // Code für Versionen < 2.9.0
-			   $objTemplate->href = 'typolight/main.php?do=modules&amp;act=edit&amp;id=' . $this->id;
-			}
-
+            
+			$objTemplate->href = 'contao/main.php?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
+			
 			return $objTemplate->parse();
 		}
 		return parent::generate();
@@ -82,7 +65,7 @@ class ModuleFrontendDemo2 extends Module
 	protected function compile()
 	{
 		// Import Helperclass ModuleBotDetection
-        $this->import('ModuleBotDetection');
+        $this->import('\BotDetection\ModuleBotDetection','ModuleBotDetection'); //Workaround for $this->ModuleBotDetection->...
         
 	    $arrFields = array();
 	    $arrFields['agent_name'] = array
@@ -132,13 +115,13 @@ class ModuleFrontendDemo2 extends Module
 	    $this->Template->fields = $arrWidgets;
 	    
    		$this->Template->submit = $GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_submit'];
-		$this->Template->action = ampersand($this->Environment->request);
+		$this->Template->action = ampersand(\Environment::get('request'));
 
 	    if ($this->Input->post('FORM_SUBMIT') == 'botdetectiondemo2' && !$doNotSubmit)
 		{
 			$arrSet = array
 			(
-				'agent_name'		=> $this->Input->post('agent_name')
+				'agent_name'		=> \Input::post('agent_name')
 			);
 			
 			// start tests
@@ -178,5 +161,3 @@ class ModuleFrontendDemo2 extends Module
 	}
 
 }
-
-?>

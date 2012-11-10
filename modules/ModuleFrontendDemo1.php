@@ -1,42 +1,33 @@
-<?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
+<?php 
+
 /**
  * Contao Open Source CMS
- * Copyright (C) 2005-2011 Leo Feyer
+ * Copyright (C) 2005-2012 Leo Feyer
  *
- * Formerly known as TYPOlight Open Source CMS.
- *
- * This program is free software: you can redistribute it and/or
- * modify it under the terms of the GNU Lesser General Public
- * License as published by the Free Software Foundation, either
- * version 3 of the License, or (at your option) any later version.
+ * @link http://www.contao.org
+ * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
- * Lesser General Public License for more details.
- * 
- * You should have received a copy of the GNU Lesser General Public
- * License along with this program. If not, please visit the Free
- * Software Foundation website at <http://www.gnu.org/licenses/>.
- *
  * PHP version 5
- * @copyright  Glen Langer 2011 
+ * @copyright  Glen Langer 2012
  * @author     BugBuster 
  * @package    BotDetectionDemo 
  * @license    LGPL 
- * @filesource
  */
 
+/**
+ * Run in a custom namespace, so the class can be replaced
+ */
+namespace BugBuster\BotDetection;
 
 /**
  * Class ModuleFrontendDemo1
  * Use ModuleBotDetection with import function
  *
- * @copyright  Glen Langer 2007..2011
+ * @copyright  Glen Langer 2007..2012
  * @author     Glen Langer 
  * @package    BotDetectionDemo
  */
-class ModuleFrontendDemo1 extends Module
+class ModuleFrontendDemo1 extends \Module
 {
 
 	/**
@@ -44,7 +35,6 @@ class ModuleFrontendDemo1 extends Module
 	 * @var string
 	 */
 	protected $strTemplate = 'mod_botdetection_demo1_fe';
-	
 	
 	/**
 	 * Display a wildcard in the back end
@@ -54,24 +44,16 @@ class ModuleFrontendDemo1 extends Module
 	{
 		if (TL_MODE == 'BE')
 		{
-			$objTemplate = new BackendTemplate('be_wildcard');
+			$objTemplate = new \BackendTemplate('be_wildcard');
 			$objTemplate->wildcard = '### Bot Detection Frontend Demo 1 ###';
 			
 			$objTemplate->title = $this->headline;
             $objTemplate->id = $this->id;
             $objTemplate->link = $this->name;
-            if (version_compare(VERSION . '.' . BUILD, '2.8.9', '>'))
-			{
-			   // Code für Versionen ab 2.9.0
-			   $objTemplate->href = 'contao/main.php?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
-			}
-			else
-			{
-			   // Code für Versionen < 2.9.0
-			   $objTemplate->href = 'typolight/main.php?do=modules&amp;act=edit&amp;id=' . $this->id;
-			}
+            
+            $objTemplate->href = 'contao/main.php?do=themes&amp;table=tl_module&amp;act=edit&amp;id=' . $this->id;
 
-			return $objTemplate->parse();
+            return $objTemplate->parse();
 		}
 		return parent::generate();
 	}
@@ -83,8 +65,7 @@ class ModuleFrontendDemo1 extends Module
 	protected function compile()
 	{
 	    // Import Helperclass ModuleBotDetection
-	    $this->import('ModuleBotDetection');
-	    
+	    $this->import('\BotDetection\ModuleBotDetection','ModuleBotDetection'); //Workaround for $this->ModuleBotDetection->...
 	    //Call BD_CheckBotAgent
 	    $test01 = $this->ModuleBotDetection->BD_CheckBotAgent(); // own Browser
 	    //Call BD_CheckBotIP
@@ -98,7 +79,7 @@ class ModuleFrontendDemo1 extends Module
 	       'test'          => '01',
 	       'theoretical'   => 'false',
 	       'actual'        => var_export($test01,true),
-	       'comment'       => '<br />'.$this->Environment->httpUserAgent,
+	       'comment'       => '<br />'.\Environment::get('httpUserAgent'),
 	       'color'         => ($test01 == false) ? 'green' : 'red'
 	    );
 	    $arrDemo[] = array(
@@ -106,7 +87,7 @@ class ModuleFrontendDemo1 extends Module
 	       'test'          => '02',
 	       'theoretical'   => 'false',
 	       'actual'        => var_export($test02,true),
-	       'comment'       => '<br />'.$this->Environment->ip,
+	       'comment'       => '<br />'.\Environment::get('ip'),
 	       'color'         => ($test02 == false) ? 'green' : 'red'
 	    );
 	    $arrDemo[] = array(
@@ -114,7 +95,7 @@ class ModuleFrontendDemo1 extends Module
 	       'test'          => '03',
 	       'theoretical'   => 'false',
 	       'actual'        => var_export($test03,true),
-	       'comment'       => '<br />'.$this->Environment->httpUserAgent,
+	       'comment'       => '<br />'.\Environment::get('httpUserAgent'),
 	       'color'         => ($test03 == false) ? 'green' : 'red'
 	    );	    
 	    $this->Template->demos = $arrDemo;
@@ -124,4 +105,3 @@ class ModuleFrontendDemo1 extends Module
 
 }
 
-?>
