@@ -31,7 +31,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.0.0';
+	const BD_VERSION           = '3.0.1';
 	
 	/**
 	 * Rough test - Definition
@@ -79,6 +79,7 @@ class ModuleBotDetection extends \Frontend
 				            'cosmos', 
 	                        'curl', // 1.6.2
 				            'docomo',
+                            'drupact', // 3.0.1
 				            'emailsiphon', 
 				            'emailwolf', 
 				            'extractorpro', 
@@ -89,6 +90,7 @@ class ModuleBotDetection extends \Frontend
 				            'fido', 
 				            'fireball', 
 				            'flashget',
+				            'flipboardproxy', // 3.0.1
 				            'gazz', 
 				            'getright',
 				            'getweb',
@@ -107,6 +109,7 @@ class ModuleBotDetection extends \Frontend
 				            'httrack',
 				            'incywincy', 
 				            'infoseek', 
+				            'infohelfer',    // 3.0.1
 				            'inktomi', 
 				            'indy library', 
 				            'informant', 
@@ -116,6 +119,7 @@ class ModuleBotDetection extends \Frontend
 				            'larbin', 
 				            'libweb', 
 				            'libwww',
+				            'jakarta', // 3.0.1
 				            'java', // 1.6.2
 				            'mata hari', 
 				            'medicalmatrix', 
@@ -141,6 +145,7 @@ class ModuleBotDetection extends \Frontend
 				            'scan', 
 				            'scooter', 
 				            'ScoutJet', 
+				            'siclab', // 3.0.1
 				            'sly', 
 				            'suchen',
 				            'searchme',
