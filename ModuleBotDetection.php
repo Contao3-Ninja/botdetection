@@ -41,7 +41,7 @@ class ModuleBotDetection extends Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '1.7.0';
+	const BD_VERSION           = '1.7.1';
 	
 	/**
 	 * Rough test - Definition
@@ -65,9 +65,9 @@ class ModuleBotDetection extends Frontend
 	 * @var array
 	 */
 	private $_BotsFine = array( 
-                    '80legs', 
-                    'acoon', //1.6.0
-                    'adressendeutschland',
+                            '80legs', 
+                            'acoon', //1.6.0
+                            'adressendeutschland',
 				            'agentname', 
 				            'altavista', 
 				            'al_viewer',
@@ -78,17 +78,18 @@ class ModuleBotDetection extends Frontend
 				            'asterias', 
 				            'ask jeeves', 
 				            'beholder', 
-                    'bildsauger',  // 1.7.0
+                            'bildsauger',  // 1.7.0
 				            'bingsearch', 
-	                  'bingpreview',  // 1.6.2
+                            'bingpreview',  // 1.6.2
 				            'bumblebee',
 				            'bramptonmoose',
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
 				            'cherrypicker', 
 				            'crescent', 
 				            'cosmos', 
-                    'curl', // 1.6.2
+                            'curl', // 1.6.2
 				            'docomo',
+                            'drupact', // 3.0.1
 				            'emailsiphon', 
 				            'emailwolf', 
 				            'extractorpro', 
@@ -99,6 +100,7 @@ class ModuleBotDetection extends Frontend
 				            'fido', 
 				            'fireball', 
 				            'flashget',
+				            'flipboardproxy', // 3.0.1
 				            'gazz', 
 				            'getright',
 				            'getweb',
@@ -117,6 +119,7 @@ class ModuleBotDetection extends Frontend
 				            'httrack',
 				            'incywincy', 
 				            'infoseek', 
+				            'infohelfer',    // 3.0.1
 				            'inktomi', 
 				            'indy library', 
 				            'informant', 
@@ -126,6 +129,7 @@ class ModuleBotDetection extends Frontend
 				            'larbin', 
 				            'libweb', 
 				            'libwww',
+				            'jakarta', // 3.0.1
 				            'java', // 1.6.2
 				            'mata hari', 
 				            'medicalmatrix', 
@@ -147,10 +151,11 @@ class ModuleBotDetection extends Frontend
 				            'quosa', 
 				            'rambler',		// russisch
 				            'rippers',
-                    'rganalytics',
+                            'rganalytics',
 				            'scan', 
 				            'scooter', 
 				            'ScoutJet', 
+				            'siclab', // 3.0.1
 				            'sly', 
 				            'suchen',
 				            'searchme',
