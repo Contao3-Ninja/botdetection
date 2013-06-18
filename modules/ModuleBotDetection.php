@@ -31,7 +31,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.0.1';
+	const BD_VERSION           = '3.1.0';
 	
 	/**
 	 * Rough test - Definition
@@ -76,6 +76,7 @@ class ModuleBotDetection extends \Frontend
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
 				            'cherrypicker', 
 				            'crescent', 
+	                        'coccoc', // 3.1.0
 				            'cosmos', 
 	                        'curl', // 1.6.2
 				            'docomo',
@@ -146,6 +147,7 @@ class ModuleBotDetection extends \Frontend
 				            'scooter', 
 				            'ScoutJet', 
 				            'siclab', // 3.0.1
+				            'siteexplorer', // 3.1.0
 				            'sly', 
 				            'suchen',
 				            'searchme',

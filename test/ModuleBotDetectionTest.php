@@ -52,7 +52,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    $arrTest[] = array(false, 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; de-de) AppleWebKit/531.22.7 (KHTML, like Gecko) Version/4.0.5 Safari/531.22.7','Macintosh Safari');
 	    //Bots
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)','Googlebot');
-	    $arrTest[] = array(true, 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)','Alexa Crawler');
+	    $arrTest[] = array(true, 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)','Internet Archive');
 	    $arrTest[] = array(true, 'Yandex/1.01.001 (compatible; Win16; P)','Yandex');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)','Yahoo! Slurp');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)','Exabot');
@@ -72,6 +72,12 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'Cityreview Robot (+http://www.cityreview.org/crawler/)','Cityreview Robot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008052906 Firefox/3.0/1.0 (bot; http://)','No-Name-Bot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13','Google Web Preview');
+		
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Spiderlytics/1.0; +spider@spiderlytics.com)','Spiderlytics');
+		$arrTest[] = array(true, 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)','ExB Language Crawler');
+		$arrTest[] = array(true, 'coccoc/1.0 (http://help.coccoc.com/)','coccoc');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)','SiteExplorer');
+		$arrTest[] = array(true, 'iBusiness Shopcrawler','Shopcrawler');
 		
 		//Output
 	    echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
