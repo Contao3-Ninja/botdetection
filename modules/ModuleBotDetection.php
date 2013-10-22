@@ -31,7 +31,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.1.0';
+	const BD_VERSION           = '3.2.0';
 	
 	/**
 	 * Rough test - Definition
@@ -179,9 +179,30 @@ class ModuleBotDetection extends \Frontend
 	 */
 	public function __construct()
 	{
+		// Issue #59
+		$this->getUser();
 		parent::__construct();
 	}
 
+	/**
+	 * Returns the proper user object for the current context.
+	 * 
+	 * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
+	 * @return     User|NULL
+	 */
+	protected function getUser()
+	{
+	    if (TL_MODE=='BE')
+	    {
+	        return \BackendUser::getInstance();
+	    } 
+	    else if(TL_MODE=='FE')
+	    {
+	        return \FrontendUser::getInstance();
+	    }
+	    return null;
+	}
+	
 	/**
 	 * Returns the version number
 	 *
