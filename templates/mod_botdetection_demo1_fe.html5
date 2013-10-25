@@ -1,10 +1,8 @@
 <!-- indexer::stop -->
-<style type="text/css">
-/* <![CDATA[ */
+<style>
 .mod_botdetection1 {
 	padding:10px;
 }
-/* ]]> */
 </style>
 <section class="<?php echo $this->class; ?>"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
     <div class="botdetection_demo">

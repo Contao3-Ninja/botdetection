@@ -1,17 +1,16 @@
 <?php 
 
 /**
- * Contao Open Source CMS
- * Copyright (C) 2005-2012 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
  *
- * @link http://www.contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * Modul BotDetection - Frontend
  *
- * PHP version 5
- * @copyright  Glen Langer 2012 
- * @author     BugBuster 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetection 
  * @license    LGPL 
+ * @filesource
+ * @see        https://github.com/BugBuster1701/botdetection
  */
 
 /**
@@ -22,8 +21,8 @@ namespace BugBuster\BotDetection;
 /**
  * Class ModuleBotDetection 
  *
- * @copyright  Glen Langer 2012 
- * @author     BugBuster 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
 class ModuleBotDetection extends \Frontend
@@ -56,6 +55,7 @@ class ModuleBotDetection extends \Frontend
 	 */
 	private $_BotsFine = array( 
 							'80legs', 
+                            'abonti', // 3.2.0       	        
 	                        'acoon', //1.6.0
 					        'adressendeutschland',
 				            'agentname', 
@@ -71,6 +71,7 @@ class ModuleBotDetection extends \Frontend
                             'bildsauger',	// 1.7.0
 				            'bingsearch', 
 	                        'bingpreview',  // 1.6.2
+	                        'bubing',    // 3.2.0
 				            'bumblebee',
 				            'bramptonmoose',
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
@@ -93,6 +94,7 @@ class ModuleBotDetection extends \Frontend
 				            'flashget',
 				            'flipboardproxy', // 3.0.1
 				            'gazz', 
+				            'genieo', // 3.2.0
 				            'getright',
 				            'getweb',
 				            'gigabaz', 
@@ -108,6 +110,7 @@ class ModuleBotDetection extends \Frontend
 				            'hloader', 
 				            'hoge (',
 				            'httrack',
+				            'hubspot', // 3.2.0
 				            'incywincy', 
 				            'infoseek', 
 				            'infohelfer',    // 3.0.1

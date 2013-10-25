@@ -1,18 +1,16 @@
 <?php 
 
 /**
- * Contao Open Source CMS
- * Copyright (C) 2005-2012 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
  *
- * @link http://www.contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * Modul BotDetection
  *
- * PHP version 5
- * @copyright  Glen Langer 2012 
- * @author     BugBuster 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetection 
  * @license    LGPL 
  * @filesource
+ * @see        https://github.com/BugBuster1701/botdetection
  */
 
 /**

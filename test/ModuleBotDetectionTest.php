@@ -1,17 +1,16 @@
 <?php 
 
 /**
- * Contao Open Source CMS
- * Copyright (C) 2005-2012 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
  *
- * @link http://www.contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * Modul BotDetection - Test
  *
- * PHP version 5
- * @copyright  Glen Langer 2012 
- * @author     BugBuster 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetectionTest 
  * @license    LGPL 
+ * @filesource
+ * @see        https://github.com/BugBuster1701/botdetection
  */
 
 /**
@@ -33,8 +32,8 @@ require(dirname(dirname(dirname(dirname(__FILE__)))).'/initialize.php');
 /**
  * Class ModuleBotDetectionTest 
  *
- * @copyright  Glen Langer 2012 
- * @author     BugBuster 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetectionTest
  */
 class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection  
@@ -78,6 +77,23 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'coccoc/1.0 (http://help.coccoc.com/)','coccoc');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)','SiteExplorer');
 		$arrTest[] = array(true, 'iBusiness Shopcrawler','Shopcrawler');
+		
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup.com/crawler.html)','BLEXBot');
+		$arrTest[] = array(true, 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)','ExB Language Crawler');
+		$arrTest[] = array(true, 'it2media-domain-crawler/1.0 on crawler-prod.it2media.de','www.adressendeutschland.de');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; emefgebot/beta; +http://emefge.de/bot.html)','emefgebot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; CompSpyBot/1.0; +http://www.compspy.com/spider.html)','CompSpyBot');
+		$arrTest[] = array(true, 'NCBot (http://netcomber.com : tool for finding true domain owners) Queries/complaints: bot@netcomber.com','NCBot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Abonti/0.91 - http://www.abonti.com)','Abonti');
+		$arrTest[] = array(true, 'HubSpot Connect 1.0 (http://dev.hubspot.com/)','HubSpot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)','Meanpathbot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; IstellaBot/1.10.2 +http://www.tiscali.it/)','IstellaBot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)','Genieo');
+		$arrTest[] = array(true, 'Cliqz Bot (+http://www.cliqz.com)','Cliqz Bot');
+		$arrTest[] = array(true, 'BUbiNG (+http://law.di.unimi.it/BUbiNG.html)','BUbiNG');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)','Proximic');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)','NetSeer');
+		
 		
 		//Output
 	    echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

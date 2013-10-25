@@ -1,17 +1,16 @@
 <?php 
 
 /**
- * Contao Open Source CMS
- * Copyright (C) 2005-2012 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
  *
- * @link http://www.contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
- *
- * PHP version 5
- * @copyright  Glen Langer 2012 
- * @author     BugBuster 
+ * Modul BotDetection - Frontend Demo
+ * 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetectionDemo 
  * @license    LGPL 
+ * @filesource
+ * @see        https://github.com/BugBuster1701/botdetection 
  */
 
 /**
@@ -23,8 +22,8 @@ namespace BugBuster\BotDetection;
  * Class ModuleFrontendDemo2
  * Use ModuleBotDetection with import function
  *
- * @copyright  Glen Langer 2007..2012
- * @author     Glen Langer 
+ * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @author     Glen Langer (BugBuster)
  * @package    BotDetectionDemo
  */
 class ModuleFrontendDemo2 extends \Module
@@ -65,7 +64,7 @@ class ModuleFrontendDemo2 extends \Module
 	protected function compile()
 	{
 		// Import Helperclass ModuleBotDetection
-        $this->import('\BotDetection\ModuleBotDetection','ModuleBotDetection'); //Workaround for $this->ModuleBotDetection->...
+        $this->ModuleBotDetection = new \BotDetection\ModuleBotDetection();
         
 	    $arrFields = array();
 	    $arrFields['agent_name'] = array
