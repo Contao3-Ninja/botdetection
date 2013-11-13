@@ -1,7 +1,7 @@
 {
 	"name":"bugbuster/botdetection",
 	"description":"Helper class to detect search engines, bots, spiders, crawlers ...",
-	"keywords":["detection","bots"],
+	"keywords":["detection","bots","contao"],
 	"type":"contao-module",
 	"homepage":"http://www.contao.glen-langer.de",
 	"license":"LGPL-3.0+",
@@ -15,7 +15,9 @@
 	"support":{
 		"issues":"https://github.com/BugBuster1701/botdetection/issues",
 		"irc":"irc://irc.freenode.org/contao.dev",
-		"source":"https://github.com/BugBuster1701/botdetection"
+		"source":"https://github.com/BugBuster1701/botdetection",
+		"wiki":"http://de.contaowiki.org/Bot_Detection",
+		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
 	},
 	"require":{
 		"php":">=5.3",
