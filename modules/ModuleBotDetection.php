@@ -706,5 +706,28 @@ class ModuleBotDetection extends \Frontend
         }
         return $found;
 	}
+	
+	/**
+	 * Spider Bot Agent/Advanced/IP Check
+	 *
+	 * @param string   UserAgent, optional for tests
+	 * @return boolean true when bot found
+	 * @access public
+	 */
+	public function BD_CheckBotAllTests($UserAgent = false)
+	{
+	    if ( $this->BD_CheckBotAgent($UserAgent) == true ) 
+	    {
+	        return true;
+	    }
+	    elseif ( $this->BD_CheckBotAgentAdvanced($UserAgent) == true )
+	    {
+	        return true;
+	    }
+	    else 
+	    {
+	        return $this->BD_CheckBotIP();
+	    }
+	}
 }
 
