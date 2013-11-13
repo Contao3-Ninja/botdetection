@@ -30,7 +30,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.2.0';
+	const BD_VERSION           = '3.2.1';
 	
 	/**
 	 * Rough test - Definition
@@ -251,6 +251,27 @@ class ModuleBotDetection extends \Frontend
         if ($UserAgent != $CheckUserAgent) 
         { // found
             return true;
+        }
+        
+        // Feature #76, search for user bot filter definitions in localconfig.php
+        if ( isset($GLOBALS['BOTDETECTION']['BOT_AGENT']) )
+        {
+            $botagents = array();
+            foreach ($GLOBALS['BOTDETECTION']['BOT_AGENT'] as $search)
+            {
+                $botagents[$search[0]] = $search[1];
+            }
+            $num = count($botagents);
+            $arrBots = array_keys($botagents);
+            $found = false;
+            for ($c=0; $c < $num; $c++)
+            {
+                $CheckUserAgent = str_ireplace($arrBots[$c], '#', $UserAgent);
+                if ($UserAgent != $CheckUserAgent)
+                {   // found
+                    return true;
+                }
+            }
         }
         return false; 
 	} //BD_CheckBot

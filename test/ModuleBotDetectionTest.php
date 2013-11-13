@@ -93,7 +93,9 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'BUbiNG (+http://law.di.unimi.it/BUbiNG.html)','BUbiNG');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)','Proximic');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)','NetSeer');
-		
+		// localconfig Test
+		$GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig","localconfig Bot");
+		$arrTest[] = array(true, 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig','localconfig Bot');
 		
 		//Output
 	    echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
