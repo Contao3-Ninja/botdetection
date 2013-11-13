@@ -112,13 +112,16 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
 			$this->CheckBotIPTest();
 		echo '</div>';
+		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
+		    $this->CheckBotAllTestsTest();
+		echo '</div>';
 		echo "<h2>ModuleBotDetection Version: ".$this->getVersion()."</h2>";
 		echo "</body></html>";
 	} 
 	
 	private function CheckBotAgentTest($arrTest)
 	{
-	    echo "<h1>CheckBotTest</h1>";
+	    echo "<h1>CheckBotAgentTest</h1>";
 
 	    $y=count($arrTest);
 	    for ($x=0; $x<$y; $x++)
@@ -200,6 +203,46 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		return true;
 	}
 	
+	private function CheckBotAllTestsTest()
+	{
+	    echo "<h1>CheckBotAllTest</h1>";
+	    $arrTest[0] = 'your browser, false test';
+	    $arrTest[1] = 'CheckBotAgent test';
+	    $arrTest[2] = 'CheckBotAgentAdvanced test';
+	    $arrTest[3] = 'CheckBotIP test';
+	    $result[0] = !$this->BD_CheckBotAllTests();
+	    $result[1] = $this->BD_CheckBotAllTests('Spider test'); //BD_CheckBotAgent = true 
+	    $result[2] = $this->BD_CheckBotAllTests('acadiauniversitywebcensusclient'); //BD_CheckBotAgentAdvanced = true
+	    //set own IP as Bot IP
+	    if (\Environment::get('remoteAddr'))
+	    {
+	        if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP
+	        {
+                $GLOBALS['TL_BOTDETECTION']['BOT_IP'][] =  trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
+	        }
+	        else
+	        {
+   				$GLOBALS['TL_BOTDETECTION']['BOT_IP'][] = trim(\Environment::get('remoteAddr'));
+	        }
+	        $result[3] = $this->BD_CheckBotAllTests(); //BD_CheckBotIP = true
+	    }
+	    //output
+	    for ($x=0; $x<4; $x++)
+	    {
+    	    $nr = ($x<10) ? "&nbsp;".$x : $x;
+            if (true == $result[$x]) 
+            {
+	            echo '<span style="color:green;">';
+	        } 
+	        else
+	        {
+	            echo '<span style="color:red;">';
+	        }
+	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: true/".var_export($result[$x],true)." (".$arrTest[$x].")";
+            echo "</span><br>";
+	    }
+	    	    
+	}
 } // class
 
 /**
