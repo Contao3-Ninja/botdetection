@@ -1,11 +1,11 @@
 <?php 
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2014 Leo Feyer
  *
  * Modul BotDetection - Frontend
  *
- * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2007..2014 <http://www.contao.glen-langer.de>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection 
  * @license    LGPL 
@@ -21,7 +21,7 @@ namespace BugBuster\BotDetection;
 /**
  * Class ModuleBotDetection 
  *
- * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2007..2014 <http://www.contao.glen-langer.de>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
@@ -30,7 +30,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.2.1';
+	const BD_VERSION           = '3.3.0';
 	
 	/**
 	 * Rough test - Definition
@@ -130,11 +130,13 @@ class ModuleBotDetection extends \Frontend
 				            'mercator', 
 				            'microsoft url control', //Harvester mit Spamflotte
 				            'miixpc', 
+				            'miva',    // 3.3.0
 				            'moget', 
 				            'msnptc', 
 				            'muscatferret', 
 				            'netcraftsurveyagent',
 				            'netants',
+				            'nutch',    // 3.3.0
 				            'openxxx', 
 				            'pecl::http', // PECL::HTTP
 				            'picmole',
@@ -144,6 +146,7 @@ class ModuleBotDetection extends \Frontend
 				            'p357x',
 				            'quosa', 
 				            'rambler',		// russisch
+                            'riddler', // 3.3.0
 				            'rippers',
 							'rganalytics',
 				            'scan', 
@@ -174,6 +177,7 @@ class ModuleBotDetection extends \Frontend
 				            'wordpress', //1.6.1
 				            'yandex',		// russisch
 				            'zend_http_client', // 1.6.2
+				            'whitehat',    // 3.3.0
 				            'zyborg'
 				            ); 
 

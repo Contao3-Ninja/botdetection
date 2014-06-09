@@ -50,22 +50,22 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    $arrTest[] = array(false, 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; de; rv:1.9.2.2) Gecko/20100316 Firefox/3.6.2','Macintosh FF');
 	    $arrTest[] = array(false, 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; de-de) AppleWebKit/531.22.7 (KHTML, like Gecko) Version/4.0.5 Safari/531.22.7','Macintosh Safari');
 	    //Bots
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)','Googlebot');
-	    $arrTest[] = array(true, 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)','Internet Archive');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)','Google Bot');
+	    $arrTest[] = array(true, 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)','Internet Archiver (ia)');
 	    $arrTest[] = array(true, 'Yandex/1.01.001 (compatible; Win16; P)','Yandex');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)','Yahoo! Slurp');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)','Yahoo! Site Explorer');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)','Exabot');
-	    $arrTest[] = array(true, 'msnbot/2.0b (+http://search.msn.com/msnbot.htm)','MSNbot');
+	    $arrTest[] = array(true, 'msnbot/2.0b (+http://search.msn.com/msnbot.htm)','msnbot');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (Twiceler-0.9 http://www.cuil.com/twiceler/robot.html)','Twiceler');
 	    $arrTest[] = array(true, 'Googlebot-Image/1.0','Googlebot-Image');
-	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','NaverBot/Yeti');
+	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','NaverBot Yeti');
 	    $arrTest[] = array(true, 'Baiduspider+(+http://www.baidu.com/search/spider.htm)','Baiduspider');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )','seoprofiler');
-	    $arrTest[] = array(true, 'ia_archiver-web.archive.org','ia_archiver-web.archive.org');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)','Internet Archiv');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )','spbot');
+	    $arrTest[] = array(true, 'ia_archiver-web.archive.org','Internet Archiver (ia)');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)','Internet Archive (Bot)');
 
-	    $arrTest[] = array(true, 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)','MSNbot-media');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Ask Jeeves/Teoma; +http://about.ask.com/en/docs/about/webmasters.shtml)','Ask Jeeves/Teoma');
+	    $arrTest[] = array(true, 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)','msnbot-media');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Ask Jeeves/Teoma; +http://about.ask.com/en/docs/about/webmasters.shtml)','Teoma');
 	    $arrTest[] = array(true, 'TrueKnowledgeBot (http://www.trueknowledge.com/tkbot/; tkbot -AT- trueknowledge _dot_ com)','TrueKnowledgeBot');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; ptd-crawler; +http://bixolabs.com/crawler/ptd/; crawler@bixolabs.com)','ptd-crawler bixolabs.com');
 		$arrTest[] = array(true, 'Cityreview Robot (+http://www.cityreview.org/crawler/)','Cityreview Robot');
@@ -80,7 +80,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup.com/crawler.html)','BLEXBot');
 		$arrTest[] = array(true, 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)','ExB Language Crawler');
-		$arrTest[] = array(true, 'it2media-domain-crawler/1.0 on crawler-prod.it2media.de','www.adressendeutschland.de');
+		$arrTest[] = array(true, 'it2media-domain-crawler/1.0 on crawler-prod.it2media.de','www.adressendeutschland.de (it2)');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; emefgebot/beta; +http://emefge.de/bot.html)','emefgebot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; CompSpyBot/1.0; +http://www.compspy.com/spider.html)','CompSpyBot');
 		$arrTest[] = array(true, 'NCBot (http://netcomber.com : tool for finding true domain owners) Queries/complaints: bot@netcomber.com','NCBot');
@@ -88,11 +88,17 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'HubSpot Connect 1.0 (http://dev.hubspot.com/)','HubSpot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)','Meanpathbot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; IstellaBot/1.10.2 +http://www.tiscali.it/)','IstellaBot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)','Genieo');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)','Genieo RSS Reader');
 		$arrTest[] = array(true, 'Cliqz Bot (+http://www.cliqz.com)','Cliqz Bot');
 		$arrTest[] = array(true, 'BUbiNG (+http://law.di.unimi.it/BUbiNG.html)','BUbiNG');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)','Proximic');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)','Proximic Spider');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)','NetSeer');
+		$arrTest[] = array(true, 'AntBot/1.0 (http://www.ant.com)','AntBot');
+		$arrTest[] = array(true, 'Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)','Cliqzbot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)','waybackarchive.org');
+		$arrTest[] = array(true, 'ImplisenseBot 1.0','ImplisenseBot');
+		$arrTest[] = array(true, 'Riddler (http://riddler.io/about.html)','Riddler');
+		
 		// localconfig Test
 		$GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig","localconfig Bot");
 		$arrTest[] = array(true, 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig','localconfig Bot');
@@ -102,12 +108,12 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de">
 <body>';
 		echo '<div>';
-			echo '<div style="float:left;width:50%;font-family:Verdana,sans-serif;font-size: 12px;">';
-				$this->CheckBotAgentTest($arrTest);
-			echo '</div>';
-			echo '<div style="float:left;width:50%;font-family:Verdana,sans-serif;font-size: 12px;">';
-				$this->CheckBotAgentAdvancedTest($arrTest);
-			echo '</div>';
+    		echo '<div style="float:left;width:42%;font-family:Verdana,sans-serif;font-size: 12px;">';
+    			$this->CheckBotAgentTest($arrTest);
+    		echo '</div>';
+    		echo '<div style="float:left;width:58%;font-family:Verdana,sans-serif;font-size: 12px;">';
+    			$this->CheckBotAgentAdvancedTest($arrTest);
+    		echo '</div>';
 		echo '</div>';
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
 			$this->CheckBotIPTest();
@@ -131,9 +137,11 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    for ($x=0; $x<$y; $x++)
 	    {
 	        $nr = ($x<10) ? "&nbsp;".$x : $x;
-	        if ($arrTest[$x][0] == $result[$x]) {
+	        if ($arrTest[$x][0] == $result[$x]) 
+	        {
 	        	echo '<span style="color:green;">';
-	        } else 
+	        } 
+	        else 
 	        {
 	            echo '<span style="color:red;">';
 	        }
@@ -149,13 +157,13 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    echo "<h1>CheckBotIPTest</h1>";
 	    $arrTest[] = array(false,false,'own IP');
 	    $arrTest[] = array(false,'74.125.79.100','74.125.79.100 - Google Plus');
-	    $arrTest[] = array(true,'192.114.71.13','192.114.71.13 - web spider israel');
-	    $arrTest[] = array(true,'65.55.231.74','65.55.231.74 in 65.52.0.0/14 - MSN Net');
-	    $arrTest[] = array(true,'66.249.95.222','66.249.95.222 in 66.249.64.0/19 - Google Net');
-	    $arrTest[] = array(true,'2001:4860:4801:1109:0:6006:1300:b075','2001:4860:4801:1109:0:6006:1300:b075 - Google Bot IPv6');
+	    $arrTest[] = array(true ,'192.114.71.13','192.114.71.13 - web spider israel');
+	    $arrTest[] = array(true ,'65.55.231.74' ,'65.55.231.74 in 65.52.0.0/14 - MSN Net');
+	    $arrTest[] = array(true ,'66.249.95.222','66.249.95.222 in 66.249.64.0/19 - Google Net');
+	    $arrTest[] = array(true ,'2001:4860:4801:1109:0:6006:1300:b075','2001:4860:4801:1109:0:6006:1300:b075 - Google Bot IPv6');
 	    $arrTest[] = array(false,'2001:0db8:85a3:08d3:1319:8a2e:0370:7334','2001:0db8:85a3:08d3:1319:8a2e:0370:7334 - No Bot');
 	    $arrTest[] = array(false,'2001:0db8:85a3:08d3:1319:8a2e:0370:7334','2001:0db8:85a3:08d3:1319:8a2e:0370:7334 - No Bot');
-	    $arrTest[] = array(false,'::ffff:c000:280','::ffff:c000:280 - double quad notation for ipv4 mapped addresses');
+	    $arrTest[] = array(false,'::ffff:c000:280'   ,'::ffff:c000:280    - double quad notation for ipv4 mapped addresses');
 	    $arrTest[] = array(false,'::ffff:192.0.2.128','::ffff:192.0.2.128 - double quad notation for ipv4 mapped addresses');
 	    
 	    $y=count($arrTest);
@@ -190,11 +198,28 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    for ($x=0; $x<$y; $x++)
 	    {
 	        $nr = ($x<10) ? "&nbsp;".$x : $x;
-	        if ($arrTest[$x][0] == $result[$x]) {
-	        	echo '<span style="color:green;">';
-	        } else 
+	        if ($arrTest[$x][0] == false) // false Test 
 	        {
-	            echo '<span style="color:red;">';
+	            if ($arrTest[$x][0] == $result[$x]) 
+    	        {
+    	        	echo '<span style="color:green;">';
+    	        } 
+    	        else 
+    	        {
+    	            echo '<span style="color:red;">';
+    	        }
+	            
+	        }
+	        else // true Test
+	        {
+    	        if ($arrTest[$x][2] == $result[$x]) //$arrTest[$x][0] 
+    	        {
+    	        	echo '<span style="color:green;">';
+    	        } 
+    	        else 
+    	        {
+    	            echo '<span style="color:red;">';
+    	        }
 	        }
 	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: ".var_export($arrTest[$x][0],true)."/".var_export($result[$x],true)." (".$arrTest[$x][2].")";
 	        echo "</span><br>";
