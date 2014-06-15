@@ -1,11 +1,11 @@
 <?php 
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2014 Leo Feyer
  *
  * Modul BotDetection - Frontend Demo
  * 
- * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2007..2014 <http://www.contao.glen-langer.de>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetectionDemo 
  * @license    LGPL 
@@ -22,7 +22,7 @@ namespace BugBuster\BotDetection;
  * Class ModuleFrontendDemo2
  * Use ModuleBotDetection with import function
  *
- * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2007..2014 <http://www.contao.glen-langer.de>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetectionDemo
  */
@@ -67,16 +67,16 @@ class ModuleFrontendDemo2 extends \Module
         $this->ModuleBotDetection = new \BotDetection\ModuleBotDetection();
         
 	    $arrFields = array();
-	    $arrFields['agent_name'] = array
+	    $arrFields['name'] = array
 		(
-			'name' => 'agent_name',
+			'name' => 'name',
 			'label' => $GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_agent'],
 			'inputType' => 'text',
 			'eval' => array('mandatory'=>true, 'maxlength'=>256, 'decodeEntities'=>true)
 		);
-		$arrFields['agent_captcha'] = array
+		$arrFields['captcha'] = array
 		(
-			'name' => 'agent_captcha',
+			'name' => 'captcha',
 			'label' => $GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_captcha'],
 			'inputType' => 'captcha',
 			'eval' => array('mandatory'=>true)
@@ -96,10 +96,10 @@ class ModuleFrontendDemo2 extends \Module
 			}
 
 			$arrField['eval']['required'] = $arrField['eval']['mandatory'];
-			$objWidget = new $strClass($this->prepareForWidget($arrField, $arrField['name'], $arrField['value']));
+			$objWidget = new $strClass($strClass::getAttributesFromDca($arrField, $arrField['name'], $arrField['value']));
 
 			// Validate widget
-			if ($this->Input->post('FORM_SUBMIT') == 'botdetectiondemo2')
+			if (\Input::post('FORM_SUBMIT') == 'botdetectiondemo2')
 			{
 				$objWidget->validate();
 
@@ -109,18 +109,19 @@ class ModuleFrontendDemo2 extends \Module
 				}
 			}
 
-			$arrWidgets[] = $objWidget;
+			$arrWidgets[$arrField['name']] = $objWidget;
 		}
 	    $this->Template->fields = $arrWidgets;
 	    
    		$this->Template->submit = $GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_submit'];
 		$this->Template->action = ampersand(\Environment::get('request'));
+		$this->Template->hasError = $doNotSubmit;
 
-	    if ($this->Input->post('FORM_SUBMIT') == 'botdetectiondemo2' && !$doNotSubmit)
+	    if (\Input::post('FORM_SUBMIT') == 'botdetectiondemo2' && !$doNotSubmit)
 		{
 			$arrSet = array
 			(
-				'agent_name'		=> \Input::post('agent_name')
+				'agent_name'		=> \Input::post('name')
 			);
 			
 			// start tests
@@ -148,8 +149,8 @@ class ModuleFrontendDemo2 extends \Module
 					continue;
 				}
 				$arrField['eval']['required'] = $arrField['eval']['mandatory'];
-				$objWidget = new $strClass($this->prepareForWidget($arrField, $arrField['name'], $arrField['value']));
-				$arrWidgets[] = $objWidget;
+				$objWidget = new $strClass($strClass::getAttributesFromDca($arrField, $arrField['name'], $arrField['value']));
+				$arrWidgets[$arrField['name']] = $objWidget;
 			}
 
 			$this->Template->fields = $arrWidgets;

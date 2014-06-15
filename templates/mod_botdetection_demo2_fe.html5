@@ -38,11 +38,12 @@
 		<div class="widget">
 			<?php echo $objWidget->generateLabel(); ?>
 			<?php echo $objWidget->generateWithError(); ?>
-			<?php if ($objWidget->name == 'agent_captcha') :?> 
-			<?php echo " ".$objWidget->generateQuestion(); ?> 
-			<?php endif; ?>
+			<?php if (get_class($objWidget) == 'Contao\FormCaptcha') :?> 
+			<?php echo " ".$objWidget->generateQuestion(); ?>
+			<?php endif; ?> 
 		</div> <!-- widget ende -->
 		<?php endforeach; ?>
+		
 		<div class="submit_container">
   			<input type="submit" class="submit" value="<?php echo $this->submit; ?>">
 		</div>
