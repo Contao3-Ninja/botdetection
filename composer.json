@@ -34,6 +34,12 @@
 		"contao":{
 			"sources":{
 				"":"system/modules/botdetection"
+			},
+			"transifex": {
+				"project": "botdetection",
+				"prefix": "master-",
+				"languages_cto": "languages",
+				"languages_tx": ".tx"
 			}
 		}
 	}
