@@ -1,6 +1,6 @@
 {
 	"name":"bugbuster/botdetection",
-	"description":"Helper class to detect search engines, bots, spiders, crawlers ...",
+	"description":"Contao helper class to detect search engines, bots, spiders, crawlers ...",
 	"keywords":["detection","bots","contao"],
 	"type":"contao-module",
 	"homepage":"http://www.contao.glen-langer.de",
@@ -21,14 +21,14 @@
 	},
 	"require":{
 		"php":">=5.3",
-		"contao/core":">=3,<4",
+		"contao/core":">=3.1,<4",
 		"contao-community-alliance/composer-plugin": "*"
 	},
 	"autoload":{
 		"classmap":[""]
 	},
 	"replace":{
-		"contao-legacy/botdetection":"*"
+		"contao-legacy/botdetection":"self.version"
 	},
 	"extra":{
 		"contao":{

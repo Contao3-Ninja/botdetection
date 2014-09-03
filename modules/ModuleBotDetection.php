@@ -30,7 +30,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.3.0';
+	const BD_VERSION           = '3.3.3';
 	
 	/**
 	 * Rough test - Definition
@@ -58,6 +58,7 @@ class ModuleBotDetection extends \Frontend
                             'abonti', // 3.2.0       	        
 	                        'acoon', //1.6.0
 					        'adressendeutschland',
+                            'addressendeutschland', // 3.3.1
 				            'agentname', 
 				            'altavista', 
 				            'al_viewer',
@@ -68,10 +69,11 @@ class ModuleBotDetection extends \Frontend
 				            'asterias', 
 				            'ask jeeves', 
 				            'beholder', 
-                            'bildsauger',	// 1.7.0
+                            'bildsauger',   // 1.7.0
 				            'bingsearch', 
-	                        'bingpreview',  // 1.6.2
-	                        'bubing',    // 3.2.0
+	                        'bingpreview', // 1.6.2
+	                        'blog search', // 3.3.1
+	                        'bubing',      // 3.2.0
 				            'bumblebee',
 				            'bramptonmoose',
 				            'bbtest-net',	//Hobbit bbtest-net/4.2.0
@@ -140,6 +142,7 @@ class ModuleBotDetection extends \Frontend
 				            'openxxx', 
 				            'pecl::http', // PECL::HTTP
 				            'picmole',
+				            'pinterest', // 3.3.1
 				            'pioneer internet',
 				            'piranha', 
 				            'pldi.net',
@@ -711,8 +714,28 @@ class ModuleBotDetection extends \Frontend
         return $found;
 	}
 	
+	public function BD_CheckBotReferrer()
+	{
+	    //NEVER TRUST USER INPUT
+	    if (function_exists('filter_var'))	// Adjustment for hoster without the filter extension
+	    {
+	        $this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? filter_var($_SERVER['HTTP_REFERER'],  FILTER_SANITIZE_URL) : 'unknown' ;
+	    }
+	    else
+	    {
+	        $this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
+	    }
+	    
+	    //Semalt #98
+	    if (preg_match('/(http|https):\/\/.*\.semalt\.com\//', $this->_http_referer ))
+	    {
+	        return 'Semalt';
+	    }
+	    return false;
+	}
+	
 	/**
-	 * Spider Bot Agent/Advanced/IP Check
+	 * Spider Bot Agent/Advanced/Referrer/IP Check
 	 *
 	 * @param string   UserAgent, optional for tests
 	 * @return boolean true when bot found
@@ -724,13 +747,17 @@ class ModuleBotDetection extends \Frontend
 	    {
 	        return true;
 	    }
-	    elseif ( $this->BD_CheckBotAgentAdvanced($UserAgent) == true )
+	    elseif ( $this->BD_CheckBotReferrer() == true )
+	    {
+	        return true;
+	    }
+	    elseif ( $this->BD_CheckBotIP() == true )
 	    {
 	        return true;
 	    }
 	    else 
 	    {
-	        return $this->BD_CheckBotIP();
+	        return $this->BD_CheckBotAgentAdvanced($UserAgent);
 	    }
 	}
 }

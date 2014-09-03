@@ -98,6 +98,18 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)','waybackarchive.org');
 		$arrTest[] = array(true, 'ImplisenseBot 1.0','ImplisenseBot');
 		$arrTest[] = array(true, 'Riddler (http://riddler.io/about.html)','Riddler');
+		//3.3.1
+		$arrTest[] = array(true, 'Mozilla/4.0 (compatible; Blog Search;)','Blog Search');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)','publiclibraryarchive');
+		$arrTest[] = array(true, 'Pinterest/0.1 +http://pinterest.com/','Pinterest');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; ca-crawler/1.0)','ca-crawler');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)','007ac9');
+		$arrTest[] = array(true, 'dubaiindex (addressendeutschland.de)','addressendeutschland.de');
+		$arrTest[] = array(true, 'thumbshots-de-bot (+http://www.thumbshots.de/)','thumbshots-de-Bot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)','memorybot');
+		$arrTest[] = array(true, 'stq_bot (+http://www.searchteq.de)','stq_bot');
+		//$arrTest[] = array(true, '','');
+		
 		
 		// localconfig Test
 		$GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig","localconfig Bot");
@@ -243,14 +255,34 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    {
 	        if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP
 	        {
-                $GLOBALS['TL_BOTDETECTION']['BOT_IP'][] =  trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
+	            $ip = trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
+	            // Test for IPv4
+	            if (ip2long($ip) !== false)
+	            {
+	                $GLOBALS['BOTDETECTION']['BOT_IP'][] = $ip;
+	            }
+	            else 
+	            {
+	                $GLOBALS['BOTDETECTION']['BOT_IPV6'][] = $ip;
+	            }
+                
 	        }
 	        else
 	        {
-   				$GLOBALS['TL_BOTDETECTION']['BOT_IP'][] = trim(\Environment::get('remoteAddr'));
+	            $ip = trim(\Environment::get('remoteAddr'));
+	            // Test for IPv4
+	            if (ip2long($ip) !== false)
+	            {
+	                $GLOBALS['BOTDETECTION']['BOT_IP'][] = $ip;
+	            }
+	            else 
+	            {
+	                $GLOBALS['BOTDETECTION']['BOT_IPV6'][] = $ip;
+	            }
 	        }
 	        $result[3] = $this->BD_CheckBotAllTests(); //BD_CheckBotIP = true
 	    }
+	    //$arrTest[3] .= ' '.print_r($GLOBALS['BOTDETECTION']['BOT_IPV6'],true);
 	    //output
 	    for ($x=0; $x<4; $x++)
 	    {

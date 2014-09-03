@@ -7,7 +7,7 @@ Translations are managed using Transifex. To create a new translation or to help
 
 Project Link: [https://www.transifex.com/projects/p/botdetection/](https://www.transifex.com/projects/p/botdetection/)
 
-Howto: [http://help.transifex.com/intro/translating.html](http://help.transifex.com/intro/translating.html)
+Howto: [http://docs.transifex.com/faq/#translating](http://docs.transifex.com/faq/#translating)
 
 ## Branches
 
