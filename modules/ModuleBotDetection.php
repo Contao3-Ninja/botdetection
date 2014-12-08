@@ -30,7 +30,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.3.3';
+	const BD_VERSION           = '3.3.4';
 	
 	/**
 	 * Rough test - Definition
@@ -81,6 +81,8 @@ class ModuleBotDetection extends \Frontend
 				            'crescent', 
 	                        'coccoc', // 3.1.0
 				            'cosmos', 
+				            'cronjob', // 3.3.4
+				            'crowsnest', // 3.3.4
 	                        'curl', // 1.6.2
 				            'docomo',
                             'drupact', // 3.0.1
@@ -127,9 +129,11 @@ class ModuleBotDetection extends \Frontend
 				            'libwww',
 				            'jakarta', // 3.0.1
 				            'java', // 1.6.2
-				            'mata hari', 
+				            'mata hari',
+				            'mechanize', // 3.3.4 
 				            'medicalmatrix', 
-				            'mercator', 
+				            'mercator',
+				            'metauri', // 3.3.4 
 				            'microsoft url control', //Harvester mit Spamflotte
 				            'miixpc', 
 				            'miva',    // 3.3.0
@@ -138,6 +142,7 @@ class ModuleBotDetection extends \Frontend
 				            'muscatferret', 
 				            'netcraftsurveyagent',
 				            'netants',
+				            'ning', // 3.3.4
 				            'nutch',    // 3.3.0
 				            'openxxx', 
 				            'pecl::http', // PECL::HTTP
@@ -147,11 +152,14 @@ class ModuleBotDetection extends \Frontend
 				            'piranha', 
 				            'pldi.net',
 				            'p357x',
+				            'publiclibraryarchive', // 3.3.4
+				            'python-requests', // 3.3.4
 				            'quosa', 
 				            'rambler',		// russisch
                             'riddler', // 3.3.0
 				            'rippers',
 							'rganalytics',
+							'ruby', // 3.3.4
 				            'scan', 
 				            'scooter', 
 				            'ScoutJet', 
@@ -714,9 +722,11 @@ class ModuleBotDetection extends \Frontend
         return $found;
 	}
 	
-	public function BD_CheckBotReferrer()
+	public function BD_CheckBotReferrer($Referrer = false)
 	{
 	    //NEVER TRUST USER INPUT
+	    /*
+	     * There is referrer without url, only text
 	    if (function_exists('filter_var'))	// Adjustment for hoster without the filter extension
 	    {
 	        $this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? filter_var($_SERVER['HTTP_REFERER'],  FILTER_SANITIZE_URL) : 'unknown' ;
@@ -725,12 +735,33 @@ class ModuleBotDetection extends \Frontend
 	    {
 	        $this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
 	    }
+	     */
+	    if ($Referrer === false) 
+	    {
+	    	$this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
+	    }
+	    else 
+	    {
+	        $this->_http_referer = $Referrer;
+	    }
+	    
 	    
 	    //Semalt #98
 	    if (preg_match('/(http|https):\/\/.*\.semalt\.com\//', $this->_http_referer ))
 	    {
 	        return 'Semalt';
 	    }
+	    //updown_tester #114
+	    if (preg_match('/updown_tester/', $this->_http_referer ))
+	    {
+	        return 'UpDown Tester';
+	    }
+	    //www.xxlpromo.com #113
+	    if (preg_match('/www\.xxlpromo\.com/', $this->_http_referer ))
+	    {
+	        return 'www.xxlpromo.com';
+	    }
+	    
 	    return false;
 	}
 	

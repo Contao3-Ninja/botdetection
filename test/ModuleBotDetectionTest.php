@@ -108,7 +108,23 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'thumbshots-de-bot (+http://www.thumbshots.de/)','thumbshots-de-Bot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)','memorybot');
 		$arrTest[] = array(true, 'stq_bot (+http://www.searchteq.de)','stq_bot');
+        //3.3.4
+		$arrTest[] = array(true, 'python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual','Python');
+		$arrTest[] = array(true, 'Mechanize/2.0.1 Ruby/1.9.2p290 (http://github.com/tenderlove/mechanize/)','Mechanize');
+		$arrTest[] = array(true, 'Ruby','Generic Ruby Crawler');
+		$arrTest[] = array(true, 'MetaURI API/2.0 +metauri.com','MetaURI');
+		$arrTest[] = array(true, 'Crowsnest/0.5 (+http://www.crowsnest.tv/)','Crowsnest');
+		$arrTest[] = array(true, 'NING/1.0','NING');
+		$arrTest[] = array(true, 'publiclibraryarchive.org 1.0; +crawl@publiclibraryarchive.org','publiclibraryarchive');
+		$arrTest[] = array(true, 'Cronjob.de','Cronjob.de');
+
+		
 		//$arrTest[] = array(true, '','');
+		
+		
+		$arrReferrerTest[] =array(true, 'http://www.semalt.com/', 'Semalt');
+		$arrReferrerTest[] =array(true, 'updown_tester', 'UpDown Tester');
+		$arrReferrerTest[] =array(true, 'www.xxlpromo.com', 'www.xxlpromo.com');
 		
 		
 		// localconfig Test
@@ -129,6 +145,9 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		echo '</div>';
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
 			$this->CheckBotIPTest();
+		echo '</div>';
+		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
+            $this->CheckBotReferrerTest($arrReferrerTest);
 		echo '</div>';
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
 		    $this->CheckBotAllTestsTest();
@@ -300,6 +319,47 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    }
 	    	    
 	}
+	
+	private function CheckBotReferrerTest($arrReferrerTest)
+	{
+	    echo "<h1>CheckBotReferrerTest</h1>";
+	    $y=count($arrReferrerTest);
+	    for ($x=0; $x<$y; $x++)
+	    {
+            $result[$x] = $this->BD_CheckBotReferrer($arrReferrerTest[$x][1]);
+	    }
+	    for ($x=0; $x<$y; $x++)
+	    {
+	        $nr = ($x<10) ? "&nbsp;".$x : $x;
+	        if ($arrReferrerTest[$x][0] == false) // false Test
+            {
+	            if ($arrReferrerTest[$x][0] == $result[$x])
+	            {
+	               echo '<span style="color:green;">';
+                }
+                else
+                {
+                    echo '<span style="color:red;">';
+                }
+            }
+            else // true Test
+            {
+                if ($arrReferrerTest[$x][2] == $result[$x]) //$arrReferrerTest[$x][0]
+                {
+                    echo '<span style="color:green;">';
+                }
+                else
+    	        {
+                     echo '<span style="color:red;">';
+    	        }
+	        }
+	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: ".var_export($arrReferrerTest[$x][0],true)."/".var_export($result[$x],true)." (".$arrReferrerTest[$x][2].")";
+	        echo "</span><br>";
+	    }
+
+		return true;
+	}
+	
 } // class
 
 /**
