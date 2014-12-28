@@ -30,7 +30,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.3.4';
+	const BD_VERSION           = '3.4.0';
 	
 	/**
 	 * Rough test - Definition
@@ -724,45 +724,50 @@ class ModuleBotDetection extends \Frontend
 	
 	public function BD_CheckBotReferrer($Referrer = false)
 	{
-	    //NEVER TRUST USER INPUT
-	    /*
-	     * There is referrer without url, only text
-	    if (function_exists('filter_var'))	// Adjustment for hoster without the filter extension
-	    {
-	        $this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? filter_var($_SERVER['HTTP_REFERER'],  FILTER_SANITIZE_URL) : 'unknown' ;
-	    }
-	    else
-	    {
-	        $this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
-	    }
-	     */
+	    $found = false;
+	    $botreferrerlist = array();
 	    if ($Referrer === false) 
 	    {
-	    	$this->_http_referer  = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
+	    	$this->_http_referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
 	    }
 	    else 
 	    {
-	        $this->_http_referer = $Referrer;
+	        $this->_http_referrer = $Referrer;
+	    }
+	    //nur den host Anteil prüfen
+	    $this->_referrer_DNS = parse_url( $this->_http_referrer, PHP_URL_HOST );
+	    if ($this->_referrer_DNS === NULL)
+	    {
+	        //try this...
+	        $this->_referrer_DNS = @parse_url( 'http://'.$this->_http_referrer, PHP_URL_HOST );
+	        if ($this->_referrer_DNS === NULL ||
+	            $this->_referrer_DNS === false)
+	        {
+	            //wtf...
+	            return false;
+	        }
+	    }
+	    // include bot-referrer-list $botreferrerlist
+	    if (file_exists(TL_ROOT . "/system/modules/botdetection/config/bot-referrer-list.php"))
+	    {
+	        include(TL_ROOT . "/system/modules/botdetection/config/bot-referrer-list.php");
+	    }
+	    else
+	    {
+	        return false;	// no definition, no search
 	    }
 	    
-	    
-	    //Semalt #98
-	    if (preg_match('/(http|https):\/\/.*\.semalt\.com\//', $this->_http_referer ))
+	    //Prüfung
+	    foreach ($botreferrerlist as $botreferrer) 
 	    {
-	        return 'Semalt';
+            $CheckBotRef = str_ireplace($botreferrer, '#', $this->_referrer_DNS);
+            if ($this->_referrer_DNS != $CheckBotRef) 
+            {
+                //echo "DEBUG: ".$botreferrer."\n";
+                $found = $botreferrer;
+            };
 	    }
-	    //updown_tester #114
-	    if (preg_match('/updown_tester/', $this->_http_referer ))
-	    {
-	        return 'UpDown Tester';
-	    }
-	    //www.xxlpromo.com #113
-	    if (preg_match('/www\.xxlpromo\.com/', $this->_http_referer ))
-	    {
-	        return 'www.xxlpromo.com';
-	    }
-	    
-	    return false;
+	    return $found;
 	}
 	
 	/**

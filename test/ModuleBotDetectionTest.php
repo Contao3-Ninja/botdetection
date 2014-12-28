@@ -121,11 +121,63 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		
 		//$arrTest[] = array(true, '','');
 		
-		
+		/*
 		$arrReferrerTest[] =array(true, 'http://www.semalt.com/', 'Semalt');
 		$arrReferrerTest[] =array(true, 'updown_tester', 'UpDown Tester');
 		$arrReferrerTest[] =array(true, 'www.xxlpromo.com', 'www.xxlpromo.com');
+		*/
+		$arrReferrerTest[] =array(false, 'contao.org');
+		$arrReferrerTest[] =array(true, 'abcd4.de');
+		$arrReferrerTest[] =array(true, 'backgroundpictures.net');
+		$arrReferrerTest[] =array(true, 'baixar-musicas-gratis.com');
+		$arrReferrerTest[] =array(true, 'buttons-for-website.com');
+		$arrReferrerTest[] =array(true, 'cylex.de');
+		$arrReferrerTest[] =array(true, 'descargar-musica-gratis.net');
+		$arrReferrerTest[] =array(true, 'darodar.com');
+		$arrReferrerTest[] =array(true, 'extener.org');
+		$arrReferrerTest[] =array(true, 'extener.com');
+		$arrReferrerTest[] =array(true, 'embedle.com');
+		$arrReferrerTest[] =array(true, 'fbfreegifts.com');
+		$arrReferrerTest[] =array(true, 'feedouble.com');
+		$arrReferrerTest[] =array(true, 'feedouble.net');
+		$arrReferrerTest[] =array(true, 'joinandplay.me');
+		$arrReferrerTest[] =array(true, 'joingames.org');
+		$arrReferrerTest[] =array(true, 'japfm.com');
+		$arrReferrerTest[] =array(true, 'kambasoft.com');
+		$arrReferrerTest[] =array(true, 'lumb.co');
+		$arrReferrerTest[] =array(true, 'myprintscreen.com');
+		$arrReferrerTest[] =array(true, 'makemoneyonline.com');
+		$arrReferrerTest[] =array(true, 'musicprojectfoundation.com');
+		$arrReferrerTest[] =array(true, 'newworldmayfair.com');
+		$arrReferrerTest[] =array(true, 'openfrost.com');
+		$arrReferrerTest[] =array(true, 'openfrost.net');
+		$arrReferrerTest[] =array(true, 'openmediasoft.com');
+		$arrReferrerTest[] =array(true, 'srecorder.com');
+		$arrReferrerTest[] =array(true, 'softomix.com');
+		$arrReferrerTest[] =array(true, 'softomix.net');
+		$arrReferrerTest[] =array(true, 'softomix.ru');
+		$arrReferrerTest[] =array(true, 'sharebutton.net');
+		$arrReferrerTest[] =array(true, 'soundfrost.org');
+		$arrReferrerTest[] =array(true, 'srecorder.com');
+		$arrReferrerTest[] =array(true, 'savetubevideo.com');
+		$arrReferrerTest[] =array(true, 'semalt.com');
+		$arrReferrerTest[] =array(true, 'tasteidea.com');
+		$arrReferrerTest[] =array(true, 'vapmedia.org');
+		$arrReferrerTest[] =array(true, 'videofrost.com');
+		$arrReferrerTest[] =array(true, 'videofrost.net');
+		$arrReferrerTest[] =array(true, 'youtubedownload.org');
+		$arrReferrerTest[] =array(true, 'zazagames.org');
 		
+		$arrReferrerTest[] =array(true, 'updown_tester');
+		$arrReferrerTest[] =array(true, 'azbukameha.ru');
+		$arrReferrerTest[] =array(true, 'darkhalfe.ru');
+		$arrReferrerTest[] =array(true, 'sovetogorod.ru');
+		$arrReferrerTest[] =array(true, 'weesexy.ru');
+		
+		/*
+wget --no-cache --referer="http://www.facebug.net/" --user-agent="Mozilla BugBuster" http://mars:81/vhosts/contao32_develop/
+wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --user-agent="Mozilla BugBuster" http://mars:81/vhosts/contao32_develop/
+		 */
 		
 		// localconfig Test
 		$GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig","localconfig Bot");
@@ -326,7 +378,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    $y=count($arrReferrerTest);
 	    for ($x=0; $x<$y; $x++)
 	    {
-            $result[$x] = $this->BD_CheckBotReferrer($arrReferrerTest[$x][1]);
+            $result[$x] = $this->BD_CheckBotReferrer('http://www.'.$arrReferrerTest[$x][1].'/wtf');
 	    }
 	    for ($x=0; $x<$y; $x++)
 	    {
@@ -344,7 +396,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
             }
             else // true Test
             {
-                if ($arrReferrerTest[$x][2] == $result[$x]) //$arrReferrerTest[$x][0]
+                if ($arrReferrerTest[$x][1] == $result[$x]) 
                 {
                     echo '<span style="color:green;">';
                 }
@@ -353,7 +405,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
                      echo '<span style="color:red;">';
     	        }
 	        }
-	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: ".var_export($arrReferrerTest[$x][0],true)."/".var_export($result[$x],true)." (".$arrReferrerTest[$x][2].")";
+	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: ".var_export($arrReferrerTest[$x][0],true)."/".var_export($result[$x],true)." (".$arrReferrerTest[$x][1].")";
 	        echo "</span><br>";
 	    }
 
