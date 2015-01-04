@@ -130,12 +130,12 @@ class ModuleFrontendDemo2 extends \Module
     	    $test01 = $this->ModuleBotDetection->BD_CheckBotAgent($arrSet['agent_name']); 
     	    //Call BD_CheckBotAgentAdvanced
     	    $test02 = $this->ModuleBotDetection->BD_CheckBotAgentAdvanced($arrSet['agent_name']); 
-    	    $not1 = ($test01) ? "<span style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
-    	    $not2 = ($test02) ? "<span style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
+    	    $not1 = ($test01) ? "<span class=\"checkbotstatus\" style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span class=\"checkbotstatus\" style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
+    	    $not2 = ($test02) ? "<span class=\"checkbotstatus\" style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span class=\"checkbotstatus\" style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
     	    $not3 = ($test02) ? " (".$test02.")" : "";
     	    $messages  = "<strong>".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_message_1'].":</strong><br />".$arrSet['agent_name']."<br /><br />";
-    	    $messages .= "<div style=\"font-weight:bold; width:190px;float:left;\">CheckBotAgent:</div> ".$not1."<br />";
-    	    $messages .= "<div style=\"font-weight:bold; width:190px;float:left;\">CheckBotAgentAdvanced:</div> ".$not2.$not3."<br />";
+    	    $messages .= "<div class=\"checkbot\" style=\"font-weight:bold; float:left;\">CheckBotAgent:</div> ".$not1."<br />";
+    	    $messages .= "<div class=\"checkbot\" style=\"font-weight:bold; float:left;\">CheckBotAgentAdvanced:</div> ".$not2.$not3."<br />";
     	    
 			$this->Template->message  = $messages;
 			

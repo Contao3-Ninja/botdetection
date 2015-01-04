@@ -44,6 +44,8 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    // AGENT TEST DEFINITIONS
 	    
 	    $arrTest[] = array(false, false,'your browser'); // own Browser
+	    $arrTest[] = array(false, 'Tivoka/3.4.0 (easyUpdate3 fopen)', 'Tivoka/3.4.0 (easyUpdate3 fopen)');
+	    $arrTest[] = array(false, 'Tivoka/3.4.0 (easyUpdate3 c_url)', 'Tivoka/3.4.0 (easyUpdate3 c_url)');
 	    //Browser
 	    $arrTest[] = array(false, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3','Firefox');
 	    $arrTest[] = array(false, 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1);','IE8.0');
