@@ -25,7 +25,7 @@ namespace BugBuster\BotDetection;
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
-class ModuleBotDetection extends \Frontend
+class ModuleBotDetectionDeprecated extends \Frontend
 {
 	/**
 	 * Current version of the class.

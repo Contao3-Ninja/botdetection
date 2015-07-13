@@ -3,12 +3,12 @@
 	"description":"Contao helper class to detect search engines, bots, spiders, crawlers ...",
 	"keywords":["detection","bots","contao"],
 	"type":"contao-module",
-	"homepage":"http://www.contao.glen-langer.de",
+	"homepage":"http://contao.ninja",
 	"license":"LGPL-3.0+",
 	"authors":[
 		{
 			"name":"Glen Langer",
-			"homepage":"http://www.contao.glen-langer.de",
+			"homepage":"http://contao.ninja",
 			"role":"Developer"
 		}
 	],
@@ -21,8 +21,9 @@
 	},
 	"require":{
 		"php":">=5.3",
-		"contao/core":">=3.1,<4",
-		"contao-community-alliance/composer-plugin": "*"
+		"contao/core":">=3.4,<4",
+		"contao-community-alliance/composer-plugin": "*",
+		"crossjoin/browscap": "1.0.*"
 	},
 	"autoload":{
 		"classmap":[""]
@@ -33,12 +34,12 @@
 	"extra":{
 		"contao":{
 			"sources":{
-				"":"system/modules/botdetection"
+				"src":"system/modules/botdetection"
 			},
 			"transifex": {
 				"project": "botdetection",
 				"prefix": "master-",
-				"languages_cto": "languages",
+				"languages_cto": "src/languages",
 				"languages_tx": ".tx"
 			}
 		}
