@@ -1,7 +1,4 @@
 .git/
-tests/
-assets/
-Depending_on_this.txt
 .gitignore
 # Transifex
 /.tx/
