@@ -1,23 +1,30 @@
 <?php
+
+/**
+ * Contao Open Source CMS, Copyright (C) 2005-2015 Leo Feyer
+ *
+ * BotDetection
+ *
+ * @copyright  Glen Langer 2007..2015 <http://contao.ninja>
+ * @author     Glen Langer (BugBuster)
+ * @package    BotDetection
+ * @license    LGPL
+ * @filesource
+ * @see        https://github.com/BugBuster1701/botdetection
+ */
+
 namespace BugBuster\BotDetection;
 
 /**
+ * Class CheckBotReferrer 
  *
- * @author bibo
- *        
+ * @copyright  Glen Langer 2015 <http://contao.ninja>
+ * @author     Glen Langer (BugBuster)
+ * @package    BotDetection
  */
 class CheckBotReferrer
 {
-    // TODO - Insert your code here
-    
-    /**
-     */
-    function __construct()
-    {
-        
-        // TODO - Insert your code here
-    }
-    
+ 
     /**
      * checkReferrer
      * 
@@ -37,20 +44,20 @@ class CheckBotReferrer
         
         if ($Referrer === false)
         {
-            $this->_http_referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
+            $http_referrer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'unknown' ;
         }
         else
         {
-            $this->_http_referrer = $Referrer;
+            $http_referrer = $Referrer;
         }
         //nur den host Anteil prüfen
-        $this->_referrer_DNS = parse_url( $this->_http_referrer, PHP_URL_HOST );
-        if ($this->_referrer_DNS === NULL)
+        $referrer_DNS = parse_url( $http_referrer, PHP_URL_HOST );
+        if ($referrer_DNS === NULL)
         {
             //try this...
-            $this->_referrer_DNS = @parse_url( 'http://'.$this->_http_referrer, PHP_URL_HOST );
-            if ($this->_referrer_DNS === NULL ||
-                $this->_referrer_DNS === false)
+            $referrer_DNS = @parse_url( 'http://'.$http_referrer, PHP_URL_HOST );
+            if ($referrer_DNS === NULL ||
+                $referrer_DNS === false)
             {
                 //wtf...
                 return false;
@@ -69,8 +76,8 @@ class CheckBotReferrer
         //Prüfung
         foreach ($botreferrerlist as $botreferrer)
         {
-            $CheckBotRef = str_ireplace($botreferrer, '#', $this->_referrer_DNS);
-            if ($this->_referrer_DNS != $CheckBotRef)
+            $CheckBotRef = str_ireplace($botreferrer, '#', $referrer_DNS);
+            if ($referrer_DNS != $CheckBotRef)
             {
                 //echo "DEBUG: ".$botreferrer."\n";
                 $found = $botreferrer;

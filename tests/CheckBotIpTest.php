@@ -3,7 +3,6 @@ namespace BugBuster\BotDetection;
 
 require_once dirname(__FILE__) . '/../src/classes/CheckBotIp.php';
 
-require_once 'PHPUnit/Framework/TestCase.php';
 
 /**
  * CheckBotIp test case.

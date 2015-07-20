@@ -21,11 +21,11 @@ namespace BugBuster\BotDetection;
 /**
  * Class ModuleBotDetection
  *
- * @copyright  Glen Langer 2007..2015 <http://contao.ninj>
+ * @copyright  Glen Langer 2007..2015 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
-class ModuleBotDetection extends \Frontend
+class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
 {
     
     /**
@@ -89,7 +89,7 @@ class ModuleBotDetection extends \Frontend
      */
     public function checkBotAllTests($UserAgent = false)
     {
-        if ( $this->BD_CheckBotAgent($UserAgent) == true )
+        if ( $this->BD_CheckBotAgent($UserAgent) == true ) //TODO New: CheckBotAgentSimple (BotsRough, BotsFine)
         {
             return true;
         }
@@ -101,13 +101,14 @@ class ModuleBotDetection extends \Frontend
 
         \BugBuster\BotDetection\CheckBotIp::setBotIpv4List(TL_ROOT . self::BOT_IP4_LIST);
         \BugBuster\BotDetection\CheckBotIp::setBotIpv6List(TL_ROOT . self::BOT_IP6_LIST);
+        
         if ( \BugBuster\BotDetection\CheckBotIp::checkIP() == true )
         {
             return true;
         }
         else
         {
-            return $this->BD_CheckBotAgentAdvanced($UserAgent);
+            return $this->BD_CheckBotAgentAdvanced($UserAgent); //TODO New: CheckBotAgentExtended (Browscap + eigene Liste)
         }
     }
     

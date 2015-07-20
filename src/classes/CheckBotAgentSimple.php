@@ -1,10 +1,26 @@
 <?php
+
+/**
+ * Contao Open Source CMS, Copyright (C) 2005-2015 Leo Feyer
+ *
+ * BotDetection
+ *
+ * @copyright  Glen Langer 2007..2015 <http://contao.ninja>
+ * @author     Glen Langer (BugBuster)
+ * @package    BotDetection
+ * @license    LGPL
+ * @filesource
+ * @see        https://github.com/BugBuster1701/botdetection
+ */
+
 namespace BugBuster\BotDetection;
 
 /**
+ * Class CheckBotAgentSimple 
  *
- * @author bibo
- *        
+ * @copyright  Glen Langer 2015 <http://contao.ninja>
+ * @author     Glen Langer (BugBuster)
+ * @package    BotDetection
  */
 class CheckBotAgentSimple
 {
