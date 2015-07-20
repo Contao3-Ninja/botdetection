@@ -62,20 +62,36 @@ class CheckBotIp
         // Check if IP present
         if ($UserIP === false)
         {
-            if (\Environment::get('remoteAddr'))
+            if (\Environment::get('ip'))
             {
-                if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP
+                if (strpos(\Environment::get('ip'), ',') !== false) //first IP
                 {
-                    $UserIP =  trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
+                    $UserIP =  trim(substr(\Environment::get('ip'), 0, strpos(\Environment::get('ip'), ',')));
                 }
                 else
                 {
-                    $UserIP = trim(\Environment::get('remoteAddr'));
+                    $UserIP = trim(\Environment::get('ip'));
                 }
             }
             else
             {
                 return false; // No IP, no search.
+            }
+            //Test for private IPs
+            if ( true === static::checkPrivateIP($UserIP) &&
+                false === empty($_SERVER['HTTP_X_FORWARDED_FOR'])
+            )
+            {
+                //second try
+                $HTTPXFF = $_SERVER['HTTP_X_FORWARDED_FOR'];
+                $_SERVER['HTTP_X_FORWARDED_FOR'] = '';
+            
+                $UserIP = \Environment::get('ip');
+                if (strpos($UserIP, ',') !== false) //first IP
+                {
+                    $UserIP = trim( substr($UserIP, 0, strpos($UserIP, ',') ) );
+                }
+                $_SERVER['HTTP_X_FORWARDED_FOR'] = $HTTPXFF;
             }
         }
         // IPv4 or IPv6 ?
@@ -435,6 +451,16 @@ class CheckBotIp
 		return false; // no (valid) IP Address
 	}
     	
+	/**
+	 * Check if an IP address is from private or reserved ranges.
+	 *
+	 * @param string $UserIP
+	 * @return boolean         true = private/reserved
+	 */
+	protected static function checkPrivateIP($UserIP=false)
+	{
+	    return !filter_var($UserIP, FILTER_VALIDATE_IP, FILTER_FLAG_NO_PRIV_RANGE | FILTER_FLAG_NO_RES_RANGE);
+	}
     	
     	
     	

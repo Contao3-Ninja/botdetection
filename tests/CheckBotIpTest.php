@@ -54,6 +54,33 @@ class CheckBotIpTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Tests CheckBotIp::checkPrivateIP()
+     */
+    public function testCheckPrivateIP()
+    {
+        $method = new \ReflectionMethod(
+                    //Class , Method
+                'BugBuster\BotDetection\CheckBotIp', 'checkPrivateIP'
+        );
+        $method->setAccessible(TRUE);
+        
+        $return = $method->invoke(new CheckBotIp,false);
+        $this->assertTrue($return);
+        
+        $return = $method->invoke(new CheckBotIp,'66.249.64.10');
+        $this->assertFalse($return);
+        
+        $return = $method->invoke(new CheckBotIp,'2001:4860:4801:1109:0:6006:1300:b075');
+        $this->assertFalse($return);
+        
+        $return = $method->invoke(new CheckBotIp,'192.168.17.01');
+        $this->assertTrue($return);
+        
+        $return = $method->invoke(new CheckBotIp,'fe80::a00:27ff:fe1a:672a');
+        $this->assertTrue($return);
+    }
+    
+    /**
      * Tests CheckBotIp::checkIP()
      */
     public function testCheckIP4()
