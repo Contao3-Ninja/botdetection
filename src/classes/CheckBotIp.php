@@ -117,6 +117,10 @@ class CheckBotIp
             $source = file($Bot_IPv4_List);
             foreach ($source as $line)
             {
+                if ($line[0] === '#')
+                {
+                    continue;
+                }
                 $lineleft = explode("#", $line); // Abtrennen Netzwerk/Mask von Bemerkung
                 $network = explode("/", trim($lineleft[0]));
                 if (!isset($network[1]))
