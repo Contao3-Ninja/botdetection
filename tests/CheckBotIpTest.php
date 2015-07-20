@@ -11,12 +11,6 @@ class CheckBotIpTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     *
-     * @var CheckBotIp
-     */
-    private $CheckBotIp;
-
-    /**
      * Prepares the environment before running a test.
      */
     protected function setUp()

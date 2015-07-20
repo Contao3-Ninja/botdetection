@@ -89,7 +89,7 @@ class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
      */
     public function checkBotAllTests($UserAgent = false)
     {
-        if ( $this->BD_CheckBotAgent($UserAgent) == true ) //TODO New: CheckBotAgentSimple (BotsRough, BotsFine)
+        if ( \BugBuster\BotDetection\CheckBotAgentSimple::checkAgent( \Environment::get('httpUserAgent') ) === true ) //(BotsRough, BotsFine)
         {
             return true;
         }
@@ -108,6 +108,7 @@ class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
         }
         else
         {
+            // \Environment::get('httpUserAgent')
             return $this->BD_CheckBotAgentAdvanced($UserAgent); //TODO New: CheckBotAgentExtended (Browscap + eigene Liste)
         }
     }
