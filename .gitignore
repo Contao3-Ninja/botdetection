@@ -2,4 +2,11 @@
 .gitignore
 # Transifex
 /.tx/
+#for development in vbox
+/vendor/
+composer.lock
+#IDE
+.buildpath
+.project
+.settings/
 
