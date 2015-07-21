@@ -80,8 +80,14 @@ class CheckBotAgentSimpleTest extends \PHPUnit_Framework_TestCase
      */
     public function testCheckAgentGlobals()
     {
-        //Tests über $GLOBALS['BOTDETECTION']['BOT_AGENT']
-        $this->markTestIncomplete("testCheckAgentGlobals test not implemented");
+        $GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("myprivate","My private bot");
+        $return = CheckBotAgentSimple::checkAgent('myprivate');
+        $this->assertTrue($return);
+        
+        unset($GLOBALS['BOTDETECTION']['BOT_AGENT']);
+        $GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("my browser","My Browser");
+        $return = CheckBotAgentSimple::checkAgent('myprivate');
+        $this->assertFalse($return);
     }
     
 }
