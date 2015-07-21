@@ -87,6 +87,19 @@ class CheckBotIpTest extends \PHPUnit_Framework_TestCase
         
         $return = CheckBotIp::checkIP('192.114.71.13' /* IPv4 Bot */);
         $this->assertTrue($return);
+        
+        $GLOBALS['TL_BOTDETECTION']['BOT_IP'][] = '192.168.1.2';
+        $GLOBALS['BOTDETECTION']['BOT_IP'][]    = '192.168.2.0/24';
+
+        $return = CheckBotIp::checkIP('192.168.1.2' /* IPv4 Bot */);
+        $this->assertTrue($return);
+        
+        $return = CheckBotIp::checkIP('192.168.2.2' /* IPv4 Bot */);
+        $this->assertTrue($return);
+        
+        $return = CheckBotIp::checkIP('192.168.3.2' /* No IPv4 Bot */);
+        $this->assertFalse($return);
+        
     }
     
     /**
@@ -105,6 +118,19 @@ class CheckBotIpTest extends \PHPUnit_Framework_TestCase
     
         $return = CheckBotIp::checkIP('::ffff:192.0.2.128' /* double quad notation for ipv4 mapped addresses */);
         $this->assertFalse($return);
+        
+        $GLOBALS['BOTDETECTION']['BOT_IPV6'][] = '2001:0db8::1'; 
+        $GLOBALS['BOTDETECTION']['BOT_IPV6'][] = '2001:0db8:85a3:0800::/56';
+        
+        $return = CheckBotIp::checkIP('2001:0db8::1' /* IPv6 Bot */);
+        $this->assertTrue($return);
+        
+        $return = CheckBotIp::checkIP('2001:db8:85a3:800::37' /* IPv6 Bot */);
+        $this->assertTrue($return);
+        
+        $return = CheckBotIp::checkIP('2001:db8:85a3:900::37' /* IPv6 no Bot */);
+        $this->assertFalse($return);
+        
     }
 }
 
