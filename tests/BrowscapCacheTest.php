@@ -8,6 +8,10 @@ if (file_exists(__DIR__ . '/../vendor/autoload.php'))
 {
     require_once __DIR__ . '/../vendor/autoload.php';
 }
+else 
+{
+    require_once __DIR__ . '/../../../../vendor/autoload.php';
+}
 
 function delTree($dir) 
 {
@@ -54,20 +58,16 @@ class BrowscapCacheTest extends \PHPUnit_Framework_TestCase
         $return  = false;
         
         //delete the cache
-        delTree($cachdir);
-        fwrite(STDOUT, 'Cache deleted, now generate the cache ...'. "\n");
+        //delTree($cachdir);
+        //fwrite(STDOUT, 'Cache deleted, now generate the cache ...'. "\n");
   
-        BrowscapCache::generateBrowscapCache(true); //TODO Proxy Daten als Parameter
+        $return = BrowscapCache::generateBrowscapCache(false); //TODO Proxy Daten als Parameter
         fwrite(STDOUT, 'Cache generated'. "\n");
-        if (file_exists($cachdir . '/largebrowscap.version')) 
-        {
-            $return = true;
-        }
-        else
-        {
+        if (!file_exists($cachdir . '/largebrowscap.version'))
+        { 
             fwrite(STDOUT, $cachdir . '/largebrowscap.version not found'. "\n");
         }
-        $this->assertTrue($return); 
+        $this->assertEquals('true', $return); 
         
     
     }

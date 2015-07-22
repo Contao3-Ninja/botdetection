@@ -1,0 +1,36 @@
+bc069c744801aaed8edee242537083d0 14 JUST-CRAWLER(*)
+bc365023c8f507a389933db05a7f5c93 28 Mozilla/4.79*(*Windows NT 4.0*)*	Mozilla/4.79*(*Windows NT 5.0*)*	Mozilla/4.79*(*Windows NT 5.1*)*
+bc365023c8f507a389933db05a7f5c93 26 Mozilla/4.79*(*Macintosh*PPC*)*
+bc365023c8f507a389933db05a7f5c93 21 Mozilla/4.79*(*Win2000*)*
+bc365023c8f507a389933db05a7f5c93 19 Mozilla/4.79*(*Linux*)*	Mozilla/4.79*(*Win95*)*	Mozilla/4.79*(*Win98*)*	Mozilla/4.79*(*WinNT*)*	Mozilla/4.79*(*SunOS*)*
+bc4eccc60389851686975c235f2f924d 15 LG-G7100 AU/4.1*
+bc64484fd47f5b075c2b7953180483ed 26 Opera/5.11*(*Windows NT 5.0*)*	Opera/5.11*(*Windows NT 4.0*)*	Opera/5.11*(*Windows NT 5.1*)*	Opera/5.11*(*Windows NT 5.2*)*	Opera/5.11*(*Windows NT 6.0*)*	Opera/5.11*(*Windows NT 6.1*)*	Opera/5.11*(*Windows NT 6.2*)*	Opera/5.11*(*Windows NT 6.3*)*	Opera/5.11*(*Mac OS X 10_10*)*	Opera/5.11*(*Mac OS X 10.10*)*
+bc64484fd47f5b075c2b7953180483ed 25 Opera/5.11*(*Mac OS X 10_4*)*	Opera/5.11*(*Mac OS X 10.4*)*	Opera/5.11*(*Mac OS X 10_5*)*	Opera/5.11*(*Mac OS X 10.5*)*	Opera/5.11*(*Mac OS X 10_6*)*	Opera/5.11*(*Mac OS X 10.6*)*	Opera/5.11*(*Mac OS X 10_7*)*	Opera/5.11*(*Mac OS X 10.7*)*	Opera/5.11*(*Mac OS X 10_8*)*	Opera/5.11*(*Mac OS X 10.8*)*	Opera/5.11*(*Mac OS X 10_9*)*	Opera/5.11*(*Mac OS X 10.9*)*
+bc64484fd47f5b075c2b7953180483ed 24 Opera/5.11*(*Windows 2000*)*
+bc64484fd47f5b075c2b7953180483ed 23 Opera/5.11*(*Win 9x 4.90*)*
+bc64484fd47f5b075c2b7953180483ed 22 Opera/5.11*(*Windows ME*)*	Opera/5.11*(*Windows 95*)*	Opera/5.11*(*Windows 98*)*
+bc64484fd47f5b075c2b7953180483ed 20 Opera/5.11*(*Mac OS X*)*
+bc64484fd47f5b075c2b7953180483ed 19 Opera/5.11*(*FreeBSD*)*
+bc64484fd47f5b075c2b7953180483ed 17 Opera/5.11*(*Linux*)*	Opera/5.11*(*SunOS*)*
+bc6a5943b84b30a99d9adabd0465bf19 9 Zookabot/*
+bc9054aa28ccffe86200e23392664609 29 Opera/9.62*(Nintendo Wii; U; *)
+bc9054aa28ccffe86200e23392664609 26 Opera/9.62*(*Windows NT 5.0*)*	Opera/9.62*(*Windows NT 4.0*)*	Opera/9.62*(*Windows NT 5.1*)*	Opera/9.62*(*Windows NT 5.2*)*	Opera/9.62*(*Windows NT 6.0*)*	Opera/9.62*(*Windows NT 6.1*)*	Opera/9.62*(*Windows NT 6.2*)*	Opera/9.62*(*Windows NT 6.3*)*	Opera/9.62*(*Mac OS X 10_10*)*	Opera/9.62*(*Mac OS X 10.10*)*
+bc9054aa28ccffe86200e23392664609 25 Opera/9.62*(*Mac OS X 10_4*)*	Opera/9.62*(*Mac OS X 10.4*)*	Opera/9.62*(*Mac OS X 10_5*)*	Opera/9.62*(*Mac OS X 10.5*)*	Opera/9.62*(*Mac OS X 10_6*)*	Opera/9.62*(*Mac OS X 10.6*)*	Opera/9.62*(*Mac OS X 10_7*)*	Opera/9.62*(*Mac OS X 10.7*)*	Opera/9.62*(*Mac OS X 10_8*)*	Opera/9.62*(*Mac OS X 10.8*)*	Opera/9.62*(*Mac OS X 10_9*)*	Opera/9.62*(*Mac OS X 10.9*)*
+bc9054aa28ccffe86200e23392664609 24 Opera/9.62*(*Windows 2000*)*
+bc9054aa28ccffe86200e23392664609 23 Opera/9.62*(*Win 9x 4.90*)*
+bc9054aa28ccffe86200e23392664609 22 Opera/9.62*(*Windows ME*)*	Opera/9.62*(*Windows 95*)*	Opera/9.62*(*Windows 98*)*
+bc9054aa28ccffe86200e23392664609 20 Opera/9.62*(*Mac OS X*)*
+bc9054aa28ccffe86200e23392664609 19 Opera/9.62*(*FreeBSD*)*
+bc9054aa28ccffe86200e23392664609 17 Opera/9.62*(*Linux*)*	Opera/9.62*(*SunOS*)*
+bc9c5f43c2ff8716b2fbac4abf31591e 57 ultrafone 303*Linux*Android?4.0* Release* Browser?AppleWebkit*
+bcd6154855f84ba2aa3c20266959858d 34 PHILIPS-SYSOL3/3.11 UP.Browser/5.0*
+bcd68622ca5b1eb070173602a56cdcc2 20 MOT-L7i/* MIB/BER2.2 *
+bcd6c0bfec3ab43fdb2aeedaa8a5cf82 12 MJ12bot/v0.8*
+bcd86603d1581bc43505f48dbfcb673b 31 SAGEM-myV-55/1.0* UP.Browser/6.2*
+bcd8b0c2eb1fce714eab6cef0d771acc 2 ()*
+bce0a956f699a78a6b6a803d236f2c3b 8 HTTPGrab
+bce103e84e0f735152285908b32fd4f1 112 MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?2.3*GT-N7100 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?4.0*GT-N7100 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?4.1*GT-N7100 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?2.3*GT-I9100 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?4.0*GT-I9100 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?4.1*GT-I9100 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+bce103e84e0f735152285908b32fd4f1 105 MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android*A5000 Build/*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+bce103e84e0f735152285908b32fd4f1 97 MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?2.3*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?4.0*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android?4.1*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+bce103e84e0f735152285908b32fd4f1 93 MQQBrowser/2.7*Mozilla/5.0 (*Linux*Android*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+bce60081d7e96c1bdc4047069d0f4178 30 iBrowser/2.5,Lava-Discover132/*

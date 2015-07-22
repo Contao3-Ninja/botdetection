@@ -38,12 +38,12 @@ class BrowscapCache
     
         // set HTTP proxy server (without authentication)
         $updater = new \Crossjoin\Browscap\Updater\Curl();
-        
+        /*
         $updater->setOptions(array(
                 'ProxyProtocol' => \Crossjoin\Browscap\Updater\AbstractUpdaterRemote::PROXY_PROTOCOL_HTTP,
                 'ProxyHost'     => '10.33.102.10',
                 'ProxyPort'     => '3128',
-        ));
+        ));*/
         \Crossjoin\Browscap\Browscap::setUpdater($updater);
     
     
@@ -53,6 +53,9 @@ class BrowscapCache
         \Crossjoin\Browscap\Browscap::update($force); //true = force Update
         //Returns RuntimeExceptions if error on update
 
+        $browscap = new \Crossjoin\Browscap\Browscap();
+        $settings = $browscap->getBrowser('Googlebot-Image/1.0')->getData();
+        return $settings->crawler;
     }
     
     

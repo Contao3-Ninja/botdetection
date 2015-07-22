@@ -1,0 +1,35 @@
+dd017aa884585c8b056302e3dafce362 14 GarlikCrawler/*
+dd0836499b0f7a222fdc5aea8c96f6b1 39 wp-iphone/* (*iPhone OS 8.0*, iPad) Mobile*
+dd0836499b0f7a222fdc5aea8c96f6b1 35 wp-iphone/* (*iPhone OS*, iPad) Mobile*
+dd0836499b0f7a222fdc5aea8c96f6b1 33 wp-iphone/* (*iPhone OS 8.0*) Mobile*
+dd0836499b0f7a222fdc5aea8c96f6b1 29 wp-iphone/* (*iPhone OS*) Mobile*
+dd0e63c35647352887ccf9377a54948e 12 GameSpyHTTP/*
+dd0ff5998b57a91b3635255e98dcd676 67 HTC_S740 Mozilla/4.0 (*compatible*;*MSIE 6.0; Windows CE; IEMobile 7.*)
+dd2e00781b3443715a4229134af15109 96 iBrowser/2.9* Mozilla/5.0 (*Linux*Android?2.2*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	iBrowser/2.9* Mozilla/5.0 (*Linux*Android?2.3*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	iBrowser/2.9* Mozilla/5.0 (*Linux*Android?4.0*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	iBrowser/2.9* Mozilla/5.0 (*Linux*Android?4.1*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	iBrowser/2.9* Mozilla/5.0 (*Linux*Android?4.2*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	iBrowser/2.9* Mozilla/5.0 (*Linux*Android?4.3*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	iBrowser/2.9* Mozilla/5.0 (*Linux*Android?4.4*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+dd2e00781b3443715a4229134af15109 92 iBrowser/2.9* Mozilla/5.0 (*Linux*Android*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+dd38259ba2c8b973a53e3a59def9d810 26 Mercury3/* CFNetwork/*Darwin*
+dd45532f5900ac86b938d217463b7a34 66 Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.9* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.8* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.7* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.6* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.5* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.4* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.3* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.2* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.1* U2/* Mobile*	Nokia205/* Profile/MIDP-2* UCWEB/2.0 (*) U2/* UCBrowser/9.0* U2/* Mobile*
+dd4581223ec2209118908fa716e0cc18 36 SAMSUNG-SGH-E330C/1.0 UP.Browser/6.2*
+dd56b9ee1874882ee1893ed036548a13 42 wp-iphone/4.4 (*iPhone OS 8.0*, iPad) Mobile*
+dd56b9ee1874882ee1893ed036548a13 38 wp-iphone/4.4 (*iPhone OS*, iPad) Mobile*
+dd56b9ee1874882ee1893ed036548a13 36 wp-iphone/4.4 (*iPhone OS 8.0*) Mobile*
+dd56b9ee1874882ee1893ed036548a13 32 wp-iphone/4.4 (*iPhone OS*) Mobile*
+dd5b959833e219c36151d647b47e93cb 23 Tcl http client package*
+dd66152172de45bac580a6440cdd2987 17 Python-urllib/2.7*
+dd8a9ecc2bbe1a5552820b93e4cfe60b 44 NOKIA-RH-34/V H100V0603.nep.0 UP.Browser/6.2*
+dd8a9ecc2bbe1a5552820b93e4cfe60b 29 NOKIA-RH-34/V * UP.Browser/6.2*
+dd973c0b062c7ab3d3f8e3c414daf8d0 47 wwwster/* (Beta, mailto:gue@cis.uni-muenchen.de)
+ddc9a0c1bc9766b26ef44f1c22715658 39 python-requests/2.4* CPython/*Linux*x86_64*
+ddc9a0c1bc9766b26ef44f1c22715658 38 python-requests/2.4* CPython/*Linux i686*
+ddc9a0c1bc9766b26ef44f1c22715658 33 python-requests/2.4* CPython/*Linux*
+ddc9a0c1bc9766b26ef44f1c22715658 19 python-requests/2.4*
+ddce854a77ec17b2944cda82f9210ad3 103 MQQBrowser/*Mozilla/5.0 (iPhone*CPU iPhone OS 5?1* like Mac OS X*) AppleWebKit/* (KHTML, like Gecko) *Safari/*
+ddce854a77ec17b2944cda82f9210ad3 100 MQQBrowser/*Mozilla/5.0 (iPhone*CPU iPhone OS * like Mac OS X*) AppleWebKit/* (KHTML, like Gecko) *Safari/*
+ddce854a77ec17b2944cda82f9210ad3 97 MQQBrowser/*Mozilla/5.0 (*CPU iPhone OS 5?1* like Mac OS X*) AppleWebKit/* (KHTML, like Gecko) *Safari/*
+ddce854a77ec17b2944cda82f9210ad3 94 MQQBrowser/*Mozilla/5.0 (*Linux*Android?2.3*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/*Mozilla/5.0 (*Linux*Android?4.0*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/*Mozilla/5.0 (*Linux*Android?4.1*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*	MQQBrowser/*Mozilla/5.0 (*CPU iPhone OS * like Mac OS X*) AppleWebKit/* (KHTML, like Gecko) *Safari/*
+ddce854a77ec17b2944cda82f9210ad3 90 MQQBrowser/*Mozilla/5.0 (*Linux*Android*) AppleWebKit/* (KHTML, like Gecko) Version/4.0 *Safari/*
+ddd48867a549c92631e1dfdead6fea5e 37 MOT-A1200r/* LinuxOS/* Browser/Opera8.0*
+dddea753a74b4b68e60006e7c4badf40 137 E28/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1,E28/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1
+dddea753a74b4b68e60006e7c4badf40 68 e28/1.0.0.0(2005.09.20)/WAP2.0 Profile/MIDP2.0 Configuration/CLDC1.1
+ddf39bfae6573a848620580383868d31 45 Mitsu-M800/(2005.01.19)VER_04.06.25/WAP1.2.1 *
+ddff1a8ccb2be73a9ebba789171dbf7c 10 Mechanize/*
