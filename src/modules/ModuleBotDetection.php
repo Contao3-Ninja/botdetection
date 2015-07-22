@@ -108,8 +108,8 @@ class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
         }
         else
         {
-            // \Environment::get('httpUserAgent')
-            return $this->BD_CheckBotAgentAdvanced($UserAgent); //TODO New: CheckBotAgentExtended (Browscap + eigene Liste)
+            //TODO New: CheckBotAgentExtended (Browscap + eigene Liste)
+            return \BugBuster\BotDetection\CheckBotAgentSimple::checkAgent( \Environment::get('httpUserAgent') );
         }
     }
     
