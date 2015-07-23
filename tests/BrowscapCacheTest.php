@@ -56,16 +56,45 @@ class BrowscapCacheTest extends \PHPUnit_Framework_TestCase
     {
         $cachdir = __DIR__ . '/../src/cache';
         $return  = false;
+        $proxy   = false;
         
+        
+        if (isset($_SERVER["HTTP_PROXY"])) 
+        {
+            $proxy = parse_url($_SERVER["HTTP_PROXY"]);
+        }
+        elseif (isset($_SERVER["http_proxy"])) 
+        {
+            $proxy = parse_url($_SERVER["http_proxy"]);
+        }
+        
+        if ($proxy) 
+        {
+            $arrProxy = array('ProxyHost' => $proxy['host']
+                             ,'ProxyPort' => $proxy['port']);
+            fwrite(STDOUT, 'Using ProxyHost: '.$proxy['host']    . "\n");
+            fwrite(STDOUT, 'Using ProxyPort: '.$proxy['port']  . "\n\n");
+        }
+        else
+        {
+            $arrProxy = false;
+            fwrite(STDOUT, 'If a proxy server is required to access the internet,'. "\n");
+            fwrite(STDOUT, 'define the environment variable HTTP_PROXY'           . "\n");
+            fwrite(STDOUT, '(export HTTP_PROXY=http://192.168.17.01:3128)'      . "\n\n");
+        }
         //delete the cache
         //delTree($cachdir);
         //fwrite(STDOUT, 'Cache deleted, now generate the cache ...'. "\n");
-  
-        $return = BrowscapCache::generateBrowscapCache(false); //TODO Proxy Daten als Parameter
-        fwrite(STDOUT, 'Cache generated'. "\n");
+        
+        $return = BrowscapCache::generateBrowscapCache(false, $arrProxy);
+        
         if (!file_exists($cachdir . '/largebrowscap.version'))
         { 
             fwrite(STDOUT, $cachdir . '/largebrowscap.version not found'. "\n");
+        }
+        else
+        {
+            fwrite(STDOUT, 'Cache generated'. "\n");
         }
         $this->assertEquals('true', $return); 
         

@@ -24,16 +24,6 @@ namespace BugBuster\BotDetection;
  */
 class CheckBotAgentExtended
 {
-    // TODO - Insert your code here
-    
-    /**
-     */
-    function __construct()
-    {
-        
-        // TODO - Insert your code here
-    }
-    
     
     public static function checkAgent($UserAgent=false)
     {
@@ -60,7 +50,7 @@ class CheckBotAgentExtended
     
     
     
-    
+        return false;
     }
     
     /**
@@ -120,15 +110,5 @@ class CheckBotAgentExtended
          */
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-}
 
+}
