@@ -46,9 +46,11 @@ class BrowscapCache
         if (false !== $arrProxy) 
         {
             $updater->setOptions(array(
-                    'ProxyProtocol' => \Crossjoin\Browscap\Updater\AbstractUpdaterRemote::PROXY_PROTOCOL_HTTP,
+                    'ProxyProtocol' => $arrProxy['ProxyProtocol'],
                     'ProxyHost'     => $arrProxy['ProxyHost'],
                     'ProxyPort'     => $arrProxy['ProxyPort'],
+                    'ProxyUser'     => $arrProxy['ProxyUser'],
+                    'ProxyPassword' => $arrProxy['ProxyPassword']
             ));
         }
         

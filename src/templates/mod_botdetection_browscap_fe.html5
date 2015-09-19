@@ -1,0 +1,17 @@
+<!-- indexer::stop -->
+<section class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<?php if ($this->headline): ?>
+<<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+<?php endif; ?>
+
+	<div class="botdetection_generate_cache_fe">
+		<h1>FE Module: Generate Botdetection Browscap Cache</h1>
+		<p>Status: <?php echo $this->return; ?></p>
+		<p>Version vorher: <?php echo $this->before; ?></p>
+		<p>Pfad(e) vorher: <?php echo $this->before_path; ?></p>
+		<p>Version nachher: <?php echo $this->after; ?></p>
+		<p>Pfad(e) nachher: <?php echo $this->after_path; ?></p>
+		
+	</div>
+</section>
+<!-- indexer::continue -->

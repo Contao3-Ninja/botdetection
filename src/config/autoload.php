@@ -2,12 +2,10 @@
 
 /**
  * Contao Open Source CMS
- * 
- * Copyright (C) 2005-2012 Leo Feyer
- * 
- * @package Botdetection
- * @link    http://contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ *
+ * Copyright (c) 2005-2015 Leo Feyer
+ *
+ * @license LGPL-3.0+
  */
 
 
@@ -26,9 +24,15 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Modules
-	'BugBuster\BotDetection\ModuleBotDetection'     => 'system/modules/botdetection/modules/ModuleBotDetection.php',
-	'BugBuster\BotDetection\ModuleFrontendDemo1'    => 'system/modules/botdetection/modules/ModuleFrontendDemo1.php',
-	'BugBuster\BotDetection\ModuleFrontendDemo2'    => 'system/modules/botdetection/modules/ModuleFrontendDemo2.php',
+	'BugBuster\BotDetection\ModuleBotDetection'    => 'system/modules/botdetection/modules/ModuleBotDetection.php',
+	'BugBuster\BotDetection\ModuleBrowscapCache'   => 'system/modules/botdetection/modules/ModuleBrowscapCache.php',
+
+	// Classes
+	'BugBuster\BotDetection\CheckBotAgentExtended' => 'system/modules/botdetection/classes/CheckBotAgentExtended.php',
+	'BugBuster\BotDetection\CheckBotAgentSimple'   => 'system/modules/botdetection/classes/CheckBotAgentSimple.php',
+	'BugBuster\BotDetection\BrowscapCache'         => 'system/modules/botdetection/classes/BrowscapCache.php',
+	'BugBuster\BotDetection\CheckBotReferrer'      => 'system/modules/botdetection/classes/CheckBotReferrer.php',
+	'BugBuster\BotDetection\CheckBotIp'            => 'system/modules/botdetection/classes/CheckBotIp.php',
 ));
 
 
@@ -37,6 +41,7 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'mod_botdetection_demo1_fe' => 'system/modules/botdetection/templates',
-	'mod_botdetection_demo2_fe' => 'system/modules/botdetection/templates',
+	'mod_botdetection_browscap_fe' => 'system/modules/botdetection/templates',
+	'mod_botdetection_demo2_fe'    => 'system/modules/botdetection/templates',
+	'mod_botdetection_demo1_fe'    => 'system/modules/botdetection/templates',
 ));
