@@ -43,7 +43,7 @@ class CheckBotAgentExtended
         $objBrowscap = static::getBrowscapInfo($UserAgent);
         if ($objBrowscap->crawler == 'true') 
         {
-            fwrite(STDOUT, 'Bot: '.print_r($objBrowscap->browser_type,true) . "\n");
+            // Debug fwrite(STDOUT, 'Bot: '.print_r($objBrowscap->browser_type,true) . "\n");
             return true;
         }
         
