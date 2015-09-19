@@ -61,8 +61,9 @@ class CheckBotAgentExtendedTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($return);
         
         /* Bot */
-        $return = CheckBotAgentExtended::checkAgent('iBusiness Shopcrawler'); // Kennt Browscap Nicht
-        $this->assertFalse($return);
+        // Kennt Browscap nicht, aber die eigene Liste
+        $return = CheckBotAgentExtended::checkAgent('iBusiness Shopcrawler'); 
+        $this->assertTrue($return);
         
     
     }

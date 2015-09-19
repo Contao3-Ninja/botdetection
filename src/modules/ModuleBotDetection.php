@@ -25,7 +25,7 @@ namespace BugBuster\BotDetection;
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
-class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
+class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \System ?
 {
     
     /**
@@ -44,7 +44,7 @@ class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
     public function __construct()
     {
         // Issue #59
-        $this->getUser();
+        //$this->getUser(); //TODO Testweise entfernt durch extends \System nicht mehr nötig? 
         parent::__construct();
     }
     
@@ -108,7 +108,7 @@ class ModuleBotDetection extends \Frontend //TODO reicht hier nicht \System ?
         }
         else
         {
-            //TODO New: CheckBotAgentExtended (Browscap + eigene Liste)
+            //CheckBotAgentExtended (Browscap + eigene Liste)
             return \BugBuster\BotDetection\CheckBotAgentExtended::checkAgent( \Environment::get('httpUserAgent') );
         }
     }

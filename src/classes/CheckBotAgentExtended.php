@@ -47,9 +47,35 @@ class CheckBotAgentExtended
             return true;
         }
         
-        //TODO Search in own extended list  
-    
-    
+        // Search in bot-agent-list
+        if (file_exists(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'config/bot-agent-list.php'))
+        {
+            include(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'config/bot-agent-list.php');
+        }
+        else
+        {
+            return false;	// no definition, no search
+        }
+        // search for user bot filter definitions in localconfig.php
+        if ( isset($GLOBALS['BOTDETECTION']['BOT_AGENT']) )
+        {
+            foreach ($GLOBALS['BOTDETECTION']['BOT_AGENT'] as $search)
+            {
+                $botagents[$search[0]] = $search[1];
+            }
+        }
+        $num = count($botagents);
+        $arrBots = array_keys($botagents);
+        $found = false;
+        for ($c=0; $c < $num; $c++)
+        {
+            $CheckUserAgent = str_ireplace($arrBots[$c], '#', $UserAgent);
+            if ($UserAgent != $CheckUserAgent)
+            {   // found
+                // Debug fwrite(STDOUT, 'Bot: '.print_r($botagents[$arrBots[$c]],true) . "\n");
+                return true;
+            }
+        }
     
         return false;
     }
