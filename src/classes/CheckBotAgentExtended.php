@@ -47,7 +47,7 @@ class CheckBotAgentExtended
             return true;
         }
         
-        //Search in own extended list  
+        //TODO Search in own extended list  
     
     
     
@@ -78,10 +78,10 @@ class CheckBotAgentExtended
         $updater = new \Crossjoin\Browscap\Updater\None(); 
         \Crossjoin\Browscap\Browscap::setUpdater($updater);
         
-        $parser = new \Crossjoin\Browscap\Parser\IniLt55();
-        \Crossjoin\Browscap\Browscap::setParser($parser);
+        //$parser = new \Crossjoin\Browscap\Parser\IniLt55();
+        //\Crossjoin\Browscap\Browscap::setParser($parser);
         
-        $browscap = new \Crossjoin\Browscap\Browscap();
+        $browscap = new \Crossjoin\Browscap\Browscap(false); //autoUpdate = false
         $settings = $browscap->getBrowser($UserAgent)->getData();
         
         return $settings;
