@@ -1,0 +1,12 @@
+f019eda04a924fb5c34995b885502e97 32 SAGEM\-myX[\d]\-[\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+f02240a45422157cdfa5b088a75682c2 11 Netvibes \(.*\)
+f03294fc63ae7fba6f5830a4a98ef544 12 Experibot_v[\d].*
+f03e17f2a9dfe83b359de674d6df334b 32 BlackBerry[\d][\d][\d][\d]\/[\d]\..* UP\.Browser\/[\d]\.[\d].*
+f04d44aec5b4759393ce1613c209b780 23 UniversalFeedParser\/[\d]\.[\d].*
+f05a225e14ff5e194a8eef0c6990cefb 20 IC OpenGraph Crawler.*
+f078e16721cef6be6f0bc7c30d160994 8 Privoxy\/.*
+f0881f2fea48a2379fa20d4fb3cb3043 19 BlackBerry[\d][\d][\d][\d]e\/[\d]\.[\d].*
+f0954731699823fde09574ca8b90d624 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+f09b6ac63987dc410c23528889319c08 15 BrowscapUpdater.*
+f0ce60f2cfb25cbc6379d5fd3de55d2a 29 LGE\-AX[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+f0e1277f1af82a5d3be5c3f04b659dae 77 acer_S[\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows NT [\d]\.[\d]; Windows Phone [\d]\..*\)

@@ -1,0 +1,20 @@
+2e441c27cf427255735921aa7bd6e4e6 24 MetaGeneratorCrawler\/[\d]\.[\d].*
+2e4ef6d3f9d4d5dfb4c922cc9526ab15 28 FastBrowser.* CFNetwork\/.*Darwin.*
+2e58b2d26403e6f999fcf1c39fdca825 38 SonyEricssonU[\d]iv\/.* Browser\/NetFront\/[\d]\.[\d].*
+2e58b2d26403e6f999fcf1c39fdca825 28 SonyEricssonU[\d]iv\/.*\(SymbianOS\/.*
+2e7764a4222edf0c63c29599d262a2f3 23 LG\-GX[\d][\d][\d]\/.* Obigo\/WAP[\d]\.[\d] .*
+2e9632cdc67abfa77cb53f815852aa5c 20 LG\-G[\d][\d][\d]\/V[\d][\d][\d]\/WAP[\d]\.[\d] .*
+2e97cb839b00652dd154945aedab4f3d 15 LG\-G[\d][\d][\d][\d] AU\/[\d]\.[\d].*
+2ec7085195872d22843031ae9066e252 23 SCH\-R[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+2ed32347338bee4c415b13457caed3f0 37 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*Win[\d][\d]. x[\d][\d].*\).*
+2ed32347338bee4c415b13457caed3f0 32 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*WOW[\d][\d].*\).*
+2ed32347338bee4c415b13457caed3f0 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+2ed32347338bee4c415b13457caed3f0 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+2ed32347338bee4c415b13457caed3f0 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+2ed32347338bee4c415b13457caed3f0 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*x[\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+2ed32347338bee4c415b13457caed3f0 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux i[\d][\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+2ed32347338bee4c415b13457caed3f0 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+2ed32347338bee4c415b13457caed3f0 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+2ed32347338bee4c415b13457caed3f0 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+2ed459cfd33e1685cccfcf8b92132508 33 [\d][\d][\d][\d]\/[\d]\.[\d] \(.*; Series[\d][\d]\/.*; SymbianOS\/.*
+2eff5533143cfd9e9006bf63bb3b0891 26 iOS\/[\d]\.[\d].* \(.*\) dataaccessd\/[\d]\.[\d].*

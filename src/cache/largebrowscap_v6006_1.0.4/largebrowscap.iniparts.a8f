@@ -1,0 +1,30 @@
+a8fdfddd0e236e5a0e9a61ff64e1af0b{"Parent":"E-Mail Harvesters","Browser":"EMailWolf"}
+a8f24fd925238ba6eed04cfcca49b492{"Parent":"Avant\/IE 8.0","Browser_Bits":"64","Platform":"WinVista","Platform_Version":"6.0","Platform_Description":"Windows Vista","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true"}
+a8ff1e07c48e0fee925d628fd6f7d1ab{"Parent":"Facebook App 21.0 for iOS","Platform_Version":"7.1"}
+a8f28017563f2e7e16cd5531d887c4e2{"Parent":"Facebook App 14.4 for iOS","Platform_Version":"7.0","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+a8ffe8e314bfc2cbfa578cf8198cab10{"Parent":"Facebook App 14.2 for iOS","Platform_Version":"7.1"}
+a8f39ccdc87d03a3b772ace2c05fe9a2{"Parent":"Facebook App 6.4 for iOS","Platform_Version":"4.3","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+a8f0bc13b2c05f795208bd16b2f8625f{"Parent":"Facebook App 6.4 for iOS","Platform_Version":"5.0"}
+a8f83fa3b63a655db2b5014a2a5ab529{"Parent":"Facebook App 3.9 for iOS","Platform_Version":"7.1"}
+a8fc10260915b6d0989f842fbc231207{"Parent":"Facebook App 3.2 for iOS","Platform_Version":"3.0"}
+a8f7c0808239fb8db0c5ff31143647a3{"Parent":"Android WebView 4.4","Platform_Version":"4.0"}
+a8f7e84ce139c2de798f86886e0ea396{"Parent":"Android WebView 4.1","Platform_Version":"4.0","Device_Name":"Galaxy S III","Device_Maker":"Samsung","Device_Code_Name":"GT-I9300","Device_Brand_Name":"Samsung"}
+a8f4714a66a6e2409ca632eeda7b31c2{"Parent":"Android WebView 1.6","Platform_Version":"4.0","Device_Name":"Galaxy S II","Device_Maker":"Samsung","Device_Pointing_Method":"unknown","Device_Code_Name":"GT-I9100T","Device_Brand_Name":"Samsung"}
+a8f94ed2ddb16500b01d74cc39f7f44d{"Parent":"Android WebView 1.6","Platform_Version":"4.0","Device_Name":"Xperia Arc HD","Device_Maker":"SonyEricsson","Device_Code_Name":"LT26i","Device_Brand_Name":"SonyEricsson"}
+a8f45b30ba257f8292f7bb27d997ad68{"Parent":"Android WebView 1.6","Platform_Version":"4.2","Device_Name":"Galaxy S4","Device_Maker":"Samsung","Device_Code_Name":"GT-I9500","Device_Brand_Name":"Samsung"}
+a8fd85504898b9aeebdcb08b9701b7f2{"Parent":"Opera 11.70","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.7","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+a8f31df7055e9774a15f4699aa1a4697{"Parent":"Opera 7.22","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a8f6ca2f796ba08d926109e637ec3348{"Parent":"Google App 4.2","Platform_Version":"8.1","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+a8f854c31c6ad5897ce02ab8150c5af3{"Parent":"UC Browser 9.6","Platform":"JAVA","Platform_Maker":"Oracle","Device_Name":"205","Device_Maker":"Nokia","Device_Pointing_Method":"unknown","Device_Code_Name":"205","Device_Brand_Name":"Nokia","RenderingEngine_Name":"U2","RenderingEngine_Description":"a WebKit Fork by UC Web","RenderingEngine_Maker":"UC Web"}
+a8f2d53cfd574df0e5c851d4951401e6{"Parent":"Silk 3.34","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire HD 8.9","Device_Type":"Tablet","Device_Code_Name":"KFJWA"}
+a8f270ac47dee52a79dc95dce7f17fa6{"Parent":"Vivaldi 1.0","Browser_Bits":"32","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a8f7cd678f533e65c10acf1c37ad855f{"Parent":"Chrome 43.0","Browser_Bits":"32","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a8ff38c4ea13d328d595321f69c6ca1a{"Parent":"Chrome 34.0 for Android","Platform_Version":"4.4","isTablet":"true","Device_Name":"Yoga Tab 10 HD+","Device_Maker":"Lenovo","Device_Type":"Tablet","Device_Code_Name":"B8080-F","Device_Brand_Name":"Lenovo"}
+a8f9b4d29c3e26933ef85a0f91f1e24b{"Parent":"Chrome 23.0 for iOS","Platform_Version":"4.2"}
+a8f09eade8ee5b63641d2267ac8b81a4{"Parent":"Android Browser 4.1","Platform_Version":"unknown"}
+a8f41fff503219bacb03741ab89d3293{"Parent":"Mobile Safari Generic","Platform_Version":"7.0"}
+a8f505d79ab08f8a6bd7f3cc2fbb2895{"Parent":"Adobe Dreamweaver 13.0","Browser_Bits":"32","Platform":"Win32","Platform_Description":"Windows","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a8f421007bbc7c161961f69cf83bc647{"Parent":"Firefox 34.0","Browser_Bits":"32","Platform":"MacPPC","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple","RenderingEngine_Name":"Tasman","RenderingEngine_Description":"For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."}
+a8fb5b009bde87f2c4ee5a49452ffc01{"Parent":"Firefox 7.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a8f69756ace8500a096db88fa4aeb09d{"Parent":"Openwave Mobile Browser 7.2"}
+a8fd9f9b7b17810b1be274e172128d6e{"Parent":"Openwave Mobile Browser 6.2"}

@@ -1,0 +1,36 @@
+cbac9c2dd5ffb727a15eeeccedba5390{"Parent":"General Crawlers","Browser":"WeBoX"}
+cba27a5e8f6e6270003b6277314d9b94{"Parent":"DefaultProperties","Comment":"Screaming Frog SEO Spider 2.00","Browser":"Screaming Frog SEO Spider","Browser_Type":"Bot\/Crawler","Version":"2.00","MajorVer":"2","MinorVer":"00","Crawler":"true"}
+cbad8e07edb334a39482abbdeaf40621{"Parent":"Facebook App 16.0 for iOS","Platform_Version":"8.0"}
+cba5c4cd675c83cf9864fafaa0b1b67c{"Parent":"Facebook App 14.5 for iOS","Platform_Version":"3.0","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+cba7e289fb44dcb37bd4f83d5d96b818{"Parent":"Facebook App 5.4 for iOS","Platform_Version":"4.1","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+cbac00ceacd1aeea9e3b6e1de8aa59fe{"Parent":"Facebook App 3.8 for iOS","Platform_Version":"3.0","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+cbab34b9daf28ab4fb78f287c0d6e923{"Parent":"Facebook App 3.4 for Android","Platform_Version":"5.0","Device_Name":"Galaxy S5 LTE","Device_Maker":"Samsung","Device_Code_Name":"SM-G900F","Device_Brand_Name":"Samsung"}
+cba5b0725d78c051c564a0e0e2f6e8c8{"Parent":"Facebook App 3.3 for iOS","Platform_Version":"5.1"}
+cba8c00bf795e4d3e6c9dde361f13c29{"Parent":"Facebook App 3.0 for iOS","Platform_Version":"8.1"}
+cba04b3c52d38b08870ff476dd39ea27{"Parent":"Android WebView 4.4","Platform_Version":"4.0","isTablet":"true","Device_Name":"Galaxy Note 10.1","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-N8010","Device_Brand_Name":"Samsung"}
+cbafda7d759f6884c71963cfdd3e3c88{"Parent":"Android WebView 4.2","Platform_Version":"2.3","Device_Name":"Galaxy S II LTE","Device_Maker":"Samsung","Device_Code_Name":"GT-I9210","Device_Brand_Name":"Samsung"}
+cba49d6d6e6fdcfd4062fcab411c90b6{"Parent":"Fake Browser","Browser_Bits":"32","Platform":"WinNT","Platform_Version":"4.0","Platform_Description":"Windows NT","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true"}
+cbad4331381671103d656d35443a461c{"Parent":"Opera Mobile 17.0 for Android"}
+cba443535db0852ce82e99167b78655e{"Parent":"Opera 20.0","Browser_Bits":"64","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"64","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+cba8dab6ff1248f79b74af5ddc21fda9{"Parent":"Opera 18.0","Browser_Bits":"32","Platform":"Win8.1","Platform_Version":"6.3","Platform_Description":"Windows 8.1","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+cba608ec4c29893287e6fe8f18af2891{"Parent":"Opera 12.12","Browser_Bits":"32","Platform":"WinNT","Platform_Version":"4.0","Platform_Description":"Windows NT","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+cba29fc9ba28f86a789c2a942657a772{"Parent":"Opera 3.62","Browser_Bits":"32","Platform":"Win98","Platform_Version":"98","Platform_Description":"Windows 98","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+cba49b571357a1cab696cd34dc8045e6{"Parent":"UC Browser 7.5","Platform_Version":"4.1"}
+cba9225057d1be0a2772801c811ef3f6{"Parent":"Silk 3.52","Platform_Version":"4.3"}
+cba3cd26b04ad433d10cf715b21a04d9{"Parent":"Silk 3.5","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire HD 8.9","Device_Type":"Tablet","Device_Code_Name":"KFJWA"}
+cbadb44941d10ef1b9a5a325d20b9100{"Parent":"Chrome 43.0 for Android","Platform_Version":"4.4","Device_Name":"Nexus 4","Device_Maker":"LG","Device_Code_Name":"Nexus 4","Device_Brand_Name":"Google"}
+cbab44fd34bf942b7b63c24bb0657946{"Parent":"Chrome 42.0 for Android","Platform_Version":"4.1","Device_Name":"Galaxy Note II","Device_Maker":"Samsung","Device_Code_Name":"SCH-I605","Device_Brand_Name":"Samsung"}
+cba12692b6785c4032471853f5f816e5{"Parent":"Chrome 40.0 for Android","Platform_Version":"4.0","Device_Name":"Xperia L","Device_Maker":"Sony","Device_Code_Name":"C2105","Device_Brand_Name":"Sony"}
+cba13f18aff878d471759ac97b42b03d{"Parent":"Chrome 37.0 for Android","Platform_Version":"4.4","isTablet":"true","Device_Name":"Galaxy Tab 3 10.1","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P5210","Device_Brand_Name":"Samsung"}
+cba5d9a3fb9003860185f5a1c922c7bb{"Parent":"Chrome 31.0 for Android","Platform_Version":"4.1","isTablet":"true","Device_Name":"Galaxy Tab 2 7.0","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P3110","Device_Brand_Name":"Samsung"}
+cbab491ea867269558b15d5bc2206f88{"Parent":"Chrome 28.0 for Android","Platform_Version":"4.3","Device_Name":"E975","Device_Maker":"LG","Device_Pointing_Method":"unknown","Device_Code_Name":"E975","Device_Brand_Name":"LG"}
+cba8943f4644e00aaee191049c8d21e5{"Parent":"Chrome 27.0 for Android","Platform_Version":"4.1","Device_Name":"Galaxy S III LTE International","Device_Maker":"Samsung","Device_Code_Name":"GT-I9305","Device_Brand_Name":"Samsung"}
+cbabae6a381b801d2a93cfc303e17c17{"Parent":"Chrome 26.0 for Android","Platform_Version":"4.0","Device_Name":"Optimus L9","Device_Maker":"LG","Device_Pointing_Method":"unknown","Device_Code_Name":"P760","Device_Brand_Name":"LG"}
+cbacd6c6485f08204c6bfefc4257e3b7{"Parent":"Chrome 25.0 for Android","Platform_Version":"4.0","Device_Name":"Droid Razr HD","Device_Maker":"Motorola","Device_Code_Name":"XT923","Device_Brand_Name":"Motorola"}
+cbaca66ae8c62457186a6d3d35107a97{"Parent":"Qt 4.5","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.1","Platform_Description":"Windows XP","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+cba46028b103de91c861b760efb23ac4{"Parent":"Nokia Proxy Browser 2.0","Device_Name":"220","Device_Code_Name":"220"}
+cbaea039cff71a7ccd7795d7ed38deeb{"Parent":"Android Browser 4.1","isTablet":"true","Device_Name":"TAB 824","Device_Maker":"Intenso","Device_Type":"Tablet","Device_Code_Name":"INM8002KP","Device_Brand_Name":"Intenso"}
+cba27343511ea56b19a184e516fb5d49{"Parent":"Android Browser 4.0","Platform_Version":"4.1","Device_Name":"Optimus L7 II","Device_Maker":"LG","Device_Code_Name":"P710","Device_Brand_Name":"LG"}
+cbad3f0033a8e2cc7785adfee61b8a71{"Parent":"Firefox 41.0","Browser_Bits":"64","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+cba423c03f2ad0fd3dee5f82ca764a1d{"Parent":"Firefox 35.0","Browser_Bits":"32","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"64","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+cbada2256f917c121c4425cb5c99faea{"Parent":"Teleca-Obigo","Device_Name":"GS290","Device_Maker":"LG","Device_Code_Name":"GS290","Device_Brand_Name":"LG"}

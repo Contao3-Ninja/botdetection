@@ -1,0 +1,17 @@
+43bbaeb60af7b1683bcb74b5d27edd60{"Parent":"Maxthon Nitro 1.0","Platform":"WinVista","Platform_Version":"6.0","Platform_Description":"Windows Vista","Platform_Bits":"64","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+43b2aa9feba5065ab244ff830f1fc9c3{"Parent":"Facebook App 14.3 for iOS","Platform_Version":"3.2"}
+43b7576031032b0b320a9d0cacc5c2e9{"Parent":"Facebook App 6.5 for iOS","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+43b1928c327fc407ce667b7560aca090{"Parent":"Android WebView 4.4","Platform_Version":"4.1","isTablet":"true","Device_Name":"Galaxy Tab 3 7.0","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"SM-T210","Device_Brand_Name":"Samsung"}
+43b653f22dcdeab628650b9fcfa2b6f6{"Parent":"Android WebView 4.2","Platform_Version":"2.3","Device_Name":"Wildfire S","Device_Maker":"HTC","Device_Pointing_Method":"unknown","Device_Code_Name":"A510","Device_Brand_Name":"HTC"}
+43b38166e6589a32b3886fd26b329f75{"Parent":"Opera Mobile 28.0 for Android","Platform_Version":"4.2","isTablet":"true","Device_Name":"Galaxy Note 10.1","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-N8010","Device_Brand_Name":"Samsung"}
+43bd046709c98691ff496920fc483275{"Parent":"Opera Mobile 12.17","Browser_Bits":"32","Platform":"Android","Platform_Version":"4.4","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc"}
+43b8fb22963bdeac754ecd561c87b9a3{"Parent":"Iron 28.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.10","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+43b77937418172d99a23bac912c3c633{"Parent":"Chrome 44.0 for Android","Platform_Version":"4.3","Device_Name":"Galaxy S4 LTE (Sprint), White Frost","Device_Maker":"Samsung","Device_Code_Name":"SPH-L720","Device_Brand_Name":"Samsung"}
+43b73d92d9f448bb3f27d238da564ae8{"Parent":"Chrome 34.0 for Android","Platform_Version":"4.4","isTablet":"true","Device_Name":"Galaxy Tab 3 8.0 3G","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"SM-T311","Device_Brand_Name":"Samsung"}
+43bb76212dee41f975045d9a61c12706{"Parent":"Chrome 22.0 for Android","Platform_Version":"4.0","isTablet":"true","Device_Name":"Galaxy Note 10.1","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-N8000","Device_Brand_Name":"Samsung"}
+43baeb5a76ec1747492b0161f1c9252a{"Parent":"Microsoft Outlook 2007","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true"}
+43b4652db2c3f550fe8daed824a231b8{"Parent":"Mobile Safari 3.1","Platform_Version":"7.1","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+43b81f027c4a85c6dabac0f43e8cd181{"Parent":"Mobile Safari 3.1","Platform_Version":"3.1"}
+43bf7780657882e69500a0c798f47ec0{"Parent":"FirefoxOS 18.0","Device_Name":"FireWeb","Device_Maker":"LG","Device_Code_Name":"D300","Device_Brand_Name":"LG"}
+43bd49c817f658a65e6b02e98fec8550{"Parent":"Firefox 0.9","Browser_Bits":"32","Platform":"HP-UX","Platform_Description":"HP-UX","Platform_Bits":"32","Platform_Maker":"HP"}
+43b37e83205eababf03584f13b0629e5{"Parent":"Teleca-Obigo","Device_Name":"G5600","Device_Maker":"LG","Device_Code_Name":"G5600","Device_Brand_Name":"LG"}

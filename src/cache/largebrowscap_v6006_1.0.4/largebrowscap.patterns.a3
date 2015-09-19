@@ -1,0 +1,13 @@
+a3002d9776b783fc2ba26db21ac8b5c2 10 DiamondBot
+a30101ca15ca79bfc8f947294ea6123c 20 Microsoft\-CryptoAPI\/.*
+a302e389e6760fb601ff77830cc07a84 59 Lenovo\-A[\d][\d][\d].* Linux\/.* Android\/[\d]\.[\d].* Release\/.* Browser\/AppleWebkit.*
+a320fa15241b842c3be78802ced23482 17 boitho\.com\-robot\/.*
+a34df7d5c407adc13f53087442cc4046 25 BAWOR\/IDLE UP\.Browser\/[\d]\.[\d].*
+a35da5e1bf46d69bdc254efc586f1864 6 aipbot.*
+a36446bdf2b7744194f8fcfd50e14d12 21 xmlrpc\-epi\-php\/.* \(PHP\)
+a3850816c2643c2a2f185329fa2a72e2 27 Pingdom\.com_bot_version_[\d]\.[\d].*
+a3ce37b376cabd0b35216faca4f8b7c9 58 Vodafone\/[\d]\.[\d]\/Panasonic\-VS[\d]\/VA[\d][\d] Browser\/Obigo\-Browser\/[\d]\.[\d] .*
+a3d2ea0795ec38bc68ee3df8e505047a 8 Java\/[\d]\.[\d].*
+a3e06bba05b21df841b1095c583e11fb 34 SHARP\-TQ\-GX[\d][\d]\/[\d]\.[\d]f .* UP\.Browser\/[\d]\.[\d].*
+a3e0ab9fb4c8d2a4daa8fb1b562cd65a 10 integrity\/.*
+a3f6813467735c192a596d1e2efb1e6a 18 msnbot\-UDiscovery\/.*

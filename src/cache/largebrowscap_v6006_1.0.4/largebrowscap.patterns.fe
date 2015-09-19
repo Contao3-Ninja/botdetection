@@ -1,0 +1,21 @@
+fe0159343ba845f52806a75587c625e6 11 Anonymizer\/.*
+fe03491c2d54c974e0f26eb9383e0103 11 Nokia[\d][\d][\d][\d]i\/.*
+fe065c12aa59cfe1da4568d7871d240c 23 BlackBerrySimulator\/[\d]\.[\d].*
+fe0aac01de6046833196c053a4f8a7f4 6 Mozila.*
+fe0bdbb79f2096f709f46c447caf44ec 11 FyberSpider.*
+fe2bc90f89781946cffa099cc35e1f92 20 Wizz RSS News Reader
+fe380f829c51f842e7475fb1dfb0d392 14 MetaInspector\/.*
+fe546279a62683de8ca334b673420696 74 SAMSUNG.* Openwave\/[\d]\.[\d].* Profile\/MIDP\-[\d]\.[\d] Configuration\/CLDC\-[\d]\.[\d] UNTRUSTED\/[\d]\.[\d]
+fe546279a62683de8ca334b673420696 61 SAMSUNG.* Profile\/MIDP\-[\d]\.[\d] Configuration\/CLDC\-[\d]\.[\d] Untrusted\/[\d]\.[\d]
+fe546279a62683de8ca334b673420696 51 Samsung SM\-N[\d][\d][\d][\d] stagefright\/[\d]\.[\d].* \(.*Linux.*Android.[\d]\.[\d].*\).*
+fe546279a62683de8ca334b673420696 32 SAMSUNG SGH\-X[\d][\d][\d]A UP\.Browser\/[\d]\.[\d].*
+fe546279a62683de8ca334b673420696 31 SAMSUNG SGH\-X[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+fe546279a62683de8ca334b673420696 22 samsung UP\.Browser\/[\d]\.[\d].*
+fe546279a62683de8ca334b673420696 20 SAMSUNG.* .*NetFront\/[\d]\.[\d].*
+fe546279a62683de8ca334b673420696 17 SAMSUNG.* .*NetFront\/.*
+fe5863e7c97d8998c1a1743cddc60808 22 POLARIS\/[\d]\.[\d] \(BREW [\d]\.[\d].*\).*
+fe6fcd054bb6a37cc27c5f5b731276fa 24 KDDI\-SN[\d][\d] UP\.Browser\/[\d]\.[\d].*
+fe8a221c5777286ca7079d9e64bf7754 28 NokiaN\-GageQD\/[\d]\.[\d] SymbianOS\/.*
+fe9430a1c630113009129a743ebb65d8 42 SAMSUNG\-SGH\-T[\d][\d][\d]\/T[\d][\d][\d]UVFD[\d] .* UP\.Browser\/[\d]\.[\d].*
+feb2c2847da5e274f3d530d5ab438af8 4 GOOG.*
+febc3a80b69ae30e5c3a97da5199e449 24 KWC\-KX[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*

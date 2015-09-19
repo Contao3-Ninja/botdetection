@@ -1,0 +1,25 @@
+9307a45a07e1fbf94187b13b5a04279d 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+9307a45a07e1fbf94187b13b5a04279d 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+9307a45a07e1fbf94187b13b5a04279d 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+9307a45a07e1fbf94187b13b5a04279d 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+9307a45a07e1fbf94187b13b5a04279d 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+9307a45a07e1fbf94187b13b5a04279d 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+9307a45a07e1fbf94187b13b5a04279d 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+9307a45a07e1fbf94187b13b5a04279d 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+9307a45a07e1fbf94187b13b5a04279d 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+9318d4554bb24faef53bcbac1fad5661 8 lwp\-rget.*
+931ed59ee0944440eeb6dd4946dfff64 7 Linkbot.*
+9324e081316394ba542c222be03f4e48 23 Adsense\-Snapshot\-Google.*
+932d4175f31f4be263d954cc3ca9a8df 96 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+932d4175f31f4be263d954cc3ca9a8df 92 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+933b18bd03c5b304c8ea8dbf95a7a8a2 24 WebTarantula\.com Crawler.*
+9356868da3445c1572b3f942b7d00a62 8 Pageload.*
+935891a808d3269d9633e3cf8daf8e17 92 LG\-KS[\d][\d].* Browser\/IEMobile\/.* MMS\/LG\-MMS\-WINCE.* \(compatible; MSIE [\d]\.[\d][\d]; Windows CE.*\)\/UC Browser[\d]\.[\d].*
+9380faf27b3b852186ae0f52e4ce3ee2 12 TutorGigBot\/.*
+93833a4cb850b93d59887d6581e49137 35 SAMSUNG\-SGH\-X[\d][\d][\d]\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*
+93c6ba7fb77bae0709fae89c9c13b44a 5 Java\/.*
+93cb7b2c7b2a8acd1bfd3f2d03d7ecf1 78 HTC_Touch_Pro_T[\d][\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+93cb7b2c7b2a8acd1bfd3f2d03d7ecf1 29 HTC_Touch_Pro_T[\d][\d][\d][\d] Opera\/[\d]\.[\d].*
+93cbde6229245fa630e786d0b3a5536e 20 MSNBot\-NewsBlogs\/[\d]\.[\d].*
+93cc6cbb70752e9baeb3962a22826787 37 BlackBerry \(.*\)  User\-Agent\: BlackBerry.*
+93d38c81dc128972c22c4d1a74ef5580 26 MOT\-C[\d][\d][\d]\/[\d][\d]\.[\d]E\.[\d]A\. MIB\/[\d]\.[\d].*

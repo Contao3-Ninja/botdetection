@@ -1,0 +1,22 @@
+6100e570783312caa030438ec192eea6 23 NEC\-[\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+611164c1a925b0f759f97db7fd7b3523 11 bandscraper.*
+611393baf93e8fc6f68f0293854f8324 35 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] \(.*SymbianOS\/.* Series[\d][\d]\/.*
+61147bdb46068617025d067a7e20edde 27 Mitsu\/[\d]\.[\d]\.C \(MT[\d][\d][\d]\) MMP\/[\d]\.[\d].*
+61147bdb46068617025d067a7e20edde 19 Mitsu\/[\d]\.[\d]\.C \(MT[\d][\d][\d]\).*
+612540d547a070f434864f1f6df5c79b 28 ssearch_bot \(sSearch Crawler.*
+61339d0c59a1cf16c885d7abd0019300 11 NokiaC[\d]\-[\d][\d]\/.*
+6148fb8c0ac82a9a2fdf560cb0351b3d 25 SIE\-C[\d][\d]\/[\d]. UP\.Browser\/[\d]\.[\d].*
+61573df0df99bab4d305e8d2d7118f15 52 eStyleSearch .* \(compatible; MSIE [\d]\.[\d]; Windows NT [\d]\.[\d]\)
+61573df0df99bab4d305e8d2d7118f15 13 eStyleSearch .*
+61655429deae23e8c1b6f6740bdd6481 14 masidani_bot_v.*
+617297bcd67aacab355ad0392035575c 43 SAMSUNG\-SGH\-X[\d][\d][\d]\/[\d]\.[\d]\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+618941b06f67e1ffc5749503b8b360d0 26 Mozilla\/[\d]\..*\(.*Windows NT [\d]\.[\d].*\).*
+618941b06f67e1ffc5749503b8b360d0 24 Mozilla\/[\d]\..*\(.*Macintosh.*PPC.*\).*	Mozilla\/[\d]\..*\(.*Macintosh.*[\d][\d]K.*\).*
+618941b06f67e1ffc5749503b8b360d0 22 Mozilla\/[\d]\..*\(.*compatible;.*
+618941b06f67e1ffc5749503b8b360d0 19 Mozilla\/[\d]\..*\(.*Windows.*\).*	Mozilla\/[\d]\..*\(.*OpenVMS.*\).*
+618941b06f67e1ffc5749503b8b360d0 17 Mozilla\/[\d]\..*\(.*Linux.*\).*	Mozilla\/[\d]\..*\(.*Win[\d][\d].*\).*	Mozilla\/[\d]\..*\(.*WinNT.*\).*	Mozilla\/[\d]\..*\(.*SunOS.*\).*
+618941b06f67e1ffc5749503b8b360d0 16 Mozilla\/[\d]\..*\(.*IRIX.*\).*	Mozilla\/[\d]\..*\(.*OS\/[\d].*\).*
+61aa506c1c2e447e0bf9bd3478c47abb 96 HTC\-P[\d][\d][\d][\d]\-orange\/PPC; [\d][\d][\d]x[\d][\d][\d]; OpVer [\d][\d]\.[\d][\d][\d]\.[\d]\.[\d][\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+61cf59813059fdf860f97718e18463dd 71 HTC\-[\d][\d][\d][\d]\/[\d]\.[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\).*
+61da5ce9e9518d73502752933da3be7d 35 MODOTTEL\-WTE_[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+61f83e7bc9596ea6d1c138479bdf14de 10 SuperHTTP\/.*

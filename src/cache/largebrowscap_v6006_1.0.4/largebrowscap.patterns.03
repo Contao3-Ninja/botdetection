@@ -1,0 +1,17 @@
+030cc438ae284579c1e0e407543a8f6c 48 dv\(GT\-S[\d][\d][\d][\d]\);pr\(UCBrowser\/[\d]\.[\d].*\);ov\(Android [\d]\.[\d]\.[\d]\).*
+03162ef4d42c305f8de2aa5636958dec 13 SimplePie\/[\d]\.[\d].*
+033b42f01424757952d42f8f00896ed7 36 fgBrowserPrivate\/[\d]\..* CFNetwork\/.*Darwin.*
+0346247505deffa80673aa1662665e5b 9 Barca\/[\d]\.[\d].*
+036d645e35a9bc7e5b13229840bd9be6 25 SIE\-C[\d]C\/[\d]. UP\.Browser\/[\d]\.[\d].*
+036d8cfcb8a51134a54fcab6549c742b 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+036d8cfcb8a51134a54fcab6549c742b 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+036d8cfcb8a51134a54fcab6549c742b 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+036d8cfcb8a51134a54fcab6549c742b 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac_PowerPC.*\).*
+036d8cfcb8a51134a54fcab6549c742b 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+036d8cfcb8a51134a54fcab6549c742b 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+036d8cfcb8a51134a54fcab6549c742b 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+036d8cfcb8a51134a54fcab6549c742b 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+039e743084cf0cfafcbea311c4047c9e 21 BIRD_D[\d][\d][\d]\/V[\d]\.[\d]\.[\d]\/[\d]\.[\d] .*
+03ae10b023c7480c7d94d36a51780ebf 31 MSIE [\d] RC \(compatible.*; MSIE [\d]\.[\d].*
+03ae10b023c7480c7d94d36a51780ebf 8 MSIE [\d]\.[\d].*
+03ae10b023c7480c7d94d36a51780ebf 7 Msie [\d] .*

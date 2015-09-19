@@ -1,0 +1,17 @@
+6f1a1c88f461368a13f344e1832ac69f 47 HTC\-.*\/.* Mozilla\/.* \(compatible; MSIE .*\..*; Windows CE.*\).*
+6f1ffadfd8accb07d185f52dcc0488a7 24 KDDI\-SN[\d]C UP\.Browser\/[\d]\.[\d].*
+6f4ad1c5ca6035ffd60c01d001c2c39e 48 dv\(GT\-S[\d][\d][\d][\d]\);pr\(UCBrowser\/[\d]\.[\d].*\);ov\(Android [\d]\.[\d]\.[\d]\).*
+6f8a40b67e8e4de1eeb2bd648048dca6 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+6f8f57715090da2632453988d9a1501b 39 M \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows NT [\d]\.[\d].*\)
+6fa9b67d2ddeaeb22db5bf5bd749a34d 28 NEC\-e[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+6fa9d5745b49c17de71f65c36fe5453e 24 Reeder\/.* CFNetwork\/.*Darwin.*
+6fb7e43d482b1847f2b9cc804faedd98 11 SITECHECKER
+6fb9e1c0306076d36982297359b4b7ce 97 com\.douban\.group\/.* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+6fb9e1c0306076d36982297359b4b7ce 93 com\.douban\.group\/.* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+6fbeca9569a25b9eb2077d0981cb133b 12 WWW_Browser\/.*
+6fc0b2eabc33d8a150c91afc687d6d1e 26 Samsung\-.* Polaris\/[\d]\..* MMP\/[\d]\..*
+6fc0b2eabc33d8a150c91afc687d6d1e 21 Samsung\-.* Jasmine\/[\d]\.[\d].* 
+6fc0b2eabc33d8a150c91afc687d6d1e 20 Samsung\-.* Jasmine\/[\d]\.[\d].*
+6fde9eda70760bfd68ccd113ceb7e4eb 5 nabot.*
+6fe21a239a8c40752cf1ab6c118141a5 23 SIE\-S[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+6fe68efeadbf5322d4c36c332a3085cf 98 LG\-D[\d][\d][\d].*Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*LG\-D[\d][\d][\d].*\) AppleWebKit.* \(KHTML,.*like Gecko.*\).*Version\/[\d]\.[\d].*Chrome.*Safari.*

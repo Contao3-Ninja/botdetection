@@ -1,0 +1,17 @@
+920417d01122bc52a608a1b7a89bcf9d 16 Missigua Locator.*
+921b22317ab7f7f9dcb5881c8761d638 106 Mozilla\/[\d]\.[\d]\(.*Linux.*Android.[\d]\.[\d].*Fly IQ[\d][\d][\d][\d] Quad Build\/.*\) AppleWebKit\/.*\(KHTML, like Gecko\).*Version\/[\d]\.[\d].*Chrome.*Safari.*
+921b22317ab7f7f9dcb5881c8761d638 104 Mozilla\/[\d]\.[\d]\(.*Linux.*Android.[\d]\.[\d].*Micromax A[\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML,.*like Gecko.*\).*Version\/[\d]\.[\d].*Chrome.*Safari.*
+921b22317ab7f7f9dcb5881c8761d638 102 Mozilla\/[\d]\.[\d]\(.*Linux.*Android.[\d]\.[\d].*BLU Studio [\d]\.[\d] S II Build\/.*\)AppleWebKit\/.*\(KHTML,like Gecko\)Version\/[\d]\.[\d].*Safari.*
+921b22317ab7f7f9dcb5881c8761d638 101 Mozilla\/[\d]\.[\d]\(.*Linux.*Android.[\d]\.[\d].*Fly IQ[\d][\d][\d][\d] Quad Build\/.*\) AppleWebKit\/.*\(KHTML, like Gecko\) Chrome\/[\d][\d]\..*Safari\/.*
+921b22317ab7f7f9dcb5881c8761d638 97 Mozilla\/[\d]\.[\d]\(.*Linux.*Android.[\d]\.[\d].*Lenovo A[\d][\d][\d] Build\/.*\)AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d].*Safari.*
+921b22317ab7f7f9dcb5881c8761d638 92 Mozilla\/[\d]\.[\d]\(.*Linux.*Android.[\d]\.[\d].*NEC\-[\d][\d][\d][\d] Build\/.*\)AppleWebKit\/.*\(KHTML, Like Gecko\)Version\/[\d]\.[\d].*Safari.*
+924f1d853feab6c73888a532274c3d17 6 WeBoX\/.*
+9263b04684e9f66b4252e2f35b050f39 11 gooblog\/[\d]\.[\d].*
+9269c5226e578eb89381b0ef01ae6b08 29 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] \(.*UP\.Browser\/[\d]\.[\d].*
+928890ab3ebae0e14a301d7b76006c89 19 MOT\-A[\d][\d][\d]\/R[\d][\d][\d]_G_[\d][\d]\..*
+928b4bf9f30d34c383f0905e5f2f5bc5 36 SAMSUNG\-SGH\-D[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+92ab08b1f7349e8f67346fc74c09d9ee 57 MOT\-MPx[\d][\d][\d]\/.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE.*
+92ae9a6f4e14cf38549676121e8130b2 3 ng\/.*
+92b34326642fb660d2de0063fb5c69a1 24 SIE\-MC[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+92bfe6cab9dfa22512097f806db31931 24 OWASP_SECRET_BROWSER\/[\d]\.[\d].*
+92e28b408856cad2e9952f51745d350f 8 WinTools

@@ -1,0 +1,12 @@
+a738fbfad59e5ff2d1be60c09b07b00d 18 NetLyzer FastProbe.*
+a7532e4d04baf1f0911c9a38d6c1431c 12 Seram Server
+a7565b53d41fbd387cf0ece80b408839 23 OWG[\d] UP\/.* UP\.Browser\/[\d]\.[\d].*
+a77b9a60baee8a79c5af3dff594af395 12 Xplore G [\d][\d] .*
+a77b9a60baee8a79c5af3dff594af395 11 Xplore M[\d][\d] .*
+a78f1a4905a872f8b7fb7fd171f7dce0 4 b[\d]w\/.*
+a7a32860cc2744831b45d99519e2707e 16 MOT\-V[\d]i\/.* MIB\/[\d]\.[\d].*
+a7bba106c16a515a6b03dd5c6c1257dd 23 iOS\/.* \(.*\) dataaccessd\/[\d]\.[\d].*
+a7c2ad1a23949cb599a1215b1d0bd476 36 SAMSUNG\-SGH\-D[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+a7d1169405c179a2c0e9e0fa649af5b4 32 KWC\-KX[\d][\d][\d]c\/[\d]\.[\d]\.[\d][\d] UP\.Browser\/[\d]\.[\d].*
+a7f1fa694fa3112ac356dc8ddb809fe8 29 LGE\-VX[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+a7f5040033145222f338a91e7b84530a 8 NerdyBot

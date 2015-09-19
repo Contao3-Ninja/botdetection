@@ -1,0 +1,43 @@
+5b2c7fcea05d54eb830cada58c208007 32 BenQ\-M[\d][\d][\d]\/[\d]\.[\d]\.[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+5b36da7dd780090256ddae216773af5d 109 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+5b36da7dd780090256ddae216773af5d 106 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+5b36da7dd780090256ddae216773af5d 103 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-S[\d][\d][\d][\d] .*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+5b36da7dd780090256ddae216773af5d 101 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 98 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*Micromax A[\d][\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*	OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 94 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-S[\d][\d][\d][\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*	OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+5b36da7dd780090256ddae216773af5d 91 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*BlackBerry; U.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+5b36da7dd780090256ddae216773af5d 88 OneBrowser\/[\d]\.[\d].*\(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 86 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.[\d]\.[\d].*Micromax A[\d][\d] .*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*	OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 85 OneBrowser\/[\d]\.[\d].*\(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 83 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*BlackBerry; U.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 82 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.[\d]\.[\d].*GT\-S[\d][\d][\d][\d] .*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 73 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 70 OneBrowser\/[\d]\.[\d].*\(.*BlackBerry; U.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 69 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+5b36da7dd780090256ddae216773af5d 31 OneBrowser\/[\d]\.[\d].*\(SAMSUNG\-GT\-S[\d][\d][\d][\d].*
+5b36da7dd780090256ddae216773af5d 24 OneBrowser\/[\d]\.[\d].*\(GT\-S[\d][\d][\d][\d]S.*
+5b36da7dd780090256ddae216773af5d 14 OneBrowser\/[\d]\.[\d].*
+5b3b75d19f2b0f7a35100d817ea2cb5d 28 Lorkyll .*\..* \-\- lorkyll@[\d][\d][\d]\.net
+5b5251ffcf77a1cd528a869b1c438e06 6 CTerm\/.*
+5b53da58497d3097a3017637324bf4e9 8 iGetter\/.*
+5b544e604bfe4bdef3347154b2ddf191 43 IRLbot\/[\d]\.[\d] \(.*http\:\/\/irl\.cs\.tamu\.edu\/crawler.*\)
+5b5db6ad2d3689cd2aa02f182a11668c 30 OfflinePages\/.* CFNetwork\/.*Darwin.*
+5b5ed56550741c7e8757e886562f4093 12 MJ[\d][\d]bot\/v[\d]\.[\d].*
+5b6b587f0d06124dc91788cbba92675f 82 AndroidDownloadManager\/[\d]\.[\d].* \(Linux; .; Android [\d]\.[\d].*; Transformer Prime TF[\d][\d][\d] Build\/.*\).*
+5b6b587f0d06124dc91788cbba92675f 72 AndroidDownloadManager\/[\d]\.[\d].* \(Linux; .; Android [\d]\.[\d].*; LIFETAB_S[\d][\d][\d][\d] Build\/.*\).*	AndroidDownloadManager\/[\d]\.[\d].* \(Linux; .; Android [\d]\.[\d].*; TP[\d][\d]\.[\d]\-[\d][\d][\d][\d]DC.* Build\/.*\).*
+5b6b587f0d06124dc91788cbba92675f 65 AndroidDownloadManager\/[\d]\.[\d].* \(Linux; .; Android [\d]\.[\d].*; SGPT[\d][\d] Build\/.*\).*	AndroidDownloadManager\/[\d]\.[\d].* \(Linux; .; Android [\d]\.[\d].*; ME[\d][\d][\d]C Build\/.*\).*
+5b6b587f0d06124dc91788cbba92675f 59 AndroidDownloadManager\/[\d]\.[\d].* \(Linux; .; Android [\d]\.[\d].*; .* Build\/.*\).*
+5b7315dd78c577d5cb45c7ddcf5620a4 19 SendoM[\d][\d][\d]\/[\d][\d][\d]\-H\-[\d][\d] .*
+5b8783d7aea9021dd440d27e13d061fc 9 Dillo\/[\d]\.[\d].*
+5b93625023a1c2180221257849744b59 36 Decode Framework [\d]\..* browscap library
+5baa6ecf3ba0bb71684273e0acbf09e2 21 JetBrains Omea Reader.*
+5baa6ecf3ba0bb71684273e0acbf09e2 9 JetBrains.*
+5bab541acd761a3093d7c4202b6e1da9 51 Rocky ChatWork Mobile\/[\d]\.[\d].*iosv[\d]\.[\d].* \(iPhone App iPhone.*
+5bab541acd761a3093d7c4202b6e1da9 48 Rocky ChatWork Mobile\/[\d]\.[\d].*iosv.* \(iPhone App iPhone.*
+5bab541acd761a3093d7c4202b6e1da9 44 Rocky ChatWork Mobile\/[\d]\.[\d].*iosv[\d]\.[\d].* \(iPhone App.*
+5bab541acd761a3093d7c4202b6e1da9 41 Rocky ChatWork Mobile\/[\d]\.[\d].*iosv.* \(iPhone App.*
+5bbebdd2d384ed913039f8f83f198ba2 74 UCWEB\/[\d]\.[\d]\(Linux; U; Opera Mini\/.*; GT\-S[\d][\d][\d][\d] Build\/.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* Mobile.*
+5bbebdd2d384ed913039f8f83f198ba2 71 UCWEB\/[\d]\.[\d]\(Linux; U; Opera Mini\/.*; MB[\d][\d][\d] Build\/.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* Mobile.*
+5bbf6ae6ed4d054fe23be8e2adb40147 23 SIE\-C[\d]V\/.* UP\.Browser\/[\d]\.[\d].*
+5be6ddc357e70811215cb17839470b6c 10 OutfoxBot\/.*
+5bf7829ce21a179b3f9b4baf048be242 56 MT[\d][\d][\d][\d]_TD\/V[\d].*Linux.*Android.[\d]\.[\d].* Release.* Browser.AppleWebkit.*

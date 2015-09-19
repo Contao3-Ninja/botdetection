@@ -1,0 +1,32 @@
+54dddfa64b1bd8bfebb44c8b376f3f40{"Parent":"DefaultProperties","Comment":"BitTorrent Clients","Browser":"","Browser_Type":"Bot\/Crawler","Crawler":"true"}
+54d348fe03fe48a20ddc67b3b9876c65{"Parent":"NetNewsWire","Version":"3.1","MajorVer":"3","MinorVer":"1","Platform_Version":"10.6"}
+54d593112246e902b05fa4f12aaa3b40{"Parent":"Avant\/IE 9.0","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true"}
+54da030547b73ec1554655da200b80ee{"Parent":"Facebook App 13.0 for iOS","Platform_Version":"5.0"}
+54d98b61db1a0810505a209a16c06313{"Parent":"Facebook App 3.2 for iOS","Platform_Version":"7.0","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+54d2c0b15aadc2e4dfd5ca2ffe30b091{"Parent":"Comodo Dragon 36.0"}
+54d82ef42ce863f01863a8e3539ec2a3{"Parent":"Android WebView 4.1","Platform_Version":"2.1"}
+54d7824003461eec52cf87594ff31dc2{"Parent":"Android WebView 4.1","Platform_Version":"4.3","Device_Name":"One S","Device_Maker":"HTC","Device_Code_Name":"PJ401","Device_Brand_Name":"HTC"}
+54d66535fd911f77309a2ff7864fd1e0{"Parent":"Android WebView 4.0","Platform_Version":"2.3","Device_Name":"Xperia Arc","Device_Maker":"SonyEricsson","Device_Code_Name":"LT18i","Device_Brand_Name":"SonyEricsson"}
+54d2ee50b51742be2d5818701a1a7e42{"Parent":"Yandex Browser 14.2","Browser_Bits":"32","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+54dc9bd1ae9654d4b09cfb68cbf11f0e{"Parent":"Opera Mobile 24.0 for Android","Platform_Version":"4.4","isTablet":"true","Device_Name":"Galaxy Tab 3 7.0 3G","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"SM-T211","Device_Brand_Name":"Samsung"}
+54daacc3666430a13991b30c4bc53fc5{"Parent":"Opera 12.13","Browser_Bits":"32","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+54dc44ddb0fbbb7effbfcdc9e0f5cb53{"Parent":"Opera 12.11","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.8","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+54d60aaefc77c72fc4515ac52a58a887{"Parent":"Opera 11.11","Browser_Bits":"32","Platform":"Win95","Platform_Version":"95","Platform_Description":"Windows 95","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+54d59a1e2228bfc761e7b5b266f06a6d{"Parent":"Opera 6.03","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.8","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+54d85004c67d1b3488fa9b42e105abeb{"Parent":"UC Browser 7.2","Device_Name":"C105","Device_Maker":"LG","Device_Pointing_Method":"unknown","Device_Code_Name":"C105","Device_Brand_Name":"LG"}
+54d5d9819daa21e5e30106ed716c8a75{"Parent":"Google Keyword Suggestion"}
+54dcd69a0a9e60fc6149ae5e3cb01ab8{"Parent":"Silk 3.47","Platform_Version":"4.2","isTablet":"true","Device_Name":"Kindle Fire HDX 7","Device_Type":"Tablet","Device_Code_Name":"KFTHWI"}
+54d4c13faad4d8c7919c55e0095db0dd{"Parent":"Midori 0.1","Browser_Bits":"32","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"32","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+54dcf9cda9e49aa1f2fdb2a9343a36a3{"Parent":"Chrome 43.0 for Android","Platform_Version":"4.1","Device_Name":"Galaxy S4 Mini","Device_Maker":"Samsung","Device_Code_Name":"GT-I9195","Device_Brand_Name":"Samsung"}
+54dc5202072384be350e8e2c053a2893{"Parent":"Chrome 41.0 for iOS","Platform_Version":"3.2","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+54d59e3739b64161bdee2750b8c210e8{"Parent":"Chrome 36.0","Browser_Bits":"32","Platform":"Win8.1","Platform_Version":"6.3","Platform_Description":"Windows 8.1","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+54d65cfbfd1e49eb7217a4c2bd50e782{"Parent":"Chrome 28.0","Browser_Bits":"32","Platform":"WinVista","Platform_Version":"6.0","Platform_Description":"Windows Vista","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+54d9972133eef1ede2d44120bb0368ee{"Parent":"Chrome 27.0 for Android","Platform_Version":"2.1"}
+54d63e80dc48697ec7f3e96a9bb6c368{"Parent":"Chrome 18.0 for iOS","Platform_Version":"5.0","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+54d97261af139f812518a31facc0615e{"Parent":"Android Browser 4.0","Platform_Version":"4.1","Device_Name":"Xperia Z","Device_Maker":"SonyEricsson","Device_Code_Name":"C6503","Device_Brand_Name":"SonyEricsson"}
+54dda45e52d85704af667423c6cf1014{"Parent":"Android Browser 3.1","Platform_Version":"2.2"}
+54dc544215337a057b5d929ecb9a08b4{"Parent":"Opera Mini 6.1","Browser_Bits":"32","Platform":"JAVA","Platform_Bits":"32","Platform_Maker":"Oracle","Device_Name":"GT-C3312","Device_Maker":"Samsung","Device_Type":"Mobile Phone","Device_Code_Name":"GT-C3312","Device_Brand_Name":"Samsung"}
+54d2370fa4b0f9604c99c68a0b4bc042{"Parent":"iCab 4.7"}
+54dbe4374cd9ad6906ada20116f30035{"Parent":"Firefox 33.0","Browser_Bits":"64","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"64","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+54d119b52446f0231700da794567f870{"Parent":"Firefox 24.0","Browser_Bits":"64","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"64","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+54d9b5d5fe6d361608b61845d21705ef{"Parent":"Openwave Mobile Browser 7.0"}

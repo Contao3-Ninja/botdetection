@@ -1,0 +1,28 @@
+260c8eeb38b97fafa2a4c9fb4458a7d6 12 SEC\-SGHS[\d][\d][\d] .*
+261241ba146e11bf11b0ea01ca19d4ca 72 O[\d]\/[\d]\.[\d]\/SEX[\d]i\/R[\d]AA Opera\/[\d]\.[\d] \(Microsoft Windows; PPC; Opera Mobi\/.*UP\.Link\/.*
+26146b98da4f954039e371d42b978e2a 42 UofTDB_experiment.* \(leehyun@cs\.toronto\.edu\)
+26399e38a2373db60c432c076f38abb6 31 MOT\-E[\d][\d][\d]v\/[\d][\d]\.[\d][\d]\.[\d][\d][\d] MIB\/BER[\d]\.[\d] .*
+263c62a4623ee4071eef4232ff0377e5 24 MOT\-C[\d][\d][\d]\/[\d]A\.[\d][\d]\..* MIB\/[\d]\.[\d] .*
+263ff8bc264bf60ffe3bf20092e03683 27 SIE\-ME[\d][\d]i\/[\d][\d] UP\.Browser\/[\d]\.[\d].*
+265763170ed4f73c419a35c38f4b570f 61 SAMSUNG\-GT\-S[\d][\d][\d][\d].*\(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+265763170ed4f73c419a35c38f4b570f 28 SAMSUNG\-GT\-S[\d][\d][\d][\d].*.Dolphin\/[\d]\.[\d].*
+265763170ed4f73c419a35c38f4b570f 27 SAMSUNG\-GT\-S[\d][\d][\d][\d].*Jasmine\/[\d]\.[\d].*
+265c20050a545251f5529d6af2371508 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+265dc96cfae35245b00bb0d2caddcb03 15 BigBozz\/BigBozz.*
+2694a30ea3c89cc0799f9675624f7f20 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+2694a30ea3c89cc0799f9675624f7f20 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+2694a30ea3c89cc0799f9675624f7f20 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+2694a30ea3c89cc0799f9675624f7f20 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac_PowerPC.*\).*
+2694a30ea3c89cc0799f9675624f7f20 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows CE.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+2694a30ea3c89cc0799f9675624f7f20 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+2694a30ea3c89cc0799f9675624f7f20 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+2694a30ea3c89cc0799f9675624f7f20 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*SunOS.*\).*
+269800268104c0eaba3b1014105ab442 19 LG\-S[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d].*
+26b07daee39649b2350921a2d941c090 68 Xda_Stellar. [\d][\d][\d]x[\d][\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\.[\d][\d].*
+26b07daee39649b2350921a2d941c090 66 Xda_Stellar. [\d][\d][\d]x[\d][\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+26b38fea6b78e433c23da29a7c5759e9 22 sitemonitor@dnsvr\.com\/.*
+26cae7718c32180a7a0f8e19d6d40a59 35 Facebook API PHP[\d] Client [\d]\.[\d] \(curl\).*
+26cae7718c32180a7a0f8e19d6d40a59 23 Facebook share follower
+26d0fededcab848436e07e33c24336e4 30 Flipboard\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+26d3f0bba1c1d72e70ef668d6d2b08cf 13 panscient\.com
+26f6bc3b382907519209da05aa780fdf 34 AtomicBrowser\/[\d]\.[\d].* CFNetwork\/.*Darwin.*

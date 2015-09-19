@@ -1,0 +1,20 @@
+b1062a41d8124ee497ff01f658c7058b 24 SIE\-CX[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+b11a2381e0e350dc597ff0c6c47d310a 17 Pixray\-Seeker\/[\d]\.[\d].*
+b11a3f4d01a89bfa21d0fad8a392f683 17 GMX MailCheck\/[\d]\.[\d].*
+b11a3f4d01a89bfa21d0fad8a392f683 14 GMX MailCheck\/.*
+b1299ea2b532e9b309921da4d049bc1e 13 Transmission\/.*
+b13450686ed57dedef5157a0035371ac 43 BIRD\.G[\d][\d][\d] MO[\d][\d][\d]m\-[\d][\d][\d]x[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+b1575dc2a8d977c6612168bca2fe6c0f 9 WebReaper.*
+b159d2afc277536fa09521359cc0c438 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+b15e63d01d4d4efbb7a51a21df59df4a 10 Mister PIX.*
+b17a1b3188de0e5b21653cf1bbaea228 23 i\-mobile[\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+b18e279b122e6ca25d0a7e6cf443e87b 22 MOT\-D[\d]\/.* UP\.Browser\/[\d]\.[\d].*
+b18ef5234100145866f3e123061ece4f 34 Haier\-M[\d][\d][\d]\/\([\d][\d][\d][\d]\.[\d][\d]\.[\d][\d]\)\)[\d]\.[\d]\/WAP[\d]\.[\d]
+b1aed55e3fba72b0b390707cd260a816 73 HTC_Maple_S[\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+b1d5ba1a0ac157d2fef954237d50a9f5 39 Bird\.S[\d][\d][\d]\/K[\d][\d],MK\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+b1d961ff130a25f1e2bbc7b4c1c11a60 23 SIE\-C[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+b1e84f7bc5eeb41bcce7ead99bf162c1 76 MOT\-A[\d][\d][\d][\d]\/.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Linux; Motorola A[\d][\d][\d][\d].* Opera [\d]\.[\d].*
+b1e84f7bc5eeb41bcce7ead99bf162c1 36 MOT\-A[\d][\d][\d][\d]\/.* LinuxOS\/.* Browser\/Opera[\d]\.[\d].*
+b1e8798b10ab55a58200bdbaa5ec48a5 8 Chilkat\/.*
+b1ff40560ff5700259625b45278dda2b 39 SonyEricssonW[\d][\d][\d]i\/.* Browser\/NetFront\/[\d]\.[\d].*
+b1ff40560ff5700259625b45278dda2b 29 SonyEricssonW[\d][\d][\d]i\/.*\(SymbianOS\/.*

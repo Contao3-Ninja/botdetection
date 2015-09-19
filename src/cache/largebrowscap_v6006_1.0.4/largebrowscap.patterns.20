@@ -1,0 +1,29 @@
+200308e9dd27a077837fe4f9328cd586 39 http\:\/\/hilfe\.acont\.de\/bot\.html ACONTBOT
+200c20bcbaf3b3cccf1bbb3d81767bfc 48 SonyEricssonWT[\d][\d]i\/R[\d]AD[\d][\d][\d] TelecaBrowser\/Q[\d][\d]C[\d]\-[\d] .*
+201906ffd0e70bdbfb0bbb591ee49bc0 33 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*
+201906ffd0e70bdbfb0bbb591ee49bc0 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+20292861fe208c767f992205d4cec934 23 SIE\-A[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+202d025e593b9cc23e65081ebfe7a9cf 53 MOT\-MP.*\/.* Mozilla\/[\d]\.[\d] \(compatible; MSIE .*; Windows CE; .*\)
+202d025e593b9cc23e65081ebfe7a9cf 50 MOT\-MP.*\/.* Mozilla\/.* \(compatible; MSIE .*; Windows CE; .*\)
+204db224070df5162b773ac0e5fc1e52 7 Locubot.*
+205a56f280ba69ea219e035d4358d04b 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+2063a4e00e19ff26020007040a3587e4 37 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] \(Q[\d].*\.nep\) UP\.Browser\/[\d]\.[\d].*
+20764220f163b279e70b77ea57ab1c5f 56 LENOVO\-P[\d][\d][\d]_ENG_FRE_A\/\([\d][\d][\d][\d]\.[\d][\d]\.[\d][\d]\)S[\d][\d][\d]\/WAP[\d]\.[\d]\.[\d] Profile\/.*
+20769ba396b75ba5e55572cb43f4bdbb 4 sohu.*
+20795a4d7ddd9d3d653abefd19a76b4e 10 Nokia[\d][\d][\d][\d]\/.*
+207aabe9a233d96817b9d610ac5037b1 42 SAMSUNG\-SGH\-D[\d][\d][\d]\/D[\d][\d][\d]XAHC[\d] .* UP\.Browser\/[\d]\.[\d].*
+2094e9c15c3488a9f91aa185c7168702 44 AUDIOVOX\-CDM[\d][\d][\d][\d]SP\/T[\d][\d][\d]SP[\d]T[\d][\d] UP\.Browser\/[\d]\.[\d].*
+20a9306f422389d0212abfdcc58b281e 23 iCab\/[\d]\.[\d].* \(.*Macintosh.*[\d][\d]K.*\)	iCab\/[\d]\.[\d].* \(.*Macintosh.*PPC.*\)
+20a9306f422389d0212abfdcc58b281e 19 iCab\/[\d]\.[\d].* \(.*Mac OS X.*\)
+20bcbc12af0d4cf081293d2220a0ce90 53 Vodafone\/Sharp[\d][\d][\d]SH\/SHG[\d][\d][\d]\/[\d]\.[\d].* Browser\/UP\.Browser\/[\d]\.[\d].*
+20be60a95ab122a2ca69ed2e3b50f6d4 24 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] .*SymbianOS\/.*	Nokia[\d][\d][\d][\d]\/[\d]\.[\d].* SymbianOS\/.*
+20d5cabe84fcbde16aeab85839133a2a 24 MOT\-L[\d]\/[\d]A\.[\d][\d]\.[\d][\d]R MIB\/[\d]\.[\d].*
+20db5e49dde3ff51def21f04c5db6066 8 Java\/[\d]\.[\d].*
+20e920e9c78b0227a1ed17e9f9abb373 10 LapozzBot\/.*
+20e9794b7ee143b3f66d7126e73ba57e 40 JUC \(Linux; U; [\d]\.[\d].*; GT\-I[\d][\d][\d][\d]; .*\) UCWEB[\d]\.[\d].*
+20e9794b7ee143b3f66d7126e73ba57e 39 JUC \(Linux; U; [\d]\.[\d].*Micromax A[\d][\d].*\)UCWEB[\d]\.[\d].*
+20e9794b7ee143b3f66d7126e73ba57e 36 JUC \(Linux; U; [\d]\.[\d].*GT\-S[\d][\d][\d][\d].*\) UCWEB[\d]\.[\d].*	JUC \(Linux; U; [\d]\.[\d].*GT\-I[\d][\d][\d][\d].*\) UCWEB[\d]\.[\d].*
+20e9794b7ee143b3f66d7126e73ba57e 30 JUC \(Linux; U; [\d]\.[\d].*; .*\) UCWEB[\d]\.[\d].*
+20e9794b7ee143b3f66d7126e73ba57e 28 JUC \(Linux; U; [\d]\.[\d].*\) UCWEB[\d]\.[\d].*
+20e9794b7ee143b3f66d7126e73ba57e 27 JUC \(Linux; U; [\d]\.[\d].*\)UCWEB[\d]\.[\d].*
+20e9794b7ee143b3f66d7126e73ba57e 25 JUC \(Linux; U; [\d]\.[\d].*\) UCWEB.*

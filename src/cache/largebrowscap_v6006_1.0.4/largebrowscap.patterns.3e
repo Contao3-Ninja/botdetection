@@ -1,0 +1,17 @@
+3e0f4ac8adb34f902ea33020537b6ea2 20 LG\-C[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+3e10138a5812474e6c3abd6183974c0e 19 iBrowser\/Mini[\d]\.[\d] \(.*\).*
+3e12799a2c2938c3590c618f41d471bf 14 Nokia[\d][\d][\d][\d]c\-[\d]b\/.*
+3e42dadc4ec757ed59c4ee6c2cabb529 23 CDM\-[\d][\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+3e6d6d927fd7b8c24ff1a3e64d14c885 28 LGE\-LG[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+3e9b807d83a280b6f66174d25072f6a4 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+3e9b807d83a280b6f66174d25072f6a4 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+3e9b807d83a280b6f66174d25072f6a4 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+3e9b807d83a280b6f66174d25072f6a4 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+3e9b807d83a280b6f66174d25072f6a4 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+3e9b807d83a280b6f66174d25072f6a4 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+3e9b807d83a280b6f66174d25072f6a4 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+3e9b807d83a280b6f66174d25072f6a4 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+3eb13bbd2727aa751a1d32d0d9da0284 23 BlogPulse \(ISSpider\-[\d]\..*\)
+3eb9dbd612d1be4bd865a03bbe010a2e 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+3ebb29e8fc6b9d83f0d56c679900599e 90 TBDB[\d][\d][\d] Mozilla\/[\d]\.[\d] \(X[\d][\d]; Linux x[\d][\d]_[\d][\d]\) AppleWebKit\/.* \(KHTML, like Gecko\) Chrome\/[\d][\d]\..*Safari\/.*
+3edb93ab6b6b9fb81d7288cbc0135bd7 10 Eule.Robot.*

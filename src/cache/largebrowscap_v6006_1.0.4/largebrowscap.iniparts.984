@@ -1,0 +1,21 @@
+9846240a734ee446abd03f46455b6aa7{"Parent":"General Crawlers","Browser":"Plukkie"}
+984b84a65e54b2bed31ede7d39ef2a7d{"Parent":"General Crawlers","Browser":"bot"}
+984d84577608df49847f50c5956a02dd{"Parent":"Facebook App 22.0 for iOS","Platform_Version":"5.0"}
+9842a36192a66c39e9dcfb1934f9e27a{"Parent":"Facebook App 5.2 for iOS","Platform_Version":"8.0"}
+9845be132c09e18451475aab381bbc4e{"Parent":"Android WebView 4.0","Platform_Version":"2.2","Device_Name":"U8500","Device_Maker":"Huawei","Device_Pointing_Method":"unknown","Device_Code_Name":"U8500","Device_Brand_Name":"Huawei"}
+98453fb5119cde919395773e2d080113{"Parent":"Android WebView 2.0","Platform_Version":"4.1","Device_Name":"Ascend G525-U00","Device_Maker":"Huawei","Device_Code_Name":"G525-U00","Device_Brand_Name":"Huawei"}
+9848429e97a539e7e2c71a46fac1462c{"Parent":"Android WebView 1.5","Platform_Version":"4.1","Device_Name":"Galaxy Grand Duos","Device_Maker":"Samsung","Device_Pointing_Method":"unknown","Device_Code_Name":"GT-I9082L","Device_Brand_Name":"Samsung"}
+9845fc422bcf96b5a857e4bd252838c6{"Parent":"Opera 21.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+9844bd22aeced2e11565f718901561bf{"Parent":"UC Browser 7.6","Platform_Version":"2.2","Device_Name":"Galaxy S II","Device_Maker":"Samsung","Device_Code_Name":"GT-I9100","Device_Brand_Name":"Samsung"}
+984a8916e6ab64e05e3f550815899de6{"Parent":"Iron 17.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+9847c352ace6b08fbc65f2a090fcc490{"Parent":"Silk 3.60","Platform_Version":"4.3","isTablet":"true","Device_Name":"Kindle Fire HD 7","Device_Type":"Tablet","Device_Code_Name":"KFSOWI"}
+98416fa7936dff65f117227df0651dfc{"Parent":"Silk 3.38","Platform_Version":"4.4","isTablet":"true","Device_Name":"Kindle Fire HD 7","Device_Type":"Tablet","Device_Code_Name":"KFSOWI"}
+9848294805d8e678537d4a48dfffd154{"Parent":"Silk 3.12","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire HD 8.9 Wi-Fi","Device_Type":"Tablet","Device_Code_Name":"KFJWI"}
+9841ca62ad7bfc450dafd68d7fe188f0{"Parent":"Chrome 35.0 for Android","Platform_Version":"4.3","Device_Name":"Galaxy S Duos","Device_Maker":"Samsung","Device_Code_Name":"GT-S7562","Device_Brand_Name":"Samsung"}
+98406d8a02f15b03a8dd0cda2e867b8e{"Parent":"Chrome 33.0 for iOS","Platform_Version":"3.2","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+9844dd49386d88a1d50a87eb7d68268b{"Parent":"Chrome 23.0 for iOS","Platform_Version":"5.1"}
+98409d29cdc0a4afe3dd895e074ae2e5{"Parent":"Chrome 18.0 for Android","Platform_Version":"4.2","isTablet":"true","Device_Name":"Galaxy Tab 2 7.0","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P3110","Device_Brand_Name":"Samsung"}
+984fcbfe300b4bb664b9f783835f9117{"Parent":"Nokia Browser 8.2","Device_Name":"603","Device_Code_Name":"603"}
+984c8647e767ce9127b7f87682d5e11e{"Parent":"SeaMonkey 2.22","Browser_Bits":"32","Platform":"FreeBSD","Platform_Description":"FreeBSD","Platform_Bits":"32","Platform_Maker":"FreeBSD Foundation"}
+98472962ad452af0a192e14fd8b9656f{"Parent":"Firefox 13.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.7","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+984e7f63b50a051e9ca4ece3a3d8ba72{"Parent":"LG"}

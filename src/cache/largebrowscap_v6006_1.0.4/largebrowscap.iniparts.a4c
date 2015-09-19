@@ -1,0 +1,27 @@
+a4c5a7b2a1441eb4420c297eb74c55d4{"Parent":"Maxthon 4.2","Browser_Bits":"64","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"64","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+a4cca996d44af9bd0cb9cee754a8a495{"Parent":"Facebook App 29.0 for iOS","Platform_Version":"3.0","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+a4c4dd24153b7c24921ba0f1482f2caf{"Parent":"Facebook App 6.7 for iOS","Platform_Version":"3.0"}
+a4c3ad1ef9b10eba343bc3fc6b4658dc{"Parent":"Facebook App 4.1 for iOS","Platform_Version":"8.1"}
+a4c213de250d483e767fe785034538ff{"Parent":"Facebook App 3.8 for iOS","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+a4cbc46ed3f699f1361fa18d486efaef{"Parent":"Android WebView 4.3","Platform_Version":"4.0","isTablet":"true","Device_Name":"Noon","Device_Maker":"Odys","Device_Type":"Tablet","Device_Code_Name":"Noon","Device_Brand_Name":"Odys"}
+a4c0c7decdd0783dc2693bf397b8c0af{"Parent":"Android WebView 2.0","Platform_Version":"3.2","isTablet":"true","Device_Name":"G100W","Device_Maker":"Acer","Device_Type":"Tablet","Device_Code_Name":"G100W","Device_Brand_Name":"Acer"}
+a4cfa8662d5f243add4a5444ea8dc33c{"Parent":"Yandex Browser 14.5 for Android","Platform_Version":"4.2","isTablet":"true","Device_Name":"Iconia A1-810","Device_Maker":"Acer","Device_Type":"Tablet","Device_Code_Name":"A1-810","Device_Brand_Name":"Acer"}
+a4cde5c3d050b507e78fffd11aedf306{"Parent":"Opera 10.54","Browser_Bits":"32","Platform":"Win98","Platform_Version":"98","Platform_Description":"Windows 98","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a4c7362cc6b1c04bbc540cea18b77d46{"Parent":"Opera 10.54","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.7","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+a4cb045bb27a535840f24dfa67214619{"Parent":"Opera 7.23","Browser_Bits":"32","Platform":"Win98","Platform_Version":"98","Platform_Description":"Windows 98","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a4cd9026d0b4b8a15685b0d625eb3869{"Parent":"Iron 14.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.5","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+a4c86b2737f5dfa41c294a764317e63f{"Parent":"Silk 3.34","Browser_Modus":"Desktop Mode","Platform_Version":"4.0"}
+a4cd6b324e0f2add172c48f37c05ebae{"Parent":"Chrome 44.0 for Android","Platform_Version":"4.1","isTablet":"true","Device_Name":"Xperia Tablet S","Device_Maker":"Sony","Device_Type":"Tablet","Device_Code_Name":"SGPT13","Device_Brand_Name":"Sony"}
+a4c45de846df6070881a1b20debf5a48{"Parent":"Chrome 43.0 for Android","Platform_Version":"4.2","Device_Name":"Galaxy S4 Mini","Device_Maker":"Samsung","Device_Code_Name":"GT-I9195","Device_Brand_Name":"Samsung"}
+a4c49431b71c3a9aa342758c60916ec4{"Parent":"Chrome 39.0 for Android","Platform_Version":"4.4","Device_Name":"Galaxy S4 Mini","Device_Maker":"Samsung","Device_Code_Name":"GT-I9190","Device_Brand_Name":"Samsung"}
+a4c5f2ac98a2ef678898dffbff3e4211{"Parent":"Chrome 32.0 for Android","Platform_Version":"4.3","Device_Name":"One X+","Device_Maker":"HTC","Device_Code_Name":"PM63100","Device_Brand_Name":"HTC"}
+a4ccb5b0760e3100deda10a57bd4d0bb{"Parent":"Chrome 29.0 for Android","Platform_Version":"4.4","Device_Name":"One","Device_Maker":"HTC","Device_Code_Name":"M7","Device_Brand_Name":"HTC"}
+a4c9bfbbba736707937f46ac93dae02f{"Parent":"Chrome 29.0 for iOS","Platform_Version":"3.2"}
+a4c7b5ecc7207d3246b00ccf4edea9af{"Parent":"Chrome 23.0 for Android","Platform_Version":"4.0","Device_Name":"Sensation XL with Beats Audio","Device_Maker":"HTC","Device_Pointing_Method":"unknown","Device_Code_Name":"X315e","Device_Brand_Name":"HTC"}
+a4c589196eb7bcf94639b4a42409871e{"Parent":"Chrome 19.0 for Android","Platform_Version":"4.2","Device_Name":"GT-I9205","Device_Maker":"Samsung","Device_Code_Name":"GT-I9205","Device_Brand_Name":"Samsung"}
+a4cde54ce9217994cd608cece5711364{"Parent":"iBrowser 2.3","Browser_Bits":"32","Platform":"Android","Platform_Version":"4.0","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc"}
+a4c909de8cfbfc1c059aafdc952a5e2f{"Parent":"Mobile Safari 8.0","Platform_Version":"5.0"}
+a4c6bc47345be839614dad7ba55df418{"Parent":"Safari 5.0","Browser_Bits":"32","Platform":"Win8.1","Platform_Version":"6.3","Platform_Description":"Windows 8.1","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a4cb5cd75e518e055ac69b266135ca19{"Parent":"Camino 1.1","Platform_Version":"10.10"}
+a4c4f26cad6293de8e0638562b5f208e{"Parent":"IE 1.5","Browser_Bits":"32","Platform":"WinVista","Platform_Version":"6.0","Platform_Description":"Windows Vista","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true"}
+a4cf6b8aaf41387a57f7e02d99c590ac{"Parent":"Openwave Mobile Browser 5.0"}

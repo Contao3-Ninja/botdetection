@@ -1,0 +1,25 @@
+c7031bf23e69b3f0398854756b0b36b0 26 ELinks\/[\d]\.[\d][\d].* \(.*Digital Unix.*\)
+c7031bf23e69b3f0398854756b0b36b0 21 ELinks\/[\d]\.[\d][\d].* \(.*FreeBSD.*\)	ELinks\/[\d]\.[\d][\d].* \(.*OpenBSD.*\)	ELinks\/[\d]\.[\d][\d].* \(.*Solaris.*\)
+c7031bf23e69b3f0398854756b0b36b0 20 ELinks\/[\d]\.[\d][\d].* \(.*CygWin.*\)	ELinks\/[\d]\.[\d][\d].* \(.*Darwin.*\)	ELinks\/[\d]\.[\d][\d].* \(.*NetBSD.*\)
+c7031bf23e69b3f0398854756b0b36b0 19 ELinks\/[\d]\.[\d][\d].* \(.*Linux.*\)	ELinks\/[\d]\.[\d][\d].* \(.*SunOS.*\)
+c7031bf23e69b3f0398854756b0b36b0 18 ELinks\/[\d]\.[\d][\d].* \(.*BeOS.*\)	ELinks\/[\d]\.[\d][\d].* \(.*HPUX.*\)	ELinks\/[\d]\.[\d][\d].* \(.*IRIX.*\)	ELinks\/[\d]\.[\d][\d].* \(.*OS\/[\d].*\)	ELinks\/[\d]\.[\d][\d].* \(.*RISC.*\)	ELinks\/[\d]\.[\d][\d].* \(.*Unix.*\)
+c7031bf23e69b3f0398854756b0b36b0 17 ELinks\/[\d]\.[\d][\d].* \(.*AIX.*\)
+c7054523219843be4d0e883c4b6c31ae 51 Opera\/[\d]\.[\d].* Beta \(Microsoft Windows; PPC; Opera Mobi\/.*
+c7054523219843be4d0e883c4b6c31ae 47 Opera\/[\d]\.[\d] \(Microsoft Windows; PPC.*Opera Mobile\/.*\)	Opera\/[\d]\.[\d] \(Microsoft Windows; PPC; Opera Mobi\/.*\)
+c7069281e08b3c9667a596a02a3a9677 17 MOT\-V[\d][\d][\d]\/.* MIB\/[\d]\.[\d].*
+c70ad53c1e1868deb69279f07e9b9e12 11 kejian\-k[\d][\d][\d].*
+c74cd421a38453a30741950ad10efd98 11 Nokia[\d][\d][\d][\d]c\/.*
+c784655672fdf93091749710f2e9428b 27 Airmail [\d]\.[\d].* \(.*Mac OS X [\d][\d]\.[\d][\d].*
+c784655672fdf93091749710f2e9428b 26 Airmail [\d]\.[\d].* \(.*Mac OS X [\d][\d]\.[\d].*
+c784655672fdf93091749710f2e9428b 21 Airmail [\d]\.[\d].* \(.*Mac OS X.*
+c793999d3f73992115370af74c2b349a 17 Comodo Spider [\d]\.[\d].*
+c793999d3f73992115370af74c2b349a 13 Comodo Spider.*
+c796c9af535b8e545cabd79d453c1915 29 MOT\-A\-[\d]B\/[\d].\.[\d]. UP\.Browser\/[\d]\.[\d].*
+c7998982f88de4e574b1d7e4757da6d4 7 Scrapy\/.*
+c7a7a3bdd8bdfbb750a1f818f5ec3c9a 20 Infoseek SideWinder\/.*
+c7bc486e6c0e36e40b14aedab7817f9f 11 boitho\.com\-.*
+c7cfbd60943fcd4ad17770118035dce6 34 iTunes\/[\d][\d]\.[\d].* \(.*Macintosh; OS X [\d][\d]\.[\d][\d].*
+c7cfbd60943fcd4ad17770118035dce6 33 iTunes\/[\d][\d]\.[\d].* \(.*Macintosh; OS X [\d][\d]\.[\d].*
+c7cfbd60943fcd4ad17770118035dce6 28 iTunes\/[\d][\d]\.[\d].* \(.*Macintosh; OS X.*
+c7cfbd60943fcd4ad17770118035dce6 20 iTunes\/[\d][\d]\.[\d].* \(Windows.*
+c7e728267748167d6b7b907a2248011f 59 TwengaBot\-Discover \(http\:\/\/www\.twenga\.fr\/bot\-discover\.html\)

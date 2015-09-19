@@ -1,0 +1,18 @@
+85038f993dcf37b9babb18643fb91a9d 48 Sosospider.\(\+http\:\/\/help\.soso\.com\/webspider\.htm\)
+8534d69bac5562f2031a98495ce8cac0 59 MSIE\/.\.[\d] \(compatible.*; MSIE [\d]\.[\d].*; Windows NT [\d]\.[\d]; Trident\/[\d]\.[\d].*
+8567635677490d93f3b42b90d3e0a486 22 Wonu S[\d] UP\.Browser\/[\d]\.[\d].*
+85b9caa95705b952c713f80206b3af33 75 SonyEricssonG[\d][\d][\d]\/.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Symbian OS; [\d].*Opera [\d]\.[\d][\d].*
+85b9caa95705b952c713f80206b3af33 72 SonyEricssonG[\d][\d][\d]\/.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Symbian OS.*Opera [\d]\.[\d][\d].*
+85d7e715d4f6b36b9d1f05c54da1ba93 72 HS\-G[\d][\d][\d]\/[\d]\.[\d]\.[\d]\.[\d]\([\d][\d][\d][\d]\.[\d][\d]\.[\d][\d]\)\/WAP[\d]\.[\d] Profile\/MIDP[\d]\.[\d] Configuration\/CLDC[\d]\.[\d]
+85d98d74a8a2726144e50fea25c25325 30 iBrowser\/[\d]\.[\d],Lava\-Discover[\d][\d][\d]\/.*
+85de850fb6feddbceea052f4944e1f8c 29 LG\-GW[\d][\d][\d]FD\/V[\d][\d][\d] Obigo\/WAP[\d]\.[\d] .*
+85fb63c8e2dd7dc7abc00ecf11133b02 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+85fb63c8e2dd7dc7abc00ecf11133b02 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+85fb63c8e2dd7dc7abc00ecf11133b02 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+85febf90a10f761b639f4ac33fbd2eed 15 Visicom Toolbar

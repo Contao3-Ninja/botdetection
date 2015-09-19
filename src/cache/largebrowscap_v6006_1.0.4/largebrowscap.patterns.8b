@@ -1,0 +1,30 @@
+8b004897fa0756bafcea94a3104ca9e2 28 iTunes\-iPhone\/[\d]\.[\d].* \(Macintosh.*
+8b083dea784b1908f697047b5501296d 25 MOT\-E[\d][\d][\d]\/[\d][\d]\.[\d].* MIB\/BER[\d]\.[\d] .*
+8b18995d579b69c97dd257b3af51cd79 31 AtomicLite\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+8b1b5e3634838c303d3aca09acf1e84c 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+8b233efca558980c4c7a509eb8b3a688 44 MOT\-Canary\/SJUG[\d][\d][\d][\d]AA [\d][\d]\.[\d][\d]\.[\d][\d]I\/.* MIB\/BER[\d]\.[\d] .*
+8b48b16c41c1b07206cb67dc9d4cea65 35 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] \([\d]\.[\d][\d][\d][\d]\.[\d]\) SymbianOS\/.*
+8b48b16c41c1b07206cb67dc9d4cea65 25 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] \(.*SymbianOS\/.*
+8b48b16c41c1b07206cb67dc9d4cea65 24 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] .*SymbianOS\/.*
+8b62201534a8e2f7c0fffdf80e642254 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+8b62201534a8e2f7c0fffdf80e642254 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+8b62201534a8e2f7c0fffdf80e642254 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+8b62201534a8e2f7c0fffdf80e642254 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac_PowerPC.*\).*
+8b62201534a8e2f7c0fffdf80e642254 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows CE.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+8b62201534a8e2f7c0fffdf80e642254 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+8b62201534a8e2f7c0fffdf80e642254 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+8b62201534a8e2f7c0fffdf80e642254 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*SunOS.*\).*
+8b65f879b18bd14421874cec2a8fbfa4 14 Technoratibot\/.*
+8b70150484682570336471819c062274 29 MOT\-A\-[\d]A\/[\d][\d]\.[\d]. UP\.Browser\/[\d]\.[\d].*
+8b90d81e97b777e29dfa7a3f36410472 86 Dopod[\d][\d][\d]Pro\/Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE; PPC; [\d][\d][\d]x[\d][\d][\d]; Dopod[\d][\d][\d] Pro\).*
+8baaa2ef015a605048d99bf309c48b08 12 YaDirectBot\/.*
+8bb856027f758e85ddf2085c98ae2908 9 RSS Menu\/.*
+8bcbd13ba6d1794819af914884e1e739 92 motorazrV[\d]\/R[\d][\d][\d]_G_[\d][\d]\.[\d][\d]\.[\d]ARP Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d] Linux; Motorola V[\d].*\) .* Opera [\d]\.[\d].*
+8be5c1fa124f59795af12f8f3e6a3317 7 Prince\/.*
+8bea93c111eff8763122839f370b8d08 111 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-I[\d][\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+8bea93c111eff8763122839f370b8d08 96 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+8bea93c111eff8763122839f370b8d08 92 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+8befdbf91d358587679ef8c87a6fed63 10 CFNetwork\/.*
+8bf2dd56960461b65ad1ffbb0854553e 29 KWC\-KX[\d][\d][\d]c\-BC\/.* UP\.Browser\/[\d]\.[\d].*
+8bf6abc63ca468d5bfc8140d26820993 33 SCEJ PSP BROWSER [\d][\d][\d][\d]pspNavigator
+8bf8c9fe5b14a9175a7139a8f4c63fbf 24 KDDI\-KC[\d][\d] UP\.Browser\/[\d]\.[\d].*

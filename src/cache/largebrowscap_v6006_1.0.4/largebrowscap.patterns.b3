@@ -1,0 +1,33 @@
+b30f4fb29ab1f17d221de9c1c805e29e 18 DoCoMo\/[\d]\.[\d]\/D[\d][\d][\d]iS\/.*
+b314edf48ba1b237911c96fb39f4a43c 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+b314edf48ba1b237911c96fb39f4a43c 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+b314edf48ba1b237911c96fb39f4a43c 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+b314edf48ba1b237911c96fb39f4a43c 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+b314edf48ba1b237911c96fb39f4a43c 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+b314edf48ba1b237911c96fb39f4a43c 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+b314edf48ba1b237911c96fb39f4a43c 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+b314edf48ba1b237911c96fb39f4a43c 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+b337419950253e45718a8e093e3db881 32 BenQ\-M[\d][\d][\d]\/[\d]\.[\d]\.[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+b362a7cb8a28e852a2b848e93f1324f2 11 YisouSpider
+b36c23b62ff14d4c939046a5f558a6c9 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+b371a784e70014de759f52613c175d82 13 exactseek\.com
+b37a5c9cef0b07b108e92a83db465554 13 SendoS[\d][\d][\d]\/[\d][\d] .*
+b37cd2036acf079e778c12a26c282d56 37 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*Win[\d][\d]. x[\d][\d].*\).*
+b37cd2036acf079e778c12a26c282d56 32 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*WOW[\d][\d].*\).*
+b37cd2036acf079e778c12a26c282d56 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+b37cd2036acf079e778c12a26c282d56 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+b37cd2036acf079e778c12a26c282d56 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+b37cd2036acf079e778c12a26c282d56 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*x[\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+b37cd2036acf079e778c12a26c282d56 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux i[\d][\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+b37cd2036acf079e778c12a26c282d56 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+b37cd2036acf079e778c12a26c282d56 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+b37cd2036acf079e778c12a26c282d56 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+b39ab8ef1ce54c65640b5361c912cb62 31 Haier\-M[\d][\d][\d][\d] \/ Obigo Browser [\d]\.[\d]
+b3d18fdd06801f3b5f8cf6be360d72a6 14 WWW\-Mechanize\/.*
+b3d74cb22a1ba0d99454a382667dec6d 38 Browser\/Opera Opera\/.*\(MTK.*\).*Version\/[\d][\d]\.[\d][\d].*
+b3f07ebc42ed89a8a0f787424abbd452 7 Gigabot.*
+b3f195f373dd5e96d5293e295a9e338c 19 Bellwave_HTG[\d][\d][\d]_R[\d][\d]
+b3f4bce375f09646afe13cb07c38d60e 13 VCI WebViewer.*
+b3f75cdcd219b6a3513a242bde519225 26 Jigsaw\/.* W[\d]C_CSS_Validator.*\/.*
+b3f75cdcd219b6a3513a242bde519225 7 Jigsaw\/.*
+b3fe94e247f1d9d5a2d6f2d88cdc4051 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*

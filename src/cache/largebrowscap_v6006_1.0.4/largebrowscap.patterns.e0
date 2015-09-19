@@ -1,0 +1,27 @@
+e0049e584c8a222c8cdf7e8aa52ec18a 33 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*
+e0049e584c8a222c8cdf7e8aa52ec18a 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+e008d4325f1675750d649d86e6973f2a 6 Qweery.*
+e00c85f02c856f116c81fa8e967717fa 36 Wepbot\/.*\(.*\).*Jakarta Commons\-HttpClient\/.*
+e0128c8658e7049fb4c46245395fed82 6 CCBot\/.*
+e01c070ef7ea29230f78790d2828c77c 72 HS\-G[\d][\d][\d]\/[\d]\.[\d]\.[\d]\.[\d]\([\d][\d][\d][\d]\.[\d][\d]\.[\d][\d]\)\/WAP[\d]\.[\d] Profile\/MIDP[\d]\.[\d] Configuration\/CLDC[\d]\.[\d]
+e025518a0d7bff766d7b3b522359b825 26 Peeplo Screenshot Bot\/[\d]\.[\d][\d].*
+e025518a0d7bff766d7b3b522359b825 22 Peeplo Screenshot Bot\/.*
+e030bfb46438a8f0671959a2abd79670 48 LG\-GT[\d][\d][\d]\/.*; Mozilla\/[\d]\.[\d] \(.*\/MIDP.*Opera Mini\/att\/[\d]\.[\d].*\).*
+e0323a9039add2978bf5b49550572c7c 67 CC Metadata Scaper http\:\/\/wiki\.creativecommons\.org\/Metadata_Scraper
+e0345e0bfd95a5a16fdeffe3ee9ea8fd 38 SonyEricssonW[\d][\d][\d]\/.* Browser\/NetFront\/[\d]\.[\d].*
+e0345e0bfd95a5a16fdeffe3ee9ea8fd 28 SonyEricssonW[\d][\d][\d]\/.*\(SymbianOS\/.*
+e0395758d9bab0a7757f23c9aeaa0046 11 SiteSucker\/.*
+e039e85309c8d21d0a4cf6f73b13b8d1 25 SIE\-M[\d][\d]\/[\d]. UP\.Browser\/[\d]\.[\d].*
+e03dbf2b79324acfaf7423233c1c9c80 22 NEC\-N[\d]\/.* UP\.Browser\/[\d]\.[\d].*
+e04b99350f84e7a5705f023d097404a2 67 Vodafone\/[\d]\.[\d]\/SamsungC[\d][\d][\d][\d]\/C[\d][\d][\d][\d].* Browser\/Openwave\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*
+e05fb6ba49fa10540d4a34c20387fa58 15 Google\-Sitemaps.*
+e09e5dcc2de6e0b697086ab442495db9 25 ELinks \([\d]\.[\d][\d].*Digital Unix.*\)
+e09e5dcc2de6e0b697086ab442495db9 24 ELinks \([\d]\.[\d].*Digital Unix.*\)
+e09e5dcc2de6e0b697086ab442495db9 20 ELinks \([\d]\.[\d][\d].*FreeBSD.*\)	ELinks \([\d]\.[\d][\d].*OpenBSD.*\)	ELinks \([\d]\.[\d][\d].*Solaris.*\)
+e09e5dcc2de6e0b697086ab442495db9 19 ELinks \([\d]\.[\d][\d].*CygWin.*\)	ELinks \([\d]\.[\d][\d].*Darwin.*\)	ELinks \([\d]\.[\d][\d].*NetBSD.*\)	ELinks \([\d]\.[\d].*FreeBSD.*\)	ELinks \([\d]\.[\d].*OpenBSD.*\)	ELinks \([\d]\.[\d].*Solaris.*\)
+e09e5dcc2de6e0b697086ab442495db9 18 ELinks \([\d]\.[\d][\d].*Linux.*\)	ELinks \([\d]\.[\d][\d].*SunOS.*\)	ELinks \([\d]\.[\d].*CygWin.*\)	ELinks \([\d]\.[\d].*Darwin.*\)	ELinks \([\d]\.[\d].*NetBSD.*\)
+e09e5dcc2de6e0b697086ab442495db9 17 ELinks \([\d]\.[\d][\d].*BeOS.*\)	ELinks \([\d]\.[\d][\d].*HPUX.*\)	ELinks \([\d]\.[\d][\d].*IRIX.*\)	ELinks \([\d]\.[\d][\d].*OS\/[\d].*\)	ELinks \([\d]\.[\d][\d].*RISC.*\)	ELinks \([\d]\.[\d][\d].*Unix.*\)	ELinks \([\d]\.[\d].*Linux.*\)	ELinks \([\d]\.[\d].*SunOS.*\)
+e09e5dcc2de6e0b697086ab442495db9 16 ELinks \([\d]\.[\d][\d].*AIX.*\)	ELinks \([\d]\.[\d].*BeOS.*\)	ELinks \([\d]\.[\d].*HPUX.*\)	ELinks \([\d]\.[\d].*IRIX.*\)	ELinks \([\d]\.[\d].*OS\/[\d].*\)	ELinks \([\d]\.[\d].*RISC.*\)	ELinks \([\d]\.[\d].*Unix.*\)
+e09e5dcc2de6e0b697086ab442495db9 15 ELinks \([\d]\.[\d].*AIX.*\)
+e0a02c3a7feda253f2d271d0cf1d97b2 43 ddetailsbot \(http\:\/\/www\.displaydetails\.com\)
+e0bb0275c06c7d83946dea7b9365e897 23 LG\-T[\d][\d][\d][\d] UP\.Browser\/[\d]\.[\d].*

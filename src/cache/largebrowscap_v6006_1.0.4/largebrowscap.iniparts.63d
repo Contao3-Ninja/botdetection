@@ -1,0 +1,22 @@
+63d6f5dc8f64786e7150e2e23c0eaf06{"Parent":"Facebook App 26.0 for iOS","Platform_Version":"6.0"}
+63db61a729f37a9e7c57b067036f1931{"Parent":"Facebook App 3.1 for iOS","Platform_Version":"8.1","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+63d190f4acd5bfefd8429538d0f2184d{"Parent":"Android WebView 4.3","Platform_Version":"4.4","Device_Name":"One M8","Device_Maker":"HTC","Device_Code_Name":"M8","Device_Brand_Name":"HTC"}
+63d07c4ad9efbcd8ebe36c37cc6046fa{"Parent":"Android WebView 2.1","Platform_Version":"2.3","Device_Name":"Xperia Sola","Device_Maker":"SonyEricsson","Device_Pointing_Method":"unknown","Device_Code_Name":"MT27i","Device_Brand_Name":"SonyEricsson"}
+63d58b6f2fc92f3bf9b7f56330e69966{"Parent":"Android WebView 1.0","Platform_Version":"4.1","Device_Name":"Xperia J","Device_Maker":"Sony","Device_Code_Name":"ST26i","Device_Brand_Name":"Sony"}
+63d418b34ad9c7aac9e9ac3bddfabb5b{"Parent":"Opera 11.70","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.6","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+63debb852cd56117cc5b9bdb19ac871f{"Parent":"Opera 9.51","Browser_Bits":"32","Platform":"Win8.1","Platform_Version":"6.3","Platform_Description":"Windows 8.1","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+63d0f0af284eb96ea79de1aee3763e03{"Parent":"Iron 26.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.8","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+63df3e9fa58181c156af979d00016628{"Parent":"Silk Generic","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire HD 8.9 Wi-Fi","Device_Type":"Tablet","Device_Code_Name":"KFJWI"}
+63d73f4f73872946dd2e8f618145dd83{"Parent":"Chrome 46.0 for iOS","Platform_Version":"6.0","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+63d020116e2b7ac7d61a1e8116a3706b{"Parent":"Chrome 42.0","Browser_Bits":"32","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"32","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+63d2d0f07dea56d6f7a07543b54cec0a{"Parent":"Chrome 34.0 for iOS","Platform_Version":"7.1","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+63df68af0e1adc8780bf2cf5e9f79dc7{"Parent":"Chrome 28.0 for Android","Platform_Version":"2.2"}
+63d43d0edfe0bef6667aa05151837fd8{"Parent":"Chrome 9.0","Browser_Bits":"32","Platform":"WinNT","Platform_Version":"4.0","Platform_Description":"Windows NT","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+63d6222bd873e3b948ce89eb3a8c3300{"Parent":"Qt 4.8 for Android"}
+63d424758156accc5a5fd62e7a87e798{"Parent":"Qt 4.1 for Android","Platform_Version":"4.2"}
+63d91d0dd28fbb2e21b316d34f73da7e{"Parent":"NetFront 3.3","Device_Name":"W705","Device_Maker":"SonyEricsson","Device_Type":"Mobile Phone","Device_Code_Name":"W705","Device_Brand_Name":"SonyEricsson"}
+63dd67b4b3686008641237b59611c757{"Parent":"ELinks 0.9","Browser_Bits":"32","Platform":"Darwin","Platform_Description":"Darwin is a Core Component of MacOSX and iOS","Platform_Bits":"32","Platform_Maker":"Apple Inc"}
+63d8a05b002feeef2ae7b4758bf142b5{"Parent":"Galeon 2.0"}
+63d0a086c71fd491c9b87495722efcc8{"Parent":"K-Meleon 1.7","Platform":"WinXP","Platform_Version":"5.1","Platform_Description":"Windows XP","Win32":"true"}
+63d17ad86ce1a5049c05d1a80035d4f3{"Parent":"Firefox 32.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+63db9f90519b768819ee1a1a29d6c289{"Parent":"Firefox 25.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.9","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}

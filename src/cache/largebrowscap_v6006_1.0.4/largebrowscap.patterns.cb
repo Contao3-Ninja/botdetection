@@ -1,0 +1,24 @@
+cb0805e4dcc11f916adb9841cf58d224 13 WordPress\/[\d]\.[\d].*
+cb0dc9e0e1f0a51d21fd88dd4e675341 7 accoona.*
+cb2a8ea47ae634cd160f56b056c15c25 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+cb2a8ea47ae634cd160f56b056c15c25 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+cb2a8ea47ae634cd160f56b056c15c25 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+cb2a8ea47ae634cd160f56b056c15c25 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+cb2a8ea47ae634cd160f56b056c15c25 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+cb2a8ea47ae634cd160f56b056c15c25 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+cb2a8ea47ae634cd160f56b056c15c25 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+cb2a8ea47ae634cd160f56b056c15c25 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+cb2a8ea47ae634cd160f56b056c15c25 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+cb4df58c0103c0569d0891e368b8e091 17 SEC\-SGHE[\d][\d][\d]C\/[\d]\.[\d] .*
+cb57cfbf8c53e21732479004c9070d77 11 NSPlayer\/[\d]\..*
+cb59099268a1e913748016c467831b0d 12 SEC\-SGHC[\d][\d][\d] .*
+cb5ec3222b09b2cc8105f94cfe888fd9 8 httperf\/.*
+cba612f72ac954704f51198625340fdb 61 SAMSUNG\-GT\-E[\d][\d][\d][\d].*\(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+cba612f72ac954704f51198625340fdb 28 SAMSUNG\-GT\-E[\d][\d][\d][\d].*.Dolphin\/[\d]\.[\d].*
+cba612f72ac954704f51198625340fdb 27 SAMSUNG\-GT\-E[\d][\d][\d][\d].*Jasmine\/[\d]\.[\d].*
+cbabeefd0634436bc924d8e442615ead 9 URL[\d]File\/.*
+cbb2d6d3556227ae499cc040440d5115 13 LG\/U[\d][\d][\d][\d]\/v[\d]\.[\d]
+cbb75b3229f3c22c6d6dd9759e125778 10 Nokia[\d][\d][\d][\d]\/.*
+cbb86378f32ca94988622fd50115abdf 10 lftp\/[\d]\.[\d]\.[\d]
+cbd57ee193df04a10b95b9de6657570c 32 QQ\\\x.*HD.* \(iPad; iPhone OS [\d]\.[\d]\.[\d]; .*\).*
+cbd8c1b208e32762b5941c493939e1cf 11 URI\:\:Fetch\/.*

@@ -1,0 +1,22 @@
+c902cd9c52e386c7c7c8c63620921224 21 MaxPointCrawler\/Nutch.*
+c90abb5b28261407c0f9cba3d1dbd898 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+c91a1e38881ed4e9c54a1153e8c14c8a 18 Zend_XmlRpc_Client
+c91c0e241585c4278a025637b9423551 10 kraken\/[\d]\.[\d].*
+c91e65d4d12799459ad22d4e12ebd94b 17 WDG_Validator\/[\d]\.[\d].*
+c92da926d3e4dbc13fd5d1ffe9571f0b 12 unister\-bot .*
+c9369b818b11cd24528feb47fdc5ce16 21 iTunes\/[\d]\.[\d].* \(Macintosh.*
+c938dec08332697649e699a24aa13305 28 MOT\-C[\d][\d][\d]\/[\d]\.[\d]\..* UP\.Browser\/[\d]\.[\d].*
+c93aa9a43c67d538ea5028580cd2b2f5 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+c945fa516e16c76051d86c3339170f4a 40 NEC\-N[\d][\d][\d]\/[\d][\d][\d][\d]AJCC\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+c94f9014d0058a69baf48cfd515e77a4 18 PlantyNet_WebRobot.*
+c967320a5bb5926efad169710c188eba 17 Forschungsportal\/.*
+c96ecf1a1c864fe1fa351977336de10a 25 KWC\-K[\d][\d][\d]B\/.* UP\.Browser\/[\d]\.[\d].*
+c977f50ea636da7e1a6f45d2d055d1c2 19 LG\-G[\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+c99740072eee622942a2996e4a168b8c 22 MOT\-C[\d][\d][\d]\/ WAP\.Browser\/.*
+c99992e8e8328ee505bda4ea162284b5 10 SlySearch\/.*
+c9ab23a4a09e4ab0be2561207214995f 29 Cooliris.[\d]\.[\d] CFNetwork\/.*Darwin.*
+c9ab23a4a09e4ab0be2561207214995f 25 Cooliris.* CFNetwork\/.*Darwin.*
+c9b747a165d0a02b212a7e97df007f44 7 DavClnt.*
+c9ccc838d8731f4137f2c63af74ed085 10 DCPbot\/[\d]\.[\d].*
+c9e1c7b5bb688d3a61aa99284dcb59d0 24 SIE\-C[\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+c9facb2aa2668776e88873c59f89d94c 16 niXXieBot.Foster.*

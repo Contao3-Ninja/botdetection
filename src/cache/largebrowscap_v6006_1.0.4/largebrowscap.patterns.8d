@@ -1,0 +1,30 @@
+8d2cd11f4f48e6f3349a10a5d34afaa8 23 LG\-G[\d][\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+8d3cc30146a91ddd2cc887988c480342 36 python\-requests\/.* CPython\/.*Linux.*x[\d][\d]_[\d][\d].*
+8d3cc30146a91ddd2cc887988c480342 35 python\-requests\/.* CPython\/.*Linux i[\d][\d][\d].*
+8d3cc30146a91ddd2cc887988c480342 30 python\-requests\/.* CPython\/.*Linux.*
+8d3cc30146a91ddd2cc887988c480342 16 python\-requests\/.*
+8d3e70e4f76d0c4160680f1603e530fe 17 MetaInspector\/[\d]\.[\d].*
+8d6b431e7c8be0500ed6b9c4788cc79f 8 woriobot.*
+8d976c90f489521f63b862847ebb2ace 111 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-I[\d][\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+8d976c90f489521f63b862847ebb2ace 96 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+8d976c90f489521f63b862847ebb2ace 92 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+8d9a1fa3c7e9421bb266e24a91f18bb0 10 binlar_[\d]\.[\d].*
+8d9c53edb0bb0f796c5d49d8111e7529 14 Exabot\-Images\/.*
+8dac5ee863fb4900c5d186bc37f7f2ea 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+8dac5ee863fb4900c5d186bc37f7f2ea 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+8daeb07ac69540bb449aa35b0db673b8 67 Atrax Solutions atraxbot\/[\d]\..*; http\:\/\/www\.atraxsolutions\.com\/atraxbot
+8daf188649af1194f33ddfa00d096b6a 25 SIE\-C[\d]V\/[\d]. UP\.Browser\/[\d]\.[\d].*
+8db11a961ab55e0cd8b659c5c329feb6 10 RedCarpet\/.*
+8db14387b47447d83038c3c7f658baff 77 MOT\-A[\d][\d][\d][\d]eam\/.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Linux; A[\d][\d][\d][\d]eam; .*\) .* Opera [\d]\.[\d].*
+8db35b36450ba7ca154becbb140b29df 20 WEB\.DE MailCheck\/[\d]\.[\d].*
+8db35b36450ba7ca154becbb140b29df 17 WEB\.DE MailCheck\/.*
+8dcb2722a2a17cc828a0013d8a8ac446 31 SAGEM\-myX\-[\d]m\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+8de40b38fbd089bfd0e8a8aeaed267b0 23 SIE\-S[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+8de8d401a14282cab7be9020e1cef3dd 12 FeedGhost\/[\d]\..*
+8df1a0e37e4322ecd084260b7fa372c2 10 TLSProber\/.*

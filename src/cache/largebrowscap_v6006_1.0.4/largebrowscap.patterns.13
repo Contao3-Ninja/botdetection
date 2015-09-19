@@ -1,0 +1,18 @@
+1317106c9e3646f6383f336b73abfe4b 33 UP\.Browser\/[\d]\.[\d]\.[\d][\d]\-NZ[\d][\d] UP\.Link\/.*\.[\d]
+1393ad53fe87278b10e94deb66a5dc76 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+1393ad53fe87278b10e94deb66a5dc76 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+1393ad53fe87278b10e94deb66a5dc76 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+1393ad53fe87278b10e94deb66a5dc76 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+1393ad53fe87278b10e94deb66a5dc76 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+1393ad53fe87278b10e94deb66a5dc76 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+1393ad53fe87278b10e94deb66a5dc76 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+1393ad53fe87278b10e94deb66a5dc76 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+1393ad53fe87278b10e94deb66a5dc76 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+13bc3cd32f736361ca1ba1d705314e2b 6 moget\/.*
+13c90b0bf4d71ab42416b3dcd08f307f 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+13cbdae0014e94d3bc41d072f97b1c2a 28 MOT\-E[\d][\d][\d]\/[\d]\.[\d][\d] UP\.Browser\/[\d]\.[\d].*
+13cfccd9d7c40f7b8cc5b89f563c7acf 25 Bing\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+13de0f25d14e6a4f0afaec5fecd10ad9 13 WordPress\/[\d]\.[\d].*
+13eb9aee4097ecfb3476e407fb391442 36 SAMSUNG\-SGH\-E[\d][\d][\d]A\/BSI UP\.Browser\/[\d]\.[\d].*
+13f4b4073b505074da2d2e312a4d8278 32 MOT\-c[\d][\d][\d]M\/ULSAS_G_[\d][\d]\.[\d][\d]\..* MIB\/[\d]\.[\d].*
+13fa382cfa07824346bfd48891f20de5 6 NV[\d][\d]ts

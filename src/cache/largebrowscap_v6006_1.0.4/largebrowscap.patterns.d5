@@ -1,0 +1,32 @@
+d5043e855dd8f52081ddf5a81dc6f7b0 10 ichiro\/[\d]\.[\d].*
+d508ef2e604515a603c0e8041edf57e1 11 Nokia[\d][\d][\d][\d]I\/.*
+d50aa56d4acb2cde26f67919e9365b6f 16 EVE\-minibrowser\/.*
+d538884c3ed8b74b142b014965956857 64 SAMSUNG\-GT\-B[\d][\d][\d][\d]\/.* \(compatible.*; MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+d542a11702dfa837fc142263de087449 70 E[\d][\d][\d][\d]\/[\d]\.[\d]\.[\d]\.[\d]\([\d][\d][\d][\d]\.[\d][\d]\.[\d][\d]\)\/WAP[\d]\.[\d] Profile\/MIDP[\d]\.[\d] Configuration\/CLDC[\d]\.[\d]
+d54bc5d1e02bf9878b575a599cf3421e 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+d54bc5d1e02bf9878b575a599cf3421e 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+d54bc5d1e02bf9878b575a599cf3421e 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+d54bc5d1e02bf9878b575a599cf3421e 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+d54bc5d1e02bf9878b575a599cf3421e 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+d54bc5d1e02bf9878b575a599cf3421e 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+d54bc5d1e02bf9878b575a599cf3421e 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+d54bc5d1e02bf9878b575a599cf3421e 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+d54e182d8b1b6a9e1228d40685a4b75b 13 Apple\-PubSub\/.*
+d566c34b744fa3ec83b1fc62425966dc 27 SEC\-SGHQ[\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+d57423327f55f34d311f666dd8b33dc0 12 GetRightPro\/.*
+d5815cf2434838bb1f3acbdf5b387a70 19 iBrowser\/Mini[\d]\.[\d] \(.*\).*
+d586fb78ef0ecfcdca0ad1ce29c89576 26 Tweetbot\/.* CFNetwork\/.*Darwin.*
+d5897eddd8250f0d8c0832cf2c35ef74 34 SonyEricssonJ[\d][\d][\d]i\/.* SEMC\-Browser\/[\d]\..*
+d59d9160afbe08263524f2a22e1029c6 16 BlueCoat ProxySG
+d5ad5c1f4c61b3175a1d367757eae75f 23 Windows\-Media\-Player\/[\d]\..*
+d5ca0bddb6a20748ce7f3d59eaa8eca1 26 SIE\-SP[\d][\d]\/[\d]. UP\.Browser\/[\d]\.[\d].*
+d5da27b76fea56c0dc65816dfbdf8649 10 Nokia[\d][\d][\d][\d]\/.*
+d5e45efb50b9e3e4755929c3696a8bfb 22 iPick.* CFNetwork\/.*Darwin.*
+d5e5db1cc3795a94e56a32c1cea1c0ae 29 Mozilla\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d][\d].*\).*
+d5e5db1cc3795a94e56a32c1cea1c0ae 28 Mozilla\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*
+d5e5db1cc3795a94e56a32c1cea1c0ae 26 Mozilla\/[\d]\.[\d][\d].*\(.*Macintosh.*PPC.*\).*
+d5e5db1cc3795a94e56a32c1cea1c0ae 25 Mozilla\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+d5e5db1cc3795a94e56a32c1cea1c0ae 21 Mozilla\/[\d]\.[\d][\d].*\(.*OpenVMS.*\).*
+d5e5db1cc3795a94e56a32c1cea1c0ae 19 Mozilla\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Mozilla\/[\d]\.[\d][\d].*\(.*Win[\d][\d].*\).*	Mozilla\/[\d]\.[\d][\d].*\(.*WinNT.*\).*	Mozilla\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+d5e5db1cc3795a94e56a32c1cea1c0ae 18 Mozilla\/[\d]\.[\d][\d].*\(.*IRIX.*\).*	Mozilla\/[\d]\.[\d][\d].*\(.*OS\/[\d].*\).*
+d5fa685181a6733050baf1987dae9311 24 KDDI\-CA[\d][\d] UP\.Browser\/[\d]\.[\d].*

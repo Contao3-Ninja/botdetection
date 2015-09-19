@@ -1,0 +1,16 @@
+14039e32d58a1adddb1d7ad0a1fcbe8d 23 SIE\-M[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+140478c0f53f3508ae0120779139e97a 23 SIE\-C[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+141039624b7fe7170f5696863f26cccf 17 ContextAd Bot [\d]\.[\d].*
+141039624b7fe7170f5696863f26cccf 13 ContextAd Bot.*
+1411356217930bc9b98cc8f6cc1561d9 9 PageNest\/.*
+1418bdf3e76f13e4879072fc0f9ce26c 16 YahooVideoSearch.*
+143d593a059f1b43001bffbc43790a20 66 Nokia[\d][\d][\d]\/.* Profile\/MIDP\-[\d].* UCWEB\/[\d]\.[\d] \(.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.* Mobile.*
+14420f48deb8f49af932370706c284b8 31 MobileRSS.*\-iPad.* CFNetwork\/.*Darwin.*
+14420f48deb8f49af932370706c284b8 26 MobileRSS.* CFNetwork\/.*Darwin.*
+1444a590c85febecfe65c921cb0575ea 20 Netchart Adv Crawler.*
+14659a6a757898129ee26d8869cd4ae1 30 SEC\-SGHP[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+14819c7754c1da367a99ea0fd95e9765 11 lwp\-request.*
+14b8a9b37bc28ff7fb28b0e7ce3a3bff 35 SAMSUNG\-SGH\-E[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+14c8ff9a74fb5a4b2a870be9a83eafa7 12 ShopWiki\/[\d]\.[\d].*
+14d215879c79dbbf3362087d6b7f2b2d 24 SIE\-ME[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+14edad310ce23fd030cb183f4a99e8c3 45 SAMSUNG\-C[\d][\d][\d][\d]\/[\d]\.[\d] Openwave\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*

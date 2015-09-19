@@ -1,0 +1,18 @@
+8e03b7ef2a9921ce400506424a27507e 13 PhantomJS\/[\d]\.[\d].*
+8e2142400984d6d86ebccf3a4f2fd2b7 61 SAMSUNG\-SGH\-E[\d][\d][\d].*\(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+8e2142400984d6d86ebccf3a4f2fd2b7 28 SAMSUNG\-SGH\-E[\d][\d][\d].*.Dolphin\/[\d]\.[\d].*
+8e2142400984d6d86ebccf3a4f2fd2b7 27 SAMSUNG\-SGH\-E[\d][\d][\d].*Jasmine\/[\d]\.[\d].*
+8e3f1bbb73f0f6c952fcf873332eae9f 188 Browser Capabilities Project AutoDownloader; created by Tom Kelleher Consulting, Inc\. \(tkelleher\.com\); used with special permission from Gary Joel Keith; uses Microsoft.s WinHTTP component
+8e3f1bbb73f0f6c952fcf873332eae9f 44 Browser Capabilities Project \- PHP Browscap\/.*
+8e3f1bbb73f0f6c952fcf873332eae9f 43 Browser Capabilities Project \- PHP Browscap.*
+8e3fabd6d0f48655b846458915e70122 43 SAMSUNG\-SGH\-X[\d][\d][\d]\/[\d]\.[\d]\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+8e42cd406366a904a3b891c63d71283e 12 Mozilla\/[\d]\.[\d]\+.*
+8e4cc2858f7e1342eb716b0873c1929d 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+8e6f60b7a9ffcb8d98c45cfa9f8b7b95 15 CKHttpGenerator
+8e712ae22f6c0d4a596062006726f807 20 MOT\-C[\d][\d][\d]\/[\d]B\..* MIB\/[\d]\.[\d].*
+8e789024d200707776297844c53beccf 27 LG\-GT[\d][\d][\d]\/V[\d][\d]h Teleca\/WAP[\d]\.[\d].*
+8ea3cbdd1931495edf063498d977818f 49 SAMSUNG\-GT\-E[\d][\d][\d][\d]T Opera\/.*\(J[\d]ME\/MIDP.*Opera Mini\/[\d]\.[\d].*\).*
+8eaf457019aa3bdacb9ee110f7746f82 31 SAGEM\-myX\-[\d]m\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+8eb835fcdc8bc641bc145c572c7e6cf0 10 Search\-[\d][\d]\/.*
+8ebe2dff542664e99d73016ae8ed319a 48 K\-Meleon\/[\d]\.[\d] \(.*Windows NT [\d]\.[\d].*\) Gecko\/.* Mozilla\/[\d]\.[\d]
+8ed2697e95176895955f4bf4155f5741 11 Baiduspider.*

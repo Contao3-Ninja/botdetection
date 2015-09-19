@@ -1,0 +1,17 @@
+ba1873764dee063eeb805c3e50f6819c{"Parent":"Offline Browsers","Browser":"BackStreet Browser"}
+ba11f712cda5b67ea7440b10a9a155cb{"Parent":"MJ12bot","Version":"0.7","MinorVer":"7"}
+ba1db0b9efc0a7089d1ffaad0a6beb57{"Parent":"Facebook App 6.1 for iOS","Platform_Version":"4.0"}
+ba1b7afa836928b5ff91a5641e67034c{"Parent":"Facebook App 3.3 for iOS","Platform_Version":"5.0","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+ba106570d804bb3e12491c0b608918a2{"Parent":"Android WebView 4.3","Platform_Version":"4.3","Device_Name":"Xperia E","Device_Maker":"Sony","Device_Code_Name":"C1505","Device_Brand_Name":"Sony"}
+ba1a65b26ff802fa74a8877807f8580b{"Parent":"Android WebView 2.0","Platform_Version":"2.3","Device_Name":"Xperia PLAY","Device_Maker":"SonyEricsson","Device_Pointing_Method":"unknown","Device_Code_Name":"R800iv","Device_Brand_Name":"SonyEricsson"}
+ba1b52c12fa314001d013b8f519b9057{"Parent":"Android WebView 1.0","Platform_Version":"4.1","Device_Name":"Xperia Arc HD","Device_Maker":"SonyEricsson","Device_Code_Name":"LT26i","Device_Brand_Name":"SonyEricsson"}
+ba10022f1d8d9a1061b54711df1a47a3{"Parent":"Opera 5.01","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+ba1d5b78a26d3ae7416484aaf0cde0af{"Parent":"Opera 3.21","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+ba1794b89aed355965fb2921741bc106{"Parent":"Google App 5.0","Platform_Version":"3.1","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+ba14e5cc62ab9a77ea51fd5c870e3fbd{"Parent":"UC Browser 8.9","Browser_Bits":"32","Platform":"WinPhone8","Platform_Version":"8.0","Platform_Description":"Windows Phone OS 8","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","JavaApplets":"false","Device_Pointing_Method":"touchscreen","RenderingEngine_Name":"U2","RenderingEngine_Description":"a WebKit Fork by UC Web","RenderingEngine_Maker":"UC Web"}
+ba17b88915447cdb9aa655c93b739132{"Parent":"Iron 24.0","Browser_Bits":"32","Platform":"Win2000","Platform_Version":"5.0","Platform_Description":"Windows 2000","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+ba18c5834d43426fa9abbf966861b129{"Parent":"Silk 3.16","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire HD 8.9 Wi-Fi","Device_Type":"Tablet","Device_Code_Name":"KFJWI"}
+ba1b26a5ff2d9d455caf42c09c0f0741{"Parent":"Chrome 31.0 for iOS","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+ba1c1e3a7d1a4af95b10ea0cfa56dec7{"Parent":"Qt Generic for Android","Platform_Version":"2.3"}
+ba1d1c61baec272deeaf0bcdc26b99d9{"Parent":"Windows Media Player","Version":"12.0","MajorVer":"12"}
+ba14fbf6c17d4146cc0b81d2fd8eb376{"Parent":"iBrowser 2.3","Browser_Bits":"32","Platform":"Android","Platform_Version":"4.1","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc"}

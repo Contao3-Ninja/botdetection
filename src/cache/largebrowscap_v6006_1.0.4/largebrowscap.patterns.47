@@ -1,0 +1,16 @@
+470b64d07d0ef0b4b698647731f32e63 8 Snapbot\/.*
+470ed6d34e326a4ed44d387b732911d7 31 MOT\-V[\d][\d][\d]\/[\d]\.[\d]\.[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+4711ba2f44626354c1e5814195893d91 37 SAMSUNG\-SGH\-J[\d][\d][\d]i\/J[\d][\d][\d].* UP\.Browser\/[\d]\.[\d].*
+4714633c85b32c14e16ec95eaee60e44 31 AtomicLite\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+4721dc44189fbd24daee43bb3c68798e 11 Gulper Web .*
+472809ae2a44d92bb04258cb4e91dd9d 33 SHARP\-TQ\-V[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+47578bba0c63343daa6c9459150e1178 20 multiBlocker browser.*
+47600b4d1c778645665a27c05a28b30e 67 [\d][\d][\d][\d]b\/MR[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+47714531e49fd221f5bcb911184267c9 31 HTC_Touch_HD[\d]_T[\d][\d][\d][\d] Opera\/[\d][\d]\.[\d][\d].*
+4787b660573570c33f8e01eee2b698c2 17 HTTP_Request[\d]\/[\d]\.[\d].*
+478862f45884be4026ab3e09dcdb5329 17 Pixray\-Seeker\/[\d]\.[\d].*
+4789514bfef90aedd83016489cf7f6fd 59 FeedOnFeeds\/[\d]\.[\d]\..* \( http\:\/\/minutillo\.com\/steve\/feedonfeeds\/\)
+47a20e492a711556f39b1cdf98c80606 8 sproose\/.*
+47b924c7feee522e8394b8d06a281253 33 SHARP\-TQ\-GX[\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+47ccda3fadd031e7cfa1e84016cc97bf 90 TBD[\d][\d][\d][\d] Mozilla\/[\d]\.[\d] \(X[\d][\d]; Linux x[\d][\d]_[\d][\d]\) AppleWebKit\/.* \(KHTML, like Gecko\) Chrome\/[\d][\d]\..*Safari\/.*
+47da5f1cb7d08810af680854947276dc 30 iBrowser\/[\d]\.[\d],Lava\-Discover[\d][\d][\d]\/.*

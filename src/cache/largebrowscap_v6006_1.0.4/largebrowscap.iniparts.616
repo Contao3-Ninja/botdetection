@@ -1,0 +1,28 @@
+616cecdb2f6053ce9457df86d2ac8434{"Parent":"BitTorrent Clients","Browser":"uTorrent"}
+6160c75a96014d1deae9d6d891ef783b{"Parent":"FlipboardProxy","Browser_Bits":"32","Version":"1.1","MajorVer":"1","MinorVer":"1","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Maker":"Various","Device_Type":"Desktop","Device_Pointing_Method":"mouse","Device_Code_Name":"Windows Desktop"}
+6164d64157c912510472d19081b39398{"Parent":"Kinza 1.2","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"64","Win32":"false","Win64":"true"}
+61672a2aaebdfe64d42cce6356b8a803{"Parent":"Avant\/IE 7.0","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true"}
+616dfab312a8a70170c822ecace6ff6f{"Parent":"Facebook App 21.0 for iOS","Platform_Version":"6.1","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+61626a4706843e8a365fa6ac9cbe05b5{"Parent":"Facebook App 17.0 for iOS"}
+61640bb2bd6821d3340c7e87b93e486c{"Parent":"Facebook App 12.0 for iOS","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+6166506c5a7d216b90274400ea110a47{"Parent":"Facebook App 4.0 for iOS","Platform_Version":"8.1","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+61699c8c9f0e077a8179633f7475c58c{"Parent":"Android WebView 5.0","Platform_Version":"2.3","Device_Name":"Desire HD","Device_Maker":"HTC","Device_Pointing_Method":"unknown","Device_Code_Name":"Desire HD","Device_Brand_Name":"HTC"}
+61694a87244bb8cbbcc9c008442d5816{"Parent":"Android WebView 5.0","Platform_Version":"4.0","Device_Name":"Xperia Neo","Device_Maker":"SonyEricsson","Device_Pointing_Method":"unknown","Device_Code_Name":"MT15i","Device_Brand_Name":"SonyEricsson"}
+616a249cb27716e4527d01cdb7348faa{"Parent":"Android WebView 4.3","Platform_Version":"4.1","Device_Name":"Ascend G510","Device_Maker":"Huawei","Device_Pointing_Method":"unknown","Device_Code_Name":"G510","Device_Brand_Name":"Huawei"}
+6166a531e789cd13ef75e8b0ebbde75f{"Parent":"Android WebView 4.2","Platform_Version":"2.1","Device_Name":"SCH R880","Device_Maker":"Samsung","Device_Pointing_Method":"unknown","Device_Code_Name":"SCH R880","Device_Brand_Name":"Samsung"}
+616b4948e8fdd9d5e1a581f664f495c8{"Parent":"Android WebView 4.0","Platform_Version":"4.1","isTablet":"true","Device_Name":"MeMO Pad ME172V","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"ME172V","Device_Brand_Name":"Asus"}
+61686607a589de3e998bbeaa5534f128{"Parent":"Android WebView 2.1","Platform_Version":"2.3","Device_Name":"Galaxy Y Duos","Device_Maker":"Samsung","Device_Pointing_Method":"unknown","Device_Code_Name":"GT-S6102B","Device_Brand_Name":"Samsung"}
+616856938f709a6f913f8a382b3d465e{"Parent":"Android WebView 1.0","Platform_Version":"4.3","Device_Name":"Galaxy S II","Device_Maker":"Samsung","Device_Code_Name":"GT-I9100G","Device_Brand_Name":"Samsung"}
+616b20e3af8061eb0b77f2526b2a2186{"Parent":"Android WebView 1.0","Platform_Version":"4.2","Device_Name":"Leader","Device_Maker":"ZOPO","Device_Pointing_Method":"unknown","Device_Code_Name":"ZP900","Device_Brand_Name":"ZOPO"}
+6169a013b56929731d3ae4d20bda4f19{"Parent":"Yandex Browser 13.12 for Android","Platform_Version":"4.2","isTablet":"true","Device_Name":"Iconia A1-810","Device_Maker":"Acer","Device_Type":"Tablet","Device_Code_Name":"A1-810","Device_Brand_Name":"Acer"}
+61605dfcacaa4bfd3ddaee3c434ab225{"Parent":"Opera Mobile 19.0 for Android","Platform_Version":"4.4","isTablet":"true","Device_Name":"Nexus 7","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"Nexus 7","Device_Brand_Name":"Google"}
+61654b7d8fedef5db711677101e847e2{"Parent":"Chrome 40.0 for Android","Platform_Version":"4.3","isTablet":"true","Device_Name":"PadFone","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"PadFone","Device_Brand_Name":"Asus"}
+61625e2ccff8439c4bd6ab446ac1465d{"Parent":"Chrome 35.0","Browser_Bits":"32","Platform":"Win10","Platform_Version":"6.4","Platform_Description":"Windows 10","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+6164f0616288df733d04dd86ac030ccf{"Parent":"Chrome 28.0 for Android","Platform_Version":"4.3","Device_Name":"GT-I9205","Device_Maker":"Samsung","Device_Code_Name":"GT-I9205","Device_Brand_Name":"Samsung"}
+616e88b70b26fff0ca35393680146d79{"Parent":"Chrome 27.0 for iOS","Platform_Version":"4.0","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+616d0756b84c7cd7859be67128ed8e9f{"Parent":"Chrome 12.0 for Android"}
+61635a2dd2d8c6aa629941f221275a66{"Parent":"OneBrowser 3.5","Browser_Bits":"32","Platform":"Android","Platform_Version":"2.3","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc","Device_Name":"A27","Device_Maker":"Micromax","Device_Code_Name":"A27","Device_Brand_Name":"Micromax"}
+6168e9eed8f8a6adceb52d3f55a4c668{"Parent":"Nokia Browser 7.2","Device_Name":"C5","Device_Code_Name":"C5-03"}
+616855cf037880c3fc82e539460aaf71{"Parent":"iCab 2.8"}
+6160e110c83eddc8ea10004dd226d40a{"Parent":"FirefoxOS 24.0"}
+616aa5016a3ddd529127e118916d152a{"Parent":"Firefox 1.4","Browser_Bits":"32","Platform":"DragonFly BSD","Platform_Description":"DragonFlyBSD","Platform_Bits":"32"}

@@ -1,0 +1,28 @@
+8359ad1dc620f47484608d997438535b{"Parent":"Facebook App 21.0 for iOS","Platform_Version":"6.0","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+835949af043819a1d16b10446d32a1e5{"Parent":"Facebook App 5.1 for iOS","Platform_Version":"3.1"}
+83581f846510edc2657996221a0f58ef{"Parent":"Facebook App 3.2 for iOS","Platform_Version":"3.2","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+835233b6026bd06363365c6df34635d2{"Parent":"Comodo Dragon 17.4","Platform":"WinVista","Platform_Version":"6.0","Platform_Description":"Windows Vista","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+83595dbc86a3a6042f044cb24619d064{"Parent":"Android WebView 5.0","Platform_Version":"4.0"}
+8350fef175a9ffc3646d66bdd13e02f7{"Parent":"Android WebView 4.4","Platform_Version":"3.1","isTablet":"true","Device_Name":"Galaxy Tab 8.9","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P7300","Device_Brand_Name":"Samsung"}
+835564cdfe06d509297736170e4a0a00{"Parent":"Android WebView 4.4","Platform_Version":"4.3","Device_Name":"One M8","Device_Maker":"HTC","Device_Code_Name":"M8","Device_Brand_Name":"HTC"}
+835eb2e1ba2bf7d780242e03a4aaccb3{"Parent":"Android WebView 4.1","Platform_Version":"2.3"}
+8355ec98eeba2c2ba1e3cdaceef3aa61{"Parent":"Android WebView 2.0","Platform_Version":"2.3","Device_Name":"Xperia Arc SO-01C for DoCoMo","Device_Maker":"SonyEricsson","Device_Pointing_Method":"unknown","Device_Code_Name":"LT15i","Device_Brand_Name":"SonyEricsson"}
+8359488340f64e7052df9b7978445859{"Parent":"Android WebView 1.5","Platform_Version":"4.0","Device_Name":"Xperia miro","Device_Maker":"Sony","Device_Code_Name":"ST23i","Device_Brand_Name":"Sony"}
+83537105d43e1bb020a28f8a49c51816{"Parent":"Opera 9.60","Browser_Bits":"32","Platform":"SunOS","Platform_Description":"SunOS","Platform_Bits":"32","Platform_Maker":"Oracle"}
+83526f1d4015ceaa3f5c032778b68a0f{"Parent":"Opera 8.01","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.10","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+835fabb9312a37a13b7f795aa511d91a{"Parent":"Google App 5.1","Platform_Version":"3.0"}
+835c6bcb10ae28a6f1fb6333f05e901d{"Parent":"Iron 30.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+835aac80466fc9057db2d8ceb31956ee{"Parent":"Chrome 44.0","Browser_Bits":"32","Platform":"Win10","Platform_Version":"10.0","Platform_Description":"Windows 10","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+835fe532ac13c5d8f8141f731e6e7251{"Parent":"Chrome 42.0 for Android","Platform_Version":"4.1","Device_Name":"Xperia Arc HD","Device_Maker":"SonyEricsson","Device_Code_Name":"LT26i","Device_Brand_Name":"SonyEricsson"}
+835a475985483d81ed89e8478bc72ab6{"Parent":"Chrome 41.0 for Android","Platform_Version":"4.1","isTablet":"true","Device_Name":"PadFone","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"PadFone","Device_Brand_Name":"Asus"}
+835f26b07cc67874481c7f68976a022a{"Parent":"Chrome 36.0 for Android","Platform_Version":"4.3","isTablet":"true","Device_Name":"K012","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"K012","Device_Brand_Name":"Asus"}
+8357b1b7cfc89bb48d311fb8b6aa102f{"Parent":"Chrome 34.0 for Android","Platform_Version":"4.1","Device_Name":"Xperia Arc HD","Device_Maker":"SonyEricsson","Device_Code_Name":"LT26i","Device_Brand_Name":"SonyEricsson"}
+835aa1fc1c0b91233a31b198fd163379{"Parent":"Chrome 34.0 for Android","Platform_Version":"4.0","Device_Name":"Galaxy Xcover 2","Device_Maker":"Samsung","Device_Pointing_Method":"unknown","Device_Code_Name":"GT-S7710","Device_Brand_Name":"Samsung"}
+835f6c3a6b34bb95e971a27c8c67db66{"Parent":"Chrome 34.0 for iOS","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+835ac27c4a2c4e6b3cdd2b9c4880f197{"Parent":"Airmail 1.5","Platform_Version":"10.10"}
+8359610ec7b00b45b536dae1c19fe382{"Parent":"Mobile Safari 4.0","Platform_Version":"6.0","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+8358d8bbd8c0abc3e02c90d992e97545{"Parent":"Thunderbird 40.0","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+83541a5d209bcded238b87674fbae45b{"Parent":"Iceweasel 21.0","Browser_Bits":"64","Platform_Bits":"64"}
+83598e21feb4265b91190982a277e6a0{"Parent":"Firefox 12.0","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.4","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+835cfa48b27d31c8e06a192ab52ea7ad{"Parent":"CometBird 10.0","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Win32":"true"}
+8352a9ee967fcf1a59f180705f405193{"Parent":"stagefright 1.1","Platform_Version":"4.1"}

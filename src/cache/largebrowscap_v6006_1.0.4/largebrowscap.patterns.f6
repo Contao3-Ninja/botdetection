@@ -1,0 +1,21 @@
+f60049eafcf1ef3d73eb36aeac28bc96 52 renlifangbot\/[\d]\.[\d] \(.http\:\/\/search\.msn\.com\/msnbot\.htm\)
+f612174f67187f9a73ce8a37077cacc3 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+f612174f67187f9a73ce8a37077cacc3 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+f612174f67187f9a73ce8a37077cacc3 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+f612174f67187f9a73ce8a37077cacc3 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+f612174f67187f9a73ce8a37077cacc3 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+f612174f67187f9a73ce8a37077cacc3 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+f612174f67187f9a73ce8a37077cacc3 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+f612174f67187f9a73ce8a37077cacc3 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+f63b400ed1a449d87fb370d70cba4238 14 Python\-urllib\/.*
+f65675c050e2577c89bfe5eba7bdcdaf 35 SHARP\-TQ\-GZ[\d][\d][\d]S\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+f672e55402020eb39dc2e35f4fd060c2 30 MOT\-RASPB\/[\d][\d]\.[\d][\d] UP\.Browser\/[\d]\.[\d].*
+f6932416ddd5130de11fad0922529efb 17 LG\-G[\d][\d][\d][\d] AU\/[\d]\.[\d][\d] .*
+f6b9f92bf840da428490a50b1af21c32 21 LG\-MG[\d][\d][\d]D MIC\/WAP[\d]\.[\d] .*
+f6bf2cea82739b23faccd8467b36198a 21 BOT\/[\d]\.[\d].* \(BOT for JCE\).*
+f6c98388fa16b847bdf7bfc5cca962c5 22 MOT\-[\d][\d][\d][\d]_\/.* UP\.Browser\/.*
+f6ddf065171f525699fe1704220213ae 35 SonyEricssonJ[\d][\d][\d]i\/.* TelecaBrowser\/[\d]\..*
+f6e41838d667c00e2c6079bb750837d6 30 Lotus\-Notes\/[\d]\.[\d] \( Windows\-NT \)
+f6e57c9de709e45feb0d955351f53548 4 curl.*
+f6e58a08c3833de286c09a9fd8a962a8 47 Inne\: Mozilla\/[\d]\.[\d] \(compatible; Cerberian Drtrs.*\)
+f6fd5242199d21a73631d64ed4c98df9 4 SVN\/.*

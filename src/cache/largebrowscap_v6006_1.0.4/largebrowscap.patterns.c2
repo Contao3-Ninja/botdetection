@@ -1,0 +1,38 @@
+c201ae72dbce04eb8beaea445766a080 56 SAMSUNG\-SGH\-L[\d][\d][\d]\-Vodafone\/L[\d][\d][\d]BUHEC SHP\/VPP\/R[\d] Opera\/[\d]\.[\d].*
+c21362c09265784947da5fc575e64e08 74 PANTECH\-C[\d][\d][\d]\/R[\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+c21c12ecc6ca8c381823c7c6abf88cb1 49 HTC_Smart_F[\d][\d][\d][\d] Mozilla\/[\d]\.[\d] \(like Gecko\) Obigo\/Q[\d]
+c22a47ad3079e1c1a71f9fb7d466c7fb 64 Mozilla\/[\d]\.[\d][\d] \(compatible; MMEF[\d][\d]; Cellphone; Sony CMD\-Z[\d];Pj[\d][\d][\d]e\)
+c22a47ad3079e1c1a71f9fb7d466c7fb 62 Mozilla\/[\d]\.[\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Palm OS [\d]\.[\d]\) EudoraWeb [\d]\.[\d]
+c22a47ad3079e1c1a71f9fb7d466c7fb 61 Mozilla\/[\d]\.[\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; PalmOS [\d]\.[\d]\) EudoraWeb [\d]\.[\d]	Mozilla\/[\d]\.[\d][\d] \(compatible; MMEF[\d][\d]; Cellphone; Sony CMD\-J[\d]\/J[\d][\d]\)
+c22a47ad3079e1c1a71f9fb7d466c7fb 59 Mozilla\/[\d]\.[\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; PalmOS [\d]\.[\d]\) EudoraWeb [\d]
+c22a47ad3079e1c1a71f9fb7d466c7fb 57 Mozilla\/[\d]\.[\d][\d] \(compatible; MMEF[\d][\d]; Cellphone; Sony CMD\-Z[\d]\)
+c25db5e3c9a8b3d33c3fe5854ea62e0b 18 ConveraCrawler\/[\d]\.[\d].*
+c25dbe9226521f7a23b98a3643d66e6c 48 dv\(GT\-S[\d][\d][\d][\d]\);pr\(UCBrowser\/[\d]\.[\d].*\);ov\(Android [\d]\.[\d]\.[\d]\).*
+c2668ce9b66c9fc8bf3e8343d38731e9 17 MOT\-V[\d][\d][\d]\/.* MIB\/[\d]\.[\d].*
+c2672bd36c3403f09a327162d70bf288 35 GoodReaderIPad\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+c26992fbb4aeda6de679d7e9f6782f89 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+c26992fbb4aeda6de679d7e9f6782f89 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+c26992fbb4aeda6de679d7e9f6782f89 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+c26992fbb4aeda6de679d7e9f6782f89 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+c26992fbb4aeda6de679d7e9f6782f89 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+c26992fbb4aeda6de679d7e9f6782f89 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+c26992fbb4aeda6de679d7e9f6782f89 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+c26992fbb4aeda6de679d7e9f6782f89 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+c2721807ea8bd491e0c9647cc477f2ea 25 SIE\-C[\d]V\/[\d]. UP\.Browser\/[\d]\.[\d].*
+c2736547db92153aff7943ad6dd694a6 37 Safari\/[\d][\d]..\..* CFNetwork\/.*Darwin.*\(x[\d][\d]_[\d][\d]\).*
+c2736547db92153aff7943ad6dd694a6 29 Safari\/[\d][\d]..\..* CFNetwork\/.*Darwin.*
+c29207bce3ecdf138d2bdab78ab9334d 18 LightningDownload\/.*
+c2930032e5fc0a7ba20c74e2fe792c28 12 RamblerMail\/.*
+c29d8bceb78b28aae87ee392b07da9c0 36 SAMSUNG\-SGH\-X[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+c2b2890b2e03861ce930aac280ac8a0a 6 Jeode\/.*
+c2bc055329a07d312c7c0458d4fe918d 12 ExtractorPro.*
+c2bdf16511ca3772d8510764c8d61c66 17 MSNBot\-NewsBlogs\/.*
+c2cba3ba999f6fc2789ea678cb729d0b 23 SIE\-A[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+c2ccc448107545c1b70ed0e87712d848 25 MOT\-E[\d][\d][\d][\d]\/[\d][\d]\..* MIB\/BER[\d]\.[\d] .*
+c2ccc50fa224d495511de62cf9b39a3d 11 XoviBot\/[\d]\.[\d].*
+c2d1972dc3025dd72a95387f1f8397fc 10 Nokia[\d][\d][\d][\d]\/.*
+c2d3d9c8477f5ed4df7b03e3aff123cc 24 SIE\-AX[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+c2d541591d61ad83f89149b5be307470 7 SynoBot
+c2e355fa0d28513b08bd5861c709075c 26 E[\d][\d]\-MPG[\d]\/A\.[\d]\.[\d]\.[\d]\.[\d]\/WAP[\d]\.[\d] .*
+c2e62e49561531b8cb641f4d2835958e 66 Nokia[\d][\d][\d]\/.* Profile\/MIDP\-[\d].* UCWEB\/[\d]\.[\d] \(.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.* Mobile.*
+c2e8ff13e8523c408389fef7664872d5 70 SAMSUNG\-GT\-C[\d][\d][\d][\d].* Profile\/MIDP\-[\d]\.[\d] Configuration\/CLDC\-[\d]\.[\d] Untrusted\/[\d]\.[\d]

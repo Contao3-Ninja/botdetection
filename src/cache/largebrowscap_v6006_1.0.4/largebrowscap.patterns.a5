@@ -1,0 +1,13 @@
+a50ea2962fd294d6a70abcf3e3a31e45 29 iBrowse\/[\d]\.[\d][\d] CFNetwork\/.*Darwin.*
+a54c1cc40c1ff9d750424a24d0ce25de 30 Alcatel\-BF[\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+a55295f4d06d5231f9e130c630dd94c3 31 Haier\-M[\d][\d][\d][\d] \/ Obigo Browser [\d]\.[\d]
+a55857851fa3cb1f5ea3050622c7a9e4 12 UnityPlayer\/.*
+a55f4e587f397e38b6e3b62be0ad79fd 23 SIE\-A[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+a586da5622dfe401855b4aaead11e606 6 INNO[\d][\d].*
+a5a504b82f38a5ae8bd4308015bf8c1d 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+a5b09815f38ce3fa1c80680c816548cf 11 Mozilla\/[\d]\.[\d].*
+a5b1286d9054725dcda0427b5117f994 24 KDDI\-TS[\d][\d] UP\.Browser\/[\d]\.[\d].*
+a5cefcaf0bacca9e8714e05b9e932d2c 83 UTSTARCOM\-GTX[\d][\d]\/.* POLARIS\/[\d]\.[\d][\d] Profile\/MIDP\-[\d]\.[\d] Configuration\/CLDC\-[\d]\.[\d] UNTRUSTED\/[\d]\.[\d]
+a5d1029dcc2803213e432ac2baed478a 16 UtilMind HTTPGet
+a5eae66b7227104ce13b5c4cdbd52453 96 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+a5eae66b7227104ce13b5c4cdbd52453 92 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*

@@ -1,0 +1,29 @@
+a0b271a9d8aa8e7473922164d6a1c03c{"Parent":"DefaultProperties","Comment":"Ask","Browser":"Ask","Browser_Type":"Bot\/Crawler","Browser_Maker":"Ask.com","Frames":"true","IFrames":"true","Tables":"true","Crawler":"true"}
+a0bd9db9660cc0988a3a50894faa0eb8{"Parent":"Microsoft","Browser":"Microsoft-WebDAV","Version":"6.1","MajorVer":"6","MinorVer":"1"}
+a0bf133a06009ac277e8629c622121ad{"Parent":"Facebook App 5.3 for iOS","Platform_Version":"6.1"}
+a0b307f087b3403daf67290659d0864f{"Parent":"Facebook App 3.0 for iOS","Platform_Version":"3.2"}
+a0bdd6d518c420ddf448e5916feff02e{"Parent":"Facebook App 2.2 for iOS","Platform_Version":"4.2","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+a0b01f6a63e07be5a521324aa6f33a21{"Parent":"Android WebView 4.0","Platform_Version":"4.0","Device_Name":"Xperia E","Device_Maker":"Sony","Device_Code_Name":"C1505","Device_Brand_Name":"Sony"}
+a0b8afb7241ca9ad76d9acbbccf1ebc4{"Parent":"Fake Browser"}
+a0b273bee27038e671af3078cab237db{"Parent":"Opera Mobile 29.0 for Android","Platform_Version":"4.2","Device_Name":"Galaxy S III","Device_Maker":"Samsung","Device_Code_Name":"GT-I9300","Device_Brand_Name":"Samsung"}
+a0b93502dbd33c603083970cf6c64c51{"Parent":"Opera 12.11","Browser_Bits":"32","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a0b798b49053d8c650f677b47c568ba2{"Parent":"Opera 12.00","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.1","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a0b1bc7aa032efcad6b98591b8529966{"Parent":"Opera 6.02","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.5","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+a0b15efab6284654949886a6ec251040{"Parent":"Opera 4.01","Browser_Bits":"32","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"32","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+a0b771e5051f731508a7af59052dcb4e{"Parent":"UC Browser 7.9","Platform_Version":"4.0","Device_Name":"Galaxy Mini","Device_Maker":"Samsung","Device_Code_Name":"GT-S5570","Device_Brand_Name":"Samsung"}
+a0b909567fdd7ee6aae8f8b08a6f5675{"Parent":"Silk 3.51","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire 7","Device_Type":"Tablet","Device_Code_Name":"KFOT"}
+a0b8d8cc01d2b33bfc083bf61c1b56b0{"Parent":"Chrome 46.0 for Android","Platform_Version":"4.0","Device_Name":"Xperia miro","Device_Maker":"Sony","Device_Code_Name":"ST23i","Device_Brand_Name":"Sony"}
+a0b09b9d1d09a4b4b20d9ad50ceefae4{"Parent":"Chrome 39.0 for iOS","Platform_Version":"5.0","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+a0beaf794192b437ffca4055a1c6f380{"Parent":"Chrome 30.0","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.1","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a0bdfea466cb68bc99b7f446e726dfe0{"Parent":"Chrome 11.0 for Android","Platform_Version":"4.1","isTablet":"true","Device_Name":"762 A9 TABLET","Device_Maker":"Dino","Device_Type":"Tablet","Device_Code_Name":"762 A9","Device_Brand_Name":"Dino"}
+a0b8edccc4a80abe237eed6981006681{"Parent":"OneBrowser 4.1","Browser_Bits":"32","Platform":"Android","Platform_Version":"2.3","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc"}
+a0b0b02bfd6bedfd1d9c6cf78109dae0{"Parent":"iBrowser 2.5","Browser_Bits":"32","Platform":"Android","Platform_Version":"2.3","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc"}
+a0bd161f764ee61f30cd15caff21af2c{"Parent":"Nokia Proxy Browser 3.9","Device_Name":"112","Device_Code_Name":"112"}
+a0bcbd43cf9d338a29e85a0558d776f3{"Parent":"Opera Mini Generic","Browser_Bits":"32","Platform":"RIM OS","Platform_Description":"RIM OS","Platform_Bits":"32","Platform_Maker":"Research In Motion Limited","Device_Name":"Blackberry","Device_Maker":"Research In Motion Limited","Device_Type":"Mobile Phone","Device_Code_Name":"Blackberry","Device_Brand_Name":"RIM"}
+a0be202162ff147f3c89f459dfb156de{"Parent":"Mobile Safari 8.0"}
+a0bea45092782f3cc08b79c2085ca8e3{"Parent":"Safari 4.1","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+a0bf8486b9dea548bb98b6b9c2be61d0{"Parent":"Firefox 1.6","Browser_Bits":"32","Platform":"Darwin","Platform_Description":"Darwin is a Core Component of MacOSX and iOS","Platform_Bits":"32","Platform_Maker":"Apple Inc"}
+a0b9c27d8f142f23c1cd65c5085537fe{"Parent":"MacAppStore","Version":"2.0","MajorVer":"2","Platform_Version":"10.9"}
+a0b844911e262fd16ca8aba812b2654d{"Parent":"Openwave Mobile Browser 6.2","Device_Name":"MN240","Device_Maker":"LG","Device_Code_Name":"MN240","Device_Brand_Name":"LG"}
+a0b6c752a5b55e1c62590b85ef142f45{"Parent":"Openwave Mobile Browser 6.2"}
+a0b7e9b9ecc26d5fa1ef4631aaa6d508{"Parent":"Openwave Mobile Browser 4.1","Device_Name":"SCH-X659","Device_Maker":"Samsung","Device_Code_Name":"SCH-X659","Device_Brand_Name":"Samsung"}

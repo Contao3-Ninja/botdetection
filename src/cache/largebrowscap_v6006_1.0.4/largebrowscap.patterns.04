@@ -1,0 +1,14 @@
+04091bd1b9aee1308800f4210402db86 23 Windows\-Media\-Player\/[\d]\..*
+0427806e61708f3dfb68dc7b7dc8153e 33 SHARP\-TQ\-GX[\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+04392afbb50e1ed6f9f7b3b67c05bca3 48 WCC Browscap Updater\/[\d]\..* \(PHP\: file_get_contents\)
+045f2169eb1cfe501b737add4a3bf703 51 BENQS[\d][\d][\d].[\d]\.[\d][\d].WAP[\d]\.[\d].MIDP[\d]\.[\d].CLDC[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+04695d81ed4eb31a1897ff4f3eb8d61e 72 HTC_TouchDual Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+047e80f7cff8e5bc94c433a777a4f8aa 71 \=Mozilla\/[\d]\.[\d] \(Windows.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Chrome\/.* Safari\/.*
+049761d9669fe6532b38d97eb7cfdc2f 11 lwp\-trivial.*
+049a70e3bee2416d989481c429142bad 11 www\.auto\.de
+049c79ddd0e44c43f58ecda0c1db9992 9 JoobleBot.*
+049f90fa85fa559ae5e82eb229c9e885 28 LGE\-LG[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+04a22961d36bc2cd3bee635d8e7f9fc1 14 ScollSpider\/[\d]\..*
+04b88e14c17129ba0aef02f20d75c041 16 DomainCrawler\/[\d]\..*
+04d12bef034d52ec8550d6532e33c4f6 14 LinkChecker\/[\d]\..*
+04e1ac33cfc5288fafb77d675ff56729 7 PHP\/[\d]\.[\d].*

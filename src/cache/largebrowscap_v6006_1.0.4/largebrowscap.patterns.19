@@ -1,0 +1,26 @@
+190b46dbb12e4f67537fb76fc1ca4640 6 revolt
+191054b4284cf7559c3cd3e4b47100db 27 WebIndexer\/.* \(Web Indexer; .*\)
+191054b4284cf7559c3cd3e4b47100db 25 WebIndexer\/.* \(Web Indexer.*\)
+193d52eda5ad71bf4163b931ae27b803 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+1948b15490e14ee31c5f36837f44cda5 8 IWAgent\/.*
+1974b24b2eb1099ea0c73844292f05a5 52 CDR\/[\d]\.[\d]\.[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows\)
+197f4fa9e461a6aa0a5bf7d0cd1f1a3c 11 ia_archiver.*
+199700641e65411f307341bbf3496bf8 38 SonyEricssonW[\d][\d][\d]\/.* Browser\/NetFront\/[\d]\.[\d].*
+199700641e65411f307341bbf3496bf8 28 SonyEricssonW[\d][\d][\d]\/.*\(SymbianOS\/.*
+199a74a143aa408a9e13532b9a0d7536 43 SAMSUNG\-SGH\-D[\d][\d][\d]\/[\d]\.[\d]\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+19b50be123f5967a2b6e7ed761d77e2a 10 Nokia[\d][\d][\d][\d]\/.*
+19c3cf82082784edbc19e351870268f6 15 Bot\.ara\.com\.tr\/.*
+19cf590ee2ee201c6937456e90ce7c89 37 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*Win[\d][\d]. x[\d][\d].*\).*
+19cf590ee2ee201c6937456e90ce7c89 32 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*WOW[\d][\d].*\).*
+19cf590ee2ee201c6937456e90ce7c89 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+19cf590ee2ee201c6937456e90ce7c89 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+19cf590ee2ee201c6937456e90ce7c89 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+19cf590ee2ee201c6937456e90ce7c89 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*x[\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+19cf590ee2ee201c6937456e90ce7c89 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux i[\d][\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+19cf590ee2ee201c6937456e90ce7c89 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+19cf590ee2ee201c6937456e90ce7c89 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+19cf590ee2ee201c6937456e90ce7c89 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+19d49c26ce47321aecc1e1fb25089eca 8 Java\/[\d]\.[\d].*
+19df6c9bab7d6abf2bcb3fdd0550fb9a 9 EmailWolf.*
+19e8dd8deb917b9e0ee2813193133240 37 SAMSUNG\-GT\-E[\d][\d][\d][\d]\/E[\d][\d][\d][\d].* UP\.Browser\/[\d]\.[\d].*
+19f5ed87277423e83f31450706244b64 13 WebCrawler_[\d]\..*

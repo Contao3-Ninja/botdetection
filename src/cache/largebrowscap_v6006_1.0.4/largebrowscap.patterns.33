@@ -1,0 +1,26 @@
+3340304d3738522fdf32eac7220785f2 37 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*Win[\d][\d]. x[\d][\d].*\).*
+3340304d3738522fdf32eac7220785f2 32 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*WOW[\d][\d].*\).*
+3340304d3738522fdf32eac7220785f2 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+3340304d3738522fdf32eac7220785f2 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+3340304d3738522fdf32eac7220785f2 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+3340304d3738522fdf32eac7220785f2 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*x[\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+3340304d3738522fdf32eac7220785f2 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux i[\d][\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+3340304d3738522fdf32eac7220785f2 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+3340304d3738522fdf32eac7220785f2 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+3340304d3738522fdf32eac7220785f2 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+33443dd97dfb4f17873e8293149f94c4 21 BB[\d]C.* CFNetwork\/.*Darwin.*
+33479446796915b2fc62019765fed580 28 KWC\-Onyx\/[\d][\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+33561003f44d374c719506bef4faeba4 16 Sony PS[\d] \(Linux\)
+335ce7136f6d4dd7c6cd0f011a98d4b6 41 Alcatel\-OH[\d]C\/[\d]\.[\d] ObigoInternetBrowser\/[\d]\.[\d]
+336669dbe720233ed5577ddf81b653d3 66 [\d]\.[\d] \(.*Mac OS X.*\) AppleWeb\\t\\tKit\/.* \(KHTML,.*like Gecko.*\) Version\/.*Safari\/.*
+336ffe935327b648e3b65a88a8e990b0 55 Vodafone\/[\d]\.[\d]\/SamsungSGHX[\d][\d][\d]V\/X[\d][\d][\d]JBEK[\d]\/Browser\/TSS\/[\d]\.[\d] .*
+33742f5d062b4019c9df581f1fadaec0 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+337f34576a3c96494fe0cf1fc01f26d2 19 MOT\-V[\d][\d][\d]M\/.* MIB\/[\d]\.[\d] .*
+33ad2b783da84397fedabe57dbdbe4a7 76 Dopod[\d][\d][\d]\/Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE; Smartphone; [\d][\d][\d]x[\d][\d][\d]\).*
+33b87808f1b44414b22e8fae916408ac 47 SEC\-SGHD[\d][\d][\d], TSS\/[\d]\.[\d], Rev [\d]\.[\d] UP\.Link\/[\d]\.[\d]\.[\d]\.[\d]\.[\d]
+33d0a271a580a3646886e1f5f45e245e 62 SmarTone\-Vodafone\/SharpSX[\d][\d][\d]\/SHS[\d][\d][\d]\/[\d]\.[\d] Browser\/UP\.Browser\/[\d]\.[\d].*
+33f26ee56e49660b7344f01bf99945a2 26 SIE\-[\d][\d][\d][\d]\/[\d][\d] UP\.Browser\/[\d]\.[\d].*
+33fbcf34e92c732aa708ef3110b0b8ef 25 IBrowse\/[\d]\.[\d] \(Windows [\d]\.[\d]\)
+33fbcf34e92c732aa708ef3110b0b8ef 22 IBrowse\/[\d]\.[\d] \(AmigaOS .*\)
+33fcbcfc779c8bd443d1d89598b6e9f7 38 SonyEricssonW[\d][\d][\d]\/.* Browser\/NetFront\/[\d]\.[\d].*
+33fcbcfc779c8bd443d1d89598b6e9f7 28 SonyEricssonW[\d][\d][\d]\/.*\(SymbianOS\/.*

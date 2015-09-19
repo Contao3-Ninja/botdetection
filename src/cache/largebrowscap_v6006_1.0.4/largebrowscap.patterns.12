@@ -1,0 +1,40 @@
+1234bc3312d767f9e597e5a88769f2d4 30 fgBrowser\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+123d50ce202de58dfff80efbcd649e1e 8 Prozilla.*
+124486e46071abca283934a42d9cc762 37 SonyEricssonU[\d]u\/.* Browser\/NetFront\/[\d]\.[\d].*
+124486e46071abca283934a42d9cc762 27 SonyEricssonU[\d]u\/.*\(SymbianOS\/.*
+124f6adc7453d9709715901dcfae76f3 26 http\:\/\/www\.yellowpages\.com.*
+127601a379999ccdd73265b9227ac4c2 37 Huawei\-U[\d][\d][\d]\/[\d]\.[\d] BREW\/[\d]\.[\d] Browser\/[\d]\.[\d] .*
+128a2f36943a400fc6f2056d57290c1f 50 Mobitype .* \(compatible; Mozilla\/.*; MSIE .*\..*; Windows .*\)
+128b7d900183f5341654f6d04009299c 65 Mozilla\/[\d]\.[\d] \(Windows; .; Windows NT; .*\) Gecko\/.* Internet Explorer\/[\d].*
+128b7d900183f5341654f6d04009299c 59 Mozilla\/[\d]\.[\d] \(Linux; Unix OS .; .*\) Gecko\/.* Internet Explorer\/[\d].*
+128b7d900183f5341654f6d04009299c 56 Mozilla\/[\d]\.[\d] \(Mac; Mac OS .; .*\) Gecko\/.* Internet Explorer\/[\d].*
+128b7d900183f5341654f6d04009299c 54 Mozilla\/[\d]\.[\d] \(Windows; .; Windows NT; .*\) Gecko\/.* Mozilla\/.*
+128b7d900183f5341654f6d04009299c 48 Mozilla\/[\d]\.[\d] \(Linux; Unix OS .; .*\) Gecko\/.* Mozilla\/.*
+128b7d900183f5341654f6d04009299c 45 Mozilla\/[\d]\.[\d] \(Mac; Mac OS .; .*\) Gecko\/.* Mozilla\/.*	Mozilla\/[\d]\.[\d] \(Windows; .; Windows NT; .*\) Gecko\/.*
+128b7d900183f5341654f6d04009299c 42 Mozilla\/[\d]\.[\d] WebTV\/[\d]\..*\(compatible; MSIE [\d]\.[\d]\)	Mozilla\/[\d]\.[\d] WebTV\/[\d]\..*\(compatible.*; MSIE [\d]\.[\d]\)
+128b7d900183f5341654f6d04009299c 39 Mozilla\/[\d]\.[\d] \(Linux; Unix OS .; .*\) Gecko\/.*
+128b7d900183f5341654f6d04009299c 38 Mozilla\/[\d]\.[\d] \(compatible; Indy Library\)	Mozilla\/[\d]\.[\d] \(Slurp.*; slurp@inktomi\.com;.*
+128b7d900183f5341654f6d04009299c 36 Mozilla\/[\d]\.[\d] \(Mac; Mac OS .; .*\) Gecko\/.*
+128b7d900183f5341654f6d04009299c 27 Mozilla\/[\d]\.[\d] \(Windows NT [\d]\.[\d].*
+128b7d900183f5341654f6d04009299c 24 Mozilla\/[\d]\.[\d] \(compatible\)
+128b7d900183f5341654f6d04009299c 20 Mozilla\/[\d]\.[\d] \(INGRID\/.*
+128c162003ffb9a9f7776013b57828c5 30 DBTEL[\d][\d][\d][\d]C\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+128cc7feb41401f277f04a2ee1d1c3ce 25 MOT\-L[\d]i\/[\d]A\.[\d][\d]\.[\d][\d]R MIB\/[\d]\.[\d].*
+129b1036563e52b3e9f6d0474df5519c 23 SIE\-A[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+12a21f7ecebade061d23ffbaaf4c7f93 23 SCH\-A[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+12ad8e6079aadff016d8968894b88fc4 12 MSNBot\-News\/.*
+12adaecf506da1e2a02922dba5dc522e 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+12bbd9846d51a4f3239e5f72c150eb07 9 Bleu [\d][\d][\d]x
+12d057d46dadac3f8d766bec19795ae7 27 Cowbot\-.* \(NHN Corp.*naver\.com\)
+12d50f7488dd0fa32a3be2b9e33df393 43 SAMSUNG\-SGH\-T[\d][\d][\d]\/[\d]\.[\d]\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+12dc5f4ad77598975866f6bc1d3b0e8c 36 NokiaN[\d][\d]\-[\d]\/[\d]\.[\d] \([\d]\.[\d][\d]\.[\d][\d][\d]\) SymbianOS\/.*
+12e93455e54b2a17fd11c8d01e093fb1 94 Runnk online rss reader \: http\:\/\/www\.runnk\.com\/ \: RSS favorites \: RSS ranking \: RSS aggregator.*
+12f0e825f15393d796a6b302e7c064af 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+12f0e825f15393d796a6b302e7c064af 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+12f0e825f15393d796a6b302e7c064af 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+12f0e825f15393d796a6b302e7c064af 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+12f0e825f15393d796a6b302e7c064af 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+12f0e825f15393d796a6b302e7c064af 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+12f0e825f15393d796a6b302e7c064af 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+12f0e825f15393d796a6b302e7c064af 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+12f88c3de9885bf0b0ceb947d1e4c94c 86 O[\d]\/[\d]\.[\d]\/SEX[\d]i\/R.AA Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*UP\.Link\/[\d]\.[\d].*

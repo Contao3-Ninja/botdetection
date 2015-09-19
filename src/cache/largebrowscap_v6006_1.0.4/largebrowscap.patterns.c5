@@ -1,0 +1,21 @@
+c5054053569be52675ba90d2b02e2e1c 77 Dopod[\d][\d][\d]W\/Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE; Smartphone; [\d][\d][\d]x[\d][\d][\d]\).*
+c51a224ae3875dbfec0ce5bad86cbff7 26 iOS\/[\d]\.[\d].* \(.*\) dataaccessd\/[\d]\.[\d].*
+c52fe274f5a1c2d6152e1d5e0b3f05f8 18 Apple\-PubSub\/[\d][\d]\.[\d][\d].*
+c53b40194589f0bbf5a7213d5675f5b1 65 Dopod[\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE.*; Dopod[\d][\d][\d]\)
+c5524831dd3a561483a82ad000a8931c 37 fgBrowserPrivate\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+c55dc94b06741ad6f39343814f3c78b7 29 MOT\-A\-[\d]F\/[\d].\.[\d]. UP\.Browser\/[\d]\.[\d].*
+c5614dd0b7d622372c2f59f343d879c8 14 Panasonic\-X[\d][\d] .*
+c5695d11b55064b9ac63bf22de55b135 63 ASTRO[\d][\d]_TD\/.* Browser\/Opera .*Profile\/MIDP.* Opera\/.*\(MTK.*\).*Version\/[\d][\d]\.[\d][\d].*
+c56cb9992e6954fc0efc8f2e9df26578 29 Mercury[\d]\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+c59113798656a63b591c06e3d3ad5000 13 P[\d]P Validator
+c59113798656a63b591c06e3d3ad5000 10 P[\d]P Client
+c59ef0eb1ac55b96fe51212851a2b051 25 SIE\-S[\d]C\/[\d]. UP\.Browser\/[\d]\.[\d].*
+c5ac9bd18e5a107bc3bf8fcd2aa20aab 8 WebIndex.*
+c5b0ded0b8256815e35771b397d1bc68 26 LGE\-AD[\d][\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+c5b62d5f8466a52b13443fa012f3edf2 28 Miva \(AlgoFeedback@miva\.com\)
+c5bbd831e04df9d0b2e961c5c2cf9c74 11 TinEye\-bot\/.*
+c5c1e3f24661ec3e9f502980fe09ad7d 26 SEC\-scha[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+c5ca723f521d04ea8bbb684cd0f23ae8 13 RealDownload\/.*
+c5e3f02d624a54c1adfd7a78e620fa51 30 iBrowser\/[\d]\.[\d],Lava\-Discover[\d][\d][\d]\/.*
+c5f8b1e4fef7851746b4fafeb4d5ade1 69 Palm[\d][\d][\d]\/RC[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows [\d][\d]; PalmSource\/.*
+c5ff7e6f1034c1d8553ac5f914bf9708 8 ASPSeek\/.*

@@ -1,0 +1,23 @@
+70028e69384b95eafb3ccd1ba980f3f8 37 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*Win[\d][\d]. x[\d][\d].*\).*
+70028e69384b95eafb3ccd1ba980f3f8 32 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*WOW[\d][\d].*\).*
+70028e69384b95eafb3ccd1ba980f3f8 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+70028e69384b95eafb3ccd1ba980f3f8 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+70028e69384b95eafb3ccd1ba980f3f8 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+70028e69384b95eafb3ccd1ba980f3f8 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*x[\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+70028e69384b95eafb3ccd1ba980f3f8 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux i[\d][\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+70028e69384b95eafb3ccd1ba980f3f8 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+70028e69384b95eafb3ccd1ba980f3f8 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+70028e69384b95eafb3ccd1ba980f3f8 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+7011b9842bec10937dbaf06f11d6991a 10 Nokia[\d][\d][\d][\d]\/.*
+7015643a287e33878bee9586d1babc06 7 MOT\-E[\d]\/.*
+701d0b07ab81a3a26819656bc3c19117 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+705b3152f1504b6b740eff7e12f59635 18 semanticdiscovery\/.*
+707524c863499a9c68a62730d3e42836 96 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+707524c863499a9c68a62730d3e42836 92 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+708dc8336593aa3788f7f7161a9afe67 37 SEC\-SGHD[\d][\d][\d]\-X[\d][\d][\d]\/PEARL UP\.Browser\/[\d]\.[\d].*
+709df31112ebd5656166ac82fde3d958 24 SIE\-SL[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+70a9d7876f4adeaf15396391ac891f39 27 LG\-GT[\d][\d][\d]\/V[\d][\d]g Teleca\/WAP[\d]\.[\d].*
+70c756be5592a28662d6539fd31141f1 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+70d0c37466c2464c5c5704503b81a5cc 25 SIE\-C[\d][\d]\/[\d]. UP\.Browser\/[\d]\.[\d].*
+70dffbf707508299257989c049134abb 12 SEC\-SGHP[\d][\d][\d] .*
+70efafd67e205002650a868258122283 35 SAMSUNG\-SGH\-X[\d][\d][\d]\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*

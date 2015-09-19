@@ -1,0 +1,28 @@
+75022e5a832d7ba0a879beb77d2f58ad 40 SAGEM\-myV\-[\d][\d]\/[\d]\.[\d] .* Browser\/UP\.Browser\/[\d]\.[\d].*
+7505de2b0bb27cea814f094c20662110 39 python\-requests\/[\d]\.[\d].* CPython\/.*Linux.*x[\d][\d]_[\d][\d].*
+7505de2b0bb27cea814f094c20662110 38 python\-requests\/[\d]\.[\d].* CPython\/.*Linux i[\d][\d][\d].*
+7505de2b0bb27cea814f094c20662110 33 python\-requests\/[\d]\.[\d].* CPython\/.*Linux.*
+7505de2b0bb27cea814f094c20662110 19 python\-requests\/[\d]\.[\d].*
+751dc71e5b18b36d500daf5c755f1bef 43 SAMSUNG\-SGH\-E[\d][\d][\d]\/[\d]\.[\d]\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+7545d2412a60dd58dca19ed4353d939c 38 C[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*C[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+755b786060877116a7307bea096900f3 21 MOT\-C[\d][\d][\d]\/[\d]B\.D.* MIB\/[\d]\.[\d].*
+757289b75a8fbc46568bfedb04c7bd5b 10 Alltop\/[\d]\.[\d].*
+7574a6d2586567d05d2c333f197467d9 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+757845d2b0a85ff459cbaee9cda51147 134 Debussy\/WAP[\d]\.[\d] Profile\/MIDP[\d]\.[\d] Configuration\/CLDC[\d]\.[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; Smartphone; [\d][\d][\d]x[\d][\d][\d]; HPiPAQ[\d][\d][\d]\/[\d]\.[\d]\)
+7578cc803c495d5edd9a0acb231e900e 11 rogerbot\/[\d]\..*
+757b187256f81c936fdec9a0d1c643a5 49 Patwebbot \(http\:\/\/www\.herz\-power\.de\/technik\.html\)
+7586f890aaa914e8f98598bf470c1c8d 12 lwp\-download.*
+7594ab5568e8a65edf858c7f25aea05d 41 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] \([\d]\.[\d].\) SymbianOS\/.* Series[\d][\d]\/.*
+7594ab5568e8a65edf858c7f25aea05d 34 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] SymbianOS\/.* Series[\d][\d]\/.*
+7594ab5568e8a65edf858c7f25aea05d 28 Nokia[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+75a8764a903804ae56440406a6be41f4 62 roboobot\/[\d]\..* \(roboo; http\:\/\/wap\.roboo\.com; winter\.pi@roboo\.com\)
+75c8912d0e6aab63092e14c203847d24 10 ScoutAbout.*
+75cd58e49927045c5c2563bedd073da0 15 WebRingChecker\/.*
+75cff961b896c4a681bf73e56d489883 15 Go\-Ahead\-Got\-It.*
+75dc234144e41dc2e83c3396d5ba6ada 65 Xda orbit; [\d][\d][\d]x[\d][\d][\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+75e7840347fd786d59cbe0d7046c7b62 19 BlackBerry[\d][\d][\d][\d]f\/[\d]\.[\d].*
+75e86feff4cc19b037ffffbdfda66755 32 HOT%[\d][\d]HD%[\d][\d]WPs\/.* CFNetwork\/.*Darwin.*
+75e9b18fa0906aba2a413c5ac545c162 90 SonyEricsson.*; Mozilla\/[\d]\.[\d] \(.*SymbianOS.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Version\/[\d]\.[\d].* .*Safari\/.*
+75e9b18fa0906aba2a413c5ac545c162 89 SonyEricsson.*\/.* Mozilla\/[\d]\.[\d] \(.*SymbianOS.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Version\/[\d]\.[\d].*Safari\/.*
+75e9b18fa0906aba2a413c5ac545c162 86 SonyEricsson.*\/.* Mozilla\/[\d]\.[\d] \(.*SymbianOS.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Version\/.*Safari\/.*
+75fb5cd537098350ef9637af8116d4c1 8 SiteBar\/.*

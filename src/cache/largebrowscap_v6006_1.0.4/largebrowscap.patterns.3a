@@ -1,0 +1,24 @@
+3a01754e98c79c605b77a626a5a85d48 48 GoogleEarth\/[\d]\.[\d].*\(.*Windows;Microsoft Windows \([\d]\.[\d].*\).*\).*
+3a06b3998dec2c0fc9b5de40d0bd1c17 24 KDDI\-CA[\d]A UP\.Browser\/[\d]\.[\d].*
+3a33b1f7924e47f1d3e95b66607edb6d 34 iTunes\/[\d][\d]\.[\d].* \(.*Macintosh; OS X [\d][\d]\.[\d][\d].*
+3a33b1f7924e47f1d3e95b66607edb6d 33 iTunes\/[\d][\d]\.[\d].* \(.*Macintosh; OS X [\d][\d]\.[\d].*
+3a33b1f7924e47f1d3e95b66607edb6d 28 iTunes\/[\d][\d]\.[\d].* \(.*Macintosh; OS X.*
+3a33b1f7924e47f1d3e95b66607edb6d 20 iTunes\/[\d][\d]\.[\d].* \(Windows.*
+3a3ca63bc38f177377515f5f7457e006 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+3a4353d14a4bc85a0edd9c66f60c2e0f 20 Mozilla\/[\d]\.[\d][\d] .*OpenVAS.*
+3a43889f9c2273403cd42c0d6541bf76 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+3a43889f9c2273403cd42c0d6541bf76 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+3a43889f9c2273403cd42c0d6541bf76 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+3a43889f9c2273403cd42c0d6541bf76 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac_PowerPC.*\).*
+3a43889f9c2273403cd42c0d6541bf76 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows CE.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows XP.*\).*
+3a43889f9c2273403cd42c0d6541bf76 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+3a43889f9c2273403cd42c0d6541bf76 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+3a43889f9c2273403cd42c0d6541bf76 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*SunOS.*\).*
+3a77d691e369c981e92d0db16ae6e8ac 37 NokiaN[\d][\d]_[\d]GB\-.;Mozilla\/[\d]\.[\d] SymbianOS\/.*
+3a8f5aaa3431047132cbc63e0a3dae03 64 MOT\-RAZRV[\d]xx\/.* BER[\d]\.[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d].*  Opera [\d]\.[\d].*
+3a9357ba0b1007ca3bf5f354dd737d78 11 Cynthia [\d]\.[\d]
+3a9357ba0b1007ca3bf5f354dd737d78 10 Cynthia [\d]\..*
+3a9357ba0b1007ca3bf5f354dd737d78 8 Cynthia .*
+3af082176b68890e08bafb44fc5b8a6e 15 MOT\-V[\d]\/.* MIB\/[\d]\.[\d].*	mot\-V[\d]\/.* MIB\/[\d]\.[\d].*
+3af082176b68890e08bafb44fc5b8a6e 12 MOT\-V[\d]\/.* MIB\/.*
+3afca7e1300a3dcc636cd0a03daa6384 8 Facebot\/.*

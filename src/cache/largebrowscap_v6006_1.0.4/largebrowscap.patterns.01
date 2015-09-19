@@ -1,0 +1,35 @@
+01082837edbcdcf50d3a127a50afe596 53 voyager\/[\d]\.[\d] \(http\:\/\/www\.kosmix\.com\/html\/crawler\.html\)
+0111ee444591ba47bf21024f50998288 42 Opera\/.*\(BREW.*Opera Mini\/[\d]\.[\d].*\).*Samsung SCH\-U[\d][\d][\d].*
+0111ee444591ba47bf21024f50998288 37 Opera\/.*\(.*Windows Mobile.*Opera Mini\/[\d][\d]\.[\d].*\).*
+0111ee444591ba47bf21024f50998288 36 Opera\/.*\(.*Windows Phone.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*Windows Mobile.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Windows Mobile.*Opera Mini\/[\d]\.[\d].*\).*
+0111ee444591ba47bf21024f50998288 35 Opera\/.*\(.*Microsoft Windows.*Opera Mobi.*\).*	Opera\/.*\(.*Windows Phone.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Windows Mobile.*Opera Mini\/[\d]\..*\).*
+0111ee444591ba47bf21024f50998288 34 Opera\/.*\(MAUI Runtime.*Opera Mini\/[\d]\.[\d].*\).*
+0111ee444591ba47bf21024f50998288 33 Opera\/.* \(Nintendo DSi; Opera\/.*; .*; .*\)	Opera\/.*\(.*BlackBerry.*Opera Mini\/[\d][\d]\.[\d].*\).*
+0111ee444591ba47bf21024f50998288 32 Opera\/.*\(.*Windows Mobile.*Opera Mobi.*\).*	Opera\/.*\(.*J[\d]ME\/MIDP.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*Series [\d][\d].*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*BlackBerry.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(SpreadTrum.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(BlackBerry.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Windows Mobile.*Opera Mini.*\).*
+0111ee444591ba47bf21024f50998288 31 Opera\/.*\(.*J[\d]ME\/MIDP.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(.*Series [\d][\d].*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(J[\d]ME\/MIDP.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Series [\d][\d].*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(BlackBerry.*Opera Mini\/[\d]\..*\).*
+0111ee444591ba47bf21024f50998288 30 Opera\/.*\(.*Android.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(J[\d]ME\/MIDP.*Opera Mini\/[\d]\..*\).*	Opera\/.*\(Series [\d][\d].*Opera Mini\/[\d]\..*\).*
+0111ee444591ba47bf21024f50998288 29 Opera\/.*\(.*iPhone.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*Android.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Android.*Opera Mini\/[\d]\.[\d].*\).*
+0111ee444591ba47bf21024f50998288 28 Opera\/.*\(Tizen.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*iPhone.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(iPhone.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Android.*Opera Mini\/[\d]\..*\).*	Opera\/.*\(BlackBerry.*Opera Mini.*\).*
+0111ee444591ba47bf21024f50998288 27 Opera\/.*\(.*iPad.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*BREW.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*Bada.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(Tizen.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(J[\d]ME\/MIDP.*Opera Mini.*\).*	Opera\/.*\(Series [\d][\d].*Opera Mini.*\).*
+0111ee444591ba47bf21024f50998288 26 Opera\/.*\(MTK.*Opera Mini\/[\d][\d]\.[\d].*\).*	Opera\/.*\(.*iPad.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(.*BREW.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(.*Bada.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(BREW.*Opera Mini\/[\d]\.[\d].*\).*
+0111ee444591ba47bf21024f50998288 25 Opera\/.*\(.*Android.*Opera Mobi.*\).*	Opera\/.*\(.*Symbian.*Opera Mobi.*\).*	Opera\/.*\(MTK.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(VRE.*Opera Mini\/[\d]\.[\d].*\).*	Opera\/.*\(Android.*Opera Mini.*\).*
+0111ee444591ba47bf21024f50998288 24 Opera\/.*\(.*SymbOS.*Opera Mobi.*\).*	Opera\/.*\(MTK.*Opera Mini\/[\d]\..*\).*	Opera\/.*\(iPhone.*Opera Mini.*\).*
+0111ee444591ba47bf21024f50998288 22 Opera\/.*\(.*BREW.*Opera Mini.*\).*	Opera\/.*\(.*Bada.*Opera Mini.*\).*
+012f91acb225985a5fa1f1b5d0cc61b7 29 MOT\-V[\d][\d][\d]\/[\d]\.[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+0148a544cc6fb43026d83ac19e3d5a9e 34 SonyEricssonK[\d][\d][\d]c\/.* SEMC\-Browser\/[\d]\..*
+014d1b4a78a1135cbbd34939611df3f2 19 TherapeuticResearch
+01505cd9c0ccafcd2c60912b2c12e3f2 5 Lycos.*
+01597d009a739a6405f5c7acf4c49459 26 ALAV UP\/[\d]\.[\d].* UP\.Browser\/[\d]\.[\d].*
+0159ffc7adae6a71dd875f1eba094264 18 Emacs\/W[\d]\/[\d]\..* \(.*Linux.*
+0159ffc7adae6a71dd875f1eba094264 17 Emacs\/W[\d]\/[\d]\..* \(.*UNIX.*
+0159ffc7adae6a71dd875f1eba094264 11 Emacs\/W[\d]\/[\d]\..*
+015f415db53d21741b360ae4526443cb 6 AU\-MIC.*	AU\-MIC
+01716077807c3e926b234f4d5ebbb95c 55 Lenovo\-A[\d][\d][\d].*Linux.*Android.[\d]\.[\d].* Release.* Browser.AppleWebkit.*
+017262f766078286ff74ef285d2d72c4 83 MOT\-A[\d][\d][\d]\/R[\d][\d][\d]_G_[\d].* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Linux; Motorola.*Profile\/MIDP\-[\d]\.[\d].*
+017262f766078286ff74ef285d2d72c4 76 MOT\-A[\d][\d][\d]\/R[\d][\d][\d]_G_[\d].* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Motorola.*Profile\/MIDP\-[\d]\.[\d].*
+017a7f1ce1fe000b77bd7bd86e1dbb0d 8 Harvest\/.*
+018ac9bfcc9487a11b4f07ea99b45d89 31 UP\.Browser\/[\d]\.[\d]\.[\d][\d]\-SC[\d][\d] UP\.Link\/.*
+018ee864b69e281f242479fb3bd35c16 20 LG\-C[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+01c4d140b0d4525811e4963ecd49438a 31 CTL\/\([\d][\d][\d][\d]\.[\d][\d]\.[\d][\d]\)SW[\d]\.[\d]\.[\d]\/WAP[\d]\.[\d] .*
+01f1fbe0ea6b31281b504428a46ca066 25 SIE\-A[\d][\d]\/[\d][\d] UP\.Browser\/[\d]\.[\d].*
+01f88c4d227aceb2660cd4050433627d 8 URLCHECK

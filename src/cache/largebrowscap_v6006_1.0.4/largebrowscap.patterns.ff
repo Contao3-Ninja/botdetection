@@ -1,0 +1,21 @@
+ff08eb33f67a3934b9521214d0695f5e 7 SyncMgr
+ff0a931f4fe30af18cdffb5480c59814 32 X[\d][\d][\d]\/[\d]\.[\d] SymbianOS\/[\d]\.[\d] Series[\d][\d]\/.*
+ff16cf254202445c5536f7ee9b547d61 10 Nokia[\d][\d][\d][\d]\/.*
+ff204e8b5e6a77753e6d0893fe718598 43 Z[\d][\d][\d]; Mozilla\/[\d]\.[\d] \(.*\/MIDP.*Opera Mini\/att\/[\d]\.[\d].*\).*
+ff2364a0be3d20e46cc69efb36afe9a5 11 Space.*Bison\/.*
+ff47e5b236f809e8ec01c292797280c2 56 SIEMENS\-SFG[\d][\d]\/[\d]\.[\d][\d]\/WAP[\d]\.[\d]\/MIDP[\d]\.[\d]\/CLDC[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+ff6a8e58bffda8f70423bc8ab8c1c65c 12 Atomic_Email
+ff70b67a466782367e87a3c109898948 13 favorstarbot\/.*
+ff9d9ce026cd7fdc1f37dfe216370a10 30 EZZE\-MP[\d][\d][\d]\-\/BSI AU\.Browser\/[\d]\.[\d].*
+ffbfe81219fb62aec8fb28f3446e36b7 33 SHARP\-TQ\-GX[\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+ffcfb03e6e0a6c0d741c7ad71a162cf4 23 LG\-MG[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+ffe8560492ef96f860b965341d0c9698 60 Instagram [\d]\.[\d].* \(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 57 Instagram [\d]\.[\d].* \(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 48 Instagram [\d]\.[\d].* \(iPhone.*iPhone OS.[\d].[\d].*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 46 Instagram [\d]\.[\d].* \(iPad.*iPhone OS.[\d].[\d].*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 44 Instagram [\d]\.[\d].* \(iPhone.*iPhone OS.*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 42 Instagram [\d]\.[\d].* \(iPad.*iPhone OS.*\) AppleWebKit\/.*	Instagram [\d]\.[\d].* \(.*iPhone OS.[\d].[\d].*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 38 Instagram [\d]\.[\d].* \(.*iPhone OS.*\) AppleWebKit\/.*
+ffe8560492ef96f860b965341d0c9698 21 Instagram [\d]\.[\d].* Android.*
+ffefcc36f3b12d8c6dd51178e5b247e8 16 NewsGatorOnline\/.*
+fff440290b23e40302801dbe81f62600 19 Panasonic\-X[\d][\d][\d]\/R[\d][\d] .*

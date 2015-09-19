@@ -1,0 +1,23 @@
+8903127ae4cb32ea8f34a9f953ff902a 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+8903127ae4cb32ea8f34a9f953ff902a 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+8903127ae4cb32ea8f34a9f953ff902a 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+8903127ae4cb32ea8f34a9f953ff902a 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+8903127ae4cb32ea8f34a9f953ff902a 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+8903127ae4cb32ea8f34a9f953ff902a 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+8903127ae4cb32ea8f34a9f953ff902a 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+8903127ae4cb32ea8f34a9f953ff902a 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+8912e881a0f81bce4b5d417bdc309ff0 22 iTunes\/[\d][\d]\.[\d].* \(Macintosh.*
+8921bb88c49c00d8df1f61062ac767b8 6 INNO[\d][\d].*
+892416e74f9d31e72acda1860ca40281 34 Vodafone\/[\d]\.[\d]\/HTC_Diamond Opera\/[\d]\.[\d].*
+8932b7e1a4b7f72b3460b54a0d2bba25 11 NextopiaBOT.*
+8935f8c16512fcb3a8a991fbc35537de 15 LG\-KG[\d][\d] MIC\/[\d]\.[\d].*
+894150d7e96870acab9fd51873fb1bf8 26 MOT\-A[\d][\d][\d]i\/R[\d][\d][\d]_G_[\d][\d]\.[\d][\d]\.A[\d]R.*
+8945d7d76734a6ef54ef742e0c2789e4 76 HTC_Touch_HD_T[\d][\d][\d][\d]\/[\d][\d][\d]x[\d][\d][\d] \(compatible.*; MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\.[\d][\d]\)
+8969267adc9f4ff33809faaf61d54f4e 27 city\-map screenshot service.*
+8971bc1056bab9e8b834c5c140e3cfe5 30 Extras[\d]iMovie.* CFNetwork\/.*Darwin.*
+898de7fdfbab45aaf305ba2dfda268d5 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+899e81e28e17743c0dcb7ed2249b8e0d 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+89a594dfff7b5aea84ef32a5b8cc0f9f 24 Nutch test crawler\/Nutch.*
+89c3bf3b81226251ed676143b470276f 52 BenQ\-EF[\d][\d]\/[\d]\.[\d][\d]\/WAP[\d]\.[\d]\/MIDP[\d]\.[\d]\/CLDC[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+89e3009f6e1c1af4e4adb2728aac7320 28 MOT\-C[\d][\d][\d]\/[\d]\.[\d]\..* UP\.Browser\/[\d]\.[\d].*
+89f983243ed19b312c5128aa40443278 23 WeSEE\:Search\/[\d]\.[\d] \(Alpha.*

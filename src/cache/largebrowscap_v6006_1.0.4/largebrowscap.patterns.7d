@@ -1,0 +1,22 @@
+7d0326cc44ab4e4f9dd133d9199560c1 90 MT[\d][\d][\d][\d]M.*Linux.*Android.[\d]\.[\d].* Release.* Browser.AppleWebkit.* \(KHTML, like Gecko\) Mozilla\/[\d]\.[\d] Mobile
+7d0a77a5cf761087502ff437f39c38ee 31 SAGEM\-myC[\d]\-[\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+7d12bfce31dbbf94abee9eae218fc0b1 17 SMRF URL Expander.*
+7d21d1a8af06e0474716694e5cd55538 44 CipinetBot \(http\:\/\/www\.cipinet\.com\/bot\.html\)
+7d2d02995e88e29b89cc41ed1437437d 33 SHARP\-TQ\-GX[\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+7d2e10cbb4302ae44b3e70dfec8af477 24 SIE\-ST[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+7d3553d3fdf23b6044f66bc23f7a8035 24 LG[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+7d490f3ba50dfa7c5b58b2012b0ab1c7 24 KDDI\-SA[\d][\d] UP\.Browser\/[\d]\.[\d].*
+7d70aa1ad0a3bb1b6ec94e9014336108 112 MQQBrowser\/[\d]\.[\d].*Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-N[\d][\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*	MQQBrowser\/[\d]\.[\d].*Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-I[\d][\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+7d70aa1ad0a3bb1b6ec94e9014336108 105 MQQBrowser\/[\d]\.[\d].*Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*A[\d][\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+7d70aa1ad0a3bb1b6ec94e9014336108 97 MQQBrowser\/[\d]\.[\d].*Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+7d70aa1ad0a3bb1b6ec94e9014336108 93 MQQBrowser\/[\d]\.[\d].*Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+7d74da52ee7daf82178a6db5a71fdd14 22 BrowserCrasherChecker .*
+7d770137cb91177bdf1a988b644a0757 33 MOT\-A\-[\d]C\/[\d][\d]\.[\d][\d] UP\.Browser\/[\d]\.[\d]\.[\d]\.[\d].*
+7d964282d824898e780898284a6e7049 26 SIE\-A[\d][\d]i\/[\d][\d] UP\.Browser\/[\d]\.[\d].*
+7d9ad0211d6493e8d55a4a75de3f90a1 12 Nintendo Wii.*
+7d9b92830c8d16e8d752075708ce4c47 13 Nokia[\d][\d][\d][\d]c\-[\d]\/.*
+7dd81f585f79e5691f598aaf2d62cd3c 29 LGE\-VX[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+7dda7f10badbdc48376060f536fde5e5 23 sam\-r[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+7de1ce6afe5c3db6091d14792af64316 77 MOT\-RAZRV[\d]XXR_J\/[\d][\d]\.[\d][\d]\.[\d][\d]R.* BER[\d]\.[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d].*  Opera [\d]\.[\d][\d].*
+7de1ce6afe5c3db6091d14792af64316 76 MOT\-RAZRV[\d]XXR_J\/[\d][\d]\.[\d][\d]\.[\d][\d]R.* BER[\d]\.[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d].*  Opera [\d]\.[\d].*
+7df820301bc2aa556538b93364c2a804 20 LG\-KG[\d][\d][\d] MIC\/WAP[\d]\.[\d] .*

@@ -1,0 +1,26 @@
+ef0226ba9ffd6063e91fad4428edd4fb 76 Dopod[\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE; Smartphone; [\d][\d][\d]x[\d][\d][\d]\)
+ef22034709b1583384c290b05e7ddc4a 18 Z\-Add Link Checker.*
+ef29819bfe5b148a0d121c40fc19b4da 73 HTC\-ST[\d][\d][\d][\d]\/.* \(.*\) Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\).*
+ef29819bfe5b148a0d121c40fc19b4da 42 HTC\-ST[\d][\d][\d][\d]\/.* \(.*Opera\/[\d]\.[\d].* \(Windows NT [\d]\.[\d]; U.*\)
+ef351f3ca835e07f19d7b33d4f5dcd30 23 Nokia[\d][\d][\d][\d]\/UC Browser[\d]\.[\d].*
+ef3cb6e6503e025eff5d9dafd483b92d 32 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*WOW[\d][\d].*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 27 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 26 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 25 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 24 Opera\/[\d][\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Mac_PowerPC.*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 23 Opera\/[\d][\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d][\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 21 Opera\/[\d][\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 20 Opera\/[\d][\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+ef3cb6e6503e025eff5d9dafd483b92d 18 Opera\/[\d][\d]\.[\d][\d].*\(.*Linux.*\).*
+ef419943109a59722ccc4d6f3a986e21 8 Lachesis
+ef466018a2f3d627639641a86400394e 27 SAMSUNG\-GT\-B[\d][\d][\d][\d]\/.* Opera [\d]\.[\d]
+ef519c956b70b1d4bead9af59c696ea3 22 NokiaE[\d][\d]\/UC Browser[\d]\.[\d].*
+ef7a995eb0b0be1279fa3a4326e3069d 35 GoodReaderIPad\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+ef8d40adc79474727dad3c64379f8a84 34 SonyEricssonK[\d][\d][\d]i\/.* SEMC\-Browser\/[\d]\..*
+efa1ae0b2edf68c3f2d8f7757d399f04 27 KWC\-KX[\d]\/[\d][\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+efaeef043b500fe006727554984f3827 12 adidxbot\/[\d]\.[\d].*
+efb4efd223f8dbb39222fc25edebf18f 26 MOT\-W[\d][\d][\d]\/ WAP\.Browser\/[\d]\.[\d] .*
+efb4efd223f8dbb39222fc25edebf18f 25 MOT\-W[\d][\d][\d]\/ WAP\.Browser\/[\d]\.[\d].*
+efcacb4732aedde74f9e7984efb68935 27 MOT\-V[\d]i_iTunes\/.* MIB\/BER[\d]\.[\d] .*
+efcacb4732aedde74f9e7984efb68935 23 MOT\-V[\d]i_iTunes\/.* MIB\/[\d]\.[\d].*
+efd83612d2220235e112a12b6f1971fd 8 SygolBot.*

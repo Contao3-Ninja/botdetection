@@ -1,0 +1,27 @@
+0e27d7c007a835a95e6734bceb6b9f87{"Parent":"Java Standard Library","Version":"1.7","MajorVer":"1","MinorVer":"7"}
+0e2df370711a705826a4366c6049d912{"Parent":"General Crawlers","Browser":"SafeSearch microdata crawler","Browser_Maker":"Avira Operations GmbH \u0026 Co. KG."}
+0e2dd128cc2cd1a1cb342f7cca85bc51{"Parent":"E-Mail Harvesters","Browser":"WebEnhancer"}
+0e26aee1ada9e32b1884249cfd9b06ab{"Parent":"Facebook App 31.0 for iOS","Platform_Version":"8.2"}
+0e24229835b5f8fe600f7cac622dae81{"Parent":"Facebook App 18.1 for iOS","Platform_Version":"6.0"}
+0e21b71103dc22f9f77a25e1baa1de83{"Parent":"Facebook App 14.3 for iOS","Platform_Version":"8.2"}
+0e26330066818abdb16174eec6cecfc2{"Parent":"Facebook App 8.0 for iOS","Platform_Version":"8.2","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+0e2b8c912f01e10f77039f85f869b5b1{"Parent":"Facebook App 5.4 for iOS","Platform_Version":"6.0"}
+0e26bd609ac46df4248c6167219b5d16{"Parent":"Facebook App 3.6 for iOS","Platform_Version":"6.0"}
+0e2679b0bcf2305d02479deada8f9f46{"Parent":"Android WebView 4.4","Platform_Version":"4.3","Device_Name":"Xperia P","Device_Maker":"SonyEricsson","Device_Code_Name":"LT22i","Device_Brand_Name":"SonyEricsson"}
+0e2ae4faec633f6b5f1243039c018f0a{"Parent":"Android WebView 4.1","Platform_Version":"4.3","Device_Name":"Galaxy S4 LTE (Sprint), White Frost","Device_Maker":"Samsung","Device_Code_Name":"SPH-L720","Device_Brand_Name":"Samsung"}
+0e24e2d446b42a082f94dc0827470766{"Parent":"Opera Mobile 28.0 for Android","Platform_Version":"4.2","Device_Name":"W100","Device_Maker":"ThL","Device_Code_Name":"W100","Device_Brand_Name":"ThL"}
+0e272be202c6de12ac4cbe697566183c{"Parent":"Opera Mobile 20.0 for Android","Platform_Version":"4.1","isTablet":"true","Device_Name":"Nexus 7","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"Nexus 7","Device_Brand_Name":"Google"}
+0e2ec5e9f54860bb52756e98a06dcbf3{"Parent":"Opera 12.11","Browser_Bits":"32","Platform":"WinNT","Platform_Version":"4.0","Platform_Description":"Windows NT","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+0e20b18eac59e36ea7f22a1f7f2b97ff{"Parent":"Google App 3.1","Platform_Version":"6.0","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+0e217072ba81fb04b0591fdde5b6e86d{"Parent":"UC Browser 8.6","Browser_Bits":"32","Platform":"Android","Platform_Version":"4.3","Platform_Description":"Android OS","Platform_Bits":"32","Platform_Maker":"Google Inc","Device_Pointing_Method":"touchscreen"}
+0e2397258428bfe6b1f63a23f7be0d59{"Parent":"Silk 3.30","Browser_Modus":"Desktop Mode","Platform_Version":"4.0","isTablet":"true","Device_Name":"Kindle Fire HDX 8.9","Device_Type":"Tablet","Device_Code_Name":"KFAPWI"}
+0e2c0ef7e3ce9e5822ea99b312103dd6{"Parent":"Chrome 46.0 for Android","Platform_Version":"4.2","Device_Name":"Galaxy S Duos","Device_Maker":"Samsung","Device_Code_Name":"GT-S7562","Device_Brand_Name":"Samsung"}
+0e23eacba95dc55795229002a1887211{"Parent":"Chrome 41.0 for Android","Platform_Version":"4.0","isTablet":"true","Device_Name":"Xperia Tablet S","Device_Maker":"Sony","Device_Type":"Tablet","Device_Code_Name":"SGPT12","Device_Brand_Name":"Sony"}
+0e208825537a1c226128a8cd40b8b0ad{"Parent":"Chrome 38.0","Browser_Bits":"32","Platform":"Win10","Platform_Version":"10.0","Platform_Description":"Windows 10","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+0e228f983a5430cb5533057a9d84b3b0{"Parent":"Chrome 34.0 for Android","Platform_Version":"4.2","Device_Name":"W200","Device_Maker":"ThL","Device_Code_Name":"W200","Device_Brand_Name":"ThL"}
+0e2f09932f8135780d403449b9d83d8c{"Parent":"Chrome 29.0 for Android","Platform_Version":"4.4","Device_Name":"Galaxy S4 LTE (Verizon), White Frost 16GB","Device_Maker":"Samsung","Device_Code_Name":"SCH-I545","Device_Brand_Name":"Samsung"}
+0e25bcfed442bf8312bbb3c4749cd70e{"Parent":"Chrome 19.0 for Android","Platform_Version":"4.3","Device_Name":"Optimus L5","Device_Maker":"LG","Device_Code_Name":"E610","Device_Brand_Name":"LG"}
+0e26956e2d175a52c0d9bfce82ab25b1{"Parent":"Chrome 16.0","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+0e20457a21865c226de2a11a25b0523b{"Parent":"iCab 4.8","Platform":"MacPPC","Platform_Version":"unknown","RenderingEngine_Name":"Tasman","RenderingEngine_Description":"For Internet Explorer 5 for Mac, Microsoft Office 2004 for Mac, and Microsoft Office 2008 for Mac."}
+0e2532ea78674c4ddd24d30e30371887{"Parent":"Thunderbird 5.0","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.2","Platform_Description":"Windows XP","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop","RenderingEngine_Version":"2.0"}
+0e283b20e4bcdbf67674b84ce53bd0e0{"Parent":"stagefright 1.1","Platform_Version":"4.2"}

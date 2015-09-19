@@ -1,0 +1,13 @@
+4222701f49eafefe43ea7a15645c7268 25 SIE\-M[\d][\d]\/[\d]. UP\.Browser\/[\d]\.[\d].*
+4222701f49eafefe43ea7a15645c7268 24 SIE\-M[\d][\d]\/[\d].* UP\.Browser\/[\d]\.[\d].*
+4224eb239bf8b64157e7b4d024747dac 96 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+4224eb239bf8b64157e7b4d024747dac 92 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+422f130a96de014a49a88ffa7aeb881a 68 HTC_P[\d][\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+423bbba2aa9b471870200088ee3e61fa 31 KWC\-K[\d]xxN\/MY[\d][\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+425408650c1ec68e55ac4414888bff84 11 msnbot\/[\d]\.[\d]b.*
+425517fc95e5bdd244f701efe7f8191e 65 rssImagesBot\/[\d]\.[\d] \(.*http\:\/\/herbert\.groot\.jebbink\.nl\/.app\=rssImages\)
+426b20e2d76e54c258d37a0c19db30f7 14 securepoint cf
+42a5bab2259398fc65ba93e47f899380 35 Firefox\/[\d][\d]\.[\d].*anonymized by Abelssoft.*
+42cd1aba4c52e2ff48a2eb85cd31d356 38 LSSRocketCrawler\/[\d]\.[\d] LightspeedSystems.*
+42dabc12f3400facf870c36d689d792a 17 i\-mobile [\d][\d][\d]\/[\d]\.[\d] .*
+42fd5099ee1172701cd833206d92b750 61 HTC_P[\d][\d][\d][\d]\-Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE; PPC\)

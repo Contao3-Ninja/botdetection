@@ -1,0 +1,30 @@
+830c600651f8a96c460a490731ecbe32 31 LGE\/U[\d][\d][\d][\d]\/[\d]\.[\d] Profile\/MIDP\-[\d]\.[\d] .*
+832c3ff7228808c2965b10c8a0013062 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+832c3ff7228808c2965b10c8a0013062 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+832c3ff7228808c2965b10c8a0013062 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+832c3ff7228808c2965b10c8a0013062 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+832c3ff7228808c2965b10c8a0013062 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+832c3ff7228808c2965b10c8a0013062 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+832c3ff7228808c2965b10c8a0013062 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+832c3ff7228808c2965b10c8a0013062 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+832c3ff7228808c2965b10c8a0013062 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+833aee4c2b5530026540e76c0bc77e32 40 Mozilla\/[\d]\..*\(compatible; MS FrontPage [\d]\.[\d].*\)
+833aee4c2b5530026540e76c0bc77e32 26 Mozilla\/[\d]\..*\(.*Windows NT [\d]\.[\d].*\).*
+833aee4c2b5530026540e76c0bc77e32 24 Mozilla\/[\d]\..*\(.*Macintosh.*PPC.*\).*	Mozilla\/[\d]\..*\(.*Macintosh.*[\d][\d]K.*\).*
+833aee4c2b5530026540e76c0bc77e32 22 Mozilla\/[\d]\..*\(.*compatible;.*
+833aee4c2b5530026540e76c0bc77e32 19 Mozilla\/[\d]\..*\(.*Windows.*\).*	Mozilla\/[\d]\..*\(.*OpenVMS.*\).*
+833aee4c2b5530026540e76c0bc77e32 17 Mozilla\/[\d]\..*\(.*Linux.*\).*	Mozilla\/[\d]\..*\(.*Win[\d][\d].*\).*	Mozilla\/[\d]\..*\(.*WinNT.*\).*	Mozilla\/[\d]\..*\(.*SunOS.*\).*
+833aee4c2b5530026540e76c0bc77e32 16 Mozilla\/[\d]\..*\(.*IRIX.*\).*	Mozilla\/[\d]\..*\(.*OS\/[\d].*\).*
+835258863b1c92903f7c905cd053ee55 13 Chordie\.com\: .*
+83550f88c3ef33ed91c9bf4f5346ab69 11 CoralWebPrx.*
+83647c700b7d38852412f4f946f00c88 10 USER_AGENT
+836915bd19dfc3c0dc940b4745a6dbb5 18 MOT\-V[\d][\d][\d]\/.* MIB\/[\d]\.[\d] .*
+837e0a12d685921191ebba3a21fb6f83 27 NEC\-E[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+83b70f442192e184776bc092f0facffa 26 Mozilla\/[\d]\..*\(.*Windows NT [\d]\.[\d].*\).*
+83b70f442192e184776bc092f0facffa 24 Mozilla\/[\d]\..*\(.*Macintosh.*PPC.*\).*	Mozilla\/[\d]\..*\(.*Macintosh.*[\d][\d]K.*\).*
+83b70f442192e184776bc092f0facffa 22 Mozilla\/[\d]\..*\(.*compatible;.*
+83b70f442192e184776bc092f0facffa 19 Mozilla\/[\d]\..*\(.*Windows.*\).*	Mozilla\/[\d]\..*\(.*OpenVMS.*\).*
+83b70f442192e184776bc092f0facffa 17 Mozilla\/[\d]\..*\(.*Linux.*\).*	Mozilla\/[\d]\..*\(.*Win[\d][\d].*\).*	Mozilla\/[\d]\..*\(.*WinNT.*\).*	Mozilla\/[\d]\..*\(.*SunOS.*\).*
+83b70f442192e184776bc092f0facffa 16 Mozilla\/[\d]\..*\(.*IRIX.*\).*	Mozilla\/[\d]\..*\(.*OS\/[\d].*\).*
+83bf1c9d311e04f84902e856cba5c106 8 Go\!Zilla.*
+83d3722ba087fbcfe433c7b4f03d1ab7 11 SEC\-SGHV[\d][\d][\d].*

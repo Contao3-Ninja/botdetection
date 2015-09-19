@@ -1,0 +1,14 @@
+1f03246aca1b2390e83bfa41fd33ded7 12 visionutils\/.*
+1f3870be274f6c49b3e31a0c6728957f 12 Apple.iPhone.*
+1f40de80f183116a8f43d018b8b06247 29 MOT\-A\-[\d]E\/[\d].\.[\d]. UP\.Browser\/[\d]\.[\d].*
+1f5fb003dcc75cb778f0369efb5b5ed5 43 Perfect%[\d][\d]Browser\-iPad\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+1fa92ddcbbfbfee383095e7f6c4357cc 12 Browsershots
+1fa9ecb04d59923415701fa7e92d6f57 96 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+1fa9ecb04d59923415701fa7e92d6f57 92 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+1fa9fb825428b71f029c39bd645eeafc 10 Nokia[\d][\d][\d][\d]\/.*
+1fba6a914fdd6bc13037002c7389ad61 8 WebCorp\/.*
+1fcb6275ac00086592a3054686c012bb 8 Checkbot.*
+1fcf961182d4a06b327617e7dd486568 11 Nokia[\d][\d][\d][\d]i\/.*
+1fde6f3d32bf443dd2e393ac904da19f 31 Cricket\-A[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+1fedaefc8770f74f09b21aa2a6716b59 23 ZTE\-C[\d][\d][\d][\d]\/[\d]\.[\d] SMIT\-WAP\/.*
+1ff4d60d97c7c4d298d0e2f130d48da3 83 NGM Dynamic Racing [\d]\/.* Linux\/.* Android\/[\d]\.[\d].* Release\/.* Browser\/AppleWebKit.* Mobile Safari.*

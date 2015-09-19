@@ -1,0 +1,26 @@
+140864078aeca1c7c35b4beb33c53c34{"Parent":"DefaultProperties","Comment":"Microsoft","Browser":"Microsoft","Browser_Type":"Bot\/Crawler","Browser_Maker":"Microsoft Corporation","Crawler":"true"}
+14068e6626598caabe3cd718bb5154f0{"Parent":"Research Projects","Browser":"Steeler"}
+140d1e1d09b0473f155fa19700018b4c{"Parent":"Facebook App 26.0 for iOS","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+140aab1a859716b59b0823c62c72eb94{"Parent":"Facebook App 3.6 for Android","Platform_Version":"4.4","Device_Name":"Galaxy S4 LTE (Verizon), White Frost 16GB","Device_Maker":"Samsung","Device_Code_Name":"SCH-I545","Device_Brand_Name":"Samsung"}
+14026e226d640c75783e901bd70055dd{"Parent":"Facebook App","Browser_Bits":"32","Platform":"iOS","Platform_Version":"5.1","Platform_Description":"iPod, iPhone \u0026 iPad","Platform_Bits":"32","Platform_Maker":"Apple Inc"}
+14045c67cfa1c5e79ef34bd4eeb8e8eb{"Parent":"Android WebView 4.4","Platform_Version":"2.2","Device_Name":"Incredible S","Device_Maker":"HTC","Device_Pointing_Method":"unknown","Device_Code_Name":"S710E","Device_Brand_Name":"HTC"}
+14043d9fce250452f047c1e98beb13bf{"Parent":"Android WebView 4.2","Platform_Version":"4.1","isTablet":"true","Device_Name":"Galaxy Tab 3 10.1 3G","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P5200","Device_Brand_Name":"Samsung"}
+1400325c7f363ac061dcb6e2b5ebc731{"Parent":"Android WebView 2.1","Platform_Version":"3.2","isTablet":"true","Device_Name":"Vangogh","Device_Maker":"Acer","Device_Type":"Tablet","Device_Code_Name":"A100","Device_Brand_Name":"Acer"}
+140b5e3148a4820d530516eb239d7c2a{"Parent":"Yandex Browser 13.10 for Android","Platform_Version":"4.2","isTablet":"true","Device_Name":"MediaPad 7 Classic","Device_Maker":"Huawei","Device_Type":"Tablet","Device_Code_Name":"MediaPad 7 Classic","Device_Brand_Name":"Huawei"}
+140ef4c754f998fa283b340cf1458c8d{"Parent":"Opera Mobile 35.0 for Android","Platform_Version":"4.2","Device_Name":"IQ4404","Device_Maker":"Fly","Device_Code_Name":"IQ4404","Device_Brand_Name":"Fly"}
+14012cfc8b7772a1572808795bfafea5{"Parent":"Opera 3.60","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.6","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+140871b27db969377ff97fe9dab94690{"Parent":"UC Browser 9.8","Platform_Version":"4.3","RenderingEngine_Name":"U3","RenderingEngine_Description":"a WebKit Fork by UC Web","RenderingEngine_Maker":"UC Web"}
+14031baf059d2e7e2c49658822674afd{"Parent":"Silk 3.47","Platform_Version":"4.1"}
+1406b1abe1f691a6bc60c8164dbd1884{"Parent":"Chrome 44.0 for Android","Platform_Version":"4.2","Device_Name":"Galaxy Note","Device_Maker":"Samsung","Device_Code_Name":"GT-N7000","Device_Brand_Name":"Samsung"}
+1400d19eb76c02008b07e852e073efc5{"Parent":"Chrome 36.0 for iOS","Platform_Version":"5.0","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+140936d43475ed3d6eebffff9120c81f{"Parent":"Chrome 31.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+140d8fff519bcb890f8059d817026bcc{"Parent":"Chrome 25.0 for iOS","Platform_Version":"4.3","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+1400eb8eab25686463b00060e627d2ee{"Parent":"Chrome 21.0","Browser_Bits":"32","Platform":"WinVista","Platform_Version":"6.0","Platform_Description":"Windows Vista","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+14054d58a97df07bcf8df9e4903975c2{"Parent":"Chrome 20.0 for iOS","Platform_Version":"7.0","Device_Name":"iPhone","Device_Type":"Mobile Phone","Device_Code_Name":"iPhone"}
+14039d8b981a43afb76681d83e4d7bd8{"Parent":"Chrome 20.0 for iOS","Platform_Version":"3.1"}
+140dd241818a1fce3be9754c539b854d{"Parent":"Chrome 19.0 for Android","Platform_Version":"4.1","Device_Name":"One","Device_Maker":"HTC","Device_Code_Name":"M7","Device_Brand_Name":"HTC"}
+1402573ac853a2365f2daa0b9b3ef786{"Parent":"NetFront 2.0","Device_Name":"U5iv","Device_Maker":"SonyEricsson","Device_Type":"Mobile Phone","Device_Code_Name":"U5iv","Device_Brand_Name":"SonyEricsson"}
+14019fe8db37262530cc3b530b7495a7{"Parent":"BlackBerry 4.5","Device_Name":"BlackBerry 8820","Device_Code_Name":"BlackBerry 8820"}
+140456b474bc87649320503bf595a1b6{"Parent":"Thunderbird 9.0","Browser_Bits":"64","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"64","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+140eab60f279531a26244d48995c6755{"Parent":"Firefox 37.0","Browser_Bits":"32","Platform":"Win10","Platform_Version":"10.0","Platform_Description":"Windows 10","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+1406440284a4f49b2d1e883e31f045ac{"Parent":"fgBrowser","Version":"4.0","MajorVer":"4"}

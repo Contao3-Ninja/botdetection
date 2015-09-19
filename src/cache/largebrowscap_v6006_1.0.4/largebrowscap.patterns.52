@@ -1,0 +1,35 @@
+520cddaafde346e529a046dc60bc7fd5 72 UCWEB\/[\d]\.[\d] \(Linux; U; Opera Mini\/.*; Videocon_A[\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* Mobile.*
+520cddaafde346e529a046dc60bc7fd5 63 UCWEB\/[\d]\.[\d] \(Java; .*SAMSUNG\-SGH\-T[\d][\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.* Mobile.*
+520de8fe1b0fa5fd05efe6e156bd6f44 28 S[\d][\d][\d][\d] UCWEB[\d]\.[\d]\/UC Browser[\d]\.[\d].*
+5217dd8242db59f51fcadfb03baeddae 10 KRetrieve\/
+5219c02a48006b1e7b520e7ee15a21d1 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+5220a7ebd2b5810d6c63321562e4600f 17 Panasonic\-A[\d][\d][\d]\/R[\d].*
+523369d1095a22e790e567904d01a2de 38 Perfect%[\d][\d]Browser\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+523af537946b79c4f8369ed39ba78605 10 Ad Muncher.*
+52649513cb83740d8183f59f453e59d3 48 K\-Meleon\/[\d]\.[\d] \(.*Windows NT [\d]\.[\d].*\) Gecko\/.* Mozilla\/[\d]\.[\d]
+52745414cd8d40162b8f786a24c4fcb6 8 Teleport.*
+5287903fec28ce36190baaef81ba4238 37 Safari\/[\d][\d]..\..* CFNetwork\/.*Darwin.*\(x[\d][\d]_[\d][\d]\).*
+5287903fec28ce36190baaef81ba4238 29 Safari\/[\d][\d]..\..* CFNetwork\/.*Darwin.*
+528b26064a7b7f9758b50fc2a11e5ab7 11 WinampMPEG\/.*
+528b7c71c5265ce886f79ff2e7ce14a6 131 dopod[\d][\d][\d]\/[\d]\.[\d][\d]\.[\d][\d][\d][\d]\/WAP[\d]\.[\d] Profile\/MIDP[\d]\.[\d] Configuration\/CLDC[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d][\d]; Windows CE; Smartphone; [\d][\d][\d]x[\d][\d][\d]\)
+52a949e82947de12d9c921e27a79c4e5 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+52a949e82947de12d9c921e27a79c4e5 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+52a949e82947de12d9c921e27a79c4e5 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+52a949e82947de12d9c921e27a79c4e5 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+52a949e82947de12d9c921e27a79c4e5 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+52a949e82947de12d9c921e27a79c4e5 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+52a949e82947de12d9c921e27a79c4e5 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+52a949e82947de12d9c921e27a79c4e5 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+52a949e82947de12d9c921e27a79c4e5 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+52b488f03006aa4c19d928559d3a4673 27 www\.integromedb\.org\/Crawler.*
+52ba367a36f08222213a3cecc6cbba2d 13 WordPress\/[\d]\.[\d].*
+52bffb5c666f4a6aacd075bea4236d49 24 MOT\-MCCB\/.* UP\.Browser\/[\d]\.[\d].*
+52c07e311d120d22961fcd8f69c57a29 47 MOT\-W[\d][\d][\d]\/[\d]\.[\d] Release\/[\d]\.[\d][\d]\.[\d][\d][\d][\d] Browser\/CMCS[\d]\.[\d] .*
+52c07e311d120d22961fcd8f69c57a29 45 MOT\-W[\d][\d][\d]\/[\d]\.[\d] Release\/[\d]\.[\d]\.[\d][\d][\d][\d] WAP\.Browser\/[\d]\.[\d].*
+52c4b38cc4d918f37139caca79130b09 20 Atomic_Email_Hunter\/.*
+52cb0f73717de0b60c2151aab8ef54c4 9 AcroForms.*
+52d118de43a8b4a97c708c0cb651d3b8 29 LGE\-LX[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+52dd3ebff143c346f6db864567b9a978 52 BENQ\-A[\d][\d][\d]\/[\d]\.[\d][\d]\/WAP[\d]\.[\d]\/MIDP[\d]\.[\d]\/CLDC[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+52f0617a08461f2b1fc3abbd7003124a 34 billigFluegeFinal.* CFNetwork\/.*Darwin.*
+52f1d3191d95207f638281e3098ebc28 26 SEC\-scha[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+52f7412cc91600b8826afdace8fbe782 42 ZIBB Crawler \(email address \/ WWW address\)

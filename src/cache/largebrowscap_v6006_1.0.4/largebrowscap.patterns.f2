@@ -1,0 +1,21 @@
+f201f6863ce351033977ca290dbb4b41 26 LGE\-CU[\d][\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+f21a66f74a99dc28fd22ab2558c65f1a 62 BIRD_D[\d][\d][\d]\/[\d]\.[\d][\d] Mtk[\d][\d][\d][\d]\/V[\d]\-[\d][\d]A Release\/[\d]\.[\d]\.[\d][\d][\d][\d] Browser\/Teleca .*
+f23434bcda9bd5be9fdfd7e46baed5a2 12 Feedshow\/.* \(.*\)
+f26e7c88e33a29e690aaaaeb18ab7e37 32 Compal\-Compa\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+f26ff7e66e20a5f40a21b1399a632213 29 Opera\/[\d]\.[\d][\d].*\(Nintendo Wii; U; .*\)
+f26ff7e66e20a5f40a21b1399a632213 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+f26ff7e66e20a5f40a21b1399a632213 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+f26ff7e66e20a5f40a21b1399a632213 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+f26ff7e66e20a5f40a21b1399a632213 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+f26ff7e66e20a5f40a21b1399a632213 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+f26ff7e66e20a5f40a21b1399a632213 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+f26ff7e66e20a5f40a21b1399a632213 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+f26ff7e66e20a5f40a21b1399a632213 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+f286e66f6006d37a8c92a7455ee5ebc0 20 LG\-C[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+f2966250dc0e42ce4527ce694b3d16d6 44 OPWV\-ModelExample\/[\d]\.[\d] Browser\/UP\.Browser\/[\d]\.[\d].*
+f29f487ae6ca0a67191b29243812daed 68 HTC_P[\d][\d][\d][\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+f2b0caa0ede9a53e74a8b6cafb72a348 39 SonyEricssonW[\d][\d][\d]i\/.* Browser\/NetFront\/[\d]\.[\d].*
+f2b0caa0ede9a53e74a8b6cafb72a348 29 SonyEricssonW[\d][\d][\d]i\/.*\(SymbianOS\/.*
+f2b64bafd7d13bfd304eb2b006773351 8 XoviBot\/.*
+f2e39104f9036f2879ac9d3d1b87aaf1 29 LGE\-VX[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+f2e3d36f15fddcc4a07645798b6df0d9 37 SAMSUNG\-SGH\-E[\d][\d][\d]E\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*

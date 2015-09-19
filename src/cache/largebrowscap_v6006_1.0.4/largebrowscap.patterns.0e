@@ -1,0 +1,41 @@
+0e0a8c753dabff5bc6d7ff664bba7f25 21 Doris\/[\d]\.[\d][\d] .* \(Symbian\)
+0e10d2a4dfce0c27f7361de2544c289e 23 SNK Screenshot Bot\/[\d]\.[\d][\d].*
+0e10d2a4dfce0c27f7361de2544c289e 19 SNK Screenshot Bot\/.*
+0e132a4fe118f86ba1e30770b5575628 37 Bird\-X[\d]\/K[\d][\d],PN\/WAP[\d]\.[\d]\/.* UP\.Browser\/[\d]\.[\d].*
+0e2620c2c7d60e0edff0900cbd980d3c 17 NetZip Downloader.*
+0e38ef08e6582a0a8d377c36e7290843 64 UCWEB\/.*\(.*Windows; U; wds [\d].*SAMSUNG; GT\-I[\d][\d][\d][\d].*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 56 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*Micromax_A[\d][\d][\d]\) U[\d]\/.* UCBrowser\/[\d][\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(.*Symbian; U; .*SonyEricssonU[\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 55 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*Micromax_A[\d][\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(Linux; U; Opera Mini\/.*GT\-S[\d][\d][\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*
+0e38ef08e6582a0a8d377c36e7290843 54 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*Micromax A[\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 51 UCWEB\/.*\(.*iOS; U; iPh OS [\d]_[\d].*iPh.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 50 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*GT\-S[\d][\d][\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 49 UCWEB\/.*\(.*iOS; U; iPh OS [\d]_[\d].*\) U[\d]\/.* UCBrowser\/[\d][\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(Android; U; Opera Mini\/.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*
+0e38ef08e6582a0a8d377c36e7290843 48 UCWEB\/.*\(.*Windows; U; wds [\d].*\) U[\d]\/.* UCBrowser\/[\d][\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(.*iOS; U; iPh OS [\d]_[\d].*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 47 UCWEB\/.*\(.*Windows; U; wds [\d].*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(Linux; U; Opera Mini\/.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*
+0e38ef08e6582a0a8d377c36e7290843 46 UCWEB\/.*\(Android; U; Opera Mini\/.*\) U[\d]\/.* UCBrowser\/.*
+0e38ef08e6582a0a8d377c36e7290843 44 UCWEB\/.*\(Linux; U; Opera Mini\/.*\) U[\d]\/.* UCBrowser\/.*
+0e38ef08e6582a0a8d377c36e7290843 43 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*\) U[\d]\/.* UCBrowser\/[\d][\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(.*Symbian; U; .*\) U[\d]\/.* UCBrowser\/[\d][\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 42 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*	UCWEB\/.*\(.*Symbian; U; .*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 41 UCWEB\/.*\(BlackBerry.*[\d][\d][\d][\d]\/.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*
+0e38ef08e6582a0a8d377c36e7290843 40 UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*AO[\d][\d][\d][\d]\) U[\d]\/.* UCBrowser.*	UCWEB\/.*\(.*iOS; U; iPh OS [\d]_[\d].*\) U[\d]\/.* UCBrowser.*
+0e38ef08e6582a0a8d377c36e7290843 39 UCWEB\/.*\(MIDP\-[\d]\.[\d].*C[\d][\d][\d][\d]\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*	UCWEB\/.*\(.*Windows; U; wds [\d].*\) U[\d]\/.* UCBrowser.*
+0e38ef08e6582a0a8d377c36e7290843 38 UCWEB\/.*\(.*GT\-P[\d][\d][\d][\d].*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.*
+0e38ef08e6582a0a8d377c36e7290843 36 UCWEB\/.*\(BlackBerry.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*
+0e38ef08e6582a0a8d377c36e7290843 34 UCWEB\/.*\(MIDP\-[\d]\.[\d].*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*	UCWEB\/.*\(.*; U; Adr [\d]\.[\d].*\) U[\d]\/.* UCBrowser.*	UCWEB\/.*\(.*Symbian; U; .*\) U[\d]\/.* UCBrowser.*
+0e38ef08e6582a0a8d377c36e7290843 30 UCWEB\/.*\(Java.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].*
+0e38ef08e6582a0a8d377c36e7290843 27 UCWEB\/.*\(Java.*\) U[\d]\/.* UCBrowser\/.*
+0e3eca62bbc5514a05379089c5f8a1d3 10 PicaLoader.*
+0e44691bfeae6094f3911bc904267fa2 16 MOT\-V[\d][\d]\/.* MIB\/[\d]\.[\d].*
+0e4f1000c66efeb1e79e959941b1f4be 27 Google\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+0e6d291db890eaa5bc5fb7936bc03e52 28 LG\-GM[\d][\d][\d]i\/V[\d][\d][\d] Obigo\/WAP[\d]\.[\d] .*
+0e81a35eb8de1ebf60f3d0b4553c38bd 49 Windows\-RSS\-Platform\/[\d]\.[\d] \(MSIE .\.[\d]; Windows NT .*\..*\)
+0e81a35eb8de1ebf60f3d0b4553c38bd 48 Windows\-RSS\-Platform\/[\d]\.[\d] \(MSIE .*; .*Windows NT [\d]\.[\d].*\)
+0e81a35eb8de1ebf60f3d0b4553c38bd 24 Windows\-RSS\-Platform\/[\d]\.[\d].*
+0e8d46398c12003d59a28f368ceb6647 23 SIE\-M[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+0e9a2c57f566eebd39a4cb134a0b6df3 10 Unicorn\/[\d]\..*
+0ebaf1046987a48c46d2bbbbd653eed4 30 HTC_Touch_Pro[\d]_T[\d][\d][\d][\d] Opera\/[\d]\.[\d].*
+0ec691bfefd48b916ff3679dd022b6ba 11 NokiaC[\d]\-[\d][\d]\/.*
+0ed0f1461e0d21915869cf88c74688a3 42 Vodafone\/[\d]\.[\d]\/SAMSUNG\-B[\d][\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+0ed65fb37492d7ac3911763c9c04b992 5 RED\/[\d].*
+0ede3837f40b448e1a17bbe2cc006b57 29 LGE\-LX[\d][\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+0eea7cd3108c4830f50d23262e6bbde0 15 YRL_ODP_CRAWLER

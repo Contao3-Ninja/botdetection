@@ -1,0 +1,27 @@
+7e044051d2be2765bdb3e068b6af85ba 23 HTC_HD[\d]_T[\d][\d][\d][\d] Opera\/[\d]\.[\d].*
+7e211cd720c29f9217f150400e7dced1 15 YahooFeedSeeker.*
+7e34db9876b66a3900000ce609486463 36 SAMSUNG\-SGH\-D[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+7e42682c8f7708f3717988227a14f83d 49 JUC\(Linux;U;Android[\d]\.[\d]\.[\d];Zh_cn;GT\-I[\d][\d][\d][\d];.*\)UCWEB[\d]\.[\d].*
+7e69a946b62d666797d5eb8850d3aa9c 7 SBL\-BOT.*
+7e6b554650f3fff1974d9006d518412d 24 MOT\-A\-[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+7e6b554650f3fff1974d9006d518412d 21 MOT\-A\-[\d][\d]\/.* UP\.Browser\/.*
+7e78043c1975b72f61171029f5793a71 32 SHARP\-TM\-[\d][\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+7e946bee953919ed6919cc597d9a984f 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+7e946bee953919ed6919cc597d9a984f 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+7e946bee953919ed6919cc597d9a984f 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+7e946bee953919ed6919cc597d9a984f 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+7e946bee953919ed6919cc597d9a984f 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+7e946bee953919ed6919cc597d9a984f 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+7e946bee953919ed6919cc597d9a984f 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+7e946bee953919ed6919cc597d9a984f 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+7eb1ff09427ceeba11828fbc39f9ef36 20 LG\-C[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+7eb32670d4d4803c0b4fb5f93833204f 21 iSiloX\/[\d]\.[\d].* Windows\/[\d][\d]
+7eb32670d4d4803c0b4fb5f93833204f 16 iSiloX\/[\d]\.[\d].* MacOS
+7eb353118cb07c68f4ce30ef75eab2ef 43 SAMSUNG\-SGH\-E[\d][\d][\d]\/[\d]\.[\d]\/WAP[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+7ed8eb5db7a5dbcb5ed796eb9c49c368 20 MOT\-T[\d][\d][\d]\/[\d][\d]\..* MIB\/[\d]\.[\d].*
+7eeeb5a5d563e4ce8f4bdf4d31e85170 29 E[\d][\d]\-MPG[\d]\/[\d]\.[\d]\.[\d]\.[\d] Browser\/WAP .*
+7eef6b4ca615f5ad30a70be3eaf91c1c 28 GoodReader\/.* CFNetwork\/.*Darwin.*
+7ef49668f492bf1c50c0e2e99907cf7e 61 SAMSUNG\-SGH\-F[\d][\d][\d].*\(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+7ef49668f492bf1c50c0e2e99907cf7e 28 SAMSUNG\-SGH\-F[\d][\d][\d].*.Dolphin\/[\d]\.[\d].*
+7ef49668f492bf1c50c0e2e99907cf7e 27 SAMSUNG\-SGH\-F[\d][\d][\d].*Jasmine\/[\d]\.[\d].*
+7efdef883719f8e591153b28a35e0624 34 AtomicBrowser\/[\d]\.[\d].* CFNetwork\/.*Darwin.*

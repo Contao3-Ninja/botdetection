@@ -1,0 +1,26 @@
+ac92664e8579fdf31b4facaf9c73ff8f{"Parent":"Facebook App 24.0 for iOS","Platform_Version":"8.1"}
+ac9541b31a76b985aadc62c02a4f87de{"Parent":"Facebook App 3.0 for iOS","Platform_Version":"7.0"}
+ac94cc6547faf172acf88bc5a8509ef6{"Parent":"Facebook App 2.3 for iOS","Platform_Version":"4.1"}
+ac9d4c2ae5fd5a744aec53f2ef1441f8{"Parent":"Facebook App 2.0 for iOS","Platform_Version":"4.0"}
+ac917ed2bb534593f7d05e16ff67c6de{"Parent":"Comodo Dragon 30.0","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+ac9b98a71b80680238aed37cec007ef8{"Parent":"Android WebView 4.0","Platform_Version":"2.2","isTablet":"true","Device_Name":"Vodafone 858","Device_Maker":"Huawei","Device_Type":"Tablet","Device_Code_Name":"Vodafone 858","Device_Brand_Name":"Huawei"}
+ac9de9d72dc9a3939814e17176165271{"Parent":"Android WebView 2.1","Platform_Version":"2.3","Device_Name":"MB526","Device_Maker":"Motorola","Device_Pointing_Method":"unknown","Device_Code_Name":"MB526","Device_Brand_Name":"Motorola"}
+ac9e0415d3baf03edae5c0ee9b57990c{"Parent":"Android WebView 1.5","Platform_Version":"2.2","Device_Name":"Desire","Device_Maker":"HTC","Device_Pointing_Method":"unknown","Device_Code_Name":"A8181","Device_Brand_Name":"HTC"}
+ac9c65f80e730e81b13f3129cfe4770a{"Parent":"Android WebView 1.5","Platform_Version":"4.3","isTablet":"true","Device_Name":"Nook HD+","Device_Maker":"Barnes \u0026 Noble","Device_Type":"Tablet","Device_Code_Name":"Nook HD+","Device_Brand_Name":"Barnes \u0026 Noble"}
+ac9ca2fb546d72aa2b1a3e74b8cb06e1{"Parent":"Samsung Browser 1.0 for Mobile","Platform_Version":"2.3","Device_Name":"Z1","Device_Maker":"Samsung","Device_Code_Name":"SM-Z130H","Device_Brand_Name":"Samsung"}
+ac969a585785c27c5f99692ca8797fbe{"Parent":"Android WebView 1.0","Platform_Version":"4.3","Device_Name":"One Mini","Device_Maker":"HTC","Device_Code_Name":"One Mini","Device_Brand_Name":"HTC"}
+ac91578e66d630ebd24217e05c20c6d4{"Parent":"Opera Mobile 31.0 for Android","isTablet":"true","Device_Name":"Galaxy Tab 2 7.0","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P3100","Device_Brand_Name":"Samsung"}
+ac9012ae0e1683085831dd2f8121bad2{"Parent":"Opera 10.61","Browser_Bits":"32","Platform":"Linux","Platform_Description":"Linux","Platform_Bits":"32","Platform_Maker":"Linux Foundation","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+ac94e233e04ca52754f1770ed6084e8e{"Parent":"Opera 9.20","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.10","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+ac9ac0e2ec1db15ba4b46add16784776{"Parent":"Opera 5.10","Browser_Bits":"32","Platform":"Win95","Platform_Version":"95","Platform_Description":"Windows 95","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+ac924a8a08cb017ad31e16210442f20f{"Parent":"Chrome 43.0 for Android","Platform_Version":"4.1","Device_Name":"Nexus 4","Device_Maker":"LG","Device_Code_Name":"Nexus 4","Device_Brand_Name":"Google"}
+ac9336a7dac0d0c613c94cbde3b1bc1d{"Parent":"Chrome 43.0 for Android","Platform_Version":"4.1","Device_Name":"Galaxy Express","Device_Maker":"Samsung","Device_Pointing_Method":"unknown","Device_Code_Name":"GT-I8730","Device_Brand_Name":"Samsung"}
+ac9d18fbbf7ca3ffa2e578575990cb2e{"Parent":"Chrome 38.0 for Android","Platform_Version":"4.1","Device_Name":"Ascend P1","Device_Maker":"Huawei","Device_Pointing_Method":"unknown","Device_Code_Name":"U9200","Device_Brand_Name":"Huawei"}
+ac94c52f8b30021781c5d646ed9d9c3e{"Parent":"Chrome 38.0 for Android","Platform_Version":"4.4","Device_Name":"T6S","Device_Maker":"ThL","Device_Code_Name":"T6S","Device_Brand_Name":"ThL"}
+ac914f85a4ad7a2dcac120fae11f7c55{"Parent":"Chrome 37.0","Browser_Bits":"32","Platform":"ChromeOS","Platform_Description":"Google Chrome OS","Platform_Bits":"32","Platform_Maker":"Google Inc","Device_Name":"Linux Desktop","Device_Code_Name":"Linux Desktop"}
+ac92afdbfd2787c58c69286e07f7681c{"Parent":"Chrome 29.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+ac97439da0ec2bb32ec9266c620e80c3{"Parent":"Chrome 28.0 for Android","Platform_Version":"4.4","Device_Name":"Galaxy S4 LTE (Sprint), White Frost","Device_Maker":"Samsung","Device_Code_Name":"SPH-L720","Device_Brand_Name":"Samsung"}
+ac904c97ea9516bc804860a7636b5210{"Parent":"Chrome 25.0 for Android","Platform_Version":"4.1"}
+ac903c416d4a7c2fa7955fde42c71764{"Parent":"BlackBerry"}
+ac9159548967f01273c73b96c16627ad{"Parent":"K-Meleon 1.1","Platform":"Win95","Platform_Version":"95","Platform_Description":"Windows 95","Win32":"true"}
+ac9a04b060eac9731b4d3d5badaccd73{"Parent":"stagefright 1.2","Platform_Version":"4.3"}

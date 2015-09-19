@@ -1,0 +1,14 @@
+ee11cbb19052e40b07aac0ca060c23ee 10 User.*Agent\:.*
+ee1473fd8e997843f0380d910edee075 24 ICRA_Semantic_spider\/[\d]\..
+ee33e909372d935d190f4fcb2a92d542 35 MS Web Services Client Protocol [\d]\.[\d].*
+ee33e909372d935d190f4fcb2a92d542 32 MS Web Services Client Protocol .*
+ee47927abc7f8d5271a40161fc55885d 30 SEC\-SGHC[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+ee50fbacf963a9aabd71dfcb91a49c95 68 NokiaC[\d]\-[\d][\d]\/.* Profile\/MIDP\-[\d].* UCWEB\/[\d]\.[\d] \(.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.* Mobile.*
+ee650cbdc52fd435d030bf064b03cb0d 8 LeechFTP
+ee76e4bd7d855294dffbbbd984a0ccdc 25 SIE\-C[\d][\d]\/[\d]. UP\.Browser\/[\d]\.[\d].*
+ee8021574c80e1a1c6942c8aa90145cb 35 SHARP\-TQ\-GX\-E[\d][\d]\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*
+eeab4fcea0af130c8f1734d21c75f32b 31 SAGEM\-myC[\d]\-[\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+eebf50c7c81cb617c06614614aa35bc4 26 SIE\-ME[\d][\d]\/[\d][\d] UP\.Browser\/[\d]\.[\d].*
+eede82ceb8675ccf038c1ce66c34f86e 88 LIAuthLibrary\:[\d]\.[\d]\.[\d] com\.linkedin\.android\:[\d]\.[\d]\.[\d] TCL_ALCATEL ONE TOUCH [\d][\d][\d][\d]T\:android_[\d]\.[\d]\.[\d].*
+eee669251e18f9cce7bc7ae5d82b6a84 12 Shim.Crawler.*
+eeeec87d149a8fb2e3e818e46100c8e7 10 NG\-Search\/.*

@@ -1,0 +1,24 @@
+2319e778021fd9eb42b987ecc4d4b178{"Parent":"Yandex","Browser":"YandexImages"}
+231c16d8565ff54c45f666de4832c7a0{"Parent":"Boitho","Browser":"boitho.com-robot"}
+231a760333b6a0950adb0daf34eedb2b{"Parent":"Search Engines","Browser":"Faxo"}
+231c3550cd3a0f2e22a24865be0284a9{"Parent":"Facebook App 14.9 for iOS","Platform_Version":"4.0","Device_Name":"iPod Touch","Device_Type":"Mobile Device","Device_Code_Name":"iPod Touch"}
+2311e6f44f067067602653988cf39c88{"Parent":"Facebook App 14.6 for iOS","Platform_Version":"5.0"}
+2315888f742219e34c89bdbd34862aa3{"Parent":"Facebook App 6.3 for Android","Platform_Version":"4.4","Device_Name":"G Vista (Verizon)","Device_Maker":"LG","Device_Code_Name":"VS880","Device_Brand_Name":"LG"}
+23197a13ca253ee43589c6abb190516a{"Parent":"Android WebView 5.0","Platform_Version":"2.2","Device_Name":"Incredible S","Device_Maker":"HTC","Device_Pointing_Method":"unknown","Device_Code_Name":"S710E","Device_Brand_Name":"HTC"}
+231cf0d63944913a2bebafd9c6519616{"Parent":"Android WebView 4.3","Platform_Version":"4.0","Device_Name":"U30GT","Device_Maker":"Cube","Device_Code_Name":"U30GT","Device_Brand_Name":"Cube"}
+2312b08fd05802932c31e2ffef15a6bb{"Parent":"Android WebView 4.1","Platform_Version":"4.1","Device_Name":"One X","Device_Maker":"HTC","Device_Code_Name":"PJ83100","Device_Brand_Name":"HTC"}
+2310bc1db3eabf7fc9ee60e60e6843b9{"Parent":"Android WebView 4.0","Platform_Version":"2.1","Device_Name":"GT540","Device_Maker":"LG","Device_Pointing_Method":"unknown","Device_Code_Name":"GT540","Device_Brand_Name":"LG"}
+23183e2f538bd5b179e7ac9653ff34f2{"Parent":"Chrome 40.0 for Android","Platform_Version":"4.2","Device_Name":"Urushi","Device_Maker":"SonyEricsson","Device_Code_Name":"ST18i","Device_Brand_Name":"SonyEricsson"}
+231c95f941a3696792ce337aec9f1dba{"Parent":"Chrome 35.0 for Android","Platform_Version":"4.0","Device_Name":"Galaxy S II","Device_Maker":"Samsung","Device_Code_Name":"GT-I9100","Device_Brand_Name":"Samsung"}
+231b960c207b8cf4cdd658be5d15cd7d{"Parent":"Chrome 34.0 for iOS","Platform_Version":"5.0","Device_Name":"iPod Touch","Device_Code_Name":"iPod Touch"}
+231f88ba18ad63000744baab2f23314f{"Parent":"Chrome 32.0 for Android","Platform_Version":"4.0","Device_Name":"One V","Device_Maker":"HTC","Device_Code_Name":"One V","Device_Brand_Name":"HTC"}
+231baa96b40fd73718cba62d7eb19155{"Parent":"Chrome 26.0 for Android","Platform_Version":"4.0","isTablet":"true","Device_Name":"Galaxy Note 10.1 LTE","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-N8020","Device_Brand_Name":"Samsung"}
+231e9d2d979d7c720efe40ded7b75611{"Parent":"Chrome 19.0 for Android","Platform_Version":"4.1","isTablet":"true","Device_Name":"Transformer Pad TF300T","Device_Maker":"Asus","Device_Type":"Tablet","Device_Code_Name":"TF300TG","Device_Brand_Name":"Asus"}
+2311dd00c097aaf31a9443ec8f379e63{"Parent":"DefaultProperties","Comment":"HttpClient for Google Go Programming Language","Browser":"GO HttpClient","Browser_Type":"Bot\/Crawler","Browser_Maker":"Google Inc","Frames":"true","IFrames":"true","Tables":"true","Crawler":"true"}
+231b458e44bf0ec1d53fd9838fc87c50{"Parent":"SeaMonkey 2.22","Browser_Bits":"32","Platform":"MacOSX","Platform_Version":"10.7","Platform_Description":"Mac OS X","Platform_Bits":"32","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+2316d163382d8fd2b5e26c0ad560a382{"Parent":"SeaMonkey 2.9","Browser_Bits":"32","Platform":"SunOS","Platform_Description":"SunOS","Platform_Bits":"32","Platform_Maker":"Oracle"}
+231b6e8fc2199c6a1b0d8d2601b852d7{"Parent":"Firefox 32.0","Browser_Bits":"32","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+231c3e4c6276f7a7a13564b11afd6380{"Parent":"Firefox 22.0","Browser_Bits":"64","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+231bba2cca3818962a2ec1124674bca9{"Parent":"Firefox 16.0","Browser_Bits":"32","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+231b2a0a3bfac4f890be5bb213498e8d{"Parent":"Firefox 9.0","Browser_Bits":"64","Platform":"Win8","Platform_Version":"6.2","Platform_Description":"Windows 8","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+231a0a91b2110095d3ed80daf3de5871{"Parent":"Jasmine 0.8","Device_Name":"GT-S5230","Device_Type":"Mobile Phone","Device_Code_Name":"GT-S5230"}

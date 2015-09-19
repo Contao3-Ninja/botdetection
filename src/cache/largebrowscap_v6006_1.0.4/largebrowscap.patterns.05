@@ -1,0 +1,35 @@
+0502242eb3e484bf362feb1cb1bbd9ce 10 Nokia[\d][\d][\d][\d]\/.*
+0511c56caa874969ae100cc65ec8884d 10 Nokia[\d][\d][\d][\d]\/.*
+0514d6dedefdbb0514e2fd59e2e7fdcd 16 LinkextractorPro.*
+0521f0aa28fae11379271ccb6fc3ba04 14 JobRoboter\/[\d]\.[\d].*
+05258424df809d0712d8bd473cb0b33e 13 HRCrawler\/[\d]\.[\d].*
+053de404767134dfca5ff30870add1d5 16 LG\-KE[\d][\d][\d] MIC\/[\d]\.[\d].*
+054ef8581d863b80f617f511e890f55d 8 gooblog\/.*
+05541b3f6b0b6258020d76de7e8794e3 24 KDDI\-SA[\d][\d] UP\.Browser\/[\d]\.[\d].*
+05548bcc59ebe4f8f2ae30df5445e18d 26 LG\-CF[\d][\d][\d]\/V[\d][\d]h Teleca\/Q[\d]\.[\d] .*
+055b38a4ea890ba47dab32674789be9a 10 Sunrise\/[\d]\..*
+055c69d65343d9462d297f7c23605ce4 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+055c69d65343d9462d297f7c23605ce4 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+055c69d65343d9462d297f7c23605ce4 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+055c69d65343d9462d297f7c23605ce4 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+055c69d65343d9462d297f7c23605ce4 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+055c69d65343d9462d297f7c23605ce4 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+055c69d65343d9462d297f7c23605ce4 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+055c69d65343d9462d297f7c23605ce4 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+055ddd915626e3d54d0f805250131424 93 MOT\-ROKR E[\d]\/R[\d][\d][\d]_G_[\d][\d]\.[\d][\d]\.[\d].P Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Linux; Motorola ROKR.* Opera [\d]\.[\d].*
+055ddd915626e3d54d0f805250131424 87 MOT\-ROKR E[\d]\/.* R[\d][\d][\d]_G_.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Linux; Motorola ROKR.*\) .* Opera [\d]\.[\d].*
+055ddd915626e3d54d0f805250131424 29 MOT\-ROKR E[\d]\/[\d]E\.[\d][\d]\.[\d]ER MIB\/[\d]\.[\d].*
+056118e60fdd330020e1085ec18e62ec 21 MOT\-E[\d][\d][\d]B\/[\d]E\..* MIB\/[\d]\.[\d].*
+0575c8d592fb7b088226750aceec2b4e 16 Tutorial Crawler.*
+0576a8b8e270d927910f9fbe18404e03 15 ArchitextSpider.*
+05777d941824302ad4747fdbee0be40b 31 SAMSUNG\-GT\-S[\d][\d][\d][\d]\/.*Dolfin\/[\d]\.[\d].*MIDP.*
+05934f997a218ce7f0dac2e7e485c160 31 SANYO\-S[\d][\d][\d]\/[\d]\.[\d][\d][\d] UP\.Browser\/[\d]\.[\d].*
+0594fdc362e9a3b843909305bddaa93b 20 Poodle_predictor_[\d]\.[\d]
+05a868cd051fbd9c552dde5356bb18c3 14 DomainCrawler\/.*
+05ab06f32c96e14ab222e7b2ba9181c7 30 iBrowser\/[\d]\.[\d],Lava\-Discover[\d][\d][\d]\/.*
+05b15e2e0a6e4022268c9cc48a50f378 14 UpdateBrowscap.*
+05b79c69988027158566cc3846b130ed 35 RixBot \(http\:\/\/babelserver\.org\/rix\)
+05c1d3ff1b56c15e778b445a5281436d 33 Panasonic\-X[\d][\d]\/R[\d][\d] .* UP\.Browser\/[\d]\.[\d].*
+05f0c6594d751e1628e63b0a39832ef5 7 Y\!J\-BRE.*
+05f1a7e4fd4bd64ede85d2c19de79d7d 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+05f43fed0e82268cba041a6b303c81f7 8 Sleipnir.*

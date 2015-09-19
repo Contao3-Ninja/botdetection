@@ -1,0 +1,40 @@
+af0496ea693865f827e9f1751a8ade05 13 Cogentbot\/[\d]\...*
+af14248607467b89a7e081361be42ad7 109 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+af14248607467b89a7e081361be42ad7 106 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+af14248607467b89a7e081361be42ad7 103 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-S[\d][\d][\d][\d] .*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+af14248607467b89a7e081361be42ad7 101 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 98 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*Micromax A[\d][\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*	OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 94 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-S[\d][\d][\d][\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*	OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+af14248607467b89a7e081361be42ad7 91 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*BlackBerry; U.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/.*Safari\/.*
+af14248607467b89a7e081361be42ad7 88 OneBrowser\/[\d]\.[\d].*\(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 86 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.[\d]\.[\d].*Micromax A[\d][\d] .*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*	OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 85 OneBrowser\/[\d]\.[\d].*\(.*CPU iPhone OS .* like Mac OS X.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 83 OneBrowser\/[\d]\.[\d].Mozilla\/[\d]\.[\d] \(.*BlackBerry; U.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 82 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.[\d]\.[\d].*GT\-S[\d][\d][\d][\d] .*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 73 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 70 OneBrowser\/[\d]\.[\d].*\(.*BlackBerry; U.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 69 OneBrowser\/[\d]\.[\d].*\(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) .*Safari\/.*
+af14248607467b89a7e081361be42ad7 31 OneBrowser\/[\d]\.[\d].*\(SAMSUNG\-GT\-S[\d][\d][\d][\d].*
+af14248607467b89a7e081361be42ad7 24 OneBrowser\/[\d]\.[\d].*\(GT\-S[\d][\d][\d][\d]S.*
+af14248607467b89a7e081361be42ad7 14 OneBrowser\/[\d]\.[\d].*
+af40989ef9402d395c630dc6aadfd66e 40 SAGEM\-myX[\d]\-[\d]\/[\d]\.[\d] .* Browser\/UP\.Browser\/[\d]\.[\d].*
+af4a2fd2fadfea8da2e671de4bbb09dd 26 Opera\/[\d]\.[\d][\d].*\(.*Windows NT [\d]\.[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d][\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d][\d].*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 25 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]_[\d].*\).*	Opera\/[\d]\.[\d][\d].*\(.*Mac OS X [\d][\d]\.[\d].*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 24 Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d][\d][\d].*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 23 Opera\/[\d]\.[\d][\d].*\(.*Win [\d]x [\d]\.[\d][\d].*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 22 Opera\/[\d]\.[\d][\d].*\(.*Windows ME.*\).*	Opera\/[\d]\.[\d][\d].*\(.*Windows [\d][\d].*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 20 Opera\/[\d]\.[\d][\d].*\(.*Mac OS X.*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 19 Opera\/[\d]\.[\d][\d].*\(.*FreeBSD.*\).*
+af4a2fd2fadfea8da2e671de4bbb09dd 17 Opera\/[\d]\.[\d][\d].*\(.*Linux.*\).*	Opera\/[\d]\.[\d][\d].*\(.*SunOS.*\).*
+af4a48a5f12393d57447dafab866d7c7 80 SAMSUNG\-SGH\-I[\d][\d][\d]\/UCHH[\d] Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*
+af5889da74365e5896ca4dfa7f7e9cb8 16 msnbot\-media\/[\d]\.[\d].*
+af6d3a723bc502d836dbe09234b138fb 7 WNMbot\/.*
+af8587a3a023af9130ec7c3aca434bfa 29 MOT\-c[\d][\d][\d]V\/AS_G_[\d][\d]\.[\d][\d]\..* MIB\/[\d]\.[\d].*
+af87cb4634dd924749a1a5497913238d 10 ShowyouBot.*
+af8bfce5fc4b9a2800583560b00eff64 10 Nokia[\d][\d][\d][\d]\/.*
+af91d71e81c9803d90bf04e391c75d85 10 adbeat_bot.*
+af9d83836ecf1f49c598bcb1995b3c98 4 Wget.*
+afa54db0ce2916ba8ed4b3f4338c5107 13 WordPress\/[\d]\.[\d].*
+afa695ef5590c7d809792349920bf2e0 24 SIE\-S[\d][\d]C\/.* UP\.Browser\/[\d]\.[\d].*
+afbaf922a516f05b12c952a6668a1733 31 AtomicLite\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+affbd3536e1a8044a93eb0b3a9a04cb7 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*

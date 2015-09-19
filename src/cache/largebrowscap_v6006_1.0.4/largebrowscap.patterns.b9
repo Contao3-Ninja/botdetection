@@ -1,0 +1,36 @@
+b900b872c1b88bf7231bf67440bd32c6 23 QC\-[\d][\d][\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+b91eab4a373c9b2cf09c69f956921f9e 14 LivelapBot\/[\d]\.[\d].*
+b9387ae4abf4e728650fce4067d412a4 111 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*GT\-I[\d][\d][\d][\d] Build\/.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+b9387ae4abf4e728650fce4067d412a4 96 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+b9387ae4abf4e728650fce4067d412a4 92 iBrowser\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+b960a86d8d3ebebc78b3f86caeec71a1 37 wp\-android\/[\d]\.[\d].* \(.*Linux.*Android.*GT\-N[\d][\d][\d][\d]\/.*
+b960a86d8d3ebebc78b3f86caeec71a1 36 wp\-android\/[\d]\.[\d].* \(.*Android [\d]\.[\d].*GT\-N[\d][\d][\d][\d]\/.*
+b960a86d8d3ebebc78b3f86caeec71a1 28 wp\-android\/[\d]\.[\d].* \(.*Linux.*Android.*
+b960a86d8d3ebebc78b3f86caeec71a1 27 wp\-android\/[\d]\.[\d].* \(.*Android [\d]\.[\d].*
+b96107a37ac2f2f695059e83fa9f4739 15 MSR\-ISRCCrawler
+b961280f9f9640019bbfce860930fb6d 41 Vodafone\/[\d]\.[\d]\/HTC_Touch_Diamond[\d] Opera\/[\d]\.[\d].*
+b96cc04a37251e11e94799dcbc85fc97 19 elefent\/Elefent [\d]\.[\d].*
+b98253ee88321313e08fd9afb9d15e69 45 Alcatel\-OT\-C[\d][\d][\d]\/[\d]\.[\d] ObigoInternetBrowser\/Q[\d][\d]C
+b987626c273686431657d367475e2132 109 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPhone.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 107 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPad.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 106 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPhone.*CPU iPhone OS .* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 104 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPad.*CPU iPhone OS .* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 103 DiigoBrowser Mozilla\/[\d]\.[\d].*\(.*CPU iPhone OS [\d].[\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 102 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPhone.*CPU OS [\d]_[\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 100 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPad.*CPU OS [\d]_[\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*	DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPhone.*CPU OS [\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*	DiigoBrowser Mozilla\/[\d]\.[\d].*\(.*CPU iPhone OS .* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 98 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPad.*CPU OS [\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 96 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPhone.*CPU.*OS.*like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*	DiigoBrowser Mozilla\/[\d]\.[\d].*\(.*CPU OS [\d]_[\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 94 DiigoBrowser Mozilla\/[\d]\.[\d].*\(iPad.*CPU.*OS.*like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*	DiigoBrowser Mozilla\/[\d]\.[\d].*\(.*CPU OS [\d].* like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b987626c273686431657d367475e2132 90 DiigoBrowser Mozilla\/[\d]\.[\d].*\(.*CPU.*OS.*like Mac OS X.*\).*AppleWebKit\/.*\(.*KHTML, like Gecko.*\).*Version\/.*Safari\/.*
+b994edd30630a1730360753b0b663401 19 LG\-G[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d].*
+b994edd30630a1730360753b0b663401 8 LG\-G[\d][\d][\d][\d]
+b99f6c3c3f19da5c95a1201d093a3825 19 HTC_P[\d][\d][\d][\d] Opera\/[\d]\.[\d].*
+b9b1d961adc274a3415c731ac42e84a8 18 BlackBerry[\d][\d][\d][\d]\/[\d]\.[\d].*
+b9bc7c041240dd6458a5b28f8158bf0b 15 ZeBot_www\.ze\.bz.*
+b9c23dde3aa57df1075df9fc9272a3df 32 [\d]PasswordThumbs.* CFNetwork\/.*Darwin.*
+b9c726bcd43a8d5afbd17fa50e4282a6 20 restify\/[\d]\.[\d].* \(.*\) node\/.*
+b9d07f113c29e73d4fdd861539d309dd 72 SonyEricssonG[\d][\d][\d]\/.* Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Symbian OS.*Opera [\d]\.[\d][\d].*
+b9d26ca709fb81b38b59760e67c585ee 49 SAMSUNG\-GT\-S[\d][\d][\d][\d]R.* Opera\/.*\(J[\d]ME\/MIDP.*Opera Mini\/[\d]\.[\d].*\).*	SAMSUNG\-GT\-S[\d][\d][\d][\d]R Opera\/.*\(J[\d]ME\/MIDP.*Opera Mini\/[\d]\.[\d].*\).*
+b9eee06a18b70133cb46ed5d2b51dd73 26 searchbot admin@google\.com
+b9f0a6db82e6f84eb8b79428d4c41ba5 4 Zao\/.*
+b9f79ac8ac7fc6151ec0545180268c80 51 Vodafone\/[\d]\.[\d]\/SAMSUNG\-SGH\-J[\d][\d][\d].\/.*\/[\d]\.[\d] .* UP\.Browser\/[\d]\.[\d].*

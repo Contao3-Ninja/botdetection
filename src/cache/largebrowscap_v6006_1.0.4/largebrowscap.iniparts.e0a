@@ -1,0 +1,21 @@
+e0a9f68e59bdca5db5fc83b18a261719{"Parent":"Maxthon 4.0","Platform":"MacOSX","Platform_Version":"10.9","Platform_Description":"Mac OS X","Platform_Maker":"Apple Inc","Device_Name":"Macintosh","Device_Maker":"Apple Inc","Device_Code_Name":"Macintosh","Device_Brand_Name":"Apple"}
+e0aa3cc6b56c33e4d10f9bfcba171365{"Parent":"Facebook App 30.0 for iOS","Platform_Version":"7.1"}
+e0ac4f8454f6d3ac5041fd91401a6601{"Parent":"Facebook App 6.4 for iOS","Platform_Version":"5.1"}
+e0ae570bacf75ef0124901d34cf54b74{"Parent":"Facebook App 5.3 for iOS","Platform_Version":"8.0"}
+e0aa2325292317e7849b9bee6b928772{"Parent":"Facebook App 5.3 for iOS","Platform_Version":"8.1","isTablet":"true","Device_Name":"iPad","Device_Type":"Tablet","Device_Code_Name":"iPad"}
+e0aca4e630a21477f792772322db7e86{"Parent":"Android WebView 1.5","Platform_Version":"4.0","isTablet":"true","Device_Name":"Galaxy Tab 10.1","Device_Maker":"Samsung","Device_Type":"Tablet","Device_Code_Name":"GT-P7500","Device_Brand_Name":"Samsung"}
+e0a21ba045593e6adcf4b8cf43b7122d{"Parent":"Opera 12.15","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.1","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+e0a3689e07564a31cc8999409f6af2c8{"Parent":"Opera 12.14","Browser_Bits":"32","Platform":"WinME","Platform_Version":"ME","Platform_Description":"Windows ME","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+e0a939f0992df5be154619928175bee2{"Parent":"Opera 10.00","Browser_Bits":"32","Platform":"Win2000","Platform_Version":"5.0","Platform_Description":"Windows 2000","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+e0adfbd314b50e5fb8a93dc9ef67a5e3{"Parent":"Opera 5.10","Browser_Bits":"32","Platform":"WinNT","Platform_Version":"4.0","Platform_Description":"Windows NT","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+e0a1db7b181270cd59f299fc1fe3a1a9{"Parent":"Chrome 46.0 for Android","Platform_Version":"4.4","isTablet":"true","Device_Name":"Iconia A1-810","Device_Maker":"Acer","Device_Type":"Tablet","Device_Code_Name":"A1-810","Device_Brand_Name":"Acer"}
+e0afda1e995335b786bcce1e58fd985c{"Parent":"Chrome 41.0 for Android","Platform_Version":"4.0","isTablet":"true","Device_Name":"IdeaTab S2110AF","Device_Maker":"Lenovo","Device_Type":"Tablet","Device_Code_Name":"S2110AF","Device_Brand_Name":"Lenovo"}
+e0af34c202c99a4629ddf3b3ed8ea66b{"Parent":"Chrome 40.0 for Android","Platform_Version":"4.2","Device_Name":"U30GT2","Device_Maker":"Cube","Device_Pointing_Method":"unknown","Device_Code_Name":"U30GT2","Device_Brand_Name":"Cube"}
+e0af86c950428d8e9776f7db9578d0e9{"Parent":"Chrome 36.0 for Android","Platform_Version":"4.2","isTablet":"true","Device_Name":"G Pad 8.3","Device_Maker":"LG","Device_Type":"Tablet","Device_Code_Name":"V500","Device_Brand_Name":"LG"}
+e0adaa50a75f760ca1b882d468bd1429{"Parent":"Chrome 0.2","Browser_Bits":"32","Platform":"WinXP","Platform_Version":"5.1","Platform_Description":"Windows XP","Platform_Bits":"32","Platform_Maker":"Microsoft Corporation","Win32":"true"}
+e0a6979e47b670e0a4980fd91eba3e40{"Parent":"Qt 4.1 for Android","Platform_Version":"2.3"}
+e0a3ab0239d768fba3192cd30e381ddd{"Parent":"Mercury 8.1","Platform":"iOS","Platform_Version":"7.0","Platform_Description":"iPod, iPhone \u0026 iPad"}
+e0af1c87ca16b0f5ca7a7541c0f49823{"Parent":"iCab 4.3"}
+e0a3c5249a8b362269845a609b6cfae9{"Parent":"Firefox 15.0","Browser_Bits":"64","Platform":"Win7","Platform_Version":"6.1","Platform_Description":"Windows 7","Platform_Bits":"64","Platform_Maker":"Microsoft Corporation","Win64":"true","Device_Name":"Windows Desktop","Device_Code_Name":"Windows Desktop"}
+e0ac7fe5876c76c509715985de8757a5{"Parent":"Openwave Mobile Browser 6.3"}
+e0a5c0cf1d8034efb52dfe46a798d8c6{"Parent":"Reeder","Version":"2.2","MajorVer":"2","MinorVer":"2"}

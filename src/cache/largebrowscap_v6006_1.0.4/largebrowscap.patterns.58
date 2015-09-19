@@ -1,0 +1,22 @@
+58043df68f8f539a3e2db8ac3330f7ba 70 Nokia[\d][\d][\d][\d]c\-[\d]\/.* Profile\/MIDP\-[\d].* UCWEB\/[\d]\.[\d] \(.*\) U[\d]\/.* UCBrowser\/[\d]\.[\d].* U[\d]\/.* Mobile.*
+5808faa6162065bbe2e1892cadf2204a 15 PluckItCrawler\/.*
+5815cc7e9b165a8837956904f86b0e12 26 SEC\-SGHP[\d][\d][\d].* UP\.Browser\/[\d]\.[\d].*
+581769968512c6e17689775428075c77 22 MOT\-GATW_\/.* UP\.Browser\/.*
+581813e807b5f24a984d9815fba2ab51 19 LG\-C[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d].*
+5820706ce9e074fa36793daf61814b64 24 SIE\-ME[\d][\d]\/.* UP\.Browser\/[\d]\.[\d].*
+582f6bca49900cab15a2cc957b7bb3c2 5 NPBot.*
+583ca10e753aeab63700788ad8443960 31 SAGEM\-myX\-[\d]\/[\d]\.. .* UP\.Browser\/[\d]\.[\d].*
+584efb8310473a1bfddb0570d2713547 37 Safari\/[\d][\d]..\..* CFNetwork\/.*Darwin.*\(x[\d][\d]_[\d][\d]\).*
+584efb8310473a1bfddb0570d2713547 29 Safari\/[\d][\d]..\..* CFNetwork\/.*Darwin.*
+5864ec71f52230f921dd755a04ad9a22 11 NetMechanic.*
+5869507eebc207f427f653cd6412cd6b 20 LG\-F[\d][\d][\d][\d] MIC\/WAP[\d]\.[\d] .*
+5871dc81a0b12b6e3f8c88c3597b6dc2 10 Firefox\/[\d]\..*
+5877ca381fdf2f09e032954197ea2660 75 KDDI\-CA[\d][\d] UP\.Browser\/[\d]\.[\d].*\(GUI\)MMP\/[\d]\.[\d] \(compatible; KDDI\-Googlebot\-Mobile\/[\d]\.[\d].*
+5877ca381fdf2f09e032954197ea2660 24 KDDI\-CA[\d][\d] UP\.Browser\/[\d]\.[\d].*
+589b5396e172c9c874df1cc123080e04 13 Pinterest\/[\d]\.[\d].*
+58b13b3b2c9e03de5f960f15980daaf9 33 Panasonic\-X[\d][\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+58b43b875f68dfb6bcda545175c2b485 29 MOT\-c[\d][\d][\d]M\/AS_G_[\d][\d]\.[\d][\d]\..* MIB\/[\d]\.[\d].*
+58c509cbfa5c95799d64c82b6b7715dd 9 iSEEKbot\/.*
+58e53d1324eef6265fdb97b08ed9aadf 4 Ruby
+58f76ddcd2412df99406fa0a144e3bc7 10 Gregarius\/.*
+58fa600f4ea8c7d08b63d118b854609a 17 MOT\-U[\d][\d]\/.* MIB\/[\d]\.[\d] .*

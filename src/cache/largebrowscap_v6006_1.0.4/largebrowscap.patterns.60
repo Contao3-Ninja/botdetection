@@ -1,0 +1,17 @@
+6012a83a5c77759ec004f2f43d010a9b 14 LinkedInBot\/[\d]\..*
+601510e3da968c977f471d37eb6cdfe6 10 findlinks\/.*	FindLinks\/.*
+602f6f2f13b0440ab490fe41ef59d03a 30 SonyEricssonC[\d][\d][\d]\/R[\d].*\(SymbianOS\/.*
+6032cfd90b48d1ebcb826da13e989353 17 masidani_bot_v[\d]\.[\d].*
+60434371ff1d646e4966334365a2a6a0 55 msnbot\-NewsBlogs\/[\d]\..* \(\+http\:\/\/search\.msn\.com\/msnbot\.htm\)
+6072024ea5f8969774c31bbfc6b32c6b 34 Panasonic\-GAD[\d][\d]\/[\d]\.[\d] UP\.Browser\/[\d]\.[\d].*
+608fd501a41e81602b24ca0a72bee7a6 26 Terra\/[\d]\.[\d].* CFNetwork\/.*Darwin.*
+609b17dd885a9173a7d8565fbaca06b7 38 SAMSUNG\-SGH\-X[\d][\d][\d]A\/Pearl UP\.Browser\/[\d]\.[\d].*
+60a2797fcfe68c1cefa7621044e0e620 85 HPiPAQ[\d][\d][\d]\/[\d]\.[\d]\/Mozilla\/[\d]\.[\d] \(.*compatible.*;.*MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\(PPC; [\d][\d][\d]x[\d][\d][\d]\)
+60ca7afe406277d67c8f1c8176a7d734 96 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.[\d]\.[\d].*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+60ca7afe406277d67c8f1c8176a7d734 92 iBrowser\/[\d]\.[\d].* Mozilla\/[\d]\.[\d] \(.*Linux.*Android.*\) AppleWebKit\/.* \(KHTML, like Gecko\) Version\/[\d]\.[\d] .*Safari\/.*
+60d97da3d7fa3b7091e474b1d7394271 10 Photon\/[\d]\.[\d].*
+60d99e58d66a5e0f4f89ec3ddd1d9a80 46 Rome Client \(http\:\/\/tinyurl\.com\/[\d][\d]t[\d]n\) Ver\: [\d]\..*
+60e7c5dc1f4443cb670b812db3e6bfb0 69 HTC_X[\d][\d][\d][\d] Mozilla\/[\d]\.[\d] \(compatible.*; MSIE [\d]\.[\d]; Windows CE; IEMobile [\d]\..*\)
+60ed8a580da35293cde52158b036d6ab 12 i[\d]searchbot\/.*
+60f7c369bccbc51c874c1fc4b0902c88 17 MOT\-V[\d][\d][\d]\/.* MIB\/[\d]\.[\d].*
+60fa5cf702e2e6c255507a93f966611b 15 LG\-G[\d][\d][\d][\d] AU\/[\d]\.[\d].*
