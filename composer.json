@@ -23,7 +23,7 @@
 		"php":">=5.3",
 		"contao/core":">=3.5,<4",
 		"contao-community-alliance/composer-plugin": "*",
-		"crossjoin/browscap": "1.0.*"
+		"crossjoin/browscap": "1.0.4"
 	},
 	"autoload":{
 		"classmap":[""]
