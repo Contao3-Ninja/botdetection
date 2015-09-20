@@ -25,7 +25,7 @@ namespace BugBuster\BotDetection;
 class CheckBotAgentExtended
 {
     
-    public static function checkAgent($UserAgent=false)
+    public static function checkAgent($UserAgent=false, $ouputBotName = false)
     {
         // Check if user agent present
         if ($UserAgent === false)
@@ -44,7 +44,15 @@ class CheckBotAgentExtended
         if ($objBrowscap->crawler == 'true') 
         {
             // Debug fwrite(STDOUT, 'Bot: '.print_r($objBrowscap->browser_type,true) . "\n");
-            return true;
+            if (false === $ouputBotName) 
+            {
+            	return true;
+            }
+            else 
+            {
+                return $objBrowscap->browser;
+            }
+            
         }
         
         // Search in bot-agent-list
@@ -73,11 +81,24 @@ class CheckBotAgentExtended
             if ($UserAgent != $CheckUserAgent)
             {   // found
                 // Debug fwrite(STDOUT, 'Bot: '.print_r($botagents[$arrBots[$c]],true) . "\n");
-                return true;
+                if (false === $ouputBotName)
+                {
+                    return true;
+                }
+                else 
+                {
+                    return $botagents[$arrBots[$c]];
+                }
             }
         }
     
         return false;
+    }
+    
+    public static function checkAgentName($UserAgent=false)
+    {
+        $BotName = static::checkAgent($UserAgent,true); 
+        return ($BotName) ? $BotName : 'unknown';
     }
     
     /**

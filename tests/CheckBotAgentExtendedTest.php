@@ -64,9 +64,20 @@ class CheckBotAgentExtendedTest extends \PHPUnit_Framework_TestCase
         // Kennt Browscap nicht, aber die eigene Liste
         $return = CheckBotAgentExtended::checkAgent('iBusiness Shopcrawler'); 
         $this->assertTrue($return);
+    }
+
+    /**
+     * Tests CheckBotAgentExtended::checkAgentName()
+     */
+    public function testCheckAgentName ()
+    {
+        /* Google Bot over Browscap */
+        $return = CheckBotAgentExtended::checkAgentName('Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
+        $this->assertEquals('Google Bot', $return);
         
-    
+        /* Shopcrawler over bot-agent-list */
+        $return = CheckBotAgentExtended::checkAgentName('iBusiness Shopcrawler');
+        $this->assertEquals('Shopcrawler', $return);
     }
 
 }
-
