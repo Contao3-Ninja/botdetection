@@ -18,4 +18,6 @@ $GLOBALS['TL_LANG']['FMD']['botdetection2']['0'] = 'Bot Detection Demo 2';
 $GLOBALS['TL_LANG']['FMD']['botdetection2']['1'] = 'Demo 2 for Bot Detection (Formular).';
 $GLOBALS['TL_LANG']['MOD']['botdetection']['0']  = 'Bot Detection';
 $GLOBALS['TL_LANG']['MOD']['botdetection']['1']  = 'Helper class to detect search engines, bots, spiders, crawlers.';
+$GLOBALS['TL_LANG']['FMD']['browscapcachegenerate']['0'] = 'Bot Detection Browscap Cache Generator';
+$GLOBALS['TL_LANG']['FMD']['browscapcachegenerate']['1'] = 'Only for Admins. Browscap Cache Generator, Runtime ~90s.';
 
