@@ -26,6 +26,8 @@ ClassLoader::addClasses(array
 	// Modules
 	'BugBuster\BotDetection\ModuleBotDetection'    => 'system/modules/botdetection/modules/ModuleBotDetection.php',
 	'BugBuster\BotDetection\ModuleBrowscapCache'   => 'system/modules/botdetection/modules/ModuleBrowscapCache.php',
+	'BugBuster\BotDetection\ModuleFrontendDemo1'    => 'system/modules/botdetection/modules/ModuleFrontendDemo1.php',
+	'BugBuster\BotDetection\ModuleFrontendDemo2'    => 'system/modules/botdetection/modules/ModuleFrontendDemo2.php',
 
 	// Classes
 	'BugBuster\BotDetection\CheckBotAgentExtended' => 'system/modules/botdetection/classes/CheckBotAgentExtended.php',
