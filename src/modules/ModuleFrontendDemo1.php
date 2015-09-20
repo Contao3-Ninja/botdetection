@@ -63,15 +63,10 @@ class ModuleFrontendDemo1 extends \Module
 	 */
 	protected function compile()
 	{
-	    // Import Helperclass ModuleBotDetection
-	    $this->ModuleBotDetection = new \BotDetection\ModuleBotDetection();
-	    
-	    //Call BD_CheckBotAgent
-	    $test01 = $this->ModuleBotDetection->BD_CheckBotAgent(); // own Browser
-	    //Call BD_CheckBotIP
-	    $test02 = $this->ModuleBotDetection->BD_CheckBotIP(); // own IP
-	    //Call BD_CheckBotAgentAdvanced
-	    $test03 = $this->ModuleBotDetection->BD_CheckBotAgentAdvanced(); // own Browser
+	    //einzel tests direkt aufgerufen
+	    $test01 = CheckBotAgentSimple::checkAgent( \Environment::get('httpUserAgent') ); // own Browser
+	    $test02 = CheckBotIp::checkIP( \Environment::get('ip') ); // own IP
+	    $test03 = CheckBotAgentExtended::checkAgent( \Environment::get('httpUserAgent') ); // own Browser
 	    
 	    //for fe template
 	    $arrDemo[] = array(
@@ -98,7 +93,21 @@ class ModuleFrontendDemo1 extends \Module
 	       'comment'       => '<br />'.\Environment::get('httpUserAgent'),
 	       'color'         => ($test03 == false) ? 'green' : 'red'
 	    );	    
+
+	    //Gesamt Test Aufruf
+	    $this->ModuleBotDetection = new \BotDetection\ModuleBotDetection();
+	    $test04 = $this->ModuleBotDetection->checkBotAllTests( \Environment::get('httpUserAgent') );
+	    
+	    $arrDemo[] = array(
+	        'type'          => 'alltests',
+	        'test'          => '04',
+	        'theoretical'   => 'false',
+	        'actual'        => var_export($test04,true),
+	        'comment'       => '<br />'.\Environment::get('httpUserAgent'),
+	        'color'         => ($test04 == false) ? 'green' : 'red'
+	    );
 	    $this->Template->demos = $arrDemo;
+	    
 	    // get module version
 	    $this->Template->version = $this->ModuleBotDetection->getVersion();
 	}
