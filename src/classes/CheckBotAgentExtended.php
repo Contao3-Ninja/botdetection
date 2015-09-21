@@ -109,7 +109,7 @@ class CheckBotAgentExtended
      */
     public static function getBrowscapResult($UserAgent=false)
     {
-        return static::getBrowscapInfo($UserAgent=false);
+        return static::getBrowscapInfo($UserAgent);
     }
     
     /**

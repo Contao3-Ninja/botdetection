@@ -175,7 +175,7 @@ class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \S
         {
                 $UserAgent = trim(\Environment::get('httpUserAgent'));
         }
-        return \BugBuster\BotDetection\CheckBotAgentExtended::checkAgent( $UserAgent );
+        return \BugBuster\BotDetection\CheckBotAgentExtended::checkAgentName( $UserAgent );
     }
     
     /**

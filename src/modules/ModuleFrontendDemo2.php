@@ -123,7 +123,7 @@ class ModuleFrontendDemo2 extends \Module
 			
 			//einzel tests direkt aufgerufen
     	    $test01 = CheckBotAgentSimple::checkAgent($arrSet['agent_name']); 
-    	    $test02 = CheckBotAgentExtended::checkAgent($arrSet['agent_name']); 
+    	    $test02 = CheckBotAgentExtended::checkAgentName($arrSet['agent_name']); 
     	    $BrowsCapInfo = CheckBotAgentExtended::getBrowscapResult($arrSet['agent_name']);
     	    $not1 = ($test01) ? "<span style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
     	    $not2 = ($test02) ? "<span style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
