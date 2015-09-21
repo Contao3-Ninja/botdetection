@@ -120,4 +120,7 @@ $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "ning" => "NING",
 "cronjob.de" => "Cronjob.de",
 "publiclibraryarchive.org" => "publiclibraryarchive.org",
+"mindupbot" => "mindUpBot (datenbutler.de)",
+"ips-agent" => "http://de.wetena.com/bot/ips-agent",
+"seobility" => "Seobility SEO-Check",
 ); ?>

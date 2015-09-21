@@ -83,5 +83,28 @@ class CheckBotAgentExtendedTest extends \PHPUnit_Framework_TestCase
         $return = CheckBotAgentExtended::checkAgentName('iBusiness Shopcrawler');
         $this->assertEquals('Shopcrawler', $return);
     }
+    
+    /**
+     * Tests CheckBotAgentExtended::checkAgent()
+     * for unknown Bots, reported over GitHub
+     *
+     * @dataProvider providerAgents
+     */
+    public function testCheckAgentNew ($result, $agent)
+    {
+        $return = CheckBotAgentExtended::checkAgent($agent);
+        $this->assertEquals($result,$return);
+        fwrite(STDOUT, "\n" . CheckBotAgentExtended::checkAgentName($agent) . " ");
+    }
+    public function providerAgents()
+    {
+        return array(//result,Agent
+            array(true, 'mindUpBot (datenbutler.de)'),  //#121
+            array(true, 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)'),  //#119
+            array(true, 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1'), //#118
+            array(true, 'Seobility (SEO-Check; http://bit.ly/1dJuuzs)'),    //#117
+            
+        );
+    }
 
 }
