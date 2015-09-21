@@ -124,12 +124,14 @@ class ModuleFrontendDemo2 extends \Module
 			//einzel tests direkt aufgerufen
     	    $test01 = CheckBotAgentSimple::checkAgent($arrSet['agent_name']); 
     	    $test02 = CheckBotAgentExtended::checkAgent($arrSet['agent_name']); 
+    	    $BrowsCapInfo = CheckBotAgentExtended::getBrowscapResult($arrSet['agent_name']);
     	    $not1 = ($test01) ? "<span style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
     	    $not2 = ($test02) ? "<span style=\"color:green;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_found']."</span>" : "<span style=\"color:red;\">".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_not']."</span>";
     	    $not3 = ($test02) ? " (".$test02.")" : "";
     	    $messages  = "<strong>".$GLOBALS['TL_LANG']['MSC']['botdetectiondemo2_message_1'].":</strong><br />".$arrSet['agent_name']."<br /><br />";
     	    $messages .= "<div style=\"font-weight:bold; width:190px;float:left;\">CheckBotAgentSimple:</div> ".$not1."<br />";
     	    $messages .= "<div style=\"font-weight:bold; width:190px;float:left;\">CheckBotAgentExtended:</div> ".$not2.$not3."<br />";
+    	    $messages .= "<div style=\"font-weight:bold; width:190px;float:left;\">BrowsCapInfo:</div><pre>".print_r($BrowsCapInfo,true)."</pre><br />";
     	    
 			$this->Template->message  = $messages;
 			

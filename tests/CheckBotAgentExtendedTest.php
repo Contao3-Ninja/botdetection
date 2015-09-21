@@ -94,7 +94,7 @@ class CheckBotAgentExtendedTest extends \PHPUnit_Framework_TestCase
     {
         $return = CheckBotAgentExtended::checkAgent($agent);
         $this->assertEquals($result,$return);
-        fwrite(STDOUT, "\n" . CheckBotAgentExtended::checkAgentName($agent) . " ");
+        fwrite(STDOUT, "\n TestName: " . CheckBotAgentExtended::checkAgentName($agent) . " ");
     }
     public function providerAgents()
     {

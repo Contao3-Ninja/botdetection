@@ -41,15 +41,17 @@ class CheckBotAgentExtended
     
         //Search in browsecap
         $objBrowscap = static::getBrowscapInfo($UserAgent);
+        // DEBUG fwrite(STDOUT, 'BrowscapInfo: '.print_r($objBrowscap,true) . "\n");
         if ($objBrowscap->crawler == 'true') 
         {
-            // Debug fwrite(STDOUT, 'Bot: '.print_r($objBrowscap->browser_type,true) . "\n");
             if (false === $ouputBotName) 
             {
             	return true;
             }
             else 
             {
+                // DEBUG fwrite(STDOUT, "\n" . 'Agent: '.print_r($UserAgent,true) . "\n");
+                // DEBUG fwrite(STDOUT, 'Bot: '.print_r($objBrowscap->browser_type,true) . "\n");
                 return $objBrowscap->browser;
             }
             
@@ -99,6 +101,15 @@ class CheckBotAgentExtended
     {
         $BotName = static::checkAgent($UserAgent,true); 
         return ($BotName) ? $BotName : 'unknown';
+    }
+    
+    /**
+     * getBrowscapResult for Debug
+     * 
+     */
+    public static function getBrowscapResult($UserAgent=false)
+    {
+        return static::getBrowscapInfo($UserAgent=false);
     }
     
     /**
