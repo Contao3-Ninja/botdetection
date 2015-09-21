@@ -148,15 +148,17 @@ class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \S
         // Check if IP present
         if ($UserIP === false)
         {
-            if (strpos(\Environment::get('remoteAddr'), ',') !== false) //first IP
+            if (strpos(\Environment::get('ip'), ',') !== false) //first IP
             {
-				$UserIP = trim(substr(\Environment::get('remoteAddr'), 0, strpos(\Environment::get('remoteAddr'), ',')));
+				$UserIP = trim(substr(\Environment::get('ip'), 0, strpos(\Environment::get('ip'), ',')));
             }
             else
             {
-				$UserIP = trim(\Environment::get('remoteAddr'));
+				$UserIP = trim(\Environment::get('ip'));
             }
         }
+        \BugBuster\BotDetection\CheckBotIp::setBotIpv4List(TL_ROOT . self::BOT_IP4_LIST);
+        \BugBuster\BotDetection\CheckBotIp::setBotIpv6List(TL_ROOT . self::BOT_IP6_LIST);
         return \BugBuster\BotDetection\CheckBotIp::checkIP( $UserIP );
     }
     

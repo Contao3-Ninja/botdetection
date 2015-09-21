@@ -27,7 +27,19 @@ namespace BugBuster\BotDetection;
  * Initialize the system
  */
 define('TL_MODE', 'FE');
-require(dirname(dirname(dirname(dirname(__FILE__)))).'/initialize.php');
+$dir = __DIR__;
+ 
+while ($dir != '.' && $dir != '/' && !is_file($dir . '/system/initialize.php'))
+{
+    $dir = dirname($dir);
+}
+ 
+if (!is_file($dir . '/system/initialize.php'))
+{
+    throw new \ErrorException('Could not find initialize.php!',2,1,basename(__FILE__),__LINE__);
+}
+require($dir . '/system/initialize.php');
+
 
 /**
  * Class ModuleBotDetectionTest 
