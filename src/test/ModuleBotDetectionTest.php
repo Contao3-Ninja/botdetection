@@ -50,6 +50,13 @@ require($dir . '/system/initialize.php');
  */
 class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection  
 {
+    /**
+     * Initialize object
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
 	public function run()
 	{
@@ -129,6 +136,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'NING/1.0','NING');
 		$arrTest[] = array(true, 'publiclibraryarchive.org 1.0; +crawl@publiclibraryarchive.org','publiclibraryarchive');
 		$arrTest[] = array(true, 'Cronjob.de','Cronjob.de');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)','MegaIndex.ru');
 
 		
 		//$arrTest[] = array(true, '','');
