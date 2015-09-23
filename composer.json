@@ -43,7 +43,7 @@
 				"languages_tx": ".tx"
 			},
 			"runonce":[
-				"runonce/runonce.php"
+				"src/runonce/runonce.php"
 			]
 		}
 	}
