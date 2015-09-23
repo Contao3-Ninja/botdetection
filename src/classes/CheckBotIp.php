@@ -166,29 +166,10 @@ class CheckBotIp
             }
         }
         // search for user bot IP-filter definitions in localconfig.php
-        // (old name for backward compatibility)
-        if ( isset($GLOBALS['TL_BOTDETECTION']['BOT_IP']) )
-        {
-            foreach ($GLOBALS['TL_BOTDETECTION']['BOT_IP'] as $lineleft)
-            {
-                //$GLOBALS['TL_DEBUG']['BOTDETECTION'][] = $lineleft;
-                $network = explode("/", trim($lineleft));
-                if (!isset($network[1]))
-                {
-                    $network[1] = 32;
-                }
-                if (static::checkIp4InNetwork($UserIP,$network[0],$network[1]))
-                {
-                    return true; // IP found
-                }
-            }
-        }
-        // search for user bot IP-filter definitions in localconfig.php
         if ( isset($GLOBALS['BOTDETECTION']['BOT_IP']) )
         {
             foreach ($GLOBALS['BOTDETECTION']['BOT_IP'] as $lineleft)
             {
-                //$GLOBALS['TL_DEBUG']['BOTDETECTION'][] = $lineleft;
                 $network = explode("/", trim($lineleft));
                 if (!isset($network[1]))
                 {
@@ -236,7 +217,6 @@ class CheckBotIp
                 return false; // No IP, no search.
             }
         }
-        //$UserIP = $this->IPv6_ToLong($UserIP);
         // search user IP in bot-ip-list-ipv6
         if (file_exists($Bot_IPv6_List))
         {
@@ -258,12 +238,6 @@ class CheckBotIp
                 {
                     return true; // IP found
                 }
-                /*
-                 // fullIP wandeln und vergleichen
-                if ($this->IPv6_ToLong(trim($lineleft[0])) == $UserIP )
-                {
-                return true;
-                }*/
             }
         }
         // search for user bot IP-filter definitions in localconfig.php
@@ -280,10 +254,6 @@ class CheckBotIp
                 {
                     return true; // IP found
                 }
-                /*
-                 if ($this->IPv6_ToLong(trim($lineleft)) == $UserIP ) {
-                return true;
-                }*/
             }
         }
         return false;

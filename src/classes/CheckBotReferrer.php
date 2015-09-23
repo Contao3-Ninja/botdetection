@@ -79,7 +79,6 @@ class CheckBotReferrer
             $CheckBotRef = str_ireplace($botreferrer, '#', $referrer_DNS);
             if ($referrer_DNS != $CheckBotRef)
             {
-                //echo "DEBUG: ".$botreferrer."\n";
                 $found = $botreferrer;
             };
         }

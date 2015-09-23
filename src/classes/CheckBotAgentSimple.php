@@ -184,6 +184,12 @@ class CheckBotAgentSimple
 				            'zyborg'
 				            ); 
     
+	/**
+	 * checkAgent 
+	 * 
+	 * @param string $UserAgent
+	 * @return boolean
+	 */
     public static function checkAgent($UserAgent=false)
     {
         // Check if user agent present
@@ -225,7 +231,6 @@ class CheckBotAgentSimple
             }
             $num = count($botagents);
             $arrBots = array_keys($botagents);
-            $found = false;
             for ($c=0; $c < $num; $c++)
             {
                 $CheckUserAgent = str_ireplace($arrBots[$c], '#', $UserAgent);
@@ -239,4 +244,3 @@ class CheckBotAgentSimple
         return false;
     }//checkAgent
 }
-

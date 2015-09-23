@@ -75,7 +75,7 @@ class ModuleFrontendDemo1 extends \Module
 	       'theoretical'   => 'false',
 	       'actual'        => var_export($test01,true),
 	       'comment'       => '<br />'.\Environment::get('httpUserAgent'),
-	       'color'         => ($test01 == false) ? 'green' : 'red'
+	       'color'         => ($test01 === false) ? 'green' : 'red'
 	    );
 	    $arrDemo[] = array(
 	       'type'          => 'ip',
@@ -83,7 +83,7 @@ class ModuleFrontendDemo1 extends \Module
 	       'theoretical'   => 'false',
 	       'actual'        => var_export($test02,true),
 	       'comment'       => '<br />'.\Environment::get('ip'),
-	       'color'         => ($test02 == false) ? 'green' : 'red'
+	       'color'         => ($test02 === false) ? 'green' : 'red'
 	    );
 	    $arrDemo[] = array(
 	       'type'          => 'agentadvanced',
@@ -91,7 +91,7 @@ class ModuleFrontendDemo1 extends \Module
 	       'theoretical'   => 'false',
 	       'actual'        => var_export($test03,true),
 	       'comment'       => '<br />'.\Environment::get('httpUserAgent'),
-	       'color'         => ($test03 == false) ? 'green' : 'red'
+	       'color'         => ((bool)$test03 === false) ? 'green' : 'red'
 	    );	    
 
 	    //Gesamt Test Aufruf
@@ -104,7 +104,7 @@ class ModuleFrontendDemo1 extends \Module
 	        'theoretical'   => 'false',
 	        'actual'        => var_export($test04,true),
 	        'comment'       => '<br />'.\Environment::get('httpUserAgent'),
-	        'color'         => ($test04 == false) ? 'green' : 'red'
+	        'color'         => ($test04 === false) ? 'green' : 'red'
 	    );
 	    $this->Template->demos = $arrDemo;
 	    

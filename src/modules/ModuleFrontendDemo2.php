@@ -116,10 +116,7 @@ class ModuleFrontendDemo2 extends \Module
 
 	    if (\Input::post('FORM_SUBMIT') == 'botdetectiondemo2' && !$doNotSubmit)
 		{
-			$arrSet = array
-			(
-				'agent_name'		=> \Input::post('name',true)
-			);
+			$arrSet = array( 'agent_name' => \Input::post('name',true) );
 			
 			//einzel tests direkt aufgerufen
     	    $test01 = CheckBotAgentSimple::checkAgent($arrSet['agent_name']);
@@ -140,10 +137,8 @@ class ModuleFrontendDemo2 extends \Module
 			{
 				$strClass = $GLOBALS['TL_FFL'][$arrField['inputType']];
 				// Continue if the class is not defined
-				if (!$this->classFileExists($strClass))
-				{
-					continue;
-				}
+				if (!$this->classFileExists($strClass)) { continue; }
+				
 				$arrField['eval']['required'] = $arrField['eval']['mandatory'];
 				$objWidget = new $strClass($strClass::getAttributesFromDca($arrField, $arrField['name'], $arrField['value']));
 				$arrWidgets[$arrField['name']] = $objWidget;

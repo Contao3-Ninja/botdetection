@@ -25,7 +25,7 @@ namespace BugBuster\BotDetection;
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
-class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \System ?
+class ModuleBotDetection extends \System 
 {
     
     /**
@@ -43,28 +43,7 @@ class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \S
      */
     public function __construct()
     {
-        // Issue #59
-        //$this->getUser(); //TODO Testweise entfernt durch extends \System nicht mehr nötig? 
         parent::__construct();
-    }
-    
-    /**
-     * Returns the proper user object for the current context.
-     *
-     * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
-     * @return     User|NULL
-     */
-    protected function getUser()
-    {
-        if (TL_MODE=='BE')
-        {
-            return \BackendUser::getInstance();
-        }
-        else if(TL_MODE=='FE')
-        {
-            return \FrontendUser::getInstance();
-        }
-        return null;
     }
     
     /**
@@ -98,7 +77,7 @@ class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \S
             return true;
         }
         
-        if ( \BugBuster\BotDetection\CheckBotReferrer::checkReferrer(false, TL_ROOT . self::BOT_REFERRER_LIST) == true )
+        if ( true === (bool) \BugBuster\BotDetection\CheckBotReferrer::checkReferrer(false, TL_ROOT . self::BOT_REFERRER_LIST) )
         {
             return true;
         }
@@ -106,7 +85,7 @@ class ModuleBotDetection extends \System //\Frontend //TODO reicht hier nicht \S
         \BugBuster\BotDetection\CheckBotIp::setBotIpv4List(TL_ROOT . self::BOT_IP4_LIST);
         \BugBuster\BotDetection\CheckBotIp::setBotIpv6List(TL_ROOT . self::BOT_IP6_LIST);
         
-        if ( \BugBuster\BotDetection\CheckBotIp::checkIP() == true )
+        if ( true === \BugBuster\BotDetection\CheckBotIp::checkIP() )
         {
             return true;
         }

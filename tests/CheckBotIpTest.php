@@ -91,7 +91,7 @@ class CheckBotIpTest extends \PHPUnit_Framework_TestCase
         $return = CheckBotIp::checkIP('66.249.95.222' /* IPv4 Bot in Net*/);
         $this->assertTrue($return);
         
-        $GLOBALS['TL_BOTDETECTION']['BOT_IP'][] = '192.168.1.2';
+        $GLOBALS['BOTDETECTION']['BOT_IP'][] = '192.168.1.2';
         $GLOBALS['BOTDETECTION']['BOT_IP'][]    = '192.168.2.0/24';
 
         $return = CheckBotIp::checkIP('192.168.1.2' /* IPv4 Bot */);

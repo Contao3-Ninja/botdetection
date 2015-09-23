@@ -1,10 +1,12 @@
 # BotDetection API changes
 
+
 ## Version 3.x to 4.0.0
+
 
 ### ModuleBotDetection class
 
-The follow methods are deprecated and will be removed in a future version
+The follows methods are deprecated and will be removed in a future version:
 
 * **BD_CheckBotAllTests**
   * Use the `ModuleBotDetection` method `checkBotAllTests`
@@ -22,3 +24,11 @@ The follow methods are deprecated and will be removed in a future version
 * **BD_CheckBotReferrer**
   * use `CheckBotReferrer::checkReferrer` instead or the `ModuleBotDetection`
     method `checkBotAllTests`
+
+
+### General
+
+The following global variable was deprecated and has now been removed.
+
+* **$GLOBALS\['TL_BOTDETECTION'\]\['BOT_IP'\]**
+  * Use $GLOBALS\['BOTDETECTION'\]\['BOT_IP'\]

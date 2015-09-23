@@ -24,7 +24,13 @@ namespace BugBuster\BotDetection;
  */
 class CheckBotAgentExtended
 {
-    
+    /**
+     * checkAgent
+     * 
+     * @param string $UserAgent
+     * @param string $ouputBotName
+     * @return boolean|string
+     */
     public static function checkAgent($UserAgent=false, $ouputBotName = false)
     {
         // Check if user agent present
@@ -76,7 +82,6 @@ class CheckBotAgentExtended
         }
         $num = count($botagents);
         $arrBots = array_keys($botagents);
-        $found = false;
         for ($c=0; $c < $num; $c++)
         {
             $CheckUserAgent = str_ireplace($arrBots[$c], '#', $UserAgent);
@@ -93,7 +98,6 @@ class CheckBotAgentExtended
                 }
             }
         }
-    
         return false;
     }
     
@@ -135,9 +139,6 @@ class CheckBotAgentExtended
         // disable automatic updates 
         $updater = new \Crossjoin\Browscap\Updater\None(); 
         \Crossjoin\Browscap\Browscap::setUpdater($updater);
-        
-        //$parser = new \Crossjoin\Browscap\Parser\IniLt55();
-        //\Crossjoin\Browscap\Browscap::setParser($parser);
         
         $browscap = new \Crossjoin\Browscap\Browscap(false); //autoUpdate = false
         $settings = $browscap->getBrowser($UserAgent)->getData();
