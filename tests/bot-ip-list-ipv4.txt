@@ -1,0 +1,23 @@
+#####################################################################
+# Contao Open Source CMS - Bot Detection Module
+# Config File, Bots filter
+# Bots IP/MASK # Remark
+# or IP # Remark
+#####################################################################
+192.114.71.13   #web spider israel, http://www.projecthoneypot.org/ip_192.114.71.13
+65.52.0.0/14    #MSN search engine
+207.46.0.0/16   #MSN search engine
+66.249.64.0/19  #Google 66.249.64.0 - 66.249.95.255
+72.14.192.0/18  #Google AppEngine
+150.70.0.0/16   #Trend Micro Incorporated
+5.9.25.64/27    #Pixray Seeker Webcrawler (GitHub #35)
+#
+#####################################################################
+# Other samples: (IP or IP/MASK)
+# 192.168.1.2
+# 192.168.0.0/24
+# To make it safe for updates, set this in the file /system/config/localconfig.php
+# as follow:
+# $GLOBALS['BOTDETECTION']['BOT_IP'][] = '192.168.1.2';
+# $GLOBALS['BOTDETECTION']['BOT_IP'][] = '192.168.0.0/24';
+#####################################################################

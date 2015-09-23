@@ -1,0 +1,13 @@
+#####################################################################
+# Contao Open Source CMS - Bot Detection Module
+# 
+# When you will add own bot agent strings, 
+# set this in the file /system/config/localconfig.php
+# as follow:
+# $GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("unitbot","UniBot from FHTW");
+# $GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("myprivat","My privat bot");
+# Parameter are: shortname for search in lower case, logname for description
+#
+# DO NOT SET IT HERE THIS VARIABLES!
+#####################################################################
+

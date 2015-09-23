@@ -1,8 +1,15 @@
 .git/
-tests/
-assets/
-Depending_on_this.txt
 .gitignore
 # Transifex
 /.tx/
+#for development in vbox
+/vendor/
+composer.lock
+#IDE
+.buildpath
+.project
+.settings/
+#Cache
+src/cache/largebrowscap_*/largebrowscap.iniparts.*
+src/cache/largebrowscap_*/largebrowscap.patterns.*
 
