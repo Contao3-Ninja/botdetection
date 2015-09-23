@@ -123,4 +123,4 @@ $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "mindupbot" => "mindUpBot (datenbutler.de)",
 "ips-agent" => "http://de.wetena.com/bot/ips-agent",
 "seobility" => "Seobility SEO-Check",
-); ?>
+);
