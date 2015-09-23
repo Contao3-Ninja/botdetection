@@ -64,6 +64,10 @@ class CheckBotAgentExtendedTest extends \PHPUnit_Framework_TestCase
         $return = CheckBotAgentExtended::checkAgent('Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008052906 Firefox/3.0/1.0 (bot; http://)');
         $this->assertTrue($return);
         
+        /* MegaIndex.ru Bot over Browscap */
+        $return = CheckBotAgentExtended::checkAgent('Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)');
+        $this->assertTrue($return);
+        
         /* Bot */
         // Kennt Browscap nicht, aber die eigene Liste
         $return = CheckBotAgentExtended::checkAgent('iBusiness Shopcrawler'); 
@@ -78,6 +82,10 @@ class CheckBotAgentExtendedTest extends \PHPUnit_Framework_TestCase
         /* Google Bot over Browscap */
         $return = CheckBotAgentExtended::checkAgentName('Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)');
         $this->assertEquals('Google Bot', $return);
+        
+        /* MegaIndex.ru Bot over Browscap */
+        $return = CheckBotAgentExtended::checkAgentName('Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)');
+        $this->assertEquals('MegaIndex Bot', $return);
         
         /* Shopcrawler over bot-agent-list */
         $return = CheckBotAgentExtended::checkAgentName('iBusiness Shopcrawler');
