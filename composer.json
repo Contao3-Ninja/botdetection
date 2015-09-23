@@ -41,7 +41,10 @@
 				"prefix": "master-",
 				"languages_cto": "src/languages",
 				"languages_tx": ".tx"
-			}
+			},
+			"runonce":[
+				"runonce/runonce.php"
+			]
 		}
 	}
 }
