@@ -70,18 +70,18 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    $arrTest[] = array(false, 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; de-de) AppleWebKit/531.22.7 (KHTML, like Gecko) Version/4.0.5 Safari/531.22.7','Macintosh Safari');
 	    //Bots
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)','Google Bot');
-	    $arrTest[] = array(true, 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)','Internet Archiver (ia)');
+	    $arrTest[] = array(true, 'ia_archiver (+http://www.alexa.com/site/help/webmasters; crawler@alexa.com)','Internet Archive');
 	    $arrTest[] = array(true, 'Yandex/1.01.001 (compatible; Win16; P)','Yandex');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)','Yahoo! Site Explorer');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)','Yahoo! Slurp');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)','Exabot');
 	    $arrTest[] = array(true, 'msnbot/2.0b (+http://search.msn.com/msnbot.htm)','msnbot');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (Twiceler-0.9 http://www.cuil.com/twiceler/robot.html)','Twiceler');
 	    $arrTest[] = array(true, 'Googlebot-Image/1.0','Googlebot-Image');
-	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','NaverBot Yeti');
-	    $arrTest[] = array(true, 'Baiduspider+(+http://www.baidu.com/search/spider.htm)','Baiduspider');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )','spbot');
-	    $arrTest[] = array(true, 'ia_archiver-web.archive.org','Internet Archiver (ia)');
-	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)','Internet Archive (Bot)');
+	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','NaverBot');
+	    $arrTest[] = array(true, 'Baiduspider+(+http://www.baidu.com/search/spider.htm)','BaiDu');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )','SEOprofiler');
+	    $arrTest[] = array(true, 'ia_archiver-web.archive.org','Internet Archive');
+	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)','Internet Archive');
 
 	    $arrTest[] = array(true, 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)','msnbot-media');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Ask Jeeves/Teoma; +http://about.ask.com/en/docs/about/webmasters.shtml)','Teoma');
@@ -89,7 +89,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; ptd-crawler; +http://bixolabs.com/crawler/ptd/; crawler@bixolabs.com)','ptd-crawler bixolabs.com');
 		$arrTest[] = array(true, 'Cityreview Robot (+http://www.cityreview.org/crawler/)','Cityreview Robot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008052906 Firefox/3.0/1.0 (bot; http://)','No-Name-Bot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13','Google Web Preview');
+		$arrTest[] = array(true, 'Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13','Google');
 		
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Spiderlytics/1.0; +spider@spiderlytics.com)','Spiderlytics');
 		$arrTest[] = array(true, 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)','ExB Language Crawler');
@@ -103,40 +103,40 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; emefgebot/beta; +http://emefge.de/bot.html)','emefgebot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; CompSpyBot/1.0; +http://www.compspy.com/spider.html)','CompSpyBot');
 		$arrTest[] = array(true, 'NCBot (http://netcomber.com : tool for finding true domain owners) Queries/complaints: bot@netcomber.com','NCBot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Abonti/0.91 - http://www.abonti.com)','Abonti');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Abonti/0.91 - http://www.abonti.com)','Abonti WebSearch');
 		$arrTest[] = array(true, 'HubSpot Connect 1.0 (http://dev.hubspot.com/)','HubSpot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)','Meanpathbot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; meanpathbot/1.0; +http://www.meanpath.com/meanpathbot.html)','meanpathbot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; IstellaBot/1.10.2 +http://www.tiscali.it/)','IstellaBot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)','Genieo RSS Reader');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)','Genieo Web Filter');
 		$arrTest[] = array(true, 'Cliqz Bot (+http://www.cliqz.com)','Cliqz Bot');
-		$arrTest[] = array(true, 'BUbiNG (+http://law.di.unimi.it/BUbiNG.html)','BUbiNG');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)','Proximic Spider');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)','NetSeer');
+		$arrTest[] = array(true, 'BUbiNG (+http://law.di.unimi.it/BUbiNG.html)','BUbiNG Bot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)','proximic');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)','NetSeer Crawler');
 		$arrTest[] = array(true, 'AntBot/1.0 (http://www.ant.com)','AntBot');
 		$arrTest[] = array(true, 'Cliqzbot/0.1 (+http://cliqz.com/company/cliqzbot)','Cliqzbot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)','waybackarchive.org');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; waybackarchive.org/1.0; +spider@waybackarchive.org)','Wayback Archive Bot');
 		$arrTest[] = array(true, 'ImplisenseBot 1.0','ImplisenseBot');
 		$arrTest[] = array(true, 'Riddler (http://riddler.io/about.html)','Riddler');
 		//3.3.1
 		$arrTest[] = array(true, 'Mozilla/4.0 (compatible; Blog Search;)','Blog Search');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)','publiclibraryarchive');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)','publiclibraryarchive Bot');
 		$arrTest[] = array(true, 'Pinterest/0.1 +http://pinterest.com/','Pinterest');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; ca-crawler/1.0)','ca-crawler');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)','007ac9');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)','007AC9 Crawler');
 		$arrTest[] = array(true, 'dubaiindex (addressendeutschland.de)','addressendeutschland.de');
-		$arrTest[] = array(true, 'thumbshots-de-bot (+http://www.thumbshots.de/)','thumbshots-de-Bot');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)','memorybot');
-		$arrTest[] = array(true, 'stq_bot (+http://www.searchteq.de)','stq_bot');
+		$arrTest[] = array(true, 'thumbshots-de-bot (+http://www.thumbshots.de/)','thumbshots-de-bot');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; memorybot/1.20.71 +http://archivethe.net/en/index.php/about/internet_memory1 on behalf of DNB)','memoryBot');
+		$arrTest[] = array(true, 'stq_bot (+http://www.searchteq.de)','Searchteq Bot');
         //3.3.4
-		$arrTest[] = array(true, 'python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual','Python');
+		$arrTest[] = array(true, 'python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual','python-requests');
 		$arrTest[] = array(true, 'Mechanize/2.0.1 Ruby/1.9.2p290 (http://github.com/tenderlove/mechanize/)','Mechanize');
 		$arrTest[] = array(true, 'Ruby','Generic Ruby Crawler');
-		$arrTest[] = array(true, 'MetaURI API/2.0 +metauri.com','MetaURI');
+		$arrTest[] = array(true, 'MetaURI API/2.0 +metauri.com','MetaURI Bot');
 		$arrTest[] = array(true, 'Crowsnest/0.5 (+http://www.crowsnest.tv/)','Crowsnest');
 		$arrTest[] = array(true, 'NING/1.0','NING');
-		$arrTest[] = array(true, 'publiclibraryarchive.org 1.0; +crawl@publiclibraryarchive.org','publiclibraryarchive');
+		$arrTest[] = array(true, 'publiclibraryarchive.org 1.0; +crawl@publiclibraryarchive.org','publiclibraryarchive.org');
 		$arrTest[] = array(true, 'Cronjob.de','Cronjob.de');
-		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)','MegaIndex.ru');
+		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)','MegaIndex Bot');
 
 		
 		//$arrTest[] = array(true, '','');

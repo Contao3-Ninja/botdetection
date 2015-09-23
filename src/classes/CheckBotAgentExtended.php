@@ -100,7 +100,7 @@ class CheckBotAgentExtended
     public static function checkAgentName($UserAgent=false)
     {
         $BotName = static::checkAgent($UserAgent,true); 
-        return ($BotName) ? $BotName : 'unknown';
+        return ($BotName) ? $BotName : false;
     }
     
     /**
