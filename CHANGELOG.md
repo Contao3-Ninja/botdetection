@@ -1,5 +1,19 @@
 # BotDetection Changelog
 
+## [4.0.RC1](https://github.com/BugBuster1701/botdetection/tree/4.0.RC1) (2015-09-23)
+[Full Changelog](https://github.com/BugBuster1701/botdetection/compare/3.4.0...4.0.RC1)
+
+**Implemented enhancements:**
+
+- New Bot: datenbutler.de [\#121](https://github.com/BugBuster1701/botdetection/issues/121)
+- New Crawler: ips-agent [\#118](https://github.com/BugBuster1701/botdetection/issues/118)
+- New Crawler: Seobility [\#117](https://github.com/BugBuster1701/botdetection/issues/117)
+- Referrer Liste implementieren [\#116](https://github.com/BugBuster1701/botdetection/issues/116)
+- Environment::get\('ip'\) statt Environment::get\('remoteAddr'\)  [\#104](https://github.com/BugBuster1701/botdetection/issues/104)
+- BotDetection Umbau, zweifach Prüfung [\#94](https://github.com/BugBuster1701/botdetection/issues/94)
+- BotDetection Generate Umbau [\#93](https://github.com/BugBuster1701/botdetection/issues/93)
+- Implementierung von Crossjoin\Browscap [\#92](https://github.com/BugBuster1701/botdetection/issues/92)
+
 ## [3.4.0](https://github.com/BugBuster1701/botdetection/tree/3.4.0) (2014-12-28)
 [Full Changelog](https://github.com/BugBuster1701/botdetection/compare/3.3.4...3.4.0)
 

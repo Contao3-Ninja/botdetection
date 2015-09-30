@@ -4,50 +4,113 @@
  * Quelle: Statistik meiner Webseite
  */
 $botreferrerlist = array(
-'abcd4.de',
-'azbukameha.ru', // #116
-'backgroundpictures.net',
-'baixar-musicas-gratis.com',    // #116
-'buttons-for-website.com',
-'cylex.de',
-'descargar-musica-gratis.net',
-'darodar.com',
-'darkhalfe.ru',     // #116
-'extener.org',
-'extener.com',
-'embedle.com',
-'fbfreegifts.com',
-'feedouble.com',
-'feedouble.net',
-'joinandplay.me',
-'joingames.org',
-'japfm.com',
-'kambasoft.com',
-'lumb.co',
-'myprintscreen.com',
-'makemoneyonline.com',
-'musicprojectfoundation.com',
-'newworldmayfair.com',
-'openfrost.com',
-'openfrost.net',
-'openmediasoft.com',
-'srecorder.com',
-'softomix.com',
-'softomix.net',
-'softomix.ru',
-'sovetogorod.ru',   // #116
-'sharebutton.net',
-'soundfrost.org',
-'srecorder.com',
-'savetubevideo.com',
-'semalt.com',       //Semalt #91
-'tasteidea.com',
-'updown_tester',    //updown_tester #114
-'vapmedia.org',
-'videofrost.com',
-'videofrost.net',
-'www.xxlpromo.com', //www.xxlpromo.com #113
-'weesexy.ru',       // #116
-'youtubedownload.org',
-'zazagames.org'
+'100dollars-seo.com',  // #init
+'4webmasters.org',  // #120
+'abcd4.de',  // #init
+'addons.mozilla.org',  // #120
+'ads-cpm.com',  // #init
+'amanda-porn.ga',  // #120
+'azbukameha.ru',  // #init
+'backgroundpictures.net',  // #init
+'baixar-musicas-gratis.com',  // #init
+'bestwebsitesawards.com',  // #120
+'blackhatworth.com',  // #120
+'bluerobot.info',  // #init
+'buttons-for-website.com',  // #init
+'buy-cheap-online.info',  // #120
+'buyeasy.com',  // #120
+'cenoval.ru',  // #120
+'chinese-amezon.com',  // #120
+'creativebiz.de',  // #120
+'cylex.de',  // #init
+'darkhalfe.ru',  // #init
+'darodar.com',  // #init
+'depositfiles-porn.ga',  // #120
+'descargar-musica-gratis.net',  // #init
+'DirectI.com',  // #120
+'e-buyeasy.com',  // #120
+'embedle.com',  // #init
+'erot.co',  // #120
+'event-tracking.com',  // #120
+'extener.com',  // #init
+'extener.org',  // #init
+'fanyi.baidu.com',  // #120
+'fbfreegifts.com',  // #init
+'feedouble.com',  // #init
+'feedouble.net',  // #init
+'floating-share-buttons.com',  // #120
+'forum20.smailik.org',  // #120
+'free-floating-buttons.com',  // #120
+'fx-ray.com',  // #120
+'generalporn.org',  // #120
+'get-free-social-traffic.com',  // #120
+'Get-Free-Traffic-Now.com',  // #120
+'googlsucks.com',  // #120
+'howtostopreferralspam.eu',  // #120
+'hulfingtonpost.com',  // #120
+'humanorightswatch.org',  // #120
+'hvd-store.com',  // #init
+'ilovevitaly.com',  // #120
+'japfm.com',  // #init
+'joinandplay.me',  // #init
+'joingames.org',  // #init
+'kambasoft.com',  // #init
+'lumb.co',  // #init
+'makemoneyonline.com',  // #init
+'meendo-free-traffic.ga',  // #120
+'musicprojectfoundation.com',  // #init
+'myprintscreen.com',  // #init
+'newworldmayfair.com',  // #init
+'o-o-6-o-o.com',  // #120
+'o-o-8-o-o.com',  // #120
+'openfrost.com',  // #init
+'openfrost.net',  // #init
+'openmediasoft.com',  // #init
+'pizza-tycoon.de',  // #init
+'plaghunter.com',  // #120
+'priceg.com',  // #120
+'qualitymarketzone.com',  // #120
+'rapidgator-porn.ga',  // #120
+'resellerclubscam',  // #120
+'Resellerclub.com',  // #120
+'s.click.aliexpress.com',  // #120
+'sanjosestartups.com',  // #120
+'satellite.maps.ilovevitaly.com',  // #120
+'savetubevideo.com',  // #init
+'semalt.com',  // #init
+'sharebutton.net',  // #init
+'simple-share-buttons.com',  // #120
+'site3.free-share-buttons.com',  // #120
+'social-buttons.com',  // #120
+'softomix.com',  // #init
+'softomix.net',  // #init
+'softomix.ru',  // #init
+'soundfrost.org',  // #init
+'sovetogorod.ru',  // #init
+'specialdessous.com',  // #init
+'srecorder.com',  // #init
+'success-seo.com',  // #init
+'tasteidea.com',  // #init
+'theguardlan.com',  // #120
+'traffic2money.com',  // #120
+'trafficmonetize.org',  // #120
+'trafficmonetizer.org',  // #120
+'updown_tester',  // #init
+'vapmedia.org',  // #init
+'videofrost.com',  // #init
+'videofrost.net',  // #init
+'videos-for-your-business.com',  // #init
+'VitalityrulesGoogle',  // #120
+'vitalyrulesgoogle',  // #120
+'webmaster-traffic.com',  // #120
+'webmonetizer.net',  // #120
+'websites-reviews.com',  // #120
+'weesexy.ru',  // #init
+'wpsecuritycheck.co.uk',  // #120
+'wpthemedetector.co.uk',  // #120
+'www.xxlpromo.com',  // #init
+'youporn-forum.ga',  // #120
+'yourserverisdown.com',  // #120
+'youtubedownload.org',  // #init
+'zazagames.org'  // #init
 );
