@@ -92,7 +92,7 @@ class CheckBotReferrer
             $CheckBotRef = str_ireplace($botreferrer, '#', $referrer_DNS);
             if ($referrer_DNS != $CheckBotRef)
             {
-                $found = true; //old: $botreferrer;
+                $found = true;
             };
         }
         return $found;
