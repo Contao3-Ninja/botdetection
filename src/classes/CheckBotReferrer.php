@@ -34,6 +34,19 @@ class CheckBotReferrer
      */
     public static function checkReferrer($Referrer = false, $Bot_Referrer_List = false)
     {
+        //First nabble/semalt-blocker
+        if (false !== $Referrer) 
+        {
+        	$_SERVER['HTTP_REFERER'] = $Referrer;
+        }
+        //returns true when a blocked referrer is detected
+        $found = \Nabble\SemaltBlocker\Blocker::blocked(); 
+        if (true === $found) 
+        {
+        	return true;
+        }
+        
+        //Second own list
         if (false === $Bot_Referrer_List) 
         {
         	return false;
@@ -79,7 +92,7 @@ class CheckBotReferrer
             $CheckBotRef = str_ireplace($botreferrer, '#', $referrer_DNS);
             if ($referrer_DNS != $CheckBotRef)
             {
-                $found = $botreferrer;
+                $found = true; //$botreferrer;
             };
         }
         return $found;
