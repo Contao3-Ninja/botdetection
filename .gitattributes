@@ -1,1 +1,1 @@
-tests/ide_compat.php export-ignore
+src/config/ide_compat.php export-ignore
