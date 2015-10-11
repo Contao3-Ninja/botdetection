@@ -27,7 +27,7 @@
 		"nabble/semalt-blocker": "~1"
 	},
 	"autoload":{
-		"classmap":[""]
+		"classmap":["src/classes/", "src/modules/"]
 	},
 	"replace":{
 		"contao-legacy/botdetection":"self.version"
