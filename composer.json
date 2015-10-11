@@ -27,7 +27,7 @@
 		"nabble/semalt-blocker": "~1"
 	},
 	"autoload":{
-		"classmap":[""]
+		"classmap":["src/classes/", "src/modules/"]
 	},
 	"replace":{
 		"contao-legacy/botdetection":"self.version"
@@ -46,6 +46,9 @@
 			"runonce":[
 				"src/runonce/runonce.php"
 			]
+		},
+		"branch-alias": {
+			"dev-develop4": "4.1.x-dev"
 		}
 	}
 }
