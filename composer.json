@@ -43,6 +43,9 @@
 				"languages_cto": "src/languages",
 				"languages_tx": ".tx"
 			},
+			"branch-alias": {
+				"dev-develop": "4.1.x-dev"
+			},
 			"runonce":[
 				"src/runonce/runonce.php"
 			]
