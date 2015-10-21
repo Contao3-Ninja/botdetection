@@ -42,7 +42,10 @@
 				"prefix": "master-",
 				"languages_cto": "src/languages",
 				"languages_tx": ".tx"
-			}
+			},
+			"runonce":[
+				"src/runonce/delete_old_browscap.php"
+			]
 		},
 		"branch-alias": {
 			"dev-develop4": "4.1.x-dev"
