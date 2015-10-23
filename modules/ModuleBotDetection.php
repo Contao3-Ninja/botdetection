@@ -30,7 +30,7 @@ class ModuleBotDetection extends \Frontend
 	/**
 	 * Current version of the class.
 	 */
-	const BD_VERSION           = '3.4.0';
+	const BD_VERSION           = '3.4.1';
 	
 	/**
 	 * Rough test - Definition
