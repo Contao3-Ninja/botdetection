@@ -1,10 +1,18 @@
-# Changelog BotDetection
+# Contao Module BotDetection
 
 ## [Version 4.1.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.1.0%22+is%3Aclosed) (2015-xx-xx)
 
 ### New features
 
+- [\#129](https://github.com/BugBuster1701/botdetection/issues/129) minimize the largebrowscap.ini
 - [\#128](https://github.com/BugBuster1701/botdetection/issues/128) Update auf largebrowscap_v6008_1.0.4
+- [\#122](https://github.com/BugBuster1701/botdetection/issues/122) Eigene erkannte Referrer Spam Domains hinzufügen
+
+## [Version 3.4.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.1%22+is%3Aclosed) (2015-10-24)
+
+### Fixed bugs
+
+- [\#132](https://github.com/BugBuster1701/botdetection/issues/132) Update Referrer Liste
 
 ## [Version 4.0.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.2%22+is%3Aclosed) (2015-10-11)
 
