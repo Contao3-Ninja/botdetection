@@ -1,16 +1,20 @@
-# Changelog BotDetection
+# Contao Module BotDetection
 
-<<<<<<< HEAD
-## [Version 4.0.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.1%22+is%3Aclosed) (2015-10-11)
-=======
-## [Version 4.0.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.2%22+is%3Aclosed) (2015-10-11)
+## [Version 4.1.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.1.0%22+is%3Aclosed) (2015-10-31)
+
+### New features
+
+- [\#129](https://github.com/BugBuster1701/botdetection/issues/129) minimize the largebrowscap.ini
+- [\#128](https://github.com/BugBuster1701/botdetection/issues/128) Update auf largebrowscap_v6008_1.0.4
+- [\#122](https://github.com/BugBuster1701/botdetection/issues/122) Eigene erkannte Referrer Spam Domains hinzufügen
+
+## [Version 4.0.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.2%22+is%3Aclosed) (2015-10-11)
 
 ### Fixed bugs
 
 - [\#127](https://github.com/BugBuster1701/botdetection/issues/127) classmap anpassen
 
-## [Version 4.0.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.1%22+is%3Aclosed) (2015-10-10)
->>>>>>> develop4
+## [Version 4.0.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.1%22+is%3Aclosed) (2015-10-11)
 
 ### Fixed bugs
 
@@ -33,6 +37,12 @@
 - [\#93](https://github.com/BugBuster1701/botdetection/issues/93) BotDetection Generate Umbau
 - [\#92](https://github.com/BugBuster1701/botdetection/issues/92) Implementierung von Crossjoin\Browscap
 
+## [Version 3.4.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.1%22+is%3Aclosed) (2015-10-24)
+
+### Fixed bugs
+
+- [\#132](https://github.com/BugBuster1701/botdetection/issues/132) Update Referrer Liste
+
 ## [Version 3.4.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.0%22+is%3Aclosed) (2014-12-28)
 
 ### New features
@@ -51,18 +61,7 @@
 - [\#107](https://github.com/BugBuster1701/botdetection/issues/107) New Bot: NING/1.0
 - [\#105](https://github.com/BugBuster1701/botdetection/issues/105) New Bot: Cronjob.de
 
-## [Version 3.2.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.2.1%22+is%3Aclosed) (2014-09-07)
-
-### New features
-
-- [\#77](https://github.com/BugBuster1701/botdetection/issues/77) New: BD_CheckBotAllTests
-- [\#76](https://github.com/BugBuster1701/botdetection/issues/76) BD_CheckBotAgent Test erweitern um eigene Definitionen
-
-### Fixed bugs
-
-- [\#75](https://github.com/BugBuster1701/botdetection/issues/75) autoload.ini erweitern mit requires[] = "core"
-
-## [Version 3.3.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.3.1%22+is%3Aclosed) (2014-09-03)
+## [Version 3.3.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.3.1%22+is%3Aclosed) (2014-09-04)
 
 ### New features
 
@@ -96,6 +95,17 @@
 - [\#81](https://github.com/BugBuster1701/botdetection/issues/81) ImplisenseBot 1.0
 - [\#80](https://github.com/BugBuster1701/botdetection/issues/80) Nutch12/Nutch-1.2
 
+## [Version 3.2.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.2.1%22+is%3Aclosed) (2014-09-07)
+
+### New features
+
+- [\#77](https://github.com/BugBuster1701/botdetection/issues/77) New: BD_CheckBotAllTests
+- [\#76](https://github.com/BugBuster1701/botdetection/issues/76) BD_CheckBotAgent Test erweitern um eigene Definitionen
+
+### Fixed bugs
+
+- [\#75](https://github.com/BugBuster1701/botdetection/issues/75) autoload.ini erweitern mit requires[] = "core"
+
 ## [Version 3.2.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.2.0%22+is%3Aclosed) (2014-08-31)
 
 ### New features
@@ -120,10 +130,26 @@
 
 - [\#59](https://github.com/BugBuster1701/botdetection/issues/59) 'Invalid connection resource'
 
+## [1.6.x](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%221.6.x%22+is%3Aclosed) (2012-03-26)
+
+### New features
+
+- [\#16](https://github.com/BugBuster1701/botdetection/issues/16) New Crawler: crawler@schrein
+- [\#15](https://github.com/BugBuster1701/botdetection/issues/15) New Bot: lb-spider (Linkbutler Spider)
+- [\#14](https://github.com/BugBuster1701/botdetection/issues/14) New Bot: SWEBot
+- [\#13](https://github.com/BugBuster1701/botdetection/issues/13) New Crawler: netEstate NE Crawler
+- [\#12](https://github.com/BugBuster1701/botdetection/issues/12) New Bot: EdisterBot
+- [\#11](https://github.com/BugBuster1701/botdetection/issues/11) New Bot: KomodiaBot
+- [\#10](https://github.com/BugBuster1701/botdetection/issues/10) New Crawler: EC2LinkFinder
+- [\#9](https://github.com/BugBuster1701/botdetection/issues/9) New Crawler: Wordpress
+- [\#8](https://github.com/BugBuster1701/botdetection/issues/8) neue browscap.csv verwenden
+- [\#7](https://github.com/BugBuster1701/botdetection/issues/7) New Bot: ReverseGet
+- [\#6](https://github.com/BugBuster1701/botdetection/issues/6) New Bot: Voluniabot
+- [\#5](https://github.com/BugBuster1701/botdetection/issues/5) New Bot: WeViKa
+- [\#4](https://github.com/BugBuster1701/botdetection/issues/4) New Search Engine Bot: Acoon
+- [\#3](https://github.com/BugBuster1701/botdetection/issues/3) New Bot: upictoBot
+- [\#1](https://github.com/BugBuster1701/botdetection/issues/1) New Bot: Exositesbot
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> develop4
 <sub>*This changelog was automatically generated by [bb_changelog_gen](https://github.com/BugBuster1701/bb_changelog_gen)*</sub>

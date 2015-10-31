@@ -44,11 +44,11 @@
 				"languages_tx": ".tx"
 			},
 			"runonce":[
-				"src/runonce/runonce.php"
+				"src/runonce/delete_old_browscap.php"
 			]
 		},
 		"branch-alias": {
-			"dev-develop4": "4.1.x-dev"
+			"dev-develop4": "4.2.x-dev"
 		}
 	}
 }

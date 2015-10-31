@@ -218,11 +218,12 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
 			$this->CheckBotIPTest();
 		echo '</div>';
+		$returnall = $this->CheckBotAllTestsTest(); // muss vor ref test, sonst geht erster Test schief
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
             $this->CheckBotReferrerTest($arrReferrerTest);
 		echo '</div>';
 		echo '<div style="clear:both;font-family:Verdana,sans-serif;font-size: 12px;"><br>';
-		    $this->CheckBotAllTestsTest();
+		    echo $returnall;
 		echo '</div>';
 		echo "<h2>ModuleBotDetection Version: ".$this->getVersion()."</h2>";
 		echo "</body></html>";
@@ -333,7 +334,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	
 	private function CheckBotAllTestsTest()
 	{
-	    echo "<h1>CheckBotAllTest</h1>";
+	    $return = "<h1>CheckBotAllTest</h1>";
 	    $arrTest[0] = 'your browser, false test';
 	    $arrTest[1] = 'CheckBotAgent test';
 	    $arrTest[2] = 'CheckBotAgentAdvanced test';
@@ -380,16 +381,16 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
     	    $nr = ($x<10) ? "&nbsp;".$x : $x;
             if (true == $result[$x]) 
             {
-	            echo '<span style="color:green;">';
+	            $return .= '<span style="color:green;">';
 	        } 
 	        else
 	        {
-	            echo '<span style="color:red;">';
+	            $return .= '<span style="color:red;">';
 	        }
-	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: true/".var_export($result[$x],true)." (".$arrTest[$x].")";
-            echo "</span><br>";
+            $return .= "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: true/".var_export($result[$x],true)." (".$arrTest[$x].")";
+            $return .= "</span><br>";
 	    }
-	    	    
+        return $return;	    	    
 	}
 	
 	private function CheckBotReferrerTest($arrReferrerTest)

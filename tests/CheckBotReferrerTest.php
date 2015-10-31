@@ -79,7 +79,7 @@ class CheckBotReferrerTest extends \PHPUnit_Framework_TestCase
      */
     public function testCheckReferrerBot ()
     {
-        $_SERVER['HTTP_REFERER'] = 'abcd4.de'; // kennt semalt-blocker nicht
+        $_SERVER['HTTP_REFERER'] = 'abcd4.de'; // kennt semalt-blocker nicht, aber eigene Liste
         $return = CheckBotReferrer::checkReferrer(false, dirname(__FILE__) . "/../src/config/bot-referrer-list.php");
         $this->assertTrue($return);
         
@@ -90,10 +90,15 @@ class CheckBotReferrerTest extends \PHPUnit_Framework_TestCase
         $return = CheckBotReferrer::checkReferrer('abcd4.de', dirname(__FILE__) . "/../src/config/bot-referrer-list.php");
         $this->assertTrue($return);
         
-        $return = CheckBotReferrer::checkReferrer('semalt.com', dirname(__FILE__) . "/../src/config/bot-referrer-list.php");
+        $return = CheckBotReferrer::checkReferrer('semalt.com/bots.asp', dirname(__FILE__) . "/../src/config/bot-referrer-list.php");
         $this->assertTrue($return);
 
         $_SERVER['HTTP_REFERER'] = 'joinandplay.me'; // kennt semalt-blocker nicht
+        $return = CheckBotReferrer::checkReferrer(false, dirname(__FILE__) . "/../src/config/bot-referrer-list.php");
+        $this->assertTrue($return);
+        
+        $_SERVER['HTTP_REFERER'] = 'mylocal-bugbuster-bot.ninja/bot.php';
+        $GLOBALS['BOTDETECTION']['BOT_REFERRER'][] = 'mylocal-bugbuster-bot.ninja';
         $return = CheckBotReferrer::checkReferrer(false, dirname(__FILE__) . "/../src/config/bot-referrer-list.php");
         $this->assertTrue($return);
     }
