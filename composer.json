@@ -48,7 +48,7 @@
 			]
 		},
 		"branch-alias": {
-			"dev-develop4": "4.1.x-dev"
+			"dev-develop4": "4.2.x-dev"
 		}
 	}
 }
