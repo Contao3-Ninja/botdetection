@@ -1,6 +1,6 @@
 <?php
 /*
- * Quelle: https://github.com/nabble/semalt-blocker
+ * Quelle: https://github.com/nabble/semalt-blocker v1.2.11
  * Quelle: Statistik meiner Webseite
  */
 $botreferrerlist = array(
@@ -30,6 +30,7 @@ $botreferrerlist = array(
     'akuhni.by',
     'alessandraleone.com',
     'alfa9.com',
+    'alibestsale.com',
     'aliexpress.com',
     'allknow.info',
     'allnews.md',
@@ -106,7 +107,6 @@ $botreferrerlist = array(
     'civilwartheater.com',
     'clicksor.com',
     'clmforexeu.com',
-    //'co',
     'coderstate.com',
     'codysbbq.com',
     'com.biz',
@@ -118,6 +118,7 @@ $botreferrerlist = array(
     'covadhosting.biz',
     'dailyrank.net',
     'darodar.com',
+    'dbutton.net',
     'demenageur.com',
     'depositfiles-porn.com',
     'depositfiles-porn.ga',
@@ -344,10 +345,8 @@ $botreferrerlist = array(
     'retreatia.com',
     'reversing.cc',
     'rightenergysolutions.com.au',
-//    'ro',
     'roleforum.ru',
     'rospromtest.ru',
-//    'ru',
     'sady-urala.ru',
     'salutmontreal.com',
     'sanjosestartups.com',
