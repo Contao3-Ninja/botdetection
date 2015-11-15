@@ -1,0 +1,147 @@
+[
+    {
+        "name": "crossjoin/browscap",
+        "version": "v1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/crossjoin/Browscap.git",
+            "reference": "e312ce0d2af5351c9d968504822f4b00ad0ff967"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/crossjoin/Browscap/zipball/e312ce0d2af5351c9d968504822f4b00ad0ff967",
+            "reference": "e312ce0d2af5351c9d968504822f4b00ad0ff967",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-09-06 09:39:24",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Crossjoin\\Browscap\\": "src/Crossjoin/Browscap/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Christoph Ziegenberg",
+                "email": "ziegenberg@crossjoin.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Standalone Browscap parser for PHP 5.3+ that allows to check for browser settings based on the user agent string (replacement for the PHP native function get_browser()).",
+        "homepage": "https://github.com/crossjoin/Browscap",
+        "keywords": [
+            "Browscap",
+            "browser",
+            "capabilities",
+            "client",
+            "detection",
+            "get_browser",
+            "user agent"
+        ]
+    },
+    {
+        "name": "true/punycode",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/true/php-punycode.git",
+            "reference": "b672918d992b84f8016bbe353a42516928393c63"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/true/php-punycode/zipball/b672918d992b84f8016bbe353a42516928393c63",
+            "reference": "b672918d992b84f8016bbe353a42516928393c63",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.7",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "time": "2015-09-01 14:53:31",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TrueBV\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Renan Gonçalves",
+                "email": "renan.saddam@gmail.com"
+            }
+        ],
+        "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+        "homepage": "https://github.com/true/php-punycode",
+        "keywords": [
+            "idna",
+            "punycode"
+        ]
+    },
+    {
+        "name": "nabble/semalt-blocker",
+        "version": "v1.2.11",
+        "version_normalized": "1.2.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nabble/semalt-blocker.git",
+            "reference": "ae1ae5b16cb207bd36646eb260dabd2b11636622"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nabble/semalt-blocker/zipball/ae1ae5b16cb207bd36646eb260dabd2b11636622",
+            "reference": "ae1ae5b16cb207bd36646eb260dabd2b11636622",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0",
+            "true/punycode": "~2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4",
+            "satooshi/php-coveralls": "dev-master",
+            "technosophos/phpcompressor": "dev-master"
+        },
+        "suggest": {
+            "guzzle/guzzle": "Required by the debugger, use version ~3",
+            "jeremykendall/php-domain-parser": "[PLANNED] Allows for more accurate parsing of URLs, use version ~2.0"
+        },
+        "time": "2015-11-09 09:22:06",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Nabble\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joram van den Boezem",
+                "email": "hongaar@gmail.com"
+            }
+        ],
+        "description": "Block referral spammers from visiting your site and ruining your stats"
+    }
+]

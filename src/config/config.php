@@ -44,3 +44,9 @@ array_insert($GLOBALS['FE_MOD'], 4, array
       'browscapcachegenerate' => 'BotDetection\ModuleBrowscapCache',
   	)*/
 ));
+
+/**
+ * ER2 Anpassung
+ */
+require __DIR__ . "/../vendor/autoload.php";
+
