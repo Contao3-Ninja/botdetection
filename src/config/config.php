@@ -48,5 +48,5 @@ array_insert($GLOBALS['FE_MOD'], 4, array
 /**
  * ER2 Anpassung
  */
-require __DIR__ . "/../vendor/autoload.php";
+include(TL_ROOT . '/system/modules/botdetection/vendor/autoload.php');
 
