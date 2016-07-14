@@ -120,4 +120,5 @@ $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "ips-agent" => "http://de.wetena.com/bot/ips-agent",
 "seobility" => "Seobility SEO-Check",
 "seocheck" => "SeoCheck",
+"teoma" => "Teoma",
 ); ?>
