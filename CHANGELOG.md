@@ -1,5 +1,19 @@
 # Contao Module BotDetection
 
+## [Version 4.2.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.2.0%22+is%3Aclosed) (2016-07-14)
+
+### New features
+
+- [\#143](https://github.com/BugBuster1701/botdetection/issues/143) Update translated language files
+- [\#137](https://github.com/BugBuster1701/botdetection/issues/137) Browscap aktualisieren
+
+### Fixed bugs
+
+- [\#142](https://github.com/BugBuster1701/botdetection/issues/142) SeoCheck nicht kannt
+- [\#141](https://github.com/BugBuster1701/botdetection/issues/141) Hosting Domains für Bots
+- [\#140](https://github.com/BugBuster1701/botdetection/issues/140) WeSEE nicht erkannt
+- [\#139](https://github.com/BugBuster1701/botdetection/issues/139) 007AC9 Crawler wird nicht erkannt.
+
 ## [Version 4.1.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.1.0%22+is%3Aclosed) (2015-10-31)
 
 ### New features
@@ -37,6 +51,13 @@
 - [\#93](https://github.com/BugBuster1701/botdetection/issues/93) BotDetection Generate Umbau
 - [\#92](https://github.com/BugBuster1701/botdetection/issues/92) Implementierung von Crossjoin\Browscap
 
+## [3.4.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%223.4.2%22+is%3Aclosed) (2015-11-12)
+
+### Fixed bugs
+
+- [\#135](https://github.com/BugBuster1701/botdetection/issues/135) semalt-blocker Abgleich mit BotDetection 3.x
+- [\#133](https://github.com/BugBuster1701/botdetection/issues/133) New Crawler: ltx71 , Qwantify
+
 ## [Version 3.4.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.1%22+is%3Aclosed) (2015-10-24)
 
 ### Fixed bugs
@@ -60,6 +81,17 @@
 - [\#108](https://github.com/BugBuster1701/botdetection/issues/108) New Bot: Crowsnest
 - [\#107](https://github.com/BugBuster1701/botdetection/issues/107) New Bot: NING/1.0
 - [\#105](https://github.com/BugBuster1701/botdetection/issues/105) New Bot: Cronjob.de
+
+## [Version 3.2.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.2.1%22+is%3Aclosed) (2014-09-07)
+
+### New features
+
+- [\#77](https://github.com/BugBuster1701/botdetection/issues/77) New: BD_CheckBotAllTests
+- [\#76](https://github.com/BugBuster1701/botdetection/issues/76) BD_CheckBotAgent Test erweitern um eigene Definitionen
+
+### Fixed bugs
+
+- [\#75](https://github.com/BugBuster1701/botdetection/issues/75) autoload.ini erweitern mit requires[] = "core"
 
 ## [Version 3.3.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.3.1%22+is%3Aclosed) (2014-09-04)
 
@@ -90,21 +122,10 @@
 - [\#86](https://github.com/BugBuster1701/botdetection/issues/86) AntBot
 - [\#85](https://github.com/BugBuster1701/botdetection/issues/85) uMBot
 - [\#84](https://github.com/BugBuster1701/botdetection/issues/84) 360Spider
-- [\#83](https://github.com/BugBuster1701/botdetection/issues/83) Cliqzbot/0.1
+- [\#83](https://github.com/BugBuster1701/botdetection/issues/83) Cliqzbot/0.1 
 - [\#82](https://github.com/BugBuster1701/botdetection/issues/82) waybackarchive.org spider
 - [\#81](https://github.com/BugBuster1701/botdetection/issues/81) ImplisenseBot 1.0
 - [\#80](https://github.com/BugBuster1701/botdetection/issues/80) Nutch12/Nutch-1.2
-
-## [Version 3.2.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.2.1%22+is%3Aclosed) (2014-09-07)
-
-### New features
-
-- [\#77](https://github.com/BugBuster1701/botdetection/issues/77) New: BD_CheckBotAllTests
-- [\#76](https://github.com/BugBuster1701/botdetection/issues/76) BD_CheckBotAgent Test erweitern um eigene Definitionen
-
-### Fixed bugs
-
-- [\#75](https://github.com/BugBuster1701/botdetection/issues/75) autoload.ini erweitern mit requires[] = "core"
 
 ## [Version 3.2.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.2.0%22+is%3Aclosed) (2014-08-31)
 
