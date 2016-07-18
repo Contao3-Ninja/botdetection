@@ -15,7 +15,7 @@ namespace BugBuster\BotDetection;
 /**
  * Class BotDetectionRunonceJobDel6006
  *
- * @copyright  Glen Langer 2015
+ * @copyright  Glen Langer 2016
  * @author     Glen Langer
  * @package    Banner
  * @license    LGPL
@@ -33,6 +33,18 @@ class BotDetectionRunonceJobDel6006 extends \Controller
         if (is_dir(TL_ROOT . '/system/modules/botdetection/cache/largebrowscap_v6006_1.0.4'))
         {
             $folder = new \Folder('system/modules/botdetection/cache/largebrowscap_v6006_1.0.4');
+            if (!$folder->isEmpty())
+            {
+                $folder->purge();
+            }
+            $folder->delete();
+            $folder=null;
+            unset($folder);
+        }
+        // delete old cache/largebrowscap_v6008_1.0.4/ directory
+        if (is_dir(TL_ROOT . '/system/modules/botdetection/cache/largebrowscap_v6008_1.0.4'))
+        {
+            $folder = new \Folder('system/modules/botdetection/cache/largebrowscap_v6008_1.0.4');
             if (!$folder->isEmpty())
             {
                 $folder->purge();
