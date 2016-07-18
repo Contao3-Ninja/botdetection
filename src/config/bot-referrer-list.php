@@ -14,7 +14,9 @@ $botreferrerlist = array(
 'DirectI.com',  // #120
 'extener.org',  // #init
 'fanyi.baidu.com',  // #120
+'fastwebserver.de', // #142
 'fx-ray.com',  // #120
+'hosted-by.leaseweb.com', // #141
 'japfm.com',  // #init
 'newworldmayfair.com',  // #init
 'openfrost.net',  // #init

@@ -76,9 +76,9 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)','Exabot');
 	    $arrTest[] = array(true, 'msnbot/2.0b (+http://search.msn.com/msnbot.htm)','msnbot');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (Twiceler-0.9 http://www.cuil.com/twiceler/robot.html)','Twiceler');
-	    $arrTest[] = array(true, 'Googlebot-Image/1.0','Googlebot-Image');
+	    $arrTest[] = array(true, 'Googlebot-Image/1.0','Google Image Search');
 	    $arrTest[] = array(true, 'Yeti/1.0 (NHN Corp.; http://help.naver.com/robots/)','NaverBot');
-	    $arrTest[] = array(true, 'Baiduspider+(+http://www.baidu.com/search/spider.htm)','BaiDu');
+	    $arrTest[] = array(true, 'Baiduspider+(+http://www.baidu.com/search/spider.htm)','Baiduspider');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; spbot/2.0.2; +http://www.seoprofiler.com/bot/ )','SEOprofiler');
 	    $arrTest[] = array(true, 'ia_archiver-web.archive.org','Internet Archive');
 	    $arrTest[] = array(true, 'Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)','Internet Archive');
@@ -441,4 +441,3 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 $objBotDetectionTest = new ModuleBotDetectionTest();
 $objBotDetectionTest->run();
 
-?>
