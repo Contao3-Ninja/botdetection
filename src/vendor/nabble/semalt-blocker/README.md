@@ -1,34 +1,25 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/nabble/semalt-blocker.svg)](https://packagist.org/packages/nabble/semalt-blocker)
-[![Build Status](https://img.shields.io/travis/nabble/semalt-blocker.svg)](https://travis-ci.org/nabble/semalt-blocker)
-[![Coverage Status](https://img.shields.io/coveralls/nabble/semalt-blocker.svg)](https://coveralls.io/r/nabble/semalt-blocker?branch=master)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/nabble/semalt-blocker.svg)](https://scrutinizer-ci.com/g/nabble/semalt-blocker/?branch=master)
-[![Dependency Status](https://www.versioneye.com/php/nabble:semalt-blocker/badge.svg)](https://www.versioneye.com/php/nabble:semalt-blocker)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/nabble/semalt-blocker.svg)](https://packagist.org/packages/nabble/semalt-blocker)
-[![License](https://img.shields.io/packagist/l/nabble/semalt-blocker.svg)](https://packagist.org/packages/nabble/semalt-blocker)
+[![Latest Stable Version](https://img.shields.io/packagist/v/nabble/semalt-blocker.svg?style=flat-square)](https://packagist.org/packages/nabble/semalt-blocker)
+[![Build Status](https://img.shields.io/travis/nabble/semalt-blocker.svg?style=flat-square)](https://travis-ci.org/nabble/semalt-blocker)
+[![Coverage Status](https://img.shields.io/coveralls/nabble/semalt-blocker.svg?style=flat-square)](https://coveralls.io/r/nabble/semalt-blocker?branch=master)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/nabble/semalt-blocker.svg?style=flat-square)](https://scrutinizer-ci.com/g/nabble/semalt-blocker/?branch=master)
+[![StyleCI Status](https://styleci.io/repos/22722171/shield)](https://styleci.io/repos/22722171)
+[![Dependency Status](https://www.versioneye.com/php/nabble:semalt-blocker/badge.svg?style=flat-square)](https://www.versioneye.com/php/nabble:semalt-blocker)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/nabble/semalt-blocker.svg?style=flat-square)](https://packagist.org/packages/nabble/semalt-blocker)
+[![License](https://img.shields.io/packagist/l/nabble/semalt-blocker.svg?style=flat-square)](https://packagist.org/packages/nabble/semalt-blocker)
 
 semalt-blocker
 ==============
 
 ### Self-updating PHP library which blocks hundreds of spammy domains from ruining your website statistics
 
----
-
-#### Bad domains counter: `451` _updated November 9th, 2015_ 
+| Bad domains     | Last updated            |
+|:---------------:|:-----------------------:|
+| 2269 | July 8th, 2016 |
 
 ---
 
 Block referral spam with a single line of code. Originally started to stop the nasty Semalt botnet from visiting your site and ruining your stats (of course their domains are still included), the blocklist now contains hundreds of spammy domains. The library will try to self-update every week, so you don't have to worry about `composer update`'s. 
 
-## sources
-
-The blocklist is compiled from several sources. Currently:
-
- - [piwik/referrer-spam-blacklist](https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt)
- - ~~[lonegoatuk.tumblr.com](http://lonegoatuk.tumblr.com/post/107307494431/google-analytics-referral-spambot-list)~~
- - [Stevie-Ray/htaccess-referral-spam-blacklist-block](https://raw.githubusercontent.com/Stevie-Ray/htaccess-referral-spam-blacklist-block/master/.htaccess)
- - [antispam/false-referrals](https://raw.githubusercontent.com/antispam/false-referrals/master/false-referrals.txt)
- - [sahava/spam-filter-tool](https://raw.githubusercontent.com/sahava/spam-filter-tool/master/js/spamfilter.js)
- 
 ## blocklist
 
 Looking for the blocklist only? No problem:
@@ -37,7 +28,23 @@ Looking for the blocklist only? No problem:
  - [json](https://raw.githubusercontent.com/nabble/semalt-blocker/master/domains/blocked.json)
  - [csv](https://raw.githubusercontent.com/nabble/semalt-blocker/master/domains/blocked.csv)
  - [xml](https://raw.githubusercontent.com/nabble/semalt-blocker/master/domains/blocked.xml)
- - [apache](https://raw.githubusercontent.com/nabble/semalt-blocker/master/domains/apache.conf)
+ - [apache](https://raw.githubusercontent.com/nabble/semalt-blocker/master/domains/blocked.conf)
+ - [annotated](https://raw.githubusercontent.com/nabble/semalt-blocker/master/domains/annotated.json)
+ 
+## sources
+
+The blocklist is compiled from several sources. Currently:
+
+| Source            | Raw source file        | Number of domains         |
+|-------------------|------------------------|---------------------------|
+| sahava | https://raw.githubusercontent.com/sahava/spam-filter-tool/master/js/spamfilter.js | 417 |
+| piwik | https://raw.githubusercontent.com/piwik/referrer-spam-blacklist/master/spammers.txt | 431 |
+| stevie-ray | https://raw.githubusercontent.com/Stevie-Ray/apache-nginx-referral-spam-blacklist/master/generator/domains.txt | 870 |
+| antispam | https://raw.githubusercontent.com/antispam/false-referrals/master/false-referrals.txt | 199 |
+| ar-communications | https://raw.githubusercontent.com/ARCommunications/Block-Referral-Spam/master/blocker.php | 376 |
+| flameeyes | https://raw.githubusercontent.com/Flameeyes/modsec-flameeyes/master/rules/flameeyes_bad_referrers.data | 936 |
+| semalt-blocker | ../domains/additional | 1 |
+| desbma | https://raw.githubusercontent.com/desbma/referer-spam-domains-blacklist/master/spammers.txt | 1699 |
 
 ## debug console
 
@@ -72,13 +79,11 @@ require "/path/to/semaltblocker.php";
 It's as easy as:
 
 ```php
-<?php
 use Nabble\SemaltBlocker\Blocker;
 
 Blocker::protect();
 
 // ... your app
-
 ```
 
 Make sure you add it somewhere at the beginning of your code, it will save you!
@@ -88,10 +93,10 @@ Make sure you add it somewhere at the beginning of your code, it will save you!
 In order for the self-update mechanism to work, make sure the `domains/blocked` file is writable by the webserver:
 
 ```bash
-$ chmod a+w domains/blocked
+$ chmod a+w vendor/nabble/semalt-blocker/domains/blocked
 ```
 
-## options
+## options 
 
 ```php
 Blocker::protect(); // default, serve a 403 Forbidden response
@@ -99,20 +104,18 @@ Blocker::protect('http://semalt.com'); // return them their own botnet traffic
 Blocker::protect('Hi, bot'); // displays a nice message when blocked
 ```
 
+_All calls to the `protect` function will trigger the auto-updater at a regular interval._
+
 If you want to stay in control even more, use this:
 
 ```php
 $blocked = Blocker::blocked(); // returns true when a blocked referrer is detected
 ```
 
-Another control-flow alternative without running the self-updater, but collecting the reason to log, is:
+If you want an explanation for why a referer is blocked, use: 
 
 ```php
-if (Blocker::isRefererOnBlocklist()) {
-    error_log(Blocker::getReason());
-    Blocker::forbidden();
-    exit;
-}
+echo Blocker::explain();
 ```
 
 The self-updater runs every 7 days by default. To force updating the domain list, use this:

@@ -1,14 +1,16 @@
 #!/bin/sh
 
-echo "\nPULLING DOMAINS\n********************\n"
+printf "\nPULLING SPAMMY DOMAINS\n********************\n"
 sh pull-domains.sh
-echo "\nCOMPACTING\n********************\n"
+printf "\nPULLING ROOT TLDS\n********************\n"
+sh roottlds.sh
+printf "\nCOMPACTING\n********************\n"
 sh compact.sh
-echo "\nEXPORTING\n********************\n"
+printf "\nEXPORTING\n********************\n"
 sh export.sh
-echo "\nRUNNING TIMER\n********************\n"
+printf "\nRUNNING TIMER\n********************\n"
 sh timer.sh
-echo "\nRUNNING TESTS\n********************\n"
+printf "\nRUNNING TESTS\n********************\n"
 cd ..
 phpunit
 cd scripts

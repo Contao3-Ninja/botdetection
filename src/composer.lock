@@ -56,30 +56,28 @@
         },
         {
             "name": "nabble/semalt-blocker",
-            "version": "v1.2.11",
+            "version": "v1.3.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nabble/semalt-blocker.git",
-                "reference": "ae1ae5b16cb207bd36646eb260dabd2b11636622"
+                "reference": "4940ef49b2aaa22ef96702936c4b45b83defe06f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nabble/semalt-blocker/zipball/ae1ae5b16cb207bd36646eb260dabd2b11636622",
-                "reference": "ae1ae5b16cb207bd36646eb260dabd2b11636622",
+                "url": "https://api.github.com/repos/nabble/semalt-blocker/zipball/4940ef49b2aaa22ef96702936c4b45b83defe06f",
+                "reference": "4940ef49b2aaa22ef96702936c4b45b83defe06f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.0.0",
+                "php": ">=5.5.9",
                 "true/punycode": "~2.0"
             },
             "require-dev": {
+                "guzzle/guzzle": "~3",
+                "jeremykendall/php-domain-parser": "~2.0",
                 "phpunit/phpunit": "~4",
                 "satooshi/php-coveralls": "dev-master",
                 "technosophos/phpcompressor": "dev-master"
-            },
-            "suggest": {
-                "guzzle/guzzle": "Required by the debugger, use version ~3",
-                "jeremykendall/php-domain-parser": "[PLANNED] Allows for more accurate parsing of URLs, use version ~2.0"
             },
             "type": "library",
             "autoload": {
@@ -98,20 +96,20 @@
                 }
             ],
             "description": "Block referral spammers from visiting your site and ruining your stats",
-            "time": "2015-11-09 09:22:06"
+            "time": "2016-07-08 00:04:17"
         },
         {
             "name": "true/punycode",
-            "version": "v2.0.1",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/true/php-punycode.git",
-                "reference": "b672918d992b84f8016bbe353a42516928393c63"
+                "reference": "6853ce218b6115ec749607e14ac51338920c9d81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/true/php-punycode/zipball/b672918d992b84f8016bbe353a42516928393c63",
-                "reference": "b672918d992b84f8016bbe353a42516928393c63",
+                "url": "https://api.github.com/repos/true/php-punycode/zipball/6853ce218b6115ec749607e14ac51338920c9d81",
+                "reference": "6853ce218b6115ec749607e14ac51338920c9d81",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +142,7 @@
                 "idna",
                 "punycode"
             ],
-            "time": "2015-09-01 14:53:31"
+            "time": "2016-05-23 08:20:50"
         }
     ],
     "packages-dev": [],
