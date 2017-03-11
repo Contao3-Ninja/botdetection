@@ -141,8 +141,8 @@ class CheckBotAgentExtended
         \Crossjoin\Browscap\Browscap::setUpdater($updater);
         
         // set parser to old Lt55 parser, the new has problems with php 7.1, hotfix hack, TODO use Browscap 2.x
-        $parser = new \Crossjoin\Browscap\Parser\IniLt55();
-        \Crossjoin\Browscap\Browscap::setParser($parser);
+        //$parser = new \Crossjoin\Browscap\Parser\IniLt55();
+        //\Crossjoin\Browscap\Browscap::setParser($parser);
         
         $browscap = new \Crossjoin\Browscap\Browscap(false); //autoUpdate = false
         $settings = $browscap->getBrowser($UserAgent)->getData();
