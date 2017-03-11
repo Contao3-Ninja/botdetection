@@ -31,7 +31,7 @@ class ModuleBotDetection extends \System
     /**
      * Current version of the class.
      */
-    const BOTDETECTION_VERSION  = '4.2.0';
+    const BOTDETECTION_VERSION  = '4.2.1';
     
     const BOT_REFERRER_LIST     = "/system/modules/botdetection/config/bot-referrer-list.php";
     
