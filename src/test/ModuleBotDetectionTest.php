@@ -120,7 +120,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		//3.3.1
 		$arrTest[] = array(true, 'Mozilla/4.0 (compatible; Blog Search;)','Blog Search');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)','publiclibraryarchive Bot');
-		$arrTest[] = array(true, 'Pinterest/0.1 +http://pinterest.com/','Pinterest');
+		$arrTest[] = array(true, 'Pinterest/0.1 +http://pinterest.com/','Pinterest Bot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; ca-crawler/1.0)','ca-crawler');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)','007AC9 Crawler');
 		$arrTest[] = array(true, 'dubaiindex (addressendeutschland.de)','addressendeutschland.de');
