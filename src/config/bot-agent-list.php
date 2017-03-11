@@ -120,4 +120,5 @@ $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "seobility" => "Seobility SEO-Check",
 "seocheck" => "SeoCheck",
 "teoma" => "Teoma",
+"uptimebot" => "Uptimebot",
 ); ?>
