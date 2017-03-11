@@ -1,5 +1,5 @@
 <?php 
-$botagentsversion="6015";
+$botagentsversion="6021";
 $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "ptd-crawler" => "ptd-crawler bixolabs.com",
 "spock crawler" => "Spock Crawler",
@@ -110,7 +110,6 @@ $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "istellabot" => "IstellaBot",
 "cliqz bot" => "Cliqz Bot",
 "netseer" => "NetSeer",
-"pinterest" => "Pinterest",
 "007ac9" => "007ac9",
 "addressendeutschland" => "addressendeutschland.de",
 "crowsnest" => "Crowsnest",
