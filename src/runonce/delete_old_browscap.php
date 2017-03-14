@@ -53,6 +53,18 @@ class BotDetectionRunonceJobDel6006 extends \Controller
             $folder=null;
             unset($folder);
         }
+        // delete old cache/largebrowscap_v6015_1.0.4/ directory
+        if (is_dir(TL_ROOT . '/system/modules/botdetection/cache/largebrowscap_v6015_1.0.4'))
+        {
+            $folder = new \Folder('system/modules/botdetection/cache/largebrowscap_v6015_1.0.4');
+            if (!$folder->isEmpty())
+            {
+                $folder->purge();
+            }
+            $folder->delete();
+            $folder=null;
+            unset($folder);
+        }
     }
 }
 
