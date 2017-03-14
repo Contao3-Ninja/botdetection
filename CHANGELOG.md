@@ -1,5 +1,12 @@
 # Contao Module BotDetection
 
+## [Version 4.2.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.2.1%22+is%3Aclosed) (2017-03-14)
+
+### Fixed bugs
+
+- [\#152](https://github.com/BugBuster1701/botdetection/issues/152) Aktualisierung bot-agent-list.php
+- [\#150](https://github.com/BugBuster1701/botdetection/issues/150) Browscap Update auf 6021
+
 ## [Version 4.2.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.2.0%22+is%3Aclosed) (2016-07-14)
 
 ### New features
@@ -14,6 +21,13 @@
 - [\#140](https://github.com/BugBuster1701/botdetection/issues/140) WeSEE nicht erkannt
 - [\#139](https://github.com/BugBuster1701/botdetection/issues/139) 007AC9 Crawler wird nicht erkannt.
 
+## [3.4.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%223.4.2%22+is%3Aclosed) (2015-11-12)
+
+### Fixed bugs
+
+- [\#135](https://github.com/BugBuster1701/botdetection/issues/135) semalt-blocker Abgleich mit BotDetection 3.x
+- [\#133](https://github.com/BugBuster1701/botdetection/issues/133) New Crawler: ltx71 , Qwantify
+
 ## [Version 4.1.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.1.0%22+is%3Aclosed) (2015-10-31)
 
 ### New features
@@ -21,6 +35,12 @@
 - [\#129](https://github.com/BugBuster1701/botdetection/issues/129) minimize the largebrowscap.ini
 - [\#128](https://github.com/BugBuster1701/botdetection/issues/128) Update auf largebrowscap_v6008_1.0.4
 - [\#122](https://github.com/BugBuster1701/botdetection/issues/122) Eigene erkannte Referrer Spam Domains hinzufügen
+
+## [Version 3.4.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.1%22+is%3Aclosed) (2015-10-24)
+
+### Fixed bugs
+
+- [\#132](https://github.com/BugBuster1701/botdetection/issues/132) Update Referrer Liste
 
 ## [Version 4.0.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.2%22+is%3Aclosed) (2015-10-11)
 
@@ -32,7 +52,7 @@
 
 ### Fixed bugs
 
-- [\#126](https://github.com/BugBuster1701/botdetection/issues/126) Fatal error: Cannot redeclare \_\_error()
+- [\#126](https://github.com/BugBuster1701/botdetection/issues/126) Fatal error: Cannot redeclare \_\_error() 
 
 ## [Version 4.0.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.0%22+is%3Aclosed) (2015-10-10)
 
@@ -46,23 +66,10 @@
 - [\#119](https://github.com/BugBuster1701/botdetection/issues/119) New Bot: MegaIndex.ru/2.0
 - [\#118](https://github.com/BugBuster1701/botdetection/issues/118) New Crawler: ips-agent
 - [\#117](https://github.com/BugBuster1701/botdetection/issues/117) New Crawler: Seobility
-- [\#104](https://github.com/BugBuster1701/botdetection/issues/104) Environment::get('ip') statt Environment::get('remoteAddr')
+- [\#104](https://github.com/BugBuster1701/botdetection/issues/104) Environment::get('ip') statt Environment::get('remoteAddr') 
 - [\#94](https://github.com/BugBuster1701/botdetection/issues/94) BotDetection Umbau, zweifach Prüfung
 - [\#93](https://github.com/BugBuster1701/botdetection/issues/93) BotDetection Generate Umbau
 - [\#92](https://github.com/BugBuster1701/botdetection/issues/92) Implementierung von Crossjoin\Browscap
-
-## [3.4.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%223.4.2%22+is%3Aclosed) (2015-11-12)
-
-### Fixed bugs
-
-- [\#135](https://github.com/BugBuster1701/botdetection/issues/135) semalt-blocker Abgleich mit BotDetection 3.x
-- [\#133](https://github.com/BugBuster1701/botdetection/issues/133) New Crawler: ltx71 , Qwantify
-
-## [Version 3.4.1](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.1%22+is%3Aclosed) (2015-10-24)
-
-### Fixed bugs
-
-- [\#132](https://github.com/BugBuster1701/botdetection/issues/132) Update Referrer Liste
 
 ## [Version 3.4.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+3.4.0%22+is%3Aclosed) (2014-12-28)
 
@@ -76,8 +83,8 @@
 
 - [\#114](https://github.com/BugBuster1701/botdetection/issues/114) Referrer Bot: "updown_tester"
 - [\#113](https://github.com/BugBuster1701/botdetection/issues/113) Referrer Bot: www.xxlpromo.com
-- [\#112](https://github.com/BugBuster1701/botdetection/issues/112) New Bot: python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual
-- [\#109](https://github.com/BugBuster1701/botdetection/issues/109) New Bot: MetaURI
+- [\#112](https://github.com/BugBuster1701/botdetection/issues/112) New Bot: python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual 
+- [\#109](https://github.com/BugBuster1701/botdetection/issues/109) New Bot: MetaURI 
 - [\#108](https://github.com/BugBuster1701/botdetection/issues/108) New Bot: Crowsnest
 - [\#107](https://github.com/BugBuster1701/botdetection/issues/107) New Bot: NING/1.0
 - [\#105](https://github.com/BugBuster1701/botdetection/issues/105) New Bot: Cronjob.de
