@@ -82,7 +82,7 @@ class ModuleBotDetection extends \System
             return true;
         }
 
-        if ( false == $this->checkGetPostRequest() ) // #153
+        if ( false === $this->checkGetPostRequest() ) // #153
         {
         	return true;
         }
