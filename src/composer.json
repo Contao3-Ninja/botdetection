@@ -1,6 +1,6 @@
 {
     "require": {
-        "crossjoin/browscap": "1.0.4",
+        "crossjoin/browscap": "1.0.6",
         "nabble/semalt-blocker": "~1"
     }
 }

@@ -2,7 +2,9 @@
 namespace Crossjoin\Browscap\Parser;
 
 use Crossjoin\Browscap\Browscap;
-use Crossjoin\Browscap\Cache;
+use Crossjoin\Browscap\Cache\CacheInterface;
+use Crossjoin\Browscap\Cache\File;
+use Crossjoin\Browscap\Formatter\FormatterInterface;
 
 /**
  * Abstract parser class
@@ -10,34 +12,8 @@ use Crossjoin\Browscap\Cache;
  * The parser is the component, that parses a specific type of browscap source
  * data for the browser settings of a given user agent.
  *
- *
- * The MIT License (MIT)
- *
- * Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
  * @package Crossjoin\Browscap
  * @author Christoph Ziegenberg <christoph@ziegenberg.com>
- * @copyright Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- * @version 1.0.4
- * @license http://www.opensource.org/licenses/MIT MIT License
  * @link https://github.com/crossjoin/browscap
  */
 abstract class AbstractParser
@@ -52,15 +28,14 @@ abstract class AbstractParser
     /**
      * The cache instance
      *
-     * @var \Crossjoin\Browscap\Cache\AbstractCache
+     * @var CacheInterface
      */
     protected static $cache;
 
     /**
      * The type to use when downloading the browscap source data
      * (default version: all browsers, default properties),
-     * has to be overwritten by the extending class,
-     * e.g. 'PHP_BrowscapINI'.
+     * has to be set by the extending class, e.g. 'PHP_BrowscapINI'.
      *
      * @see http://browscap.org/
      * @var string
@@ -70,8 +45,7 @@ abstract class AbstractParser
     /**
      * The type to use when downloading the browscap source data
      * (small version: popular browsers, default properties),
-     * has to be overwritten by the extending class,
-     * e.g. 'Lite_PHP_BrowscapINI'.
+     * has to be set by the extending class, e.g. 'Lite_PHP_BrowscapINI'.
      *
      * @see http://browscap.org/
      * @var string
@@ -81,8 +55,7 @@ abstract class AbstractParser
     /**
      * The type to use when downloading the browscap source data
      * (large version: all browsers, extended properties),
-     * has to be overwritten by the extending class,
-     * e.g. 'Full_PHP_BrowscapINI'.
+     * has to be set by the extending class, e.g. 'Full_PHP_BrowscapINI'.
      *
      * @see http://browscap.org/
      * @var string
@@ -96,7 +69,7 @@ abstract class AbstractParser
      */
     public function getSourceType()
     {
-        switch (Browscap::getDatasetType()) {
+        switch (Browscap::getDataSetType()) {
             case Browscap::DATASET_TYPE_SMALL:
                 return $this->sourceTypeSmall;
             case Browscap::DATASET_TYPE_LARGE:
@@ -117,20 +90,20 @@ abstract class AbstractParser
      * Gets the browser data formatter for the given user agent
      * (or null if no data available, no even the default browser)
      *
-     * @param string $user_agent
-     * @return \Crossjoin\Browscap\Formatter\AbstractFormatter|null
+     * @param string $userAgent
+     * @return FormatterInterface|null
      */
-    abstract public function getBrowser($user_agent);
+    abstract public function getBrowser($userAgent);
 
     /**
      * Gets a cache instance
      *
-     * @return Cache\AbstractCache
+     * @return CacheInterface
      */
     public static function getCache()
     {
         if (static::$cache === null) {
-            static::$cache = new Cache\File();
+            static::$cache = new File();
         }
         return static::$cache;
     }
@@ -138,9 +111,9 @@ abstract class AbstractParser
     /**
      * Sets a cache instance
      *
-     * @param Cache\AbstractCache $cache
+     * @param CacheInterface $cache
      */
-    public static function setCache(Cache\AbstractCache $cache)
+    public static function setCache(CacheInterface $cache)
     {
         static::$cache = $cache;
     }
@@ -161,13 +134,13 @@ abstract class AbstractParser
     }
 
     /**
-     * Gets the cache prefix, dependent of the used browscap dataset type.
+     * Gets the cache prefix, dependent of the used browscap data set type.
      *
      * @return string
      */
     protected static function getCachePrefix()
     {
-        switch (Browscap::getDatasetType()) {
+        switch (Browscap::getDataSetType()) {
             case Browscap::DATASET_TYPE_SMALL:
                 return 'smallbrowscap';
             case Browscap::DATASET_TYPE_LARGE:

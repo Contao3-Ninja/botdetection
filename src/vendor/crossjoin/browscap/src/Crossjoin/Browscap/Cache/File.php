@@ -9,40 +9,16 @@ use Crossjoin\Browscap\Browscap;
  * The file cache is the basic cache adapter that is used by default, because
  * it's always available.
  *
- *
- * The MIT License (MIT)
- *
- * Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
  * @package Crossjoin\Browscap
  * @author Christoph Ziegenberg <christoph@ziegenberg.com>
- * @copyright Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- * @version 1.0.4
- * @license http://www.opensource.org/licenses/MIT MIT License
  * @link https://github.com/crossjoin/browscap
  */
-class File
-extends AbstractCache
+class File implements CacheInterface
 {
-    protected static $cache_dir;
+    /**
+     * @var string
+     */
+    protected static $cacheDir;
 
     /**
      * Get cached data by a given key
@@ -106,13 +82,13 @@ extends AbstractCache
      * Gets the cache file name for a given key
      *
      * @param string $key
-     * @param boolean $with_version
-     * @param bool $create_dir
+     * @param boolean $withVersion
+     * @param bool $createDir
      * @return string
      */
-    public function getFileName($key, $with_version = true, $create_dir = false)
+    public function getFileName($key, $withVersion = true, $createDir = false)
     {
-        $file  = $this->getCacheDirectory($with_version, $create_dir);
+        $file  = static::getCacheDirectory($withVersion, $createDir);
         $file .= DIRECTORY_SEPARATOR . $key;
 
         return $file;
@@ -121,25 +97,25 @@ extends AbstractCache
     /**
      * Sets the (main) cache directory
      *
-     * @param string $cache_dir
+     * @param string $cacheDir
      */
-    public static function setCacheDirectory($cache_dir)
+    public static function setCacheDirectory($cacheDir)
     {
-        static::$cache_dir = rtrim($cache_dir, DIRECTORY_SEPARATOR);
+        static::$cacheDir = rtrim($cacheDir, DIRECTORY_SEPARATOR);
     }
 
     /**
      * Gets the main/version cache directory
      *
-     * @param boolean $with_version
-     * @param bool $create_dir
+     * @param boolean $withVersion
+     * @param bool $createDir
      * @return string
      */
-    public static function getCacheDirectory($with_version = false, $create_dir = false)
+    public static function getCacheDirectory($withVersion = false, $createDir = false)
     {
         // get sub directory name, depending on the data set type
         // (one sub directory for each data set type and version)
-        switch (Browscap::getDatasetType()) {
+        switch (Browscap::getDataSetType()) {
             case Browscap::DATASET_TYPE_SMALL:
                 $subDirName = 'smallbrowscap';
                 break;
@@ -150,18 +126,19 @@ extends AbstractCache
                 $subDirName = 'browscap';
         }
 
-        if (static::$cache_dir === null) {
+        if (static::$cacheDir === null) {
             static::setCacheDirectory(sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'browscap');
         }
-        $path = static::$cache_dir;
+        $path = static::$cacheDir;
 
-        if ($with_version === true) {
+        if ($withVersion === true) {
             $path .= DIRECTORY_SEPARATOR . $subDirName;
             $path .= '_v' . Browscap::getParser()->getVersion();
             $path .= '_' . Browscap::VERSION;
         }
 
-        if ($create_dir === true && !file_exists($path)) {
+        if ($createDir === true && !file_exists($path)) {
+            /** @noinspection MkdirRaceConditionInspection */
             mkdir($path, 0777, true);
         }
 

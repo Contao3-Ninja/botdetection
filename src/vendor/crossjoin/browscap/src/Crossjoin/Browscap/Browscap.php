@@ -1,6 +1,8 @@
 <?php
 namespace Crossjoin\Browscap;
 
+use Crossjoin\Browscap\Formatter\FormatterInterface;
+
 /**
  * Main Crossjoin\Browscap class
  *
@@ -12,34 +14,8 @@ namespace Crossjoin\Browscap;
  * or replace nearly all components: the updater, the parser (including the
  * used source), and the formatter (for the result set).
  *
- *
- * The MIT License (MIT)
- *
- * Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
  * @package Crossjoin\Browscap
  * @author Christoph Ziegenberg <christoph@ziegenberg.com>
- * @copyright Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- * @version 1.0.4
- * @license http://www.opensource.org/licenses/MIT MIT License
  * @link https://github.com/crossjoin/browscap
  */
 class Browscap
@@ -48,7 +24,7 @@ class Browscap
      * Current version of the package.
      * Has to be updated to automatically renew cache data.
      */
-    const VERSION = '1.0.4';
+    const VERSION = '1.0.5';
 
     /**
      * Data set types
@@ -81,7 +57,7 @@ class Browscap
     /**
      * Formatter to use
      *
-     * @var \Crossjoin\Browscap\Formatter\AbstractFormatter
+     * @var FormatterInterface
      */
     protected static $formatter;
 
@@ -112,27 +88,35 @@ class Browscap
      * Checks the given/detected user agent and returns a
      * formatter instance with the detected settings
      *
-     * @param string $user_agent
-     * @return \Crossjoin\Browscap\Formatter\AbstractFormatter
+     * @param string $userAgent
+     * @return FormatterInterface
      */
-    public function getBrowser($user_agent = null)
+    public function getBrowser($userAgent = null)
     {
         // automatically detect the user agent
-        if ($user_agent === null) {
-            if (isset($_SERVER['HTTP_USER_AGENT'])) {
-                $user_agent = $_SERVER['HTTP_USER_AGENT'];
-            } else {
-                $user_agent = '';
+        if ($userAgent === null) {
+            $userAgent = '';
+            if (array_key_exists('HTTP_USER_AGENT', $_SERVER)) {
+                $userAgent = $_SERVER['HTTP_USER_AGENT'];
             }
         }
 
         // check for update first
-        if ($this->autoUpdate === true && mt_rand(1, floor((100 / $this->updateProbability))) === 1) {
-            static::getParser()->update();
+        if ($this->autoUpdate === true) {
+            $randomMax = floor(100 / $this->updateProbability);
+            if (function_exists('random_int')) {
+                $randomInt = random_int(1, $randomMax);
+            } else {
+                /** @noinspection RandomApiMigrationInspection */
+                $randomInt = mt_rand(1, $randomMax);
+            }
+            if ($randomInt === 1) {
+                static::getParser()->update();
+            }
         }
 
         // try to get browser data
-        $return = static::getParser()->getBrowser($user_agent);
+        $return = static::getParser()->getBrowser($userAgent);
 
         // if not found, there has to be a problem with the source data,
         // because normally default browser data are returned,
@@ -140,7 +124,7 @@ class Browscap
         if ($return === null && $this->updateProbability < 100) {
             $updateProbability = $this->updateProbability;
             $this->updateProbability = 100;
-            $return = $this->getBrowser($user_agent);
+            $return = $this->getBrowser($userAgent);
             $this->updateProbability = $updateProbability;
         }
 
@@ -156,15 +140,15 @@ class Browscap
     /**
      * Set the formatter instance to use for the getBrowser() result
      *
-     * @param \Crossjoin\Browscap\Formatter\AbstractFormatter $formatter
+     * @param FormatterInterface $formatter
      */
-    public static function setFormatter(Formatter\AbstractFormatter $formatter)
+    public static function setFormatter(FormatterInterface $formatter)
     {
         static::$formatter = $formatter;
     }
 
     /**
-     * @return Formatter\AbstractFormatter
+     * @return FormatterInterface
      */
     public static function getFormatter()
     {
@@ -215,6 +199,8 @@ class Browscap
      * Gets the updater instance (and initializes the default one, if not set)
      *
      * @return \Crossjoin\Browscap\Updater\AbstractUpdater
+     * @throws \InvalidArgumentException
+     * @throws \RuntimeException
      */
     public static function getUpdater()
     {
@@ -230,15 +216,19 @@ class Browscap
     /**
      * Sets the data set type to use for the source.
      *
-     * @param integer $datasetType
+     * @param integer $dataSetType
      * @throws \InvalidArgumentException
      */
-    public static function setDatasetType ($datasetType)
+    public static function setDataSetType($dataSetType)
     {
-        if (in_array($datasetType, array(self::DATASET_TYPE_DEFAULT, self::DATASET_TYPE_SMALL, self::DATASET_TYPE_LARGE), true)) {
-            static::$datasetType = $datasetType;
+        if (in_array(
+            $dataSetType,
+            array(self::DATASET_TYPE_DEFAULT, self::DATASET_TYPE_SMALL, self::DATASET_TYPE_LARGE),
+            true
+        )) {
+            static::$datasetType = $dataSetType;
         } else {
-            throw new \InvalidArgumentException("Invalid value for argument 'datasetType'.");
+            throw new \InvalidArgumentException("Invalid value for argument 'dataSetType'.");
         }
     }
 
@@ -247,7 +237,7 @@ class Browscap
      *
      * @return integer
      */
-    public static function getDatasetType ()
+    public static function getDataSetType()
     {
         return static::$datasetType;
     }

@@ -5,7 +5,7 @@ namespace Crossjoin\Browscap\Formatter;
  * PhpGetBrowser formatter class
  *
  * This formatter modifies the basic data, so that you get the same result
- * as with the PHP get_browser() function (an object, and all keys lower case).
+ * as with the PHP get_browser() function (an array, and all keys lower case).
  *
  * @note There is one difference: The wrong encoded character used in
  * "browser_name_regex" of the standard PHP get_browser() result has been
@@ -16,20 +16,12 @@ namespace Crossjoin\Browscap\Formatter;
  * @author Christoph Ziegenberg <christoph@ziegenberg.com>
  * @link https://github.com/crossjoin/browscap
  */
-class PhpGetBrowser implements FormatterInterface
+class PhpGetBrowserArray implements FormatterInterface
 {
     /**
-     * @var \stdClass
+     * @var array
      */
-    protected $settings;
-
-    /**
-     * PhpGetBrowser constructor.
-     */
-    public function __construct()
-    {
-        $this->settings = new \stdClass();
-    }
+    protected $settings = array();
 
     /**
      * Sets the data (done by the parser)
@@ -38,10 +30,10 @@ class PhpGetBrowser implements FormatterInterface
      */
     public function setData(array $settings)
     {
-        $this->settings = new \stdClass();
+        $this->settings = array();
         foreach ($settings as $key => $value) {
             $key = strtolower($key);
-            $this->settings->$key = $value;
+            $this->settings[$key] = $value;
         }
     }
 

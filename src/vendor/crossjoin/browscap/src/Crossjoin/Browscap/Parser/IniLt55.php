@@ -2,7 +2,9 @@
 namespace Crossjoin\Browscap\Parser;
 
 use Crossjoin\Browscap\Browscap;
-use Crossjoin\Browscap\Cache;
+use Crossjoin\Browscap\Cache\CacheInterface;
+use Crossjoin\Browscap\Cache\File;
+use Crossjoin\Browscap\Formatter\FormatterInterface;
 use Crossjoin\Browscap\Updater;
 
 /**
@@ -12,67 +14,16 @@ use Crossjoin\Browscap\Updater;
  * the file cache, because in most cases we work with files line by line
  * instead of using arrays, to keep the memory consumption as low as possible.
  *
- *
- * The MIT License (MIT)
- *
- * Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- *
  * @package Crossjoin\Browscap
  * @author Christoph Ziegenberg <christoph@ziegenberg.com>
- * @copyright Copyright (c) 2014-2015 Christoph Ziegenberg <christoph@ziegenberg.com>
- * @version 1.0.4
- * @license http://www.opensource.org/licenses/MIT MIT License
  * @link https://github.com/crossjoin/browscap
  */
-class IniLt55
-extends AbstractParser
+class IniLt55 extends AbstractParser
 {
     /**
      * The key to search for in the INI file to find the browscap settings
      */
     const BROWSCAP_VERSION_KEY = 'GJK_Browscap_Version';
-
-    /**
-     * The type to use when downloading the browscap source data
-     * (default version: all browsers, default properties)
-     *
-     * @var string
-     */
-    protected $sourceType = 'PHP_BrowscapINI';
-
-    /**
-     * The type to use when downloading the browscap source data
-     * (small version: popular browsers, default properties)
-     *
-     * @var string
-     */
-    protected $sourceTypeSmall = 'Lite_PHP_BrowscapINI';
-
-    /**
-     * The type to use when downloading the browscap source data
-     * (large version: all browsers, extended properties)
-     *
-     * @var string
-     */
-    protected $sourceTypeLarge = 'Full_PHP_BrowscapINI';
 
     /**
      * Number of pattern to combine for a faster regular expression search.
@@ -82,6 +33,17 @@ extends AbstractParser
      * @var int
      */
     protected $joinPatterns = 100;
+
+    /**
+     * IniLt55 constructor.
+     */
+    public function __construct()
+    {
+        // Set source type values
+        $this->sourceType = 'PHP_BrowscapINI';
+        $this->sourceTypeSmall = 'Lite_PHP_BrowscapINI';
+        $this->sourceTypeLarge = 'Full_PHP_BrowscapINI';
+    }
 
     /**
      * Gets the version of the Browscap data
@@ -104,32 +66,32 @@ extends AbstractParser
      * Gets the browser data formatter for the given user agent
      * (or null if no data available, no even the default browser)
      *
-     * @param string $user_agent
-     * @return \Crossjoin\Browscap\Formatter\AbstractFormatter|null
+     * @param string $userAgent
+     * @return FormatterInterface|null
      */
-    public function getBrowser($user_agent)
+    public function getBrowser($userAgent)
     {
         $formatter = null;
 
-        foreach ($this->getPatterns($user_agent) as $patterns) {
-            if (preg_match("/^(?:" . str_replace("\t", ")|(?:", $patterns) . ")$/i", $user_agent)) {
+        foreach ($this->getPatterns($userAgent) as $patterns) {
+            if (preg_match('/^(?:' . str_replace("\t", ')|(?:', $patterns) . ')$/i', $userAgent)) {
                 // strtok() requires less memory than explode()
                 $pattern = strtok($patterns, "\t");
                 while ($pattern !== false) {
                     $pattern = str_replace('[\d]', '(\d)', $pattern);
-                    if (preg_match('/^' . $pattern . '$/i', $user_agent, $matches)) {
+                    if (preg_match('/^' . $pattern . '$/i', $userAgent, $matches)) {
                         // Insert the digits back into the pattern, so that we can search the settings for it
                         if (count($matches) > 1) {
                             array_shift($matches);
-                            foreach ($matches as $one_match) {
-                                $num_pos = strpos($pattern, '(\d)');
-                                $pattern = substr_replace($pattern, $one_match, $num_pos, 4);
+                            foreach ($matches as $oneMatch) {
+                                $numPos= strpos($pattern, '(\d)');
+                                $pattern = substr_replace($pattern, $oneMatch, $numPos, 4);
                             }
                         }
 
-                        // Try to get settings - as digits have been replaced to speed up the pattern search (up to 90 faster),
-                        // we won't always find the data in the first step - so check if settings have been found and if not,
-                        // search for the next pattern.
+                        // Try to get settings - as digits have been replaced to speed up the pattern search
+                        // (up to 90 faster), we won't always find the data in the first step - so check if settings
+                        // have been found and if not, search for the next pattern.
                         $settings = $this->getSettings($pattern);
                         if (count($settings) > 0) {
                             $formatter = Browscap::getFormatter();
@@ -148,11 +110,12 @@ extends AbstractParser
     /**
      * Sets a cache instance
      *
-     * @param Cache\AbstractCache $cache
+     * @param CacheInterface $cache
+     * @throws \InvalidArgumentException
      */
-    public static function setCache(Cache\AbstractCache $cache)
+    public static function setCache(CacheInterface $cache)
     {
-        if (!($cache instanceof Cache\File)) {
+        if (!($cache instanceof File)) {
             throw new \InvalidArgumentException(
                 "This parser requires a cache instance of '\\Crossjoin\\Browscap\\Cache\\File'."
             );
@@ -169,6 +132,7 @@ extends AbstractParser
      * option in production!
      *
      * @param boolean $forceUpdate
+     * @throws \InvalidArgumentException
      * @throws \RuntimeException
      */
     public function update($forceUpdate = false)
@@ -180,67 +144,75 @@ extends AbstractParser
         if ($updater !== null && ($updater instanceof Updater\None) === false) {
             // initialize variables
             $prefix   = static::getCachePrefix();
-            /** @var Cache\File $cache */
+            /** @var File $cache */
             $cache    = static::getCache();
             $path     = $cache->getFileName("$prefix.ini", true);
             $readable = is_readable($path);
-            $local_ts = 0;
+            $localTimeStamp = 0;
 
             // do we have to check for a new update?
             if ($forceUpdate) {
                 $update  = true;
             } else {
                 if ($readable) {
-                    $local_ts = filemtime($path);
-                    $update  = ((time() - $local_ts) >= $updater->getInterval());
+                    $localTimeStamp = filemtime($path);
+                    $update  = ((time() - $localTimeStamp) >= $updater->getInterval());
                 } else {
-                    $local_ts = 0;
+                    $localTimeStamp = 0;
                     $update  = true;
                 }
             }
 
             if ($update) {
+                // Disable memory limit for update
+                ini_set('memory_limit', -1);
+
                 // check version/timestamp, to se if we need to do an update
-                $do_update = false;
-                if ($local_ts === 0) {
-                    $do_update = true;
+                $doUpdate = false;
+                if ($localTimeStamp === 0) {
+                    $doUpdate = true;
                 } else {
-                    $source_version = $updater->getBrowscapVersionNumber();
-                    if ($source_version !== null && $source_version > $this->getVersion()) {
-                        $do_update = true;
+                    $sourceVersion = $updater->getBrowscapVersionNumber();
+                    if ($sourceVersion !== null && $sourceVersion > $this->getVersion()) {
+                        $doUpdate = true;
                     } else {
-                        $source_ts = $updater->getBrowscapVersion();
-                        if ($source_ts > $local_ts) {
-                            $do_update = true;
+                        $sourceTimeStamp = $updater->getBrowscapVersion();
+                        if ($sourceTimeStamp > $localTimeStamp) {
+                            $doUpdate = true;
                         }
                     }
                 }
 
-                if ($do_update) {
+                if ($doUpdate) {
                     // touch the file first so that the update is not triggered for some seconds,
                     // to avoid that the update is triggered by multiple users at the same time
                     if ($readable) {
-                        $update_lock_time = 300;
-                        touch($path, (time() - $updater->getInterval() + $update_lock_time));
+                        $updateLockTime = 300;
+                        touch($path, time() - $updater->getInterval() + $updateLockTime);
                     }
 
                     // get content
                     try {
-                        $source_content   = $updater->getBrowscapSource();
-                        $source_exception = null;
+                        $sourceContent   = $updater->getBrowscapSource();
+                        $sourceException = null;
                     } catch (\Exception $e) {
-                        $source_content   = null;
-                        $source_exception = $e;
+                        $sourceContent   = '';
+                        $sourceException = $e;
                     }
-                    if (!empty($source_content)) {
+                    if ($sourceContent !== '') {
                         // update internal version cache first,
                         // to get the correct version for the next cache file
-                        if (isset($source_version)) {
-                            static::$version = (int)$source_version;
+                        /** @noinspection UnSafeIsSetOverArrayInspection */
+                        if (isset($sourceVersion)) {
+                            static::$version = (int)$sourceVersion;
                         } else {
-                            $key = $this->pregQuote(self::BROWSCAP_VERSION_KEY);
-                            if (preg_match("/\\.*[" . $key . "\\][^[]*Version=(\\d+)\\D.*/", $source_content, $matches)) {
-                                if (isset($matches[1])) {
+                            $key = static::pregQuote(self::BROWSCAP_VERSION_KEY);
+                            if (preg_match(
+                                "/\\.*[" . $key . "\\][^[]*Version=(\\d+)\\D.*/",
+                                $sourceContent,
+                                $matches
+                            )) {
+                                if (array_key_exists(1, $matches)) {
                                     static::$version = (int)$matches[1];
                                 }
                             } else {
@@ -250,14 +222,14 @@ extends AbstractParser
                                 if ($readable && $updater instanceof Updater\AbstractUpdaterRemote) {
                                     touch($path);
                                 } else {
-                                    throw new \RuntimeException("Problem parsing the INI file.");
+                                    throw new \RuntimeException('Problem parsing the INI file.');
                                 }
                             }
                         }
 
                         // create cache file for the new version
-                        static::getCache()->set("$prefix.ini", $source_content, true);
-                        unset($source_content);
+                        static::getCache()->set("$prefix.ini", $sourceContent, true);
+                        unset($sourceContent);
 
                         // Prepare the new data before the version gets updated. Otherwise request after the
                         // version update could also trigger the preparation (because of the new version, but no
@@ -269,7 +241,7 @@ extends AbstractParser
                         static::getCache()->set("$prefix.version", static::$version, false);
 
                         // reset cached ini data
-                        $this->resetCachedData();
+                        static::resetCachedData();
                     } else {
                         // ignore the error if...
                         // - we have old source data we can work with
@@ -277,7 +249,7 @@ extends AbstractParser
                         if ($readable && $updater instanceof Updater\AbstractUpdaterRemote) {
                             touch($path);
                         } else {
-                            throw new \RuntimeException("Error loading browscap source.", 0, $source_exception);
+                            throw new \RuntimeException('Error loading browscap source.', 0, $sourceException);
                         }
                     }
                 } else {
@@ -287,7 +259,7 @@ extends AbstractParser
                 }
             }
         } elseif ($forceUpdate === true) {
-            throw new \RuntimeException("Required updater missing for forced update.");
+            throw new \RuntimeException('Required updater missing for forced update.');
         }
     }
 
@@ -298,63 +270,77 @@ extends AbstractParser
      * - We compare the length of the pattern with the length of the user agent
      *   (the pattern cannot be longer than the user agent!)
      *
-     * @param $user_agent
+     * @param $userAgent
      * @return array
      */
-    protected function getPatterns($user_agent)
+    protected function getPatterns($userAgent)
     {
-        $starts = $this->getPatternStart($user_agent, true);
-        $length = strlen($user_agent);
+        $starts = static::getPatternStart($userAgent, true);
+        $length = strlen($userAgent);
         $prefix = static::getCachePrefix();
 
         // check if pattern files need to be created
-        $pattern_file_missing = false;
-        foreach ($starts as $start) {
-            $sub_key = $this->getPatternCacheSubKey($start);
-            if (!static::getCache()->exists("$prefix.patterns." . $sub_key)) {
-                $pattern_file_missing = true;
-                break;
-            }
-        }
-        if ($pattern_file_missing === true) {
-            $this->createPatterns();
-        }
+        $this->checkPatternFiles($starts);
 
         // add special key to fall back to the default browser
         $starts[] = str_repeat('z', 32);
 
         // get patterns for the given start hashes
-        $pattern_arr = array();
-        foreach ($starts as $tmp_start) {
-            $tmp_sub_key = $this->getPatternCacheSubKey($tmp_start);
-            /** @var Cache\File $cache */
+        $patternArr = array();
+        foreach ($starts as $tmpStart) {
+            $tmpSubKey = $this->getPatternCacheSubKey($tmpStart);
+            /** @var File $cache */
             $cache = static::getCache();
-            $file  = $cache->getFileName("$prefix.patterns." . $tmp_sub_key);
-            if (file_exists($file)) {
-                $handle = fopen($file, "r");
-                if ($handle) {
-                    $found = false;
-                    while (($buffer = fgets($handle)) !== false) {
-                        $tmp_buffer = substr($buffer, 0, 32);
-                        if ($tmp_buffer === $tmp_start) {
-                            // get length of the pattern
-                            $len = (int)strstr(substr($buffer, 33, 4), ' ', true);
+            $file  = $cache->getFileName("$prefix.patterns." . $tmpSubKey);
+            if (!is_readable($file)) {
+                continue;
+            }
 
-                            // the user agent must be longer than the pattern without place holders
-                            if ($len <= $length) {
-                                list(,,$patterns) = explode(" ", $buffer, 3);
-                                $pattern_arr[] = trim($patterns);
-                            }
-                            $found = true;
-                        } elseif ($found === true) {
-                            break;
+            $handle = fopen($file, 'r');
+            if ($handle) {
+                $found = false;
+                while (($buffer = fgets($handle)) !== false) {
+                    if (strpos($buffer, $tmpStart) === 0) {
+                        // get length of the pattern
+                        $len = (int)strstr(substr($buffer, 33, 4), ' ', true);
+
+                        // the user agent must be longer than the pattern without place holders
+                        if ($len <= $length) {
+                            list(,,$patterns) = explode(' ', $buffer, 3);
+                            $patternArr[] = trim($patterns);
                         }
+                        $found = true;
+                    } elseif ($found === true) {
+                        break;
                     }
-                    fclose($handle);
                 }
+                fclose($handle);
             }
         }
-        return $pattern_arr;
+        return $patternArr;
+    }
+
+    /**
+     * Checks if pattern files need to be created.
+     *
+     * @param array $patternStarts
+     */
+    protected function checkPatternFiles(array $patternStarts)
+    {
+        $patternFileMissing = false;
+        $prefix = static::getCachePrefix();
+
+        foreach ($patternStarts as $patternStart) {
+            $subKey = $this->getPatternCacheSubKey($patternStart);
+            if (!static::getCache()->exists("$prefix.patterns." . $subKey)) {
+                $patternFileMissing = true;
+                break;
+            }
+        }
+
+        if ($patternFileMissing === true) {
+            $this->createPatterns();
+        }
     }
 
     /**
@@ -365,7 +351,11 @@ extends AbstractParser
         // get all relevant patterns from the INI file
         // - containing "*" or "?"
         // - not containing "*" or "?", but not having a comment
-        preg_match_all('/(?<=\[)(?:[^\r\n]*[?*][^\r\n]*)(?=\])|(?<=\[)(?:[^\r\n*?]+)(?=\])(?![^\[]*Comment=)/m', static::getContent(), $matches);
+        preg_match_all(
+            '/(?<=\[)(?:[^\r\n]*[?*][^\r\n]*)(?=\])|(?<=\[)(?:[^\r\n*?]+)(?=\])(?![^\[]*Comment=)/m',
+            static::getContent(),
+            $matches
+        );
         $matches = $matches[0];
 
         if (count($matches)) {
@@ -374,33 +364,34 @@ extends AbstractParser
             $data = array();
             foreach ($matches as $match) {
                 // get the first characters for a fast search
-                $tmp_start  = $this->getPatternStart($match);
-                $tmp_length = $this->getPatternLength($match);
+                /** @var string $tmpStart */
+                $tmpStart  = static::getPatternStart($match);
+                $tmpLength = static::getPatternLength($match);
 
                 // special handling of default entry
-                if ($tmp_length === 0) {
-                    $tmp_start = str_repeat('z', 32);
+                if ($tmpLength === 0) {
+                    $tmpStart = str_repeat('z', 32);
                 }
 
-                if (!isset($data[$tmp_start])) {
-                    $data[$tmp_start] = array();
+                if (!array_key_exists($tmpStart, $data)) {
+                    $data[$tmpStart] = array();
                 }
-                if (!isset($data[$tmp_start][$tmp_length])) {
-                    $data[$tmp_start][$tmp_length] = array();
+                if (!array_key_exists($tmpLength, $data[$tmpStart])) {
+                    $data[$tmpStart][$tmpLength] = array();
                 }
 
-                $match = $this->pregQuote($match);
+                $match = static::pregQuote($match);
 
                 // Check if the pattern contains digits - in this case we replace them with a digit regular expression,
                 // so that very similar patterns (e.g. only with different browser version numbers) can be compressed.
                 // This helps to speed up the first (and most expensive) part of the pattern search a lot.
                 if (strpbrk($match, '0123456789') !== false) {
                     $compressedPattern = preg_replace('/\d/', '[\d]', $match);
-                    if (!in_array($compressedPattern, $data[$tmp_start][$tmp_length])) {
-                        $data[$tmp_start][$tmp_length][] = $compressedPattern;
+                    if (!in_array($compressedPattern, $data[$tmpStart][$tmpLength], true)) {
+                        $data[$tmpStart][$tmpLength][] = $compressedPattern;
                     }
                 } else {
-                    $data[$tmp_start][$tmp_length][] = $match;
+                    $data[$tmpStart][$tmpLength][] = $match;
                 }
             }
 
@@ -411,7 +402,8 @@ extends AbstractParser
             // sort by pattern start to group them
             ksort($data);
             // and then by pattern length (longest first)
-            foreach (array_keys($data) as $key) {
+            $keys = array_keys($data);
+            foreach ($keys as $key) {
                 krsort($data[$key]);
             }
 
@@ -421,15 +413,18 @@ extends AbstractParser
             // us to search for multiple patterns in one preg_match call for a fast first search
             // (3-10 faster), followed by a detailed search for each single pattern.
             $contents = array();
-            foreach ($data as $tmp_start => $tmp_entries) {
-                foreach ($tmp_entries as $tmp_length => $tmp_patterns) {
-                    for ($i = 0, $j = ceil(count($tmp_patterns)/$this->joinPatterns); $i < $j; $i++) {
-                        $tmp_join_patterns = implode("\t", array_slice($tmp_patterns, ($i * $this->joinPatterns), $this->joinPatterns));
-                        $tmp_sub_key       = $this->getPatternCacheSubKey($tmp_start);
-                        if (!isset($contents[$tmp_sub_key])) {
-                            $contents[$tmp_sub_key] = '';
+            foreach ($data as $tmpStart => $tmpEntries) {
+                foreach ($tmpEntries as $tmpLength => $tmpPatterns) {
+                    for ($i = 0, $j = ceil(count($tmpPatterns)/$this->joinPatterns); $i < $j; $i++) {
+                        $tmpJoinPatterns = implode(
+                            "\t",
+                            array_slice($tmpPatterns, $i * $this->joinPatterns, $this->joinPatterns)
+                        );
+                        $tmpSubKey = $this->getPatternCacheSubKey($tmpStart);
+                        if (!array_key_exists($tmpSubKey, $contents)) {
+                            $contents[$tmpSubKey] = '';
                         }
-                        $contents[$tmp_sub_key] .= $tmp_start . " " . $tmp_length . " " . $tmp_join_patterns . "\n";
+                        $contents[$tmpSubKey] .= $tmpStart . ' ' . $tmpLength . ' ' . $tmpJoinPatterns . "\n";
                     }
                 }
             }
@@ -438,15 +433,16 @@ extends AbstractParser
             // unused patterns, so that the regeneration is not unnecessarily
             // triggered by the getPatterns() method.
             $prefix   = static::getCachePrefix();
-            $sub_keys = array_flip($this->getAllPatternCacheSubKeys());
-            foreach ($contents as $sub_key => $content) {
-                $sub_key = (string)$sub_key;
-                static::getCache()->set("$prefix.patterns." . $sub_key, $content, true);
-                unset($sub_keys[$sub_key]);
+            $subKeys = array_flip($this->getAllPatternCacheSubKeys());
+            foreach ($contents as $subKey => $content) {
+                $subKey = (string)$subKey;
+                static::getCache()->set("$prefix.patterns." . $subKey, $content, true);
+                unset($subKeys[$subKey]);
             }
-            foreach (array_keys($sub_keys) as $sub_key) {
-                $sub_key = (string)$sub_key;
-                static::getCache()->set("$prefix.patterns." . $sub_key, '', true);
+            $subKeys = array_keys($subKeys);
+            foreach ($subKeys as $subKey) {
+                $subKey = (string)$subKey;
+                static::getCache()->set("$prefix.patterns." . $subKey, '', true);
             }
         }
     }
@@ -469,16 +465,16 @@ extends AbstractParser
      */
     protected function getAllPatternCacheSubKeys()
     {
-        $sub_keys = array();
+        $subKeys = array();
         $chars   = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f');
 
-        foreach ($chars as $char_one) {
-            foreach ($chars as $char_two) {
-                $sub_keys[] = $char_one . $char_two;
+        foreach ($chars as $charOne) {
+            foreach ($chars as $charTwo) {
+                $subKeys[] = $charOne . $charTwo;
             }
         }
 
-        return $sub_keys;
+        return $subKeys;
     }
 
     /**
@@ -500,42 +496,40 @@ extends AbstractParser
      * @param array $settings
      * @return array
      */
-    protected function getSettings($pattern, $settings = array())
+    protected function getSettings($pattern, array $settings = array())
     {
         // The pattern has been pre-quoted on generation to speed up the pattern search,
         // but for this check we need the unquoted version
-        $unquotedPattern = $this->pregUnQuote($pattern);
+        $unquotedPattern = static::pregUnQuote($pattern);
 
         // Try to get settings for the pattern
-        $add_settings = $this->getIniPart($unquotedPattern);
+        $addSettings = $this->getIniPart($unquotedPattern);
 
-        // set some additional data
-        if (count($settings) === 0) {
-            // The optimization with replaced digits get can now result in setting searches, for which we
-            // won't find a result - so only add the pattern information, is settings have been found.
-            //
-            // If not an empty array will be returned and the calling function can easily check if a pattern
-            // has been found.
-            if (count($add_settings) > 0) {
-                $settings['browser_name_regex']   = '/^' . $pattern . '$/';
-                $settings['browser_name_pattern'] = $unquotedPattern;
-            }
+        // The optimization with replaced digits get can now result in setting searches, for which we
+        // won't find a result - so only add the pattern information, is settings have been found.
+        //
+        // If not an empty array will be returned and the calling function can easily check if a pattern
+        // has been found.
+        if (count($settings) === 0 && count($addSettings) > 0) {
+            $settings['browser_name_regex']   = '/^' . $pattern . '$/';
+            $settings['browser_name_pattern'] = $unquotedPattern;
         }
 
         // check if parent pattern set, only keep the first one
-        $parent_pattern = null;
-        if (isset($add_settings['Parent'])) {
-            $parent_pattern = $add_settings['Parent'];
-            if (isset($settings['Parent'])) {
-                unset($add_settings['Parent']);
+        $parentPattern = null;
+        if (array_key_exists('Parent', $addSettings)) {
+            $parentPattern = $addSettings['Parent'];
+            if (array_key_exists('Parent', $settings)) {
+                unset($addSettings['Parent']);
             }
         }
 
         // merge settings
-        $settings += $add_settings;
+        /** @noinspection AdditionOperationOnArraysInspection */
+        $settings += $addSettings;
 
-        if ($parent_pattern !== null) {
-            return $this->getSettings($this->pregQuote($parent_pattern), $settings);
+        if ($parentPattern !== null) {
+            return $this->getSettings(static::pregQuote($parentPattern), $settings);
         }
 
         return $settings;
@@ -549,23 +543,23 @@ extends AbstractParser
      */
     protected function getIniPart($pattern)
     {
-        $pattern_hash = md5($pattern);
-        $sub_key      = $this->getIniPartCacheSubKey($pattern_hash);
-        $prefix       = static::getCachePrefix();
+        $patternHash = md5($pattern);
+        $subKey      = $this->getIniPartCacheSubKey($patternHash);
+        $prefix      = static::getCachePrefix();
 
-        if (!static::getCache()->exists("$prefix.iniparts." . $sub_key)) {
+        if (!static::getCache()->exists("$prefix.iniparts." . $subKey)) {
             $this->createIniParts();
         }
 
         $return = array();
-        /** @var Cache\File $cache */
+        /** @var File $cache */
         $cache  = static::getCache();
-        $file   = $cache->getFileName("$prefix.iniparts." . $sub_key);
+        $file   = $cache->getFileName("$prefix.iniparts." . $subKey);
         if (file_exists($file)) {
-            $handle = fopen($file, "r");
+            $handle = fopen($file, 'r');
             if ($handle) {
                 while (($buffer = fgets($handle)) !== false) {
-                    if (substr($buffer, 0, 32) === $pattern_hash) {
+                    if (strpos($buffer, $patternHash) === 0) {
                         $return = json_decode(substr($buffer, 32), true);
                         break;
                     }
@@ -584,25 +578,25 @@ extends AbstractParser
         // get all patterns from the ini file in the correct order,
         // so that we can calculate with index number of the resulting array,
         // which part to use when the ini file is split into its sections.
-        preg_match_all('/(?<=\[)(?:[^\r\n]+)(?=\])/m', $this->getContent(), $pattern_positions);
-        $pattern_positions = $pattern_positions[0];
+        preg_match_all('/(?<=\[)(?:[^\r\n]+)(?=\])/m', static::getContent(), $patternPositions);
+        $patternPositions = $patternPositions[0];
 
         // split the ini file into sections and save the data in one line with a hash of the belonging
         // pattern (filtered in the previous step)
-        $prefix    = static::getCachePrefix();
-        $ini_parts = preg_split('/\[[^\r\n]+\]/', $this->getContent());
-        $contents  = array();
-        foreach ($pattern_positions as $position => $pattern) {
-            $pattern_hash = md5($pattern);
-            $sub_key      = $this->getIniPartCacheSubKey($pattern_hash);
-            if (!isset($contents[$sub_key])) {
-                $contents[$sub_key] = '';
+        $prefix   = static::getCachePrefix();
+        $iniParts = preg_split('/\[[^\r\n]+\]/', static::getContent());
+        $contents = array();
+        foreach ($patternPositions as $position => $pattern) {
+            $patternHash = md5($pattern);
+            $subKey      = $this->getIniPartCacheSubKey($patternHash);
+            if (!array_key_exists($subKey, $contents)) {
+                $contents[$subKey] = '';
             }
 
             // the position has to be moved by one, because the header of the ini file
             // is also returned as a part
-            $contents[$sub_key] .= $pattern_hash . json_encode(
-                parse_ini_string($ini_parts[($position + 1)]),
+            $contents[$subKey] .= $patternHash . json_encode(
+                parse_ini_string($iniParts[$position + 1]),
                 JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP
             ) . "\n";
         }
@@ -610,15 +604,16 @@ extends AbstractParser
         // write cache files. important: also write empty cache files for
         // unused iniparts, so that the regeneration is not unnecessarily
         // triggered by the getIniParts() method.
-        $sub_keys = array_flip($this->getAllIniPartCacheSubKeys());
+        $subKeys = array_flip($this->getAllIniPartCacheSubKeys());
         foreach ($contents as $chars => $content) {
             $chars = (string)$chars;
             static::getCache()->set("$prefix.iniparts." . $chars, $content);
-            unset($sub_keys[$chars]);
+            unset($subKeys[$chars]);
         }
-        foreach (array_keys($sub_keys) as $sub_key) {
-            $sub_key = (string)$sub_key;
-            static::getCache()->set("$prefix.iniparts." . $sub_key, '');
+        $subKeys = array_keys($subKeys);
+        foreach ($subKeys as $subKey) {
+            $subKey = (string)$subKey;
+            static::getCache()->set("$prefix.iniparts." . $subKey, '');
         }
     }
 
@@ -640,18 +635,18 @@ extends AbstractParser
      */
     protected function getAllIniPartCacheSubKeys()
     {
-        $sub_keys = array();
+        $subKeys = array();
         $chars   = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f');
 
-        foreach ($chars as $char_one) {
-            foreach ($chars as $char_two) {
-                foreach ($chars as $char_three) {
-                    $sub_keys[] = $char_one . $char_two . $char_three;
+        foreach ($chars as $charOne) {
+            foreach ($chars as $charTwo) {
+                foreach ($chars as $charThree) {
+                    $subKeys[] = $charOne . $charTwo . $charThree;
                 }
             }
         }
 
-        return $sub_keys;
+        return $subKeys;
     }
 
     /**
@@ -685,17 +680,17 @@ extends AbstractParser
         $string = strtolower($string);
 
         if ($variants === true) {
-            $pattern_starts = array();
+            $patternStarts = array();
             for ($i = strlen($string); $i >= 1; $i--) {
                 $string = substr($string, 0, $i);
-                $pattern_starts[] = md5($string);
+                $patternStarts[] = md5($string);
             }
 
             // Add empty pattern start to include patterns that start with "*",
             // e.g. "*FAST Enterprise Crawler*"
-            $pattern_starts[] = md5("");
+            $patternStarts[] = md5('');
 
-            return $pattern_starts;
+            return $patternStarts;
         } else {
             return md5($string);
         }
@@ -721,7 +716,7 @@ extends AbstractParser
      */
     protected static function pregQuote($pattern)
     {
-        $pattern = preg_quote($pattern, "/");
+        $pattern = preg_quote($pattern, '/');
 
         // The \\x replacement is a fix for "Der gro\xdfe BilderSauger 2.00u" user agent match
         // @source https://github.com/browscap/browscap-php
@@ -741,8 +736,8 @@ extends AbstractParser
             // Undo the \\x replacement, that is a fix for "Der gro\xdfe BilderSauger 2.00u" user agent match
             // @source https://github.com/browscap/browscap-php
             $pattern = preg_replace(
-                ['/(?<!\\\\)\\.\\*/', '/(?<!\\\\)\\./', '/(?<!\\\\)\\\\x/'],
-                ['\\*', '\\?', '\\x'],
+                array('/(?<!\\\\)\\.\\*/', '/(?<!\\\\)\\./', '/(?<!\\\\)\\\\x/'),
+                array('\\*', '\\?', '\\x'),
                 $pattern
             );
 
@@ -753,8 +748,8 @@ extends AbstractParser
                     "\\!", "\\<", "\\>", "\\|", "\\:", "\\-", "\\.", "\\/"
                 ),
                 array(
-                    "\\", "+", "*", "?", "[", "^", "]", "\$", "(", ")", "{", "}", "=", "!", "<", ">", "|", ":",
-                    "-", ".", "/"
+                    "\\", '+', '*', '?', '[', '^', ']', '$', '(', ')', '{', '}', '=', '!', '<', '>', '|', ':',
+                    '-', '.', '/'
                 ),
                 $pattern
             );
