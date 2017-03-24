@@ -17,7 +17,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2015-09-06 09:39:24",
+        "time": "2015-09-06T09:39:24+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -49,29 +49,90 @@
         ]
     },
     {
-        "name": "true/punycode",
-        "version": "v2.0.3",
-        "version_normalized": "2.0.3.0",
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/true/php-punycode.git",
-            "reference": "6853ce218b6115ec749607e14ac51338920c9d81"
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/true/php-punycode/zipball/6853ce218b6115ec749607e14ac51338920c9d81",
-            "reference": "6853ce218b6115ec749607e14ac51338920c9d81",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+            "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
             "shasum": ""
         },
         "require": {
-            "ext-mbstring": "*",
-            "php": ">=5.3.0"
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2016-11-14T01:06:16+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "true/punycode",
+        "version": "v2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/true/php-punycode.git",
+            "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/true/php-punycode/zipball/a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+            "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "symfony/polyfill-mbstring": "^1.3"
         },
         "require-dev": {
             "phpunit/phpunit": "~4.7",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2016-05-23 08:20:50",
+        "time": "2016-11-16T10:37:54+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -98,17 +159,17 @@
     },
     {
         "name": "nabble/semalt-blocker",
-        "version": "v1.3.20",
-        "version_normalized": "1.3.20.0",
+        "version": "v1.3.21",
+        "version_normalized": "1.3.21.0",
         "source": {
             "type": "git",
             "url": "https://github.com/nabble/semalt-blocker.git",
-            "reference": "4940ef49b2aaa22ef96702936c4b45b83defe06f"
+            "reference": "ebf383c31a951b993e4d653fee1a04b0b0af17f2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/nabble/semalt-blocker/zipball/4940ef49b2aaa22ef96702936c4b45b83defe06f",
-            "reference": "4940ef49b2aaa22ef96702936c4b45b83defe06f",
+            "url": "https://api.github.com/repos/nabble/semalt-blocker/zipball/ebf383c31a951b993e4d653fee1a04b0b0af17f2",
+            "reference": "ebf383c31a951b993e4d653fee1a04b0b0af17f2",
             "shasum": ""
         },
         "require": {
@@ -122,7 +183,7 @@
             "satooshi/php-coveralls": "dev-master",
             "technosophos/phpcompressor": "dev-master"
         },
-        "time": "2016-07-08 00:04:17",
+        "time": "2016-08-16T15:20:56+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {

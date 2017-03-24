@@ -6,10 +6,18 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitb006b058345a98be6342ca3ab3594d51
 {
+    public static $files = array (
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
             'TrueBV\\' => 7,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Polyfill\\Mbstring\\' => 26,
         ),
         'N' => 
         array (
@@ -25,6 +33,10 @@ class ComposerStaticInitb006b058345a98be6342ca3ab3594d51
         'TrueBV\\' => 
         array (
             0 => __DIR__ . '/..' . '/true/punycode/src',
+        ),
+        'Symfony\\Polyfill\\Mbstring\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
         'Nabble\\' => 
         array (

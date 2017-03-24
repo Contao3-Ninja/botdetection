@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'TrueBV\\' => array($vendorDir . '/true/punycode/src'),
+    'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Nabble\\' => array($vendorDir . '/nabble/semalt-blocker/src'),
     'Crossjoin\\Browscap\\' => array($vendorDir . '/crossjoin/browscap/src/Crossjoin/Browscap'),
 );
