@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Contao Open Source CMS, Copyright (C) 2005-2013 Leo Feyer
@@ -7,8 +7,8 @@
  *
  * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
  * @author     Glen Langer (BugBuster)
- * @package    BotDetectionTest 
- * @license    LGPL 
+ * @package    BotDetectionTest
+ * @license    LGPL
  * @filesource
  * @see        https://github.com/BugBuster1701/botdetection
  */
@@ -28,12 +28,12 @@ namespace BugBuster\BotDetection;
  */
 define('TL_MODE', 'FE');
 $dir = __DIR__;
- 
+
 while ($dir != '.' && $dir != '/' && !is_file($dir . '/system/initialize.php'))
 {
     $dir = dirname($dir);
 }
- 
+
 if (!is_file($dir . '/system/initialize.php'))
 {
     throw new \ErrorException('Could not find initialize.php!',2,1,basename(__FILE__),__LINE__);
@@ -42,13 +42,13 @@ require($dir . '/system/initialize.php');
 
 
 /**
- * Class ModuleBotDetectionTest 
+ * Class ModuleBotDetectionTest
  *
  * @copyright  Glen Langer 2007..2013 <http://www.contao.glen-langer.de>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetectionTest
  */
-class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection  
+class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 {
     /**
      * Initialize object
@@ -61,7 +61,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 	public function run()
 	{
 	    // AGENT TEST DEFINITIONS
-	    
+
 	    $arrTest[] = array(false, false,'your browser'); // own Browser
 	    //Browser
 	    $arrTest[] = array(false, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.9.2.3) Gecko/20100401 Firefox/3.6.3','Firefox');
@@ -90,13 +90,13 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'Cityreview Robot (+http://www.cityreview.org/crawler/)','Cityreview Robot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9) Gecko/2008052906 Firefox/3.0/1.0 (bot; http://)','No-Name-Bot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (en-us) AppleWebKit/525.13 (KHTML, like Gecko; Google Web Preview) Version/3.1 Safari/525.13','Google');
-		
+
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; Spiderlytics/1.0; +spider@spiderlytics.com)','Spiderlytics');
 		$arrTest[] = array(true, 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)','ExB Language Crawler');
 		$arrTest[] = array(true, 'coccoc/1.0 (http://help.coccoc.com/)','coccoc');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; SiteExplorer/1.0b; +http://siteexplorer.info/)','SiteExplorer');
 		$arrTest[] = array(true, 'iBusiness Shopcrawler','Shopcrawler');
-		
+
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup.com/crawler.html)','BLEXBot');
 		$arrTest[] = array(true, 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)','ExB Language Crawler');
 		$arrTest[] = array(true, 'it2media-domain-crawler/1.0 on crawler-prod.it2media.de','www.adressendeutschland.de (it2)');
@@ -120,7 +120,7 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		//3.3.1
 		$arrTest[] = array(true, 'Mozilla/4.0 (compatible; Blog Search;)','Blog Search');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; publiclibraryarchive.org/1.0; +crawl@publiclibraryarchive.org)','publiclibraryarchive Bot');
-		$arrTest[] = array(true, 'Pinterest/0.1 +http://pinterest.com/','Pinterest');
+		$arrTest[] = array(true, 'Pinterest/0.1 +http://pinterest.com/','Pinterest Bot');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; ca-crawler/1.0)','ca-crawler');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; 007ac9 Crawler; http://crawler.007ac9.net/)','007AC9 Crawler');
 		$arrTest[] = array(true, 'dubaiindex (addressendeutschland.de)','addressendeutschland.de');
@@ -138,9 +138,9 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrTest[] = array(true, 'Cronjob.de','Cronjob.de');
 		$arrTest[] = array(true, 'Mozilla/5.0 (compatible; MegaIndex.ru/2.0; +https://www.megaindex.ru/?tab=linkAnalyze)','MegaIndex Bot');
 
-		
+
 		//$arrTest[] = array(true, '','');
-		
+
 		/*
 		$arrReferrerTest[] =array(true, 'http://www.semalt.com/', 'Semalt');
 		$arrReferrerTest[] =array(true, 'updown_tester', 'UpDown Tester');
@@ -187,22 +187,22 @@ class ModuleBotDetectionTest extends \BugBuster\BotDetection\ModuleBotDetection
 		$arrReferrerTest[] =array(true, 'videofrost.net');
 		$arrReferrerTest[] =array(true, 'youtubedownload.org');
 		$arrReferrerTest[] =array(true, 'zazagames.org');
-		
+
 		$arrReferrerTest[] =array(true, 'updown_tester');
 		$arrReferrerTest[] =array(true, 'azbukameha.ru');
 		$arrReferrerTest[] =array(true, 'darkhalfe.ru');
 		$arrReferrerTest[] =array(true, 'sovetogorod.ru');
 		$arrReferrerTest[] =array(true, 'weesexy.ru');
-		
+
 		/*
 wget --no-cache --referer="http://www.facebug.net/" --user-agent="Mozilla BugBuster" http://mars:81/vhosts/contao32_develop/
 wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --user-agent="Mozilla BugBuster" http://mars:81/vhosts/contao32_develop/
 		 */
-		
+
 		// localconfig Test
 		$GLOBALS['BOTDETECTION']['BOT_AGENT'][] = array("Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig","localconfig Bot");
 		$arrTest[] = array(true, 'Mozilla/5.0 (X11; U; Linux; en-US) AppleWebKit/531.2 (KHTML, like Gecko) Safari/531.2 localconfig','localconfig Bot');
-		
+
 		//Output
 	    echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de">
@@ -227,8 +227,8 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 		echo '</div>';
 		echo "<h2>ModuleBotDetection Version: ".$this->getVersion()."</h2>";
 		echo "</body></html>";
-	} 
-	
+	}
+
 	private function CheckBotAgentTest($arrTest)
 	{
 	    echo "<h1>CheckBotAgentTest</h1>";
@@ -241,21 +241,21 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	    for ($x=0; $x<$y; $x++)
 	    {
 	        $nr = ($x<10) ? "&nbsp;".$x : $x;
-	        if ($arrTest[$x][0] == $result[$x]) 
+	        if ($arrTest[$x][0] == $result[$x])
 	        {
 	        	echo '<span style="color:green;">';
-	        } 
-	        else 
+	        }
+	        else
 	        {
 	            echo '<span style="color:red;">';
 	        }
 	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: ".var_export($arrTest[$x][0],true)."/".var_export($result[$x],true)." (".$arrTest[$x][2].")";
 	        echo "</span><br>";
 	    }
-		
+
 		return true;
 	}
-	
+
 	private function CheckBotIPTest()
 	{
 	    echo "<h1>CheckBotIPTest</h1>";
@@ -269,7 +269,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	    $arrTest[] = array(false,'2001:0db8:85a3:08d3:1319:8a2e:0370:7334','2001:0db8:85a3:08d3:1319:8a2e:0370:7334 - No Bot');
 	    $arrTest[] = array(false,'::ffff:c000:280'   ,'::ffff:c000:280    - double quad notation for ipv4 mapped addresses');
 	    $arrTest[] = array(false,'::ffff:192.0.2.128','::ffff:192.0.2.128 - double quad notation for ipv4 mapped addresses');
-	    
+
 	    $y=count($arrTest);
 	    for ($x=0; $x<$y; $x++)
 	    {
@@ -280,7 +280,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	        $nr = ($x<10) ? "&nbsp;".$x : $x;
 	        if ($arrTest[$x][0] == $result[$x]) {
 	        	echo '<span style="color:green;">';
-	        } else 
+	        } else
 	        {
 	            echo '<span style="color:red;">';
 	        }
@@ -290,7 +290,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 
 	    return true;
 	}
-	
+
 	private function CheckBotAgentAdvancedTest($arrTest)
 	{
 	    echo "<h1>CheckBotAdvancedTest</h1>";
@@ -302,25 +302,25 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	    for ($x=0; $x<$y; $x++)
 	    {
 	        $nr = ($x<10) ? "&nbsp;".$x : $x;
-	        if ($arrTest[$x][0] == false) // false Test 
+	        if ($arrTest[$x][0] == false) // false Test
 	        {
-	            if ($arrTest[$x][0] == $result[$x]) 
+	            if ($arrTest[$x][0] == $result[$x])
     	        {
     	        	echo '<span style="color:green;">';
-    	        } 
-    	        else 
+    	        }
+    	        else
     	        {
     	            echo '<span style="color:red;">';
     	        }
-	            
+
 	        }
 	        else // true Test
 	        {
-    	        if ($arrTest[$x][2] == $result[$x]) //$arrTest[$x][0] 
+    	        if ($arrTest[$x][2] == $result[$x]) //$arrTest[$x][0]
     	        {
     	        	echo '<span style="color:green;">';
-    	        } 
-    	        else 
+    	        }
+    	        else
     	        {
     	            echo '<span style="color:red;">';
     	        }
@@ -328,10 +328,10 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	        echo "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: ".var_export($arrTest[$x][0],true)."/".var_export($result[$x],true)." (".$arrTest[$x][2].")";
 	        echo "</span><br>";
 	    }
-	
+
 		return true;
 	}
-	
+
 	private function CheckBotAllTestsTest()
 	{
 	    $return = "<h1>CheckBotAllTest</h1>";
@@ -340,7 +340,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	    $arrTest[2] = 'CheckBotAgentAdvanced test';
 	    $arrTest[3] = 'CheckBotIP test';
 	    $result[0] = !$this->BD_CheckBotAllTests();
-	    $result[1] = $this->BD_CheckBotAllTests('Spider test'); //BD_CheckBotAgent = true 
+	    $result[1] = $this->BD_CheckBotAllTests('Spider test'); //BD_CheckBotAgent = true
 	    $result[2] = $this->BD_CheckBotAllTests('acadiauniversitywebcensusclient'); //BD_CheckBotAgentAdvanced = true
 	    //set own IP as Bot IP
 	    if (\Environment::get('remoteAddr'))
@@ -353,11 +353,11 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	            {
 	                $GLOBALS['BOTDETECTION']['BOT_IP'][] = $ip;
 	            }
-	            else 
+	            else
 	            {
 	                $GLOBALS['BOTDETECTION']['BOT_IPV6'][] = $ip;
 	            }
-                
+
 	        }
 	        else
 	        {
@@ -367,7 +367,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	            {
 	                $GLOBALS['BOTDETECTION']['BOT_IP'][] = $ip;
 	            }
-	            else 
+	            else
 	            {
 	                $GLOBALS['BOTDETECTION']['BOT_IPV6'][] = $ip;
 	            }
@@ -379,10 +379,10 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 	    for ($x=0; $x<4; $x++)
 	    {
     	    $nr = ($x<10) ? "&nbsp;".$x : $x;
-            if (true == $result[$x]) 
+            if (true == $result[$x])
             {
 	            $return .= '<span style="color:green;">';
-	        } 
+	        }
 	        else
 	        {
 	            $return .= '<span style="color:red;">';
@@ -390,9 +390,9 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
             $return .= "TestNr: ". $nr ."&nbsp;&nbsp;Expectation/Result: true/".var_export($result[$x],true)." (".$arrTest[$x].")";
             $return .= "</span><br>";
 	    }
-        return $return;	    	    
+        return $return;
 	}
-	
+
 	private function CheckBotReferrerTest($arrReferrerTest)
 	{
 	    echo "<h1>CheckBotReferrerTest</h1>";
@@ -417,7 +417,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
             }
             else // true Test
             {
-                if ($arrReferrerTest[$x][1] == $result[$x]) 
+                if ($arrReferrerTest[$x][1] == $result[$x])
                 {
                     echo '<span style="color:green;">';
                 }
@@ -432,7 +432,7 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
 
 		return true;
 	}
-	
+
 } // class
 
 /**
@@ -440,4 +440,3 @@ wget --no-cache --referer="https://16.semalt.com/crawler.php?u=http://gl.de" --u
  */
 $objBotDetectionTest = new ModuleBotDetectionTest();
 $objBotDetectionTest->run();
-
