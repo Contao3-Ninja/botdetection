@@ -82,6 +82,11 @@ class ModuleBotDetection extends \System
             return true;
         }
 
+        if ( false === $this->checkGetPostRequest() ) // #153
+        {
+            return true;
+        }
+
         \BugBuster\BotDetection\CheckBotIp::setBotIpv4List(TL_ROOT . self::BOT_IP4_LIST);
         \BugBuster\BotDetection\CheckBotIp::setBotIpv6List(TL_ROOT . self::BOT_IP6_LIST);
 
@@ -94,6 +99,23 @@ class ModuleBotDetection extends \System
             //CheckBotAgentExtended (Browscap + eigene Liste)
             return \BugBuster\BotDetection\CheckBotAgentExtended::checkAgent( $UserAgent );
         }
+    }
+
+    /**
+     * Check if Request a GET/POST Request
+     *
+     * @return boolean  true when GET/POST
+     * @access public
+     */
+    public function checkGetPostRequest()
+    {
+        $RequestMethod = \Environment::get('requestMethod');
+        if ($RequestMethod == 'GET' || $RequestMethod == 'POST')
+        {
+        	 return true;
+        }
+
+        return false;
     }
 
     /////////////// Deprecated Methods ///////////////
