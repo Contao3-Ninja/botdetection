@@ -25,19 +25,19 @@ namespace BugBuster\BotDetection;
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
-class ModuleBotDetection extends \System 
+class ModuleBotDetection extends \System
 {
-    
+
     /**
      * Current version of the class.
      */
-    const BOTDETECTION_VERSION  = '4.2.0';
-    
+    const BOTDETECTION_VERSION  = '4.2.2';
+
     const BOT_REFERRER_LIST     = "/system/modules/botdetection/config/bot-referrer-list.php";
-    
+
     const BOT_IP4_LIST          = "/system/modules/botdetection/config/bot-ip-list-ipv4.txt";
     const BOT_IP6_LIST          = "/system/modules/botdetection/config/bot-ip-list-ipv6.txt";
-    
+
     /**
      * Initialize object
      */
@@ -45,7 +45,7 @@ class ModuleBotDetection extends \System
     {
         parent::__construct();
     }
-    
+
     /**
      * Returns the version number
      *
@@ -56,9 +56,9 @@ class ModuleBotDetection extends \System
     {
         return self::BOTDETECTION_VERSION;
     }
-    
-    
-    
+
+
+
     /**
      * Spider Bot Agent/Advanced/Referrer/IP Check
      *
@@ -68,7 +68,7 @@ class ModuleBotDetection extends \System
      */
     public function checkBotAllTests($UserAgent = false)
     {
-        if (false === $UserAgent) 
+        if (false === $UserAgent)
         {
         	$UserAgent = \Environment::get('httpUserAgent');
         }
@@ -76,7 +76,7 @@ class ModuleBotDetection extends \System
         {
             return true;
         }
-        
+
         if ( true === (bool) \BugBuster\BotDetection\CheckBotReferrer::checkReferrer(false, TL_ROOT . self::BOT_REFERRER_LIST) )
         {
             return true;
@@ -84,7 +84,7 @@ class ModuleBotDetection extends \System
 
         \BugBuster\BotDetection\CheckBotIp::setBotIpv4List(TL_ROOT . self::BOT_IP4_LIST);
         \BugBuster\BotDetection\CheckBotIp::setBotIpv6List(TL_ROOT . self::BOT_IP6_LIST);
-        
+
         if ( true === \BugBuster\BotDetection\CheckBotIp::checkIP() )
         {
             return true;
@@ -95,7 +95,7 @@ class ModuleBotDetection extends \System
             return \BugBuster\BotDetection\CheckBotAgentExtended::checkAgent( $UserAgent );
         }
     }
-    
+
     /////////////// Deprecated Methods ///////////////
 
     /**
@@ -114,7 +114,7 @@ class ModuleBotDetection extends \System
         }
         return \BugBuster\BotDetection\CheckBotAgentSimple::checkAgent( $UserAgent );
     }
-    
+
     /**
      * Spider Bot IP Check
      *
@@ -140,7 +140,7 @@ class ModuleBotDetection extends \System
         \BugBuster\BotDetection\CheckBotIp::setBotIpv6List(TL_ROOT . self::BOT_IP6_LIST);
         return \BugBuster\BotDetection\CheckBotIp::checkIP( $UserIP );
     }
-    
+
     /**
      * Spider Bot Agent Check Advanced
      *
@@ -156,10 +156,10 @@ class ModuleBotDetection extends \System
         }
         return \BugBuster\BotDetection\CheckBotAgentExtended::checkAgentName( $UserAgent );
     }
-    
+
     /**
      * CheckBotReferrer
-     * 
+     *
      * @param string $Referrer
      * @deprecated Use the CheckBotReferrer class instead or the method checkBotAllTests
      */
@@ -167,7 +167,7 @@ class ModuleBotDetection extends \System
     {
         return \BugBuster\BotDetection\CheckBotReferrer::checkReferrer($Referrer, TL_ROOT . self::BOT_REFERRER_LIST);
     }
-    
+
     /**
      * Spider Bot Agent/Advanced/Referrer/IP Check
      *
