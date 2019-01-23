@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Contao Open Source CMS, Copyright (C) 2005-2015 Leo Feyer
+ * Contao Open Source CMS, Copyright (C) 2005-2019 Leo Feyer
  *
  * BotDetection
  *
- * @copyright  Glen Langer 2007..2015 <http://contao.ninja>
+ * @copyright  Glen Langer 2007..2019 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  * @license    LGPL
@@ -15,10 +15,12 @@
 
 namespace BugBuster\BotDetection;
 
+use Nabble\SemaltBlocker\Blocker;
+
 /**
  * Class CheckBotReferrer 
  *
- * @copyright  Glen Langer 2015 <http://contao.ninja>
+ * @copyright  Glen Langer 2019 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    BotDetection
  */
@@ -43,7 +45,7 @@ class CheckBotReferrer
         	$_SERVER['HTTP_REFERER'] = $Referrer;
         }
         //returns true when a blocked referrer is detected
-        $found = \Nabble\SemaltBlocker\Blocker::blocked(); 
+        $found = Blocker::blocked(); 
         if (true === $found) 
         {
         	return true;

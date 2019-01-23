@@ -20,11 +20,11 @@
 		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
 	},
 	"require":{
-		"php": ">=5.4.0",
+		"php": ">=5.6.0",
 		"contao/core": ">=3.5,<4",
 		"contao-community-alliance/composer-plugin": "*",
 		"crossjoin/browscap": "1.0.6",
-		"nabble/semalt-blocker": "~1"
+		"true/punycode": "~2.0"
 	},
 	"autoload":{
 		"classmap":["src/classes/", "src/modules/"]
