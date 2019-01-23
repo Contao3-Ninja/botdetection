@@ -1,5 +1,14 @@
 # Contao Module BotDetection
 
+## [Version 4.3.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.3.0%22+is%3Aclosed) (2019-01-23)
+
+### Fixed bugs
+
+- [\#160](https://github.com/BugBuster1701/botdetection/issues/160) nabble/semalt-blocker wurde gelöscht
+- [\#159](https://github.com/BugBuster1701/botdetection/issues/159) New Bot: phpservermon
+- [\#158](https://github.com/BugBuster1701/botdetection/issues/158) New Referrer Spam: spb-scenar.ru
+- [\#157](https://github.com/BugBuster1701/botdetection/issues/157) New Referrer Spam: office2web (ru)
+
 ## [Version 4.2.2](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.2.2%22+is%3Aclosed) (2017-03-24)
 
 ### Fixed bugs
@@ -58,7 +67,7 @@
 
 ### Fixed bugs
 
-- [\#126](https://github.com/BugBuster1701/botdetection/issues/126) Fatal error: Cannot redeclare \_\_error()
+- [\#126](https://github.com/BugBuster1701/botdetection/issues/126) Fatal error: Cannot redeclare \_\_error() 
 
 ## [Version 4.0.0](https://github.com/BugBuster1701/botdetection/issues?q=milestone%3A%22Version+4.0.0%22+is%3Aclosed) (2015-10-10)
 
@@ -72,7 +81,7 @@
 - [\#119](https://github.com/BugBuster1701/botdetection/issues/119) New Bot: MegaIndex.ru/2.0
 - [\#118](https://github.com/BugBuster1701/botdetection/issues/118) New Crawler: ips-agent
 - [\#117](https://github.com/BugBuster1701/botdetection/issues/117) New Crawler: Seobility
-- [\#104](https://github.com/BugBuster1701/botdetection/issues/104) Environment::get('ip') statt Environment::get('remoteAddr')
+- [\#104](https://github.com/BugBuster1701/botdetection/issues/104) Environment::get('ip') statt Environment::get('remoteAddr') 
 - [\#94](https://github.com/BugBuster1701/botdetection/issues/94) BotDetection Umbau, zweifach Prüfung
 - [\#93](https://github.com/BugBuster1701/botdetection/issues/93) BotDetection Generate Umbau
 - [\#92](https://github.com/BugBuster1701/botdetection/issues/92) Implementierung von Crossjoin\Browscap
@@ -89,8 +98,8 @@
 
 - [\#114](https://github.com/BugBuster1701/botdetection/issues/114) Referrer Bot: "updown_tester"
 - [\#113](https://github.com/BugBuster1701/botdetection/issues/113) Referrer Bot: www.xxlpromo.com
-- [\#112](https://github.com/BugBuster1701/botdetection/issues/112) New Bot: python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual
-- [\#109](https://github.com/BugBuster1701/botdetection/issues/109) New Bot: MetaURI
+- [\#112](https://github.com/BugBuster1701/botdetection/issues/112) New Bot: python-requests/1.2.0 CPython/2.7.3 Linux/3.2.0-41-virtual 
+- [\#109](https://github.com/BugBuster1701/botdetection/issues/109) New Bot: MetaURI 
 - [\#108](https://github.com/BugBuster1701/botdetection/issues/108) New Bot: Crowsnest
 - [\#107](https://github.com/BugBuster1701/botdetection/issues/107) New Bot: NING/1.0
 - [\#105](https://github.com/BugBuster1701/botdetection/issues/105) New Bot: Cronjob.de
@@ -135,7 +144,7 @@
 - [\#86](https://github.com/BugBuster1701/botdetection/issues/86) AntBot
 - [\#85](https://github.com/BugBuster1701/botdetection/issues/85) uMBot
 - [\#84](https://github.com/BugBuster1701/botdetection/issues/84) 360Spider
-- [\#83](https://github.com/BugBuster1701/botdetection/issues/83) Cliqzbot/0.1
+- [\#83](https://github.com/BugBuster1701/botdetection/issues/83) Cliqzbot/0.1 
 - [\#82](https://github.com/BugBuster1701/botdetection/issues/82) waybackarchive.org spider
 - [\#81](https://github.com/BugBuster1701/botdetection/issues/81) ImplisenseBot 1.0
 - [\#80](https://github.com/BugBuster1701/botdetection/issues/80) Nutch12/Nutch-1.2
