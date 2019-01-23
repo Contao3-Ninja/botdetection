@@ -19,12 +19,15 @@ $botreferrerlist = array(
 'hosted-by.leaseweb.com', // #141
 'japfm.com',  // #init
 'newworldmayfair.com',  // #init
+'office2web.com', // #17 C44
 'openfrost.net',  // #init
 'openmediasoft.com',  // #init
 'plaghunter.com',  // #120
 'resellerclubs cam',  // #120
 'sovetogorod.ru',  // #init
+'spb-scenar.ru', // #18 C44
 'specialdessous.com',  // #init
+'tattoo-stickers.ru', // #17 C44
 'updown_tester',  // #init
 'VitalityrulesGoogle',  // #120
 'vitaly rules google',  // #120

@@ -121,4 +121,8 @@ $botagents=array("trueknowledgebot" => "TrueKnowledgeBot",
 "seocheck" => "SeoCheck",
 "teoma" => "Teoma",
 "uptimebot" => "Uptimebot",
+"dnyzbot" => "DnyzBot",
+"check_http" => "check_mk monitoring-plugin",
+"phpservermon" => "phpservermonitor",
+"CFNetwork/" => "CFNetwork App",
 ); ?>
